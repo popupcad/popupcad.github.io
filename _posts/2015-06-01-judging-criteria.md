@@ -36,13 +36,3 @@ Provides clear, thorough documentation which enables others to understand and bu
 * Process documentation, including pictures of important fabrication steps
 * High-definition photos and if possible, videos of final device
 * A Prototyped device is highly encouraged
-
-
-`
-asdfasdf
-asdfasfd
-asdf
-sadf
-safd
-`
-

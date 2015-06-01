@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Making a Laminate Device
+title: Tools & Equipment
 date: 2015-06-01
 categories: 
 ---

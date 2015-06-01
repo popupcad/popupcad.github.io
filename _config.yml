@@ -11,3 +11,17 @@ github_username:  popupcad
 # Build settings
 markdown: kramdown
 highlighter: rouge
+
+collections:
+  gallery:
+    output: true
+  albums:
+    output: true
+    
+defaults:
+  - scope:
+      path: ""
+      type: albums
+    values:
+      layout: page
+

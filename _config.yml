@@ -25,3 +25,9 @@ defaults:
     values:
       layout: page
 
+  - scope:
+      path: ""
+      type: gallery
+    values:
+      layout: page
+

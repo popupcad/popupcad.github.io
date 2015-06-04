@@ -10,7 +10,7 @@ github_username:  popupcad
 
 # Build settings
 markdown: kramdown
-highlighter: rouge
+#highlighter: rouge
 
 collections:
   gallery:

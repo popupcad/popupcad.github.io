@@ -28,32 +28,7 @@ Laminating Tools
 - Laminator(for thin laminates)
 - T-shirt press
   
-Materials
-=========
-
-Rigid Materials
----------------
-
-- Cardboard
-- Plastic
-
-Adhesive
---------
-
-- Double-Sided Tape
-- VHB
-- Sheet Adhesive
-
-Hinge Materials
----------------
-
-- Kapton
-- Polyester
-- Nylon
-
-External Links
+External Sites
 ==============
 
-- [McMaster-Carr](http://www.mcmaster.com)
-- Dick Blick
-- Seattle Fabrics
+[McMaster-Carr](http://www.mcmaster.com)

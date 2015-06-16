@@ -54,3 +54,72 @@ C) Export
 1) Export svg --> I drawing per layer (open in inkscape)
 2) Export svg --> final cut (get 5 copies)
 
+Jack's notes
+===============
+
+Popup CAD Tutorial – 6/15/15 Notes
+How to Download:
+Go to popupcad.org and install 64-bit download.
+How to convert from Solidworks to Popup CAD:
+1). Go to Solidworks
+2). Make a source part that defines all the folds
+3). Define centerlines for folds
+4). Extrude surface from sketch
+5). Turn original sketch back on
+6). Create new sketch on plane and convert entities to convert the centerline cut from the previous sketch into a solid line on the new sketch
+	1). Pick a cut that goes from one edge of the surface to another edge of the surface
+	Note: cuts cannot cross over each other
+7). Use split line to select all the faces and divide the surface up
+8). Turn surface body into multiple surface bodies by using offset surface on each face
+	Shortcut: Hit enter to reapply previous function
+9). Thicken each surface body 
+	Note: Uncheck merge result box
+	Shortcut: Alt-R
+10). Go to Solid Bodies folder and right click to save bodies
+11). New assembly will be created and unfix each part
+12). Check for Kinematics by mating each part
+Note: mating between vertices at mid-plane of each face for more accurate kinematic representation
+13). Re-flatten part by adding constraints
+14). Make drawing and drag top view
+15). Go to Macro
+16). Select drawing and run the macro
+17). Open up .yaml file in popupCAD
+Popup CAD
+
+1). New Sketch -> import .yaml file
+	Note: Ctrl-F is fit for sketch
+Define Body
+Autobridge: Triangulates polygon
+Get Joints: Generates joints inside of polygon
+You need a body sketch, joint sketch
+Joint sketch applies to carbon and pyralux layers
+Dilate/Erode operation to turn a line into an area
+Laminate Operation: Operation Type -> Difference
+
+Body
+Joints
+Buffer
+Laminate Operation -> Body – Buffer difference
+Placement Operation -> Load your own hinge file -> Sub-Design operation final Hinge ->joints sketch
+Laminate Operation -> Union Placement Operation + Laminate Operation
+Intersection between Placement Operation and Body to trim
+Rename Everything:
+Body
+Joints
+Buffered joint
+Body minus joint
+Placed hinges
+Trimmed hinges
+Merged Device
+Hole
+Final device
+Scrap Function -> Sheet -> Select Final Device -> Add a few mm around to buffer
+Scrap Function -> Scrap Function to figure out material needed to hold onto piece before final release cut
+Union between Scrap and Final Device
+Support -> select final device and supply same support gap as scrap -> material that bridges everything together
+Merge Scrap, Support, Cut Line
+To simulate: Laminate difference between supported device and cut area -> Identify Bodies
+Final check: Laminate operation Symmetric Difference between final device from Body 1
+Select final Supported device design + cut line to export
+Remove sheet with cut line
+Exports in mm

@@ -19,6 +19,9 @@ collections:
     output: true
   albums:
     output: true
+  docs:
+    output: true
+
     
 defaults:
   - scope:

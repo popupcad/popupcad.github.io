@@ -1,8 +1,6 @@
 ---
-layout: post
+layout: page
 title: Material Recipes
-date: 2015-06-05
-categories: 
 ---
 
 Materials

@@ -1,8 +1,6 @@
 ---
-layout: post
+layout: page
 title: What is popupCAD?
-date: 2015-06-01
-categories: 
 ---
 What is popupCAD?
 =================

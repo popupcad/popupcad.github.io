@@ -1,8 +1,6 @@
 ---
-layout: post
+layout: page
 title: Basic Origami Elements
-date: 2015-06-19
-categories: 
 ---
 
 The most basic element in origami is the fold.  But as you can see, you can make a variety of other mechanisms with it!

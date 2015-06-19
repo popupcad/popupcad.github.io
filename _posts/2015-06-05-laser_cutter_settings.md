@@ -1,8 +1,6 @@
 ---
-layout: post
+layout: page
 title: Laser Cutter Settings
-date: 2015-06-05
-categories: 
 ---
 
 |Material|Power|Speed| # of Passes|

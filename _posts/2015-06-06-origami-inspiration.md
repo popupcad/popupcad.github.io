@@ -1,8 +1,6 @@
 ---
-layout: post
+layout: page
 title: Origami-Inspired Design
-date: 2015-06-06
-categories: 
 ---
 
 How do you develop a new mechanism from scratch?  How do you get the intuition you need to be able to understand whether a fold pattern will generate the type of motion you want?  This tutorial will take you through some techniques to get your mind thinking like a laminate device designer.

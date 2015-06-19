@@ -1,8 +1,6 @@
 ---
 layout: page
 title: Device Tutorial
-date: 2015-06-05
-categories: 
 ---
 
 Making a five-layer device

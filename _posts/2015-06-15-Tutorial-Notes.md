@@ -1,8 +1,6 @@
 ---
-layout: post
+layout: page
 title: Tutorial Notes
-date: 2015-06-15
-categories: 
 ---
 
 Solidworks Design 

@@ -1,8 +1,6 @@
 ---
-layout: post
+layout: page
 title: Tools & Equipment
-date: 2015-06-01
-categories: 
 ---
 Making a laminate device is fairly straightforward.  You can mix and match from the tools on hand, but in general you should follow this recipe
 

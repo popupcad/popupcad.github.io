@@ -1,8 +1,6 @@
 ---
-layout: post
+layout: page
 title: Contest Judging Criteria
-date: 2015-06-01
-categories: 
 ---
 | Category | Point Valuation |
 |:-|-:|

@@ -9,14 +9,14 @@ Software Layout
 Editor
 ------
 
-![image](overview_images/editor_screenshot.*)
+![image]({{site.url}}images/overview_images/editor_screenshot.png)
 
 The editor is the center of interaction for a popupCAD design. The
 editor provides several functions:
 
 ### View and Edit Operations
 
-![image](overview_images/operation_list.*)
+![image]({{site.url}}images/overview_images/operation_list.png)
 
 The editor provides access to the operations list, a listing of all
 operations applied in the design. Selecting an item in the list shows
@@ -28,7 +28,7 @@ design.
 
 ### View Layers
 
-![image](overview_images/layer_list.*)
+![image]({{site.url}}images/overview_images/layer_list.png)
 
 The editor's layer list gives users the ability to turn on or off layers
 in the 2d and 3d view. This is useful for viewing the geometry of a
@@ -38,7 +38,7 @@ on multiple layers interact. Clicking a layer shows or hides it in the
 
 ### 2D View
 
-![image](overview_images/2d_view.*)
+![image]({{site.url}}images/overview_images/2d_view.png)
 
 The 2d view of a design shows the currently-selected operation in the
 operation list, according to the selected layers in the layer list. This
@@ -47,7 +47,7 @@ restricted in the editor.
 
 ### 3D View
 
-![image](overview_images/3d_view.*)
+![image]({{site.url}}images/overview_images/3d_view.png)
 
 Like the 2d view, the 3d view allows users to view the geometric output
 of a particular operation. The 3d view gives users the ability to pan
@@ -64,11 +64,11 @@ design file is discussed in a following section
 
 ### Project Management
 
-![image](overview_images/project_management.*)
+![image]({{site.url}}images/overview_images/project_management.png)
 
 The editor also allows users to interact with project-level settings.
 
-![image](overview_images/edit_layer_order.*)
+![image]({{site.url}}images/overview_images/edit_layer_order.png)
 
 The "edit layer order" feature, for example, allows users to insert or
 remove layers from the listing of laminates in the design. This affects
@@ -79,7 +79,7 @@ setting should be changed at the beginning of the design process in
 order to allow individual operations to use the correct layers, in the
 right order.
 
-![image](overview_images/edit_layer_properties.*)
+![image]({{site.url}}images/overview_images/edit_layer_properties.png)
 
 The "edit laminate values" option allows users to edit the attributes of
 each layer, such as the color and thickness of the constituent layers.
@@ -90,7 +90,7 @@ available.
 
 ### Ops Menu
 
-![image](overview_images/ops_menu.*)
+![image]({{site.url}}images/overview_images/ops_menu.png)
 
 The Ops Menu, also visible as a toolbar, is the main mode of creating
 designs in the editor. It lists a variety of operations which are
@@ -119,18 +119,18 @@ along with the option to place, stretch, or scale the referenced
 geometry, gives users full control over the way in which referenced
 geometry gets transformed in the new design.
 
-![image](overview_images/ops_toolbar.*)
+![image]({{site.url}}images/overview_images/ops_toolbar.png)
 
 ### Other Menus
 
-![image](overview_images/view_operations.*)
+![image]({{site.url}}images/overview_images/view_operations.png)
 
 Other menus exist in popupCAD, but are sparsely populated. The
 manufacturability window gives users access to a graphical view of the
 operation list, which allows users to view how various operations are
 related to each other
 
-![image](overview_images/operation_network.*)
+![image]({{site.url}}images/overview_images/operation_network.png)
 
 The Scripts menu populates itself with all scripts located in the
 popupcad/scripts/ subdirectory. It functions as an easy way for users to
@@ -143,7 +143,7 @@ sub-windows in the editor.
 Sketcher
 --------
 
-![image](overview_images/sketcher_screenshot.*)
+![image]({{site.url}}images/overview_images/sketcher_screenshot.png)
 
 The sketcher is the second most important window in popupCAD, because it
 allows users to generate original geometry directly in the popupCAD
@@ -202,9 +202,9 @@ resulting sketch operation in each layer. If only one is selected, the
 resulting operation will only be applied to the one layer, giving the
 user a high level of control in combining geometric operations.
 
-![image](overview_images/sketch_operation.*)
+![image]({{site.url}}images/overview_images/sketch_operation.png)
 
-![image](overview_images/sketch_op_result.*)
+![image]({{site.url}}images/overview_images/sketch_op_result.png)
 
 ### Operations
 
@@ -226,4 +226,4 @@ Devices".
 \* Shift / Flip: Moves all layers up or down, and /or flips their order
 ------------Dependencies ------------
 
-![image](overview_images/dependencies.*)
+![image]({{site.url}}images/overview_images/dependencies.png)

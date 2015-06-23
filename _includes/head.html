@@ -1,12 +1,91 @@
 <head>
+{% capture css %}{% if site.use_cdn %}{{ site.css_dir | prepend: site.baseurl | prepend: site.cdn }}{% else %}{{ site.css_dir | prepend: site.baseurl  | prepend: site.url }}{% endif %}/main.css{% endcapture %}
+{% capture canonical %}{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}{% endcapture %}
+{% capture title_string %}{% if page.grouptype == 'tag' %}Tagged as '{{page.tag}}'{% elsif page.grouptype == 'category' %}{{ page.category  }}{% elsif page.title %} {{ page.title }}{% else %} {{ site.title }}{% endif %}{%if paginator %} - page {{ paginator.page }}{% endif %}{% endcapture %}
+
+<!--description capture not finished -->
+{% capture description_string %}
+  {% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% endif %}
+{% endcapture %}
+
+<!-- tags capture not finished -->
+{% capture tags_string %}
+{% endcapture %}
+
+<!-- image capture not finished -->
+{% capture image %}
+{% endcapture %}
+
+<!-- date capture not finished -->
+{% capture date %}
+{% endcapture %}
+
+
+<!-- author capture not finished -->
+{% capture author %}
+{% endcapture %}
+
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet" type="text/css">
+
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% if page.url == "/404.html" %}
+  <meta http-equiv="refresh" content="5; url=/">
+  {% endif %}
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <!-- For IE 9 and below. ICO should be 32x32 pixels in size -->
+  <!--[if IE]><link rel="shortcut icon" href="/assets/images/icons/favicon.ico"><![endif]-->
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/icons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/images/icons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/icons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/images/icons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/icons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/icons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/images/icons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/icons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/icons/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="/assets/images/icons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/assets/images/icons/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="/assets/images/icons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/assets/images/icons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/assets/images/icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content="/assets/images/icons/mstile-144x144.png">
+  <meta name="theme-color" content="#ffffff">
 
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+  <title>{{ title_string }} | {{ site.name}}</title>
+  <meta name="description" content="{{ description_string }}">
+  <meta name='keywords' content='{{ tags_string }}'>
+
+  <meta name='category' content=''>
+  <meta name='author' content='{{ author }}'>
+  <meta name='language' content='EN'>
+  <meta name="robots" content="/robots.txt" />
+  <meta name="rating" content="general">
+  <meta name='HandheldFriendly' content='True'>
+  <meta name='MobileOptimized' content='320'>
+  <meta name='url' content='{{ canonical }}'>
+  <meta itemprop="headline" content="{{ title_string }}" />
+
+  <meta property="og:title" content="{{ title_string }}" />
+  <meta property="og:description" content="{{ description_string }}" />
+  <meta property="og:type" content="blog" />
+  <meta property="og:url" content="{{ canonical }}" />
+  <meta property="og:image" content="{{ image }}" />
+  <meta property="og:image:width" content="400" />
+  <meta property="og:image:height" content="300" />
+  <meta property="og:site_name" content="{{ site.name }}" />
+
+  <meta property="article:published_time" content="{{ date }}" />
+  <meta property="article:author" content="{{ author }}" />
+  <meta property="article:tag" content="{{ tags_string }}" />
+
+  <meta itemprop="name" content="{{ title_string }}"/>
+
+  <link rel="stylesheet" href="{{ css }}">
+  <link rel="author" href="humans.txt" type="text/plain">
+  <link href="{{ canonical }}" rel="original-source">
+  <link rel="canonical" href="{{ canonical }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 </head>

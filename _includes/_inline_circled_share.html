@@ -1,0 +1,86 @@
+{% comment %}
+
+
+
+{% endcomment %}
+
+
+<ul class="inline-circled-share">
+  <li class="share">
+    SHARE
+  </li>
+  <li>
+    <a class="icon-facebook-circled" href="https://www.facebook.com/sharer/sharer.php?u={{ share_url }}" class="popup">
+      </a>
+  </li>
+
+  <li>
+      <!-- Replace href with your Meta and URL information  -->
+      <a class="icon-twitter-circled" href="http://twitter.com/home?status={{ share_title }}%20by%20{{ share_twitter_username }}%20%3A%20{{ share_url }}" class="popup">
+      </a>
+  </li>
+
+  <li>
+      <a class="icon-mail-circled" href="mailto:?subject={{ share_title }}&amp;body={{ share_description }}%0A%0A{{ share_url }}">
+      </a>
+  </li>
+  <li>
+      <a class="icon-tumblr-circled" href="http://tumblr.com/share/link?url={{ share_url }}&name={{ share_title }}">
+      </a>
+  </li>
+
+
+
+  <li>
+      <!-- Replace href with your meta and URL information -->
+      <a class="icon-linkedin-circled" href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ share_url }}&amp;title={{ share_title }}&amp;summary={{ share_description }}" class="popup">
+      </a>
+  </li>
+
+
+{% comment %}
+
+  <li>
+      <a class="icon-reddit-circled" href="http://www.reddit.com/submit?url={{ share_url }}&title={{ share_title }}&text={{ share_description }}">
+      </a>
+  </li>
+
+  <li>
+      <a class="icon-hackernews-circled" href="https://news.ycombinator.com/submitlink?u={{ share_url }}&t={{ share_title }}&text={{ share_description }}">
+      </a>
+  </li>
+
+{% endcomment %}
+
+  <li>
+      <!-- Replace href with your meta and URL information.  -->
+      <a class="icon-gplus-circled" href="https://plus.google.com/share?url={{ share_title }}%20{{ share_url }}" class="popup">
+      </a>
+  </li>
+
+{% comment %}
+
+
+  <li>
+      <!-- Replace href with your meta and URL information.  -->
+      <a class="icon-pinterest-circled" href="http://pinterest.com/pin/create/button/?url={{ share_url }}&amp;media={{ share_picture }}&amp;description={{ share_description }}">
+      </a>
+  </li>
+{% endcomment %}
+
+
+  <li>
+      <a class="icon-pocket" href="https://getpocket.com/save?url={{ share_url }}">
+
+      </a>
+  </li>
+
+{% comment %}
+  <li>
+      <a href="{{ share_github_url }}">
+      </a>
+  </li>
+{% endcomment %}
+
+</ul>
+<!-- Buttons end here -->

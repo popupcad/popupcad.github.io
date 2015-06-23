@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Download
 ---
 Download the executible here

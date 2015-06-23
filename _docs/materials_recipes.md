@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Material Recipes
 ---
+
 Products
 -----------
 
@@ -16,7 +16,7 @@ Many of these products have not been used or tested by us; we have simply found 
 | Canon Fine Art Bright White, 330gsm | [bhphotovideo.com](http://www.bhphotovideo.com/c/product/488525-REG/Canon_0850V071_Fine_Art_Bright_White.html)
 | Bazic Poster Board, 22 x 28 Inches, Black | [amazon](http://www.amazon.com/Bazic-Poster-Board-Inches-Black/dp/B00275EBB0/)
 | octavia hot mount adhesive | [amazon](http://www.amazon.com/Octiva-Mount-Adhesive-38in-150ft/dp/B005VT5I02)| [gbc](http://www.gbcconnect.com/gbc/us/us/v/2467/730/gbc%C2%AE-octiva%C2%AE-hot-mount.aspx)| |
-| Drytac Multi Heat Adhesive | [drytac.com](http://www.drytac.com/mounting-adhesives/mhatm-multi-heat-adhesive.html) | 
+| Drytac Multi Heat Adhesive | [drytac.com](http://www.drytac.com/mounting-adhesives/mhatm-multi-heat-adhesive.html) |
 | Fastelset epoxy | [fasteladhesives.com](http://www.fasteladhesives.com/fastelset/fastelsetxepoxyfilm.html) |
 | VHB Transfer Tapes(various)|[tapecase.com](https://www.tapecase.com/sd/tapes-die-cuts/1024/1/1/0.0/vhb-adhesive-transfer-tapes.aspx)|
 | .002" VHB Pressure-Sensitive Adhesive | [tapecase.com](https://www.tapecase.com/pd/cn/tapes-die-cuts/1024/1000694/3m-f9460pc-vhb-adhesive-transfer-tape.aspx) |
@@ -41,4 +41,3 @@ Recipes
 |     2.|  Adhesive|     Octiva|     Pyralux|    Octiva Hot Mount|
 |     3.|  Flexible|  Polyester|      Kapton|     Nylon|
 |     4.|  Adhesive|     Octiva|     Pyralux|    Octiva Hot Mount|
-|     5.|Structural|  Cardboard|Carbon Fiber|Fiberglass|

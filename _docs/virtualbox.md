@@ -1,5 +1,4 @@
 ---
-layout: page
 title: VirtualBox
 ---
 Set up a virtual machine for Linux ================ Preparing your
@@ -26,4 +25,3 @@ Install/Update Software
 
 -   install guest additions
 -   sudo usermod -a -G vboxsf woodgroup
-

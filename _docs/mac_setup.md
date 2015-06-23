@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Mac Setup
 ---
 
@@ -48,5 +47,3 @@ Mac Setup
 
         echo "export PYTHONPATH=\$PYTHONPATH:~/popupcad" >> ~/.bash_profile
         source ~/.bash_profile
-
-

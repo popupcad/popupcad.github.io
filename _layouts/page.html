@@ -1,14 +1,48 @@
 ---
 layout: default
+body_class: page
 ---
-<div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
+{% if false %}
 
-  <article class="post-content">
-    {{ content }}
-  </article>
+READ ME!
+The page's header background is created by the capture h1bg and h1color below.
+In short, it checks if each page has a h1bg or h1color value in the yaml. If not, it
+just uses a default. It grabs the default from the _config.yml file, specifically:
+   * site.default_page_header_bg
+   *site.default_page_header_h1color
+Then it deposits them into the style tags below. It's pretty easy.
 
+{% endif %}
+
+{% capture title %}{% if page.title %}{{ page.title }} {% else %}" "{% endif %}{% endcapture %}
+{% capture description %}{% if page.description %}{{ page.description }} {% else %}" "{% endif %}{% endcapture %}
+
+{% capture date %}{% if page.date %}<time datetime="{{ page.date | date: "%b %-d, %Y" }}">{{ page.date | date: "%b %-d, %Y" }}</time>{% else %}" "{% endif %}{% endcapture %}
+{% capture category %}{% if page.category %}{{ page.category }} {% else %} {% endif %}{% endcapture %}
+{% capture h1bg %}{% if page.h1bg %}#{{ page.h1bg }}{% else %}#{{ site.default_page_header_bg }}{% endif %}{% endcapture %}
+{% capture h1color %}{% if page.h1color %}#{{ page.h1color }}{% else %}#{{ site.default_page_header_h1color }}{% endif %}{% endcapture %}
+
+<style media="screen" type="text/css">
+      header,
+      .alpha {background:{{ h1bg }};}
+      .alpha h1{color:{{ h1color }};}
+      header a:link,header a:visited{color:{{ h1color }};}
+      main a:link,main a:visited{
+        color: {{ h1bg }}
+        }
+
+</style>
+
+<div class="section-wrapper alpha">
+  <section>
+    <h1 class="centered" itemprop="name headline">{{ page.title }}</h1>
+    <h2 class="centered">{{ page.description }}</h2>
+  </section>
 </div>
+
+<section>
+  <main>
+    {{ content }}
+  </main>
+</section>

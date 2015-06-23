@@ -1,23 +1,132 @@
 ---
-layout: default
+layout: blank
+category: frontpage
+published: true
+sitemap:
+  priority: 1
 ---
+<div class="section-wrapper alpha" >
 
-<div class="home">
+    <div class="video-wrapper">
+      <video autoplay loop muted poster="video/dragonfly_1.png" class="background-video">
+        <source src="assets/video/sample.mp4" type="video/mp4">
+        <source src="assets/video/sample.webm" type="video/webm">
+      </video>
+    </div>
 
-  <h1 class="page-heading">Posts</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <section >
+      <div class="half">
+        <h1>PopupCad is a lorem ipsum lorem ipsum lorem ipsum.</h1>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+      </div>
+      <div class="half omega">
+        <h2>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.</h2>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+        <a href="/about" class="centered btn btn-1 white">Learn more about us</a>
+      </div>
+    </section>
 
 </div>
+
+<!--
+<div class="section-wrapper bravo" data-center="background-position: 50% -300px;" data-top-bottom="background-position: 50% 0px;" data-anchor-target=".bravo">
+</div>
+-->
+<div class="section-wrapper bravo" >
+  <section>
+    <div class="two-thirds">
+    <h1 class="right">Our tutorials are a great place to start</h1>
+
+    </div>
+    <div class="third omega">
+      <a href="/tutorials/introduction" class="btn btn-1 salmon">Dive in</a>
+    </div>
+  </section>
+
+
+</div>
+
+
+
+
+<div class="section-wrapper delta">
+
+  <section>
+
+
+      <div class="third">
+
+        <h1 class="centered icon-info-circled"></h1>
+        <h2 class="centered">There's a comptetion coming up. So that's cool..</h2>
+    </div>
+
+
+		<div class="third">
+
+      <h1 class="centered icon-cogs"></h1>
+      <h2 class="centered">Make robot minions. Kill your enemies and enslave your friends. For ages five and up.</h2>
+
+		</div>
+
+
+		<div class="third omega">
+      <h1 class="centered icon-github"></h1>
+      <h2 class="centered">We have a repository, you could check that out.</h2>
+		</div>
+
+  </section>
+
+</div>
+
+{% comment %}
+<div class="section-wrapper echo">
+</div>
+{% endcomment %}
+
+<div class="section-wrapper echo">
+  <section>
+      <h6>Latest from our blog</h6>
+
+        <ul>
+          {% for post in site.posts offset: 0 limit: 3 %}
+
+          <li class="third">
+              <a href="{{ post.url | prepend: site.baseurl }}">
+
+                <h2><strong>{{ post.title }}</strong></h2>
+                  <P>                <datetime> {{ post.date | date: "%b %-d, %Y" }}</datetime>
+
+              {% if post.content contains "<!--more-->" %}
+                 {{ post.content | split:"<!--more-->" | first % }}
+              {% else %}
+                 {{ post.content | strip_html | truncatewords:50 }}
+              {% endif %}
+               </p>
+
+
+                <h6><strong>READ MORE</strong><i class="icon-right-dir"></i></h6>
+
+              </a>
+
+          </li>
+          {% endfor %}
+        </ul>
+    </section>
+  </div>
+
+
+  <!--
+  <div class="section-wrapper charlie" data-top="background-position: 50% -500px;" data-top-bottom="background-position: 50% 0px;" data-anchor-target=".delta">
+  -->
+  <div class="section-wrapper charlie">
+    <section>
+      <h1 class="centered">subscribe to the popupCAD newsletter</h1>
+            <form action="{{ site.subscribe_form_url }}" method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <input type="email" value="" name="EMAIL" id="newsletter-form" placeholder="signup@example.com" required>
+            <input type="submit" value="Subscribe" id="newsletter-button" name="subscribe" class="btn btn-1 yellow">
+            </form>
+
+
+    </section>
+  </div>

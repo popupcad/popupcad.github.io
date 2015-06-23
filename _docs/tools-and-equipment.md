@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Tools & Equipment
 ---
 Making a laminate device is fairly straightforward.  You can mix and match from the tools on hand, but in general you should follow this recipe
@@ -25,7 +24,7 @@ Laminating Tools
 - Clothes Iron
 - Laminator(for thin laminates)
 - T-shirt press
-  
+
 External Sites
 ==============
 

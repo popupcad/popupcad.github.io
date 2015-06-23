@@ -1,0 +1,34 @@
+---
+layout: default
+body_class: "page blogroll"
+---
+
+<div class="section-wrapper alpha">
+  <section>
+    <h1 class="centered">
+    {% if page.grouptype == 'tag' %}
+      Posts tagged as <strong>'{{page.tag}}'</strong>
+    {% elsif page.grouptype == 'category' %}
+      {{ page.category  }}
+    {% endif %}
+    </h1>
+  </section>
+</div>
+
+<section>
+
+
+  {% for post in paginator.posts %}
+    {% include blogroll_item.html %}
+  {% endfor %}
+
+  {% if page.grouptype == 'tag' %}
+  	{% capture paging_root %}/tag/{{page.tag}}/{% endcapture %}
+  {% elsif page.grouptype == 'category' %}
+  	{% capture paging_root %}/category/{{page.category}}/{% endcapture %}
+  {% else %}
+  	{% capture paging_root %}/{% endcapture %}
+  {% endif %}
+
+  {% include paging_buttons.html %}
+</section>

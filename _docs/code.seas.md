@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Code.Seas Git Configuration
 ---
 
@@ -55,10 +54,9 @@ On Linux:
         cd pypoly2tri
         git checkout master
         git pull
-        sudo python setup.py install   
+        sudo python setup.py install
 
 On Windows:
 
 -   repeat the above steps for
     [](git@code.seas.harvard.edu:code/pypoly2tri.git)
-

@@ -1,38 +1,117 @@
-permalink: none
-
 # Site settings
-title: popupCAD
-email: danaukes@seas.harvard.edu
+name: PopupCad
+title: A PopupCad Title
+email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  popupCAD is supported by the Wyss Institute for Biologically Inspired Engineering at Harvard University
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://localhost:4000/" # the base hostname & protocol for your site
+    popupCAD is supported by the Wyss Institute for Biologically Inspired Engineering at Harvard University
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://localhost:4000" # the base hostname & protocol for your site
+cdn: "http://localhost:4000" # the option of loading css, js etc from a CDN. ie. cdn.dyslexia-ma.com
+
+# important. if set to true, various parts of hte site start loading  CSS and JS from cloudfront, not the default S3.
+use_cdn: false
+
+
 twitter_username: popupcad
-github_username:  popupcad
+facebook_username: popupcad
+gplus_username: communities/106456911842813544602
+github_username: popupcad
 
 # Build settings
 markdown: kramdown
-#highlighter: rouge
+permalinks: pretty
 
+# default post (blog) url schema
+permalink: /:categories/:year/:title/
+
+# configure pages (ensures all pages can be stashed out of the root / dir. )
+include: ['_pages']
+relative_permalinks: false
+
+# pagination stuff
+paginate:      8
+paginate_path: '/blog/:num/'
+
+# OK, on to collections
 collections:
-  gallery:
-    output: true
-  albums:
-    output: true
   docs:
     output: true
+    permalink: /docs/:title/
 
-    
+  tutorials:
+    output: true
+    permalink: /tutorials/:title/
+
+  gallery:
+    output: true
+    permalink: /gallery/:name/
+#    layout: page
+
+
+
 defaults:
-  - scope:
-      path: ""
-      type: albums
-    values:
-      layout: page
-
   - scope:
       path: ""
       type: gallery
     values:
-      layout: page
+      layout: gallery
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: docs
+  - scope:
+      path: ""
+      type: tutorials
+    values:
+      layout: tutorials
 
+# font path
+css_dir: /assets/css
+js_dir: /assets/js
+font_dir: /assets/fonts
+image_dir: /assets/images
+thumbnail: popupcad-icon.png
+
+# excerpt separator
+excerpt_separator: "<!--more-->"
+
+blogheaders_dir:
+# Sass settings
+sass:
+    sass_dir: _includes/_sass
+# when in prod, uncomment the next line
+#  style: :compressed
+
+# your mailchimp subscribe form location.
+# found in the form action field of the subscribe form.
+subscribe_form_url: //popupcad.us11.list-manage.com/subscribe/post?u=09fb80f6d457bbf0912562cf5&amp;id=b7599ade72
+
+# DEFAULT VALUES
+#
+# The page header gets a default color, set here.
+# It can be overriden in a page's yaml by creating values that look like:
+#
+# h1bg: ccc
+#
+# h1color: 000
+
+# default page header is $lightblue.
+# the following are HEX VALUES. t
+# the site templates insert # in front of each.
+default_page_header_bg: 2dafe6
+default_page_header_h1color: fff
+
+# default docs header is $turquoise
+default_docs_header_bg: 42c2c3
+default_docs_header_h1color: fff
+
+# default tutorials header is $salmon
+default_tutorials_header_bg: f57365
+default_tutorials_header_h1color: fff
+
+# simpleform
+# simpleform_API_token
+simpleform_api_token: 24cd6f991bb87b58a213cf2570ecc151
+#simpleform_redirect
+simpleform_redirect: http://localhost:4000/contact-thanks

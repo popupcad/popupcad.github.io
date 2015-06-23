@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Linux Setup
 ---
 Linux Setup
@@ -8,7 +7,7 @@ Linux Setup
 1.  Install/Update Software:
 
         sudo apt-get update
-        sudo apt-get install dkms git synaptic libgeos-dev gfortran cmake python-qt4-gl phonon-backend-gstreamer 
+        sudo apt-get install dkms git synaptic libgeos-dev gfortran cmake python-qt4-gl phonon-backend-gstreamer
 
     Option: python2 install:
 
@@ -35,7 +34,7 @@ Linux Setup
 
 :   -   From the terminal, navigate to the popupcad directory and type:
 
-            python popupcad.py 
+            python popupcad.py
 
     -   Or run using spyder a wonderful GUI for editing and debugging
         python programs. Open spyder in the program menu or by typing
@@ -50,5 +49,3 @@ Linux Setup
     > -   from there you can navigate to the popupcad directory and
     >     open popupcad.py.
     > -   hit f5 to run.
-
-

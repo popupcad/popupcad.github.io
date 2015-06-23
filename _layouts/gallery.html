@@ -1,0 +1,70 @@
+---
+layout: default
+---
+
+{% comment %}
+
+
+THIS IS THE TEMPLATE for GALLERY collection items.
+
+
+{% endcomment %}
+
+
+
+<div class="section-wrapper alpha">
+  <section>
+    <h1 class="centered" itemprop="name headline">{{ page.title }}</h1>
+  </section>
+</div>
+<section>
+  <div class="">
+    <p>{{ page.url }}</p>
+
+    <p>
+     directory is {{ page.url }}
+    </p>
+
+    <p>my path: {{page.path}}</p>
+
+    My collection is: {{page.collection}}</br>
+
+    I have this many files: {{page.files}}</br>
+
+    My name is {{page.name}}</br>
+
+    My title is {{page.title}}</br>
+  </div>
+
+
+  <figure >
+  <figcaption class="half">{{page.cad_file}}</figcaption>
+  <img class="half omega" src="{{ page.url }}{{page.image_file}}" />
+  </figure>
+
+  <hr>
+
+
+  {% for operation in page.operations %}
+
+  <figure>
+    <figcaption class="half">{{operation.image_file}}</br> {{ operation.name }}</br> {{operation.description}}</br> {{operation.cut_file}}</br></br> {{operation.cut_file}}</figcaption>
+    <img class="half omega" src="{{ page.url }}{{operation.image_file}}" />
+  </figure>
+  <hr>
+
+  {% for output in operation.outputs %}
+  <figure>
+    <figcaption class="half omega">{{output.image_file}}</br> {{output.name}} </br></br>{{output.description}} </br>{{output.cut_file}}</br> {{output.cut_file}} </figcaption>
+    <img class="half" src="{{ page.url }}{{output.image_file}}" />
+  </figure>
+  <hr>
+
+  {% endfor %}
+  {% endfor %}
+
+
+    {% comment %}
+                  {{ content }}
+    {% endcomment %}
+</section>

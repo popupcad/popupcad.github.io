@@ -1,5 +1,4 @@
 ---
-layout: page
 title: What is popupCAD?
 ---
 What is popupCAD?
@@ -13,7 +12,3 @@ popupCAD allows you to operate between all of your design layers at once, using 
 How do I create my first laminate?
 ==================================
 You can draw or import a sketch, and then apply that sketch to whatever layers you want.  You can draw a sketch using the sketch tool, which allows you to create accurately dimensioned polygons and lines.
-
-
-
-

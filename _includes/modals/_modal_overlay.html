@@ -1,0 +1,65 @@
+<div class="morph-button morph-button-overlay morph-button-fixed">
+		<button type="button">More Info</button>
+		<div class="morph-content" >
+
+			<div>
+				<div class="content-style-overlay">
+					<span class="icon icon-cancel-circled2">Close the overlay</span>
+					<h2><a title="{{ site.title }}" href="{{ site.url }}"><strong>{{ site.title }}</strong> </a></h2>
+
+
+
+					<section>
+						<div class="half">
+							<h5>Sections</h5>
+							<ul class="no-bullets">
+								<li><p><a href="/pages/about/">About</a></p></li>
+								<li><a href="/pages/contact">Contact Us</a></li>
+								<li><a href="/pages/resources">Resources</a></li>
+								<li><a href="/pages/future">Future</a></li>
+
+							</ul>
+						</div>
+						<div class="half omega">
+							<h5>Sections</h5>
+							<ul class="no-bullets">
+								<li><a href="/pages/scholarships/">Scholarships</a></li>
+								<li><a href="/pages/members">Membership</a></li>
+								<li><a href="/pages/giving">Giving</a></li>
+							</ul>
+						</div>
+					</section>
+
+					<section>
+						<h5>Latest Publications</h5>
+						{% include _post-list.html %}
+						<p class="rss-subscribe icon-rss-squared"> subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+					</section>
+
+
+				</div>
+			</div>
+
+
+
+
+
+
+		{% comment %}
+
+		<!-- the original -->
+			<div>
+				<div class="content-style-overlay">
+					<span class="icon icon-cancel-circled2">Close the overlay</span>
+					<h2>About Parsley</h2>
+					<p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+					<p>Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea. Brussels sprout coriander water chestnut gourd swiss chard wakame kohlrabi beetroot carrot watercress. Corn amaranth salsify bunya nuts nori azuki bean chickweed potato bell pepper artichoke.</p>
+					<p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+					<p>Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea. Brussels sprout coriander water chestnut gourd swiss chard wakame kohlrabi beetroot carrot watercress. Corn amaranth salsify bunya nuts nori azuki bean chickweed potato bell pepper artichoke.</p>
+					<p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+					<p>Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea. Brussels sprout coriander water chestnut gourd swiss chard wakame kohlrabi beetroot carrot watercress. Corn amaranth salsify bunya nuts nori azuki bean chickweed potato bell pepper artichoke.</p>
+				</div>
+			</div>
+		{% endcomment %}
+		</div>
+	</div>

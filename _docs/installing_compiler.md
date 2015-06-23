@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Installing Windows Compiler
 ---
 
@@ -72,5 +71,3 @@ Update:
     characters like extra quotations or stray characters. The batch file
     is not going to be able to update your session path if it can't make
     sense of it in the first place.
-
-

@@ -1,0 +1,21 @@
+<div>
+{% if paginator.next_page %}
+	<a href="{{paging_root}}page{{paginator.next_page}}" class="btn btn-1 btn-1a pull-left">&larr; Older</a>
+{% else %}
+  <button class="btn btn-1 disabled left" disabled="disabled">Older &rarr;</button>
+{% endif %}
+
+{% if paginator.previous_page %}
+	{% if paginator.previous_page == 1 %}
+		<a href="{{paging_root}}" class="btn btn-1 btn-1a right">Newer  &rarr;</a>
+	{% else %}
+		<a href="{{paging_root}}page{{paginator.previous_page}}" class="btn btn-1 btn-1a right">Newer &rarr;</a>
+	{% endif %}
+{% else %}
+		<button class="btn btn-1 disabled right" disabled="disabled">Newer &rarr;</button>
+	</li>
+{% endif %}
+</div>
+
+{% assign type = nil %}
+{% assign paging_root = nil %}

@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Working with the code on Windows
 ---
 Windows Source Installation ================
@@ -11,7 +10,7 @@ Windows Source Installation ================
 
 >   Project Website                                          executable location
 >   -------------------------------------------------------- --------------------------------------------------------------
->   Required:                                                
+>   Required:
 >   [Python](http://python.org/)                             [](http:/python.org/downloads/)
 >   [PySide](http://qt-project.org/wiki/PySide)              [](http://www.lfd.uci.edu/~gohlke/pythonlibs/#pyside)
 >   [Numpy](http://www.numpy.org/)                           [](http://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy)
@@ -20,7 +19,7 @@ Windows Source Installation ================
 >   [Shapely](http://toblerity.org/shapely/)                 [](http://www.lfd.uci.edu/~gohlke/pythonlibs/#shapely)
 >   [pyOpenGL](http://pyopengl.sourceforge.net/)             [](http://www.lfd.uci.edu/~gohlke/pythonlibs/#pyopengl)
 >   [pyyaml](http://pyyaml.org/)                             [](http://www.lfd.uci.edu/~gohlke/pythonlibs/#pyyaml)
->   [pyqtgraph](http://www.pyqtgraph.org/)                   
+>   [pyqtgraph](http://www.pyqtgraph.org/)
 >   ------------------------------------------------------   ------------------------------------------------------------
 >   Opt                                                      ional
 >   ------------------------------------------------------   ------------------------------------------------------------
@@ -75,4 +74,3 @@ Windows Source Installation ================
 4.  Alternatively, just add popupCAD to your PYTHONPATH environment
     variable(see step 2, using PYTHONPATH instead of PATH) and
     run locally.
-

@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Vinyl Cutter Settings
 ---
 

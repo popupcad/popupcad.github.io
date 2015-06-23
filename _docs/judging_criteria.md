@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Contest Judging Criteria
 ---
 | Category | Point Valuation |

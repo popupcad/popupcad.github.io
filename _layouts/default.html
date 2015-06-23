@@ -3,18 +3,62 @@
 
   {% include head.html %}
 
-  <body>
-
+  <body class="{% if page.body_class %}{{ page.body_class }}{% endif %} {% if page.category %}{{ page.category }}{% endif %} {% if page.collection %}{{ page.collection }}{% endif %} {% unless page.picture %}noheader{% endunless %}" itemscope="itemscope" itemtype="http://schema.org/WebPage">
     {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-
+    <div id="container">
+    {{ content }}
     {% include footer.html %}
+    </div>
+  {% include modals/_modal_sidebar.html %}
+    <!-- Javascript -->
 
+    {% capture js %}{% if site.use_cdn %}{{ site.js_dir | prepend: site.baseurl | prepend: site.cdn }}{% else %}{{ site.js_dir | prepend: site.baseurl }}{% endif %}/application.js{% endcapture %}
+
+    <script src="{{ js }}"></script>
+    <script>
+        (function($) {
+            $(document).ready( function() {
+
+                {% comment %}
+                //initialises email concealment js
+                // disabling until we have emails to conceal
+                // AND we can figure out how to access the function without an 'undefined' error
+                // $('.e').emailLink();
+                {% endcomment %}
+
+                <!-- skrollr.js -->
+                var s = skrollr.init();
+
+
+
+                {% comment %}
+
+                The following initialises the by the morphing button.
+                 _includes/uiMorphingButton_fixed.js
+                 and
+                 classie.js.
+                 modals.scss
+
+                 We load the required javascript for each of the three by either:
+                 include _javascripts/modals/sidebar.js
+                 include _javascripts/modals/text.js
+                 include _javascripts/modals/overlay.js
+
+                 {% endcomment %}
+
+                //initalise sidebar
+                {% include _javascripts/classie.js %}
+                {% include _javascripts/uiMorphingButton_fixed.js %}
+                {% include _javascripts/modals/sidebar.js %}
+
+
+                // initialise WOW.min.js
+                new WOW().init();
+
+            } );
+        })(jQuery);
+
+    </script>
   </body>
-
 </html>

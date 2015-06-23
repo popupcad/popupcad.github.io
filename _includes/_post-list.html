@@ -1,0 +1,37 @@
+{% comment %}
+THIS SPITs OUT ALL POSTS
+REGARDLESS OF CATEGORY
+{% endcomment %}
+<ul>
+  {% for post in site.posts offset: 0 limit: 5 %}
+    <li>
+      <a class="" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}
+      <time>{{ post.date | date: "%b %-d, %Y" }}</time></a>
+
+    </li>
+  {% endfor %}
+</ul>
+
+{% comment %}
+SPITS OUT 5 POSTS if they're in CATEGORY: 'blogs'
+{% endcomment %}
+
+
+{% for post in site.categories['blogs'] offset: 0 limit: 5 %}
+
+<h1>Latest Blogs</h1>
+  <ul>
+    <li>
+        <a class="" href="{{ post.url | prepend: site.baseurl }}">
+          <h3>{{ post.title }}</h3>
+          <span>
+
+          {{ post.date | date: "%-d %B %Y" }}
+          </span>
+
+        </a>
+      <h6><strong>READ MORE</strong><i class="icon-right-dir"></i></h6>
+
+    </li>
+  </ul>
+{% endfor %}

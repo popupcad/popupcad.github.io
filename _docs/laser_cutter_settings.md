@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Laser Cutter Settings
 ---
 
@@ -12,4 +11,3 @@ title: Laser Cutter Settings
 |adhesive|40%|100%|1|
 |5-Layer Laminate|100%|80%|1|
 |11-Layer Laminate|100%|80%|2+|
-

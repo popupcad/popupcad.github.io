@@ -1,12 +1,12 @@
 - title: Getting Started
-  docs:
+  items:
     - introduction
     - overview
     - download
 - title: Subsection 1
-  docs:
+  items:
     - sponsorships
     - contest-judging-criteria
 - title: Subsection 3
-  docs:
+  items:
     - linux-setup

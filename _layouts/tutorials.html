@@ -38,7 +38,7 @@ THIS IS THE TEMPLATE for tutoricals collection items.
         {% assign items = include.items %}
 
         <ul class="no-bullets">
-        {% for item in section.tutorials  %}
+        {% for item in section.items  %}
           {% assign item_url = item | prepend:"/tutorials/" | append:"/" %}
 
           {% if item_url == page.url %}
@@ -73,7 +73,7 @@ THIS IS THE TEMPLATE for tutoricals collection items.
     {% endcomment %}
 
 
-    {% assign tutorials = site.data.tutorials_menu | map: 'tutorials' | join: ',' | split: ',' %}
+    {% assign items = site.data.tutorials_menu | map: 'items' | join: ',' | split: ',' %}
 
     {% comment %}
     Because this is built for every page, lets find where we are in the ordered
@@ -81,7 +81,7 @@ THIS IS THE TEMPLATE for tutoricals collection items.
     next, lets build a link to it.
     {% endcomment %}
 
-    {% for document in tutorials %}
+    {% for document in items %}
       {% assign document_url = document | prepend:"/tutorials/" | append:"/" %}
       {% if document_url == page.url %}
         <div class="section-nav">
@@ -90,7 +90,7 @@ THIS IS THE TEMPLATE for tutoricals collection items.
                 <span class="prev disabled">Back</span>
               {% else %}
                 {% assign previous = forloop.index0 | minus: 1 %}
-                {% assign previous_page = tutorials[previous] | prepend:"/tutorials/" | append:"/" %}
+                {% assign previous_page = items[previous] | prepend:"/tutorials/" | append:"/" %}
                 <a href="{{ previous_page }}" class="prev"><strong>Back</strong></a>
               {% endif %}
           </div>
@@ -99,7 +99,7 @@ THIS IS THE TEMPLATE for tutoricals collection items.
                 <span class="next disabled">Next</span>
               {% else %}
                 {% assign next = forloop.index0 | plus: 1 %}
-                {% assign next_page = tutorials[next] | prepend:"/tutorials/" | append:"/" %}
+                {% assign next_page = items[next] | prepend:"/tutorials/" | append:"/" %}
                 <a href="{{ next_page }}" class="next"><strong>Next</strong></a>
               {% endif %}
           </div>

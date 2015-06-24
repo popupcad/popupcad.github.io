@@ -39,6 +39,10 @@ collections:
     output: true
     permalink: /docs/:title/
 
+  contest:
+    output: true
+    permalink: /contest/:title/
+
   tutorials:
     output: true
     permalink: /tutorials/:title/
@@ -61,6 +65,11 @@ defaults:
       type: docs
     values:
       layout: docs
+  - scope:
+      path: ""
+      type: contest
+    values:
+      layout: contest
   - scope:
       path: ""
       type: tutorials
@@ -106,6 +115,10 @@ default_page_header_h1color: fff
 # default docs header is $turquoise
 default_docs_header_bg: 42c2c3
 default_docs_header_h1color: fff
+
+# default contest header is $turquoise
+default_contest_header_bg: 42c2c3
+default_contest_header_h1color: fff
 
 # default tutorials header is $salmon
 default_tutorials_header_bg: f57365

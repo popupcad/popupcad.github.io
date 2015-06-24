@@ -4,10 +4,11 @@
     <nav>
       <ul class="horizontal">
         <li><a title=" {{ site.title }}" href="/"> {{ site.name }}  </a></li>
-      	<li><a {% if location == 'about' %}class="active" {% endif %}href="/about/">about</a></li>
-      	<li><a {% if location == 'blog' %}class="active" {% endif %}href="/blog/">blog</a></li>
-      	<li><a {% if location == 'docs' %}class="active" {% endif %}href="/docs/introduction">docs</a></li>
+      	<li><a {% if location == 'contest' %}class="active" {% endif %}href="/contest/Popup-Design-Contest">design contest</a></li>
+      	<li><a {% if location == 'download' %}class="active" {% endif %}href="/docs/download">download</a></li>
+      	<li><a {% if location == 'docs' %}class="active" {% endif %}href="/docs/what-is-popupCAD">docs</a></li>
         <li><a {% if location == 'tutorials' %}class="active" {% endif %}href="/tutorials/introduction">tutorials</a></li>
+      	<!--<li><a {% if location == 'blog' %}class="active" {% endif %}href="/blog/">blog</a></li>-->
       </ul>
     </nav>
 </header>

@@ -20,7 +20,7 @@ github_username: popupcad
 # Build settings
 markdown: kramdown
 permalinks: pretty
-highligher: rouge
+highlighter: rouge
 
 # default post (blog) url schema
 permalink: /:categories/:year/:title/

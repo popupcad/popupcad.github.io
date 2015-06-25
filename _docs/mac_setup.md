@@ -2,9 +2,6 @@
 title: Mac Setup
 ---
 
-Mac Setup
-=========
-
 \#. (optional?)disable Mac security for apps.
 
 :   1.  open settings

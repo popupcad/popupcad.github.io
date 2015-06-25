@@ -1,5 +1,9 @@
-- title: Popup Design Contest
+- title: Basic Information
   items:
-    - popup-design-contest
-    - class-integration
-    - contest-judging-criteria
+    - introduction
+    - judging-criteria
+    - important-dates
+    - ways-to-participate
+- title: Submission Information
+  items:
+    - documentation

@@ -1,5 +1,5 @@
 ---
-title: Contest Judging Criteria
+title: Judging Criteria
 ---
 | Category | Point Valuation |
 |:-|-:|

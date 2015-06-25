@@ -1,12 +1,26 @@
-- title: Getting Started
+- title: Acquiring popupCAD
   items:
-    - introduction
-    - overview
     - download
-- title: Subsection 1
-  items:
-    - sponsorships
-    - contest-judging-criteria
-- title: Subsection 3
-  items:
+    - windows-msi-install
+    - windows-setup-source
     - linux-setup
+    - mac-setup
+    - compiling-the-installer
+    - git-setup-shell
+- title: Using popupCAD
+  items:
+    - what-is-popupcad
+    - overview
+- title: Making Devices
+  items:
+    - origami-inspired-design
+    - laser-cutter-settings
+    - materials-recipes
+    - basic-origami-elements
+    - tools-and-equipment
+    - us-maker-spaces
+    - vinyl-cutter-settings
+- title: Coding with popupCAD
+  items:
+    - creating-a-script
+    - the-full-api

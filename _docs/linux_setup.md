@@ -1,8 +1,6 @@
 ---
 title: Linux Setup
 ---
-Linux Setup
-===========
 
 1.  Install/Update Software:
 

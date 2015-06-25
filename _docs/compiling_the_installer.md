@@ -1,5 +1,5 @@
 ---
-title: Compiling Binaries
+title: Compiling The Installer
 ---
 
 Compiling Binaries ================

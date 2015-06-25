@@ -8,31 +8,21 @@ published: true
 
 <div class="section-wrapper alpha">
   <section>
-  <h1 class="centered">Yay Popupcad <strong>Competition</strong> Yay</h1>
-  <h2 class="centered">This is a subheading</h2>
+  <h1 class="centered">The <strong>popup</strong> design challenge</h1>
+  <h2 class="centered">Make a new device!</h2>
   </section>
 </div>
 
 <div class="section-wrapper bravo">
   <section>
-    <div class="half">
-    this is content on left
+    <div class="half centered">
+      <p>This is a test</p>
+      <h2><a href ="{{site.url}}/contest/introduction">Competition</a></h2>
     </div>
-    <div class="half omega">
-    this is right
+    
+    <div class="half centered omega">
+      <h2><a href ="{{site.url}}/tutorials/introduction">Make a Device</a></h2>
     </div>
-
-    <h1>stuff and nonsense h1</h1>
-
-    <h1><strong>stuff and nonsense h1</strong></h1>
-    <h2>stuff and nonsense h2</h2>
-
-    <h3>stuff and nonsense h3</h3>
-    <h4>stuff and nonsense h4</h4>
-
-    <h5>stuff and nonsense h5</h5>
-
-    competion page
   </section>
 </div>
 

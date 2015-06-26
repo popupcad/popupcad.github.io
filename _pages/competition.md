@@ -15,6 +15,14 @@ published: true
 
 <div class="section-wrapper bravo">
   <section>
+    <div class="centered">
+      <iframe src="https://player.vimeo.com/video/131475762?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+  </section>
+</div>
+
+<div class="section-wrapper delta">
+  <section>
     <div class="half centered">
       <p>This is a test</p>
       <h2><a href ="{{site.url}}/contest/introduction">Competition</a></h2>

@@ -24,10 +24,8 @@ published: true
 <div class="section-wrapper delta">
   <section>
     <div class="half centered">
-      <p>This is a test</p>
       <h2><a href ="{{site.url}}/contest/introduction">Competition</a></h2>
     </div>
-    
     <div class="half centered omega">
       <h2><a href ="{{site.url}}/tutorials/introduction">Make a Device</a></h2>
     </div>

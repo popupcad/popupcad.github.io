@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+/*
+@fontface must be in this file in order for jekyll
+ to use the site variables ie. {{ site.font_dir }}
+*/
+@font-face {
+  font-family: 'popupcad';
+  src: url('/assets/fonts/popupcad.eot?76382184');
+  src: url('/assets/fonts/popupcad.eot?76382184#iefix') format('embedded-opentype'),
+       url('/assets/fonts/popupcad.woff?76382184') format('woff'),
+       url('/assets/fonts/popupcad.ttf?76382184') format('truetype'),
+       url('/assets/fonts/popupcad.svg?76382184#demonflower') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

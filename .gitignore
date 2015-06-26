@@ -1,3 +1,4 @@
 _site
 .sass-cache
-assets/css/main.css.map
+assets/css/popupcad.css.map
+assets/css/*.map

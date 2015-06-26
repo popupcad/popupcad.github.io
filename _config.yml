@@ -6,7 +6,6 @@ description: > # this means to ignore newlines until "baseurl:"
     popupCAD is supported by the Wyss Institute for Biologically Inspired Engineering at Harvard University
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://popupcad.github.io" # the base hostname & protocol for your site
-cdn: "http://localhost:4000" # the option of loading css, js etc from a CDN. ie. cdn.dyslexia-ma.com
 
 # important. if set to true, various parts of hte site start loading  CSS and JS from cloudfront, not the default S3.
 use_cdn: false

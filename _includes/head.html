@@ -1,5 +1,4 @@
 <head>
-{% capture css %}{% if site.use_cdn %}{{ site.css_dir | prepend: site.baseurl | prepend: site.cdn }}{% else %}{{ site.css_dir | prepend: site.baseurl  | prepend: site.url }}{% endif %}/main.css{% endcapture %}
 {% capture canonical %}{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}{% endcapture %}
 {% capture title_string %}{% if page.grouptype == 'tag' %}Tagged as '{{page.tag}}'{% elsif page.grouptype == 'category' %}{{ page.category  }}{% elsif page.title %} {{ page.title }}{% else %} {{ site.title }}{% endif %}{%if paginator %} - page {{ paginator.page }}{% endif %}{% endcapture %}
 
@@ -83,7 +82,9 @@
 
   <meta itemprop="name" content="{{ title_string }}"/>
 
-  <link rel="stylesheet" href="{{ css }}">
+  <link rel="stylesheet" href="{{ site.css_dir | prepend: site.baseurl | prepend: site.url }}/main.css">
+  <link rel="stylesheet" href="{{ site.css_dir | prepend: site.baseurl | prepend: site.url }}/webfont.css">
+
   <link rel="author" href="humans.txt" type="text/plain">
   <link href="{{ canonical }}" rel="original-source">
   <link rel="canonical" href="{{ canonical }}">

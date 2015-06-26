@@ -1,4 +1,10 @@
-- title: Acquiring popupCAD
+- title: Introduciton
+  items:
+    - what-is-popupcad
+    - about-popupcad
+    - citing-popupcad
+    - popupcad-license
+- title: Getting popupCAD
   items:
     - download
     - windows-msi-install
@@ -9,7 +15,6 @@
     - git-setup-shell
 - title: Using popupCAD
   items:
-    - what-is-popupcad
     - overview
 - title: Making Devices
   items:

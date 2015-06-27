@@ -374,6 +374,13 @@ footer {
   -moz-box-shadow: 0px 3px 6px -2px #bdbdbd;
   box-shadow: 0px 3px 6px -2px #bdbdbd; }
 
+.vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
 /*
   section wrappers that wrap around html elements, sections, main etc.
   they are typically accompanied by a co
@@ -956,7 +963,7 @@ footer {
       text-align: left; } }
 
 p {
-  margin-bottom: 1.5em; }
+  margin: .5rem 0 1.5rem 0; }
   p span {
     text-transform: uppercase; }
 
@@ -1205,6 +1212,13 @@ footer {
   -webkit-box-shadow: 0px 3px 6px -2px #bdbdbd;
   -moz-box-shadow: 0px 3px 6px -2px #bdbdbd;
   box-shadow: 0px 3px 6px -2px #bdbdbd; }
+
+.vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
 
 /*
 
@@ -1479,6 +1493,13 @@ footer {
   -webkit-box-shadow: 0px 3px 6px -2px #bdbdbd;
   -moz-box-shadow: 0px 3px 6px -2px #bdbdbd;
   box-shadow: 0px 3px 6px -2px #bdbdbd; }
+
+.vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
 
 main a.icon-facebook-circled,
 main a.icon-facebook-squared {
@@ -1896,6 +1917,13 @@ footer {
   -webkit-box-shadow: 0px 3px 6px -2px #bdbdbd;
   -moz-box-shadow: 0px 3px 6px -2px #bdbdbd;
   box-shadow: 0px 3px 6px -2px #bdbdbd; }
+
+.vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
 
 /*
 @fontface must be loaded from main.scss in order for jekyll
@@ -2441,6 +2469,13 @@ footer {
   -webkit-box-shadow: 0px 3px 6px -2px #bdbdbd;
   -moz-box-shadow: 0px 3px 6px -2px #bdbdbd;
   box-shadow: 0px 3px 6px -2px #bdbdbd; }
+
+.vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
 
 /*
 
@@ -3366,6 +3401,13 @@ footer {
   -moz-box-shadow: 0px 3px 6px -2px #bdbdbd;
   box-shadow: 0px 3px 6px -2px #bdbdbd; }
 
+.vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
 /*
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,900);
 */
@@ -3494,7 +3536,7 @@ footer {
       text-align: left; } }
 
 p {
-  margin-bottom: 1.5em; }
+  margin: .5rem 0 1.5rem 0; }
   p span {
     text-transform: uppercase; }
 
@@ -3600,6 +3642,8 @@ body.frontpage {
      background:$foxtrot-background;
    }
    */ }
+  body.frontpage h2 {
+    margin: 2.4rem 0 1.2rem 0; }
   body.frontpage .alpha h2 {
     color: #fff; }
   body.frontpage .background-video {
@@ -3633,41 +3677,78 @@ body.tutorials .alpha {
   -webkit-mask: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSI2NDAiIHZpZXdCb3g9IjAgMCAxNjAwIDY0MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+PGRlZnM+PHBhdGggaWQ9ImEiIGQ9Ik0xNjQxLjI3MjkyLDcuNTcwODAwNzggQzE2NDIuMzQyMzMsMjEuNjg5NTczOCAxNjQwLjE5ODg4LDY2My4yOTAzNyAxNjEzLjU4Mzk4LDY2My4yNzM0MzcgQzE1MTAuODc2MzEsNjYzLjIwMjc2MyAxMzE1LjQ2Njg3LDY2Mi4wOTgyMzkgMTIxMi4xNTk4OSw2NjIuMDczOTQ0IEMxMTQ1LjI4OTgyLDY2Mi4wNTU1NCAxMDc4Ljg5NTI0LDY2Ni4wOTk0NjYgMTAxMC4zMjIzNyw2NjYuMTA3NTY0IEM5NDEuOTE5OTY0LDY2Ni4xMTQxOSA4NzAuOTkxMTgsNjY4LjU5MTQ5IDc5OS43Mjg2NTUsNjY1LjMwNTExIEM2ODguNzc2MTU1LDY2MC4xODkyODIgNTkyLjYwNTEyLDY2My4xMzMzMzEgNDg1LjY1MDMyNiw2NjIuODQ0NzQyIEM0NTIuMDg3ODk1LDY2Mi43NTM0NTQgNDE5LjAzMTQ1Nyw2NjQuNzY2MjE0IDM4NC43ODUzOTYsNjY0LjUzNTA0OSBDMjgxLjA4MzY3Myw2NjMuODM4NjA3IDE3NC43MjI3OTMsNjYxLjc4MTY3NCA2OS4wMDc4NjI2LDY2Mi42NzkwOTggQzQ3LjE2OTQwNDgsNjYyLjg2NjA5MiAtMTguMTM2MDM1Myw2NjUuNTc4OTc1IC0yMi40NjkyNzYzLDY1Ni4xMjYyMTQgQy0yNS45OTUwODEsNjQ4LjQzNDQzNSAtMTYuMjM2NTcyMSwyLjU5ODUxMDc0IC04LjMyMjM0Mzc3ZS0wNywzIEMxNi4yMzY1NzA1LDMuNDAxNDg5MjYgMzYuNzk4MzM1MywyLjI4NzkzMjE1IDUzLjE2NTk2NDMsMi4xMDkwMzY0NCBDODYuOTU4MDY2NSwxLjc0NjgyNzg1IDEyMy4yOTQ0OSwtMC4wNjA1MzQxMTIzIDE0Ny42NzU0NzUsMC4yMzY4ODkyMDEgQzI4Ny41ODA4NDMsMS45NDI2NTYwNyA0MTEuOTQyMTY3LDIuMzM2NTIxMSA1NTQuNDUxMDY4LDIuMDgzMjY5NTcgQzYyMi4xNTM2OTYsMS45NjMyNjk1NyA2ODkuNjY0MzM1LC0xLjI5NDM5OTE0IDc1OC44MDI0MDUsMi4wNTA4NzY5MyBDODI5LjQxNTM5Myw1LjQ2ODMwMDI0IDg5OC4yNTAyMjYsNC43OTM5NDQ0MiA5NjUuODgyODc3LDQuNzE2NjQzOCBDMTAzMy42NDY1MSw0LjYzNzg3MDggMTEwMC4xOTg5OSw0LjA5MjM0OTMyIDExNjQuMzIzNzgsMS44OTQ4MDMzMSBDMTIzMC41MzE3NiwtMC4zNzQxNTM3NDQgMTI5Ny44ODI3LDEuOTkyNzE3NDIgMTM2NS43MTYzMSwwLjQ2ODc5MTA0MSBDMTQzMS43MjUxMiwtMS4wMTY4NTMxMyAxNTM0LjE2NTIxLDEuODA2NjI1ODIgMTU5OS45OTk5NywzLjAwMDAwMDA1IEMxNjEzLjcyOTk4LDMuMjQ2NjI1ODIgMTY0MC43NTQzNywwLjcyNzExOTggMTY0MS4yNzI5Miw3LjU3MDgwMDc4IFoiLz48L2RlZnM+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48Zz48ZyB0cmFuc2Zvcm09Im1hdHJpeCgxIDAgMCAtMSAwIDY0MCkiPjx1c2UgZmlsbD0iIzAwMCIgeGxpbms6aHJlZj0iI2EiLz48dXNlIHhsaW5rOmhyZWY9IiNhIi8+PC9nPjwvZz48L2c+PC9zdmc+") center center;
   -webkit-mask-size: auto 100%;
   -webkit-mask-repeat: repeat-x; }
-
-@media screen and (min-width: 960px) {
-  body.docs .alpha h1,
-  body.gallery .alpha h1,
-  body.tutorials .alpha h1 {
-    font-size: 6rem;
-    margin-bottom: 0;
-    opacity: 0.4; } }
-
-body.page section,
-body.post section {
+body.page body.docs .alpha h1,
+body.page body.tutorials .alpha h1,
+body.post body.docs .alpha h1,
+body.post body.tutorials .alpha h1,
+body.gallery body.docs .alpha h1,
+body.gallery body.tutorials .alpha h1,
+body.docs body.docs .alpha h1,
+body.docs body.tutorials .alpha h1,
+body.tutorials body.docs .alpha h1,
+body.tutorials body.tutorials .alpha h1 {
+  font-size: 4rem; }
+body.page body.page section,
+body.page body.post section,
+body.post body.page section,
+body.post body.post section,
+body.gallery body.page section,
+body.gallery body.post section,
+body.docs body.page section,
+body.docs body.post section,
+body.tutorials body.page section,
+body.tutorials body.post section {
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
-
-body.post .charlie {
+body.page .charlie,
+body.post .charlie,
+body.gallery .charlie,
+body.docs .charlie,
+body.tutorials .charlie {
   position: relative;
   height: 350px;
   clear: both;
   overflow: hidden; }
-  body.post .charlie h6, body.post .charlie h3 {
+  body.page .charlie h6, body.page .charlie h3,
+  body.post .charlie h6,
+  body.post .charlie h3,
+  body.gallery .charlie h6,
+  body.gallery .charlie h3,
+  body.docs .charlie h6,
+  body.docs .charlie h3,
+  body.tutorials .charlie h6,
+  body.tutorials .charlie h3 {
     margin: 0; }
-  body.post .charlie h1 {
+  body.page .charlie h1,
+  body.post .charlie h1,
+  body.gallery .charlie h1,
+  body.docs .charlie h1,
+  body.tutorials .charlie h1 {
     margin: .6rem 0 .6rem 0; }
-  body.post .charlie section {
+  body.page .charlie section,
+  body.post .charlie section,
+  body.gallery .charlie section,
+  body.docs .charlie section,
+  body.tutorials .charlie section {
     position: relative;
     top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%); }
-body.post span.author {
+body.page span.author,
+body.post span.author,
+body.gallery span.author,
+body.docs span.author,
+body.tutorials span.author {
   position: relative; }
-body.post span.author:before {
+body.page span.author:before,
+body.post span.author:before,
+body.gallery span.author:before,
+body.docs span.author:before,
+body.tutorials span.author:before {
   content: "";
   width: 130px;
   height: 5px;

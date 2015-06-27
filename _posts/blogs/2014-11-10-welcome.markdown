@@ -1,7 +1,7 @@
 ---
 permalink: welcome
 layout: post
-title:  "welcome"
+title:  Welcome
 author: Dan
 foregroundcolor: fff
 backgroundcolor: ff0000

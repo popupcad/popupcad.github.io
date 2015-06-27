@@ -32,7 +32,14 @@ published: true
   </section>
 </div>
 
-{% include newsletter.html %}
+<div class="section-wrapper charlie">
+  <section>
+    <h1 class="centered">subscribe to the popupCAD newsletter</h1>
+    {% include newsletter.html %}
+  </section>
+</div>
+
+
 
 
 

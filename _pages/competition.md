@@ -72,6 +72,7 @@ header,.alpha,.bravo{
   }
 
 
+
 .alpha h1{color:#fff;font-size:5rem;}
 .alpha h2{color:#fff;font-size:3.5rem;}
 .alpha{

@@ -864,10 +864,14 @@ body {
       font-size: 1.3rem;
       /* 24PX ON MOBILE */
 <<<<<<< HEAD
+<<<<<<< HEAD
       line-height: 1.7; } }
 =======
       line-height: 1.6; } }
 >>>>>>> minor fixes in footer and index.html
+=======
+      line-height: 1.7; } }
+>>>>>>> various tweaks
   body main {
     font-weight: 400; }
     @media screen and (min-width: 320px) {
@@ -3519,10 +3523,14 @@ body {
       font-size: 1.3rem;
       /* 24PX ON MOBILE */
 <<<<<<< HEAD
+<<<<<<< HEAD
       line-height: 1.7; } }
 =======
       line-height: 1.6; } }
 >>>>>>> minor fixes in footer and index.html
+=======
+      line-height: 1.7; } }
+>>>>>>> various tweaks
   body main {
     font-weight: 400; }
     @media screen and (min-width: 320px) {
@@ -3701,16 +3709,22 @@ small {
   text-align: center; }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> various tweaks
 @media screen and (min-width: 320px) {
   .right, #demonflower {
     text-align: center; } }
 @media screen and (min-width: 720px) {
   .right, #demonflower {
     text-align: right; } }
+<<<<<<< HEAD
 =======
 .right {
   text-align: right; }
 >>>>>>> minor fixes in footer and index.html
+=======
+>>>>>>> various tweaks
 
 hr {
   border-bottom: 1px solid white; }

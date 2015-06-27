@@ -6,7 +6,7 @@ permalink: /competition/
 published: true
 ---
 
-<div class="section-wrapper alpha">
+<div class="section-wrapper alpha" data-center="background-position: 50% -100px;" data-top-bottom="background-position: 50% 300px;" data-anchor-target=".alpha">
   <section>
   <h1 class="centered">The <strong>popup</strong> design challenge</h1>
   <h2 class="centered">Make a new device!</h2>

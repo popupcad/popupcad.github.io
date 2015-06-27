@@ -62,10 +62,7 @@ header,.alpha{
     font-size:5rem;
     line-height: 5rem;
     text-shadow: 
-      2px 2px 2px rgba(255,255,255,.8),
-      -2px 2px 2px rgba(255,255,255,.8),
-      2px -2px 2px rgba(255,255,255,.8),
-      -2px -2px 2px rgba(255,255,255,.8);
+      2px 2px 2px rgba(255,255,255,.8);
   }
 .alpha h2
   {
@@ -73,10 +70,7 @@ header,.alpha{
     font-size:3rem;
     line-height: 3rem;
     text-shadow: 
-      2px 2px 2px rgba(255,255,255,.6),
-      -2px 2px 2px rgba(255,255,255,.6),
-      2px -2px 2px rgba(255,255,255,.6),
-      -2px -2px 2px rgba(255,255,255,.6);
+      2px 2px 2px rgba(255,255,255,.8);
   }
 
 .alpha

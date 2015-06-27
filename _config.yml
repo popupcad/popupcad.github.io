@@ -125,6 +125,6 @@ default_tutorials_header_h1color: fff
 
 # simpleform
 # simpleform_API_token
-simpleform_api_token: 24cd6f991bb87b58a213cf2570ecc151
+simpleform_api_token: c138795786f380a3d200406dc6f4d5b6
 #simpleform_redirect
 simpleform_redirect: http://localhost:4000/contact-thanks

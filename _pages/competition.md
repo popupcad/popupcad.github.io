@@ -51,11 +51,37 @@ published: true
 header,.alpha{
   background:red;
   }
-.alpha h1{color:#222;font-size:5rem;}
-.alpha{
+.alpha strong
+  {
+    color:#000;
+  }
 
+.alpha h1
+  {
+    color:#222;
+    font-size:5rem;
+    line-height: 5rem;
+    text-shadow: 
+      2px 2px 2px rgba(255,255,255,.8),
+      -2px 2px 2px rgba(255,255,255,.8),
+      2px -2px 2px rgba(255,255,255,.8),
+      -2px -2px 2px rgba(255,255,255,.8);
+  }
+.alpha h2
+  {
+    color:#222;
+    font-size:3rem;
+    line-height: 3rem;
+    text-shadow: 
+      2px 2px 2px rgba(255,255,255,.6),
+      -2px 2px 2px rgba(255,255,255,.6),
+      2px -2px 2px rgba(255,255,255,.6),
+      -2px -2px 2px rgba(255,255,255,.6);
+  }
+
+.alpha
+{
   background:url({{ site.image_dir }}/printapede_desktop.jpg) no-repeat;
-
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

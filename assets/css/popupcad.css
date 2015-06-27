@@ -837,52 +837,37 @@ so we set the base font-size
 here, and <p> and <h1><h2> etc all
 scale in proportion to that size
 */
-@media screen and (min-width: 320px) {
-  html {
-    font-size: 13px; } }
-@media screen and (min-width: 720px) {
-  html {
-    font-size: 14px; } }
-@media screen and (min-width: 960px) {
-  html {
-    font-size: 17px; } }
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px; }
 
-/* MIXINS */
-/* font families*/
-/* font stuff */
-/*
-$h4-font-size:1.3rem;
-$h4-line-height:1.5rem;
-$h4-margin-bottom:1.5rem;
-*/
 body {
   font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility; }
-
-body main {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.3rem;
-  line-height: 1.6;
-  font-weight: 400; }
-
-/*
-body.blank{
-  section{
-    @include large-text;
-  }
-}
-*/
-body {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.3rem;
-  line-height: 1.6;
-  font-weight: 400; }
+  text-rendering: optimizeLegibility;
+  font-weight: 400;
+  /* minimum text in mobile is 20px (html) */ }
+  @media screen and (min-width: 320px) {
+    body {
+      font-size: 1.4rem;
+      /* 22PX ON MOBILE */
+      line-height: 1.6; } }
+  @media screen and (min-width: 720px) {
+    body {
+      font-size: 1.3rem;
+      /* 24PX ON MOBILE */
+      line-height: 1.6; } }
   body main {
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.6rem;
-    line-height: 2;
     font-weight: 400; }
+    @media screen and (min-width: 320px) {
+      body main {
+        font-size: 1.5rem;
+        line-height: 1.6; } }
+    @media screen and (min-width: 720px) {
+      body main {
+        font-size: 1.4rem;
+        /* 28px */
+        line-height: 1.6; } }
 
 .active {
   font-weight: 700; }
@@ -892,57 +877,83 @@ strong {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans", sans-serif;
-  font-weight: 300; }
+  font-weight: 300;
+  letter-spacing: -1px; }
   h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong {
     font-weight: 700; }
 
-h1 {
-  font-size: 2.5rem;
-  line-height: 3rem;
-  margin-bottom: 1.5rem; }
+@media screen and (min-width: 320px) {
+  h1 {
+    font-size: 1.4rem;
+    line-height: 1.3;
+    font-weight: 700;
+    margin: 0 0 1rem 0; } }
+@media screen and (min-width: 720px) {
+  h1 {
+    font-size: 2.2rem;
+    line-height: 1.5;
+    font-weight: 300; } }
+@media screen and (min-width: 960px) {
+  h1 {
+    font-size: 3rem; } }
 
-h2 {
-  font-size: 1.5rem;
-  line-height: 2rem;
-  margin-bottom: 1.5rem; }
+@media screen and (min-width: 320px) {
+  h2 {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    font-weight: 700;
+    margin: 0 0 1rem 0; } }
+@media screen and (min-width: 720px) {
+  h2 {
+    font-size: 1.9rem;
+    font-weight: 300; } }
 
-h3, h4 {
-  font-size: 1.3rem;
-  line-height: 1.5rem;
-  margin-bottom: 1.5rem; }
+@media screen and (min-width: 320px) {
+  h3, h4 {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    font-weight: 700;
+    margin: 0 0 1rem 0; } }
+@media screen and (min-width: 720px) {
+  h3, h4 {
+    font-size: 2rem;
+    font-weight: 300; } }
 
-h5 {
-  font-size: 1.1rem;
-  line-height: 1.5rem;
-  margin-bottom: 1.3rem; }
+@media screen and (min-width: 320px) {
+  h5, h6 {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-weight: 700;
+    margin: 0 0 1rem 0; } }
+@media screen and (min-width: 720px) {
+  h5, h6 {
+    font-size: 1.2rem;
+    font-weight: 300; } }
 
 h6 {
-  font-size: 0.9rem;
-  line-height: 1.3rem;
-  margin-bottom: 1.3rem;
   text-transform: uppercase;
   letter-spacing: .5px; }
 
-@media screen and (min-width: 320px) {
-  footer section {
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.6rem;
-    line-height: 2;
-    font-weight: 400;
-    text-align: center; } }
-@media screen and (min-width: 720px) {
-  footer section {
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.3rem;
-    line-height: 1.6;
-    font-weight: 400;
-    text-align: left; } }
-@media screen and (min-width: 960px) {
-  footer section {
-    font-family: "Open Sans", sans-serif;
-    font-size: 1rem;
-    line-height: 1.5;
-    font-weight: 400; } }
+footer {
+  /* minimum text in mobile is 20px (html) */ }
+  @media screen and (min-width: 320px) {
+    footer {
+      font-size: 1.3rem;
+      line-height: 2;
+      font-weight: 400; } }
+  @media screen and (min-width: 720px) {
+    footer {
+      font-size: 1.2rem;
+      line-height: 1.6; } }
+  @media screen and (min-width: 960px) {
+    footer {
+      font-size: 1.1rem; } }
+  @media screen and (min-width: 320px) {
+    footer {
+      text-align: center; } }
+  @media screen and (min-width: 720px) {
+    footer {
+      text-align: left; } }
 
 p {
   margin-bottom: 1.5em; }
@@ -950,10 +961,19 @@ p {
     text-transform: uppercase; }
 
 small {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1rem;
-  line-height: 1.5;
-  font-weight: 400; }
+  /* minimum text in mobile is 20px (html) */ }
+  @media screen and (min-width: 320px) {
+    small {
+      font-size: 1.3rem;
+      line-height: 2;
+      font-weight: 400; } }
+  @media screen and (min-width: 720px) {
+    small {
+      font-size: 1.2rem;
+      line-height: 1.6; } }
+  @media screen and (min-width: 960px) {
+    small {
+      font-size: 1.1rem; } }
 
 .centered {
   text-align: center; }
@@ -1210,7 +1230,7 @@ list on the front page - no-bullets
  */
 ul.no-bullets {
   list-style: none;
-  margin-left: 0; }
+  margin: 0 0 1rem 0; }
   ul.no-bullets li {
     margin-left: 0; }
 
@@ -1220,6 +1240,7 @@ header {
   position: relative; }
 
 ul.horizontal {
+  margin: .7rem 0;
   font-size: 1rem;
   font-weight: 400;
   letter-spacing: .06rem;
@@ -1239,7 +1260,7 @@ ul.horizontal {
     ul.horizontal li a.active {
       padding-bottom: .1rem; }
   ul.horizontal li:first-child {
-    font-weight: 900;
+    font-weight: 700;
     float: left;
     margin-left: 0; }
 
@@ -1459,72 +1480,63 @@ footer {
   -moz-box-shadow: 0px 3px 6px -2px #bdbdbd;
   box-shadow: 0px 3px 6px -2px #bdbdbd; }
 
-a.icon-facebook-circled,
-a.icon-facebook-squared {
+main a.icon-facebook-circled,
+main a.icon-facebook-squared {
   color: #306199 !important; }
-  a.icon-facebook-circled:hover,
-  a.icon-facebook-squared:hover {
+  main a.icon-facebook-circled:hover,
+  main a.icon-facebook-squared:hover {
     color: #3c7ac0 !important; }
-
-a.icon-twitter-circled,
-a.icon-twitter-squared {
+main a.icon-twitter-circled,
+main a.icon-twitter-squared {
   color: #26c4f1 !important; }
-  a.icon-twitter-circled:hover,
-  a.icon-twitter-squared:hover {
+  main a.icon-twitter-circled:hover,
+  main a.icon-twitter-squared:hover {
     color: #56d1f4 !important; }
-
-a.icon-mail-circled,
-a.icon-mail-squared {
+main a.icon-mail-circled,
+main a.icon-mail-squared {
   color: #ccc !important; }
-  a.icon-mail-circled:hover,
-  a.icon-mail-squared:hover {
+  main a.icon-mail-circled:hover,
+  main a.icon-mail-squared:hover {
     color: #e6e6e6 !important; }
-
-a.icon-tumblr-circled,
-a.icon-tumblr-squared {
+main a.icon-tumblr-circled,
+main a.icon-tumblr-squared {
   color: #2196f3 !important; }
-  a.icon-tumblr-circled:hover,
-  a.icon-tumblr-squared:hover {
+  main a.icon-tumblr-circled:hover,
+  main a.icon-tumblr-squared:hover {
     color: #51adf6 !important; }
-
-a.icon-linkedin-circled,
-a.icon-mail-squared {
+main a.icon-linkedin-circled,
+main a.icon-mail-squared {
   color: #007bb6 !important; }
-  a.icon-linkedin-circled:hover,
-  a.icon-mail-squared:hover {
+  main a.icon-linkedin-circled:hover,
+  main a.icon-mail-squared:hover {
     color: #009de9 !important; }
-
-a.icon-reddit-circled,
-a.icon-reddit-squared {
+main a.icon-reddit-circled,
+main a.icon-reddit-squared {
   color: #8bbbe3 !important; }
-  a.icon-reddit-circled:hover,
-  a.icon-reddit-squared:hover {
+  main a.icon-reddit-circled:hover,
+  main a.icon-reddit-squared:hover {
     color: #b4d3ed !important; }
-
-a.icon-hackernews-circled,
-a.icon-hackernews-squared {
+main a.icon-hackernews-circled,
+main a.icon-hackernews-squared {
   color: #ff6600 !important; }
-  a.icon-hackernews-circled:hover,
-  a.icon-hackernews-squared:hover {
+  main a.icon-hackernews-circled:hover,
+  main a.icon-hackernews-squared:hover {
     color: #ff8533 !important; }
-
-a.icon-gplus-circled,
-a.icon-gplus-squared {
+main a.icon-gplus-circled,
+main a.icon-gplus-squared {
   color: #f44336 !important; }
-  a.icon-gplus-circled:hover,
-  a.icon-gplus-squared:hover {
+  main a.icon-gplus-circled:hover,
+  main a.icon-gplus-squared:hover {
     color: #f77066 !important; }
-
-a.icon-pinterest-circled,
-a.icon-pinterest-squared {
+main a.icon-pinterest-circled,
+main a.icon-pinterest-squared {
   color: #e91e63 !important; }
-  a.icon-pinterest-circled:hover,
-  a.icon-pinterest-squared:hover {
+  main a.icon-pinterest-circled:hover,
+  main a.icon-pinterest-squared:hover {
     color: #ee4c83 !important; }
-
-a.icon-pocket {
+main a.icon-pocket {
   color: #ed4054 !important; }
-  a.icon-pocket:hover {
+  main a.icon-pocket:hover {
     color: #f16f7e !important; }
 
 ul.inline-circled-share,
@@ -2787,14 +2799,23 @@ footer {
 
 /* tables */
 table {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1rem;
-  line-height: 1.5;
-  font-weight: 400;
+  /* minimum text in mobile is 20px (html) */
   border: 1px solid #cbcbcb;
   border-collapse: collapse;
   border-spacing: 0;
   empty-cells: show; }
+  @media screen and (min-width: 320px) {
+    table {
+      font-size: 1.3rem;
+      line-height: 2;
+      font-weight: 400; } }
+  @media screen and (min-width: 720px) {
+    table {
+      font-size: 1.2rem;
+      line-height: 1.6; } }
+  @media screen and (min-width: 960px) {
+    table {
+      font-size: 1.1rem; } }
 
 caption {
   color: #000;
@@ -3344,32 +3365,218 @@ footer {
   -moz-box-shadow: 0px 3px 6px -2px #bdbdbd;
   box-shadow: 0px 3px 6px -2px #bdbdbd; }
 
-header h6 {
-  font-size: 1rem; }
-  header h6 strong {
+/*
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,900);
+*/
+/*
+typography uses REMS,
+so we set the base font-size
+here, and <p> and <h1><h2> etc all
+scale in proportion to that size
+*/
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px; }
+
+body {
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-weight: 400;
+  /* minimum text in mobile is 20px (html) */ }
+  @media screen and (min-width: 320px) {
+    body {
+      font-size: 1.4rem;
+      /* 22PX ON MOBILE */
+      line-height: 1.6; } }
+  @media screen and (min-width: 720px) {
+    body {
+      font-size: 1.3rem;
+      /* 24PX ON MOBILE */
+      line-height: 1.6; } }
+  body main {
     font-weight: 400; }
+    @media screen and (min-width: 320px) {
+      body main {
+        font-size: 1.5rem;
+        line-height: 1.6; } }
+    @media screen and (min-width: 720px) {
+      body main {
+        font-size: 1.4rem;
+        /* 28px */
+        line-height: 1.6; } }
+
+.active {
+  font-weight: 700; }
+
+strong {
+  font-weight: 700; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  letter-spacing: -1px; }
+  h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong {
+    font-weight: 700; }
+
+@media screen and (min-width: 320px) {
+  h1 {
+    font-size: 1.4rem;
+    line-height: 1.3;
+    font-weight: 700;
+    margin: 0 0 1rem 0; } }
+@media screen and (min-width: 720px) {
+  h1 {
+    font-size: 2.2rem;
+    line-height: 1.5;
+    font-weight: 300; } }
+@media screen and (min-width: 960px) {
+  h1 {
+    font-size: 3rem; } }
+
+@media screen and (min-width: 320px) {
+  h2 {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    font-weight: 700;
+    margin: 0 0 1rem 0; } }
+@media screen and (min-width: 720px) {
+  h2 {
+    font-size: 1.9rem;
+    font-weight: 300; } }
+
+@media screen and (min-width: 320px) {
+  h3, h4 {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    font-weight: 700;
+    margin: 0 0 1rem 0; } }
+@media screen and (min-width: 720px) {
+  h3, h4 {
+    font-size: 2rem;
+    font-weight: 300; } }
+
+@media screen and (min-width: 320px) {
+  h5, h6 {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-weight: 700;
+    margin: 0 0 1rem 0; } }
+@media screen and (min-width: 720px) {
+  h5, h6 {
+    font-size: 1.2rem;
+    font-weight: 300; } }
+
+h6 {
+  text-transform: uppercase;
+  letter-spacing: .5px; }
+
+footer {
+  /* minimum text in mobile is 20px (html) */ }
+  @media screen and (min-width: 320px) {
+    footer {
+      font-size: 1.3rem;
+      line-height: 2;
+      font-weight: 400; } }
+  @media screen and (min-width: 720px) {
+    footer {
+      font-size: 1.2rem;
+      line-height: 1.6; } }
+  @media screen and (min-width: 960px) {
+    footer {
+      font-size: 1.1rem; } }
+  @media screen and (min-width: 320px) {
+    footer {
+      text-align: center; } }
+  @media screen and (min-width: 720px) {
+    footer {
+      text-align: left; } }
+
+p {
+  margin-bottom: 1.5em; }
+  p span {
+    text-transform: uppercase; }
+
+small {
+  /* minimum text in mobile is 20px (html) */ }
+  @media screen and (min-width: 320px) {
+    small {
+      font-size: 1.3rem;
+      line-height: 2;
+      font-weight: 400; } }
+  @media screen and (min-width: 720px) {
+    small {
+      font-size: 1.2rem;
+      line-height: 1.6; } }
+  @media screen and (min-width: 960px) {
+    small {
+      font-size: 1.1rem; } }
+
+.centered {
+  text-align: center; }
+
+.right {
+  text-align: right; }
+
+hr {
+  border-bottom: 1px solid white; }
+
+a {
+  text-decoration: none; }
+
+button {
+  font-size: 1rem; }
 
 header {
   margin-top: 0; }
   header section a:link, header section a:visited {
     padding-top: 20px;
     padding-bottom: 20px; }
-  header section h6 {
-    margin-top: 0rem;
-    line-height: 5px; }
-  header section h6 span {
-    float: right;
-    display: inline-block; }
 
 header {
   height: 70px;
   width: 100%;
   z-index: 20; }
 
+body.contest aside,
+body.gallery aside,
 body.docs aside,
 body.tutorials aside {
   padding-top: .7rem;
-  text-align: right; }
+  /* minimum text in mobile is 20px (html) */ }
+  @media screen and (min-width: 320px) {
+    body.contest aside,
+    body.gallery aside,
+    body.docs aside,
+    body.tutorials aside {
+      font-size: 1.3rem;
+      line-height: 2;
+      font-weight: 400; } }
+  @media screen and (min-width: 720px) {
+    body.contest aside,
+    body.gallery aside,
+    body.docs aside,
+    body.tutorials aside {
+      font-size: 1.2rem;
+      line-height: 1.6; } }
+  @media screen and (min-width: 960px) {
+    body.contest aside,
+    body.gallery aside,
+    body.docs aside,
+    body.tutorials aside {
+      font-size: 1.1rem; } }
+  @media screen and (min-width: 320px) {
+    body.contest aside,
+    body.gallery aside,
+    body.docs aside,
+    body.tutorials aside {
+      text-align: center; } }
+  @media screen and (min-width: 720px) {
+    body.contest aside,
+    body.gallery aside,
+    body.docs aside,
+    body.tutorials aside {
+      text-align: right; } }
 
 body.frontpage {
   /*
@@ -3392,9 +3599,9 @@ body.frontpage {
      background:$foxtrot-background;
    }
    */ }
-  body.frontpage .alpha h1 {
-    color: white; }
-    body.frontpage .alpha h1 span {
+  body.frontpage .alpha h2 {
+    color: #fff; }
+    body.frontpage .alpha h2 span {
       background-color: rgba(255, 0, 0, 0.4); }
   body.frontpage .background-video {
     background: url("/assets/video/foot-small.jpg"); }

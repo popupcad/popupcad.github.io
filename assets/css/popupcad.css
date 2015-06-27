@@ -879,6 +879,12 @@ body {
 .active {
   font-weight: 700; }
 
+aside .active:before {
+  content: '\00bb';
+  /* right-angle quote, converted to hex value for CSS use */
+  opacity: 0.25;
+  padding-right: 0.5em; }
+
 strong {
   font-weight: 700; }
 
@@ -3451,6 +3457,12 @@ body {
 
 .active {
   font-weight: 700; }
+
+aside .active:before {
+  content: '\00bb';
+  /* right-angle quote, converted to hex value for CSS use */
+  opacity: 0.25;
+  padding-right: 0.5em; }
 
 strong {
   font-weight: 700; }

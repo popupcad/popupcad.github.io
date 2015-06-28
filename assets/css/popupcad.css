@@ -162,6 +162,7 @@ input.input__field {
 /* used by the drop down menu. delete if not using it */
 /* colors we use */
 /* bravo bg */
+/* delta bg frontpage*/
 /* links, h1-h2 in charlie */
 /* newsletter bg*/
 /* footer */
@@ -261,17 +262,17 @@ body.post .background-container {
     color: #fff; }
 
 .bravo {
-  background: #fff;
+  background: #2dafe6;
   color: #f57365; }
   .bravo h1, .bravo h3, .bravo h4, .bravo h5 {
-    color: #444; }
+    color: #fff; }
   .bravo h2, .bravo h6 {
-    color: #666; }
+    color: #fff; }
   .bravo a {
     color: #f57365; }
 
 .charlie {
-  background: #2d405b;
+  background: #1a2637;
   color: #fff; }
   .charlie h1, .charlie h3, .charlie h4, .charlie h5 {
     color: #2dafe6; }
@@ -281,17 +282,20 @@ body.post .background-container {
     color: #fff; }
 
 .delta {
-  background: #7ec6eb;
-  color: #fff; }
+  background: #1a2637;
+  color: #6266a0; }
   .delta h1, .delta h3, .delta h4, .delta h5 {
-    color: #2d405b; }
+    color: #6266a0; }
+  .delta h1 {
+    font-size: 5rem; }
   .delta h2, .delta h6 {
-    color: #156283; }
-  .delta a {
-    color: #f57365; }
+    color: #6266a0; }
+  .delta a:link, .delta a:visited {
+    color: #2dafe6;
+    font-weight: 700; }
 
 .echo {
-  background: #2dafe6;
+  background: #6266a0;
   color: #fff; }
   .echo h1, .echo h3, .echo h4, .echo h5 {
     color: #fff; }
@@ -357,10 +361,10 @@ body.post time, body.post datetime {
 
 /* colors of article boxes, typography and share boxes */
 footer {
-  background: #12263c;
+  background: #2a2b3a;
   color: #fff; }
   footer h5 {
-    color: #7ec6eb; }
+    color: #A4DBF2; }
   footer a:link, footer a:visited {
     color: #fff; }
     footer a:link:hover, footer a:visited:hover {
@@ -1017,6 +1021,7 @@ button {
 /* used by the drop down menu. delete if not using it */
 /* colors we use */
 /* bravo bg */
+/* delta bg frontpage*/
 /* links, h1-h2 in charlie */
 /* newsletter bg*/
 /* footer */
@@ -1116,17 +1121,17 @@ body.post .background-container {
     color: #fff; }
 
 .bravo {
-  background: #fff;
+  background: #2dafe6;
   color: #f57365; }
   .bravo h1, .bravo h3, .bravo h4, .bravo h5 {
-    color: #444; }
+    color: #fff; }
   .bravo h2, .bravo h6 {
-    color: #666; }
+    color: #fff; }
   .bravo a {
     color: #f57365; }
 
 .charlie {
-  background: #2d405b;
+  background: #1a2637;
   color: #fff; }
   .charlie h1, .charlie h3, .charlie h4, .charlie h5 {
     color: #2dafe6; }
@@ -1136,17 +1141,20 @@ body.post .background-container {
     color: #fff; }
 
 .delta {
-  background: #7ec6eb;
-  color: #fff; }
+  background: #1a2637;
+  color: #6266a0; }
   .delta h1, .delta h3, .delta h4, .delta h5 {
-    color: #2d405b; }
+    color: #6266a0; }
+  .delta h1 {
+    font-size: 5rem; }
   .delta h2, .delta h6 {
-    color: #156283; }
-  .delta a {
-    color: #f57365; }
+    color: #6266a0; }
+  .delta a:link, .delta a:visited {
+    color: #2dafe6;
+    font-weight: 700; }
 
 .echo {
-  background: #2dafe6;
+  background: #6266a0;
   color: #fff; }
   .echo h1, .echo h3, .echo h4, .echo h5 {
     color: #fff; }
@@ -1212,10 +1220,10 @@ body.post time, body.post datetime {
 
 /* colors of article boxes, typography and share boxes */
 footer {
-  background: #12263c;
+  background: #2a2b3a;
   color: #fff; }
   footer h5 {
-    color: #7ec6eb; }
+    color: #A4DBF2; }
   footer a:link, footer a:visited {
     color: #fff; }
     footer a:link:hover, footer a:visited:hover {
@@ -1298,6 +1306,7 @@ ul.horizontal {
 /* used by the drop down menu. delete if not using it */
 /* colors we use */
 /* bravo bg */
+/* delta bg frontpage*/
 /* links, h1-h2 in charlie */
 /* newsletter bg*/
 /* footer */
@@ -1397,17 +1406,17 @@ body.post .background-container {
     color: #fff; }
 
 .bravo {
-  background: #fff;
+  background: #2dafe6;
   color: #f57365; }
   .bravo h1, .bravo h3, .bravo h4, .bravo h5 {
-    color: #444; }
+    color: #fff; }
   .bravo h2, .bravo h6 {
-    color: #666; }
+    color: #fff; }
   .bravo a {
     color: #f57365; }
 
 .charlie {
-  background: #2d405b;
+  background: #1a2637;
   color: #fff; }
   .charlie h1, .charlie h3, .charlie h4, .charlie h5 {
     color: #2dafe6; }
@@ -1417,17 +1426,20 @@ body.post .background-container {
     color: #fff; }
 
 .delta {
-  background: #7ec6eb;
-  color: #fff; }
+  background: #1a2637;
+  color: #6266a0; }
   .delta h1, .delta h3, .delta h4, .delta h5 {
-    color: #2d405b; }
+    color: #6266a0; }
+  .delta h1 {
+    font-size: 5rem; }
   .delta h2, .delta h6 {
-    color: #156283; }
-  .delta a {
-    color: #f57365; }
+    color: #6266a0; }
+  .delta a:link, .delta a:visited {
+    color: #2dafe6;
+    font-weight: 700; }
 
 .echo {
-  background: #2dafe6;
+  background: #6266a0;
   color: #fff; }
   .echo h1, .echo h3, .echo h4, .echo h5 {
     color: #fff; }
@@ -1493,10 +1505,10 @@ body.post time, body.post datetime {
 
 /* colors of article boxes, typography and share boxes */
 footer {
-  background: #12263c;
+  background: #2a2b3a;
   color: #fff; }
   footer h5 {
-    color: #7ec6eb; }
+    color: #A4DBF2; }
   footer a:link, footer a:visited {
     color: #fff; }
     footer a:link:hover, footer a:visited:hover {
@@ -1602,7 +1614,7 @@ footer .share-links-circle a.icon-tumblr-circled,
 footer .share-links-circle a.icon-twitter-circled,
 footer .share-links-circle a.icon-pinterest-circled,
 footer .share-links-circle a.icon-gplus-circled {
-  color: #7ec6eb;
+  color: #A4DBF2;
   opacity: .7; }
   footer .share-links-circle a.icon-facebook-circled:hover,
   footer .share-links-circle a.icon-tumblr-circled:hover,
@@ -1722,6 +1734,7 @@ button.btn-1.disabled:active {
 /* used by the drop down menu. delete if not using it */
 /* colors we use */
 /* bravo bg */
+/* delta bg frontpage*/
 /* links, h1-h2 in charlie */
 /* newsletter bg*/
 /* footer */
@@ -1821,17 +1834,17 @@ body.post .background-container {
     color: #fff; }
 
 .bravo {
-  background: #fff;
+  background: #2dafe6;
   color: #f57365; }
   .bravo h1, .bravo h3, .bravo h4, .bravo h5 {
-    color: #444; }
+    color: #fff; }
   .bravo h2, .bravo h6 {
-    color: #666; }
+    color: #fff; }
   .bravo a {
     color: #f57365; }
 
 .charlie {
-  background: #2d405b;
+  background: #1a2637;
   color: #fff; }
   .charlie h1, .charlie h3, .charlie h4, .charlie h5 {
     color: #2dafe6; }
@@ -1841,17 +1854,20 @@ body.post .background-container {
     color: #fff; }
 
 .delta {
-  background: #7ec6eb;
-  color: #fff; }
+  background: #1a2637;
+  color: #6266a0; }
   .delta h1, .delta h3, .delta h4, .delta h5 {
-    color: #2d405b; }
+    color: #6266a0; }
+  .delta h1 {
+    font-size: 5rem; }
   .delta h2, .delta h6 {
-    color: #156283; }
-  .delta a {
-    color: #f57365; }
+    color: #6266a0; }
+  .delta a:link, .delta a:visited {
+    color: #2dafe6;
+    font-weight: 700; }
 
 .echo {
-  background: #2dafe6;
+  background: #6266a0;
   color: #fff; }
   .echo h1, .echo h3, .echo h4, .echo h5 {
     color: #fff; }
@@ -1917,10 +1933,10 @@ body.post time, body.post datetime {
 
 /* colors of article boxes, typography and share boxes */
 footer {
-  background: #12263c;
+  background: #2a2b3a;
   color: #fff; }
   footer h5 {
-    color: #7ec6eb; }
+    color: #A4DBF2; }
   footer a:link, footer a:visited {
     color: #fff; }
     footer a:link:hover, footer a:visited:hover {
@@ -2274,6 +2290,7 @@ footer {
 /* used by the drop down menu. delete if not using it */
 /* colors we use */
 /* bravo bg */
+/* delta bg frontpage*/
 /* links, h1-h2 in charlie */
 /* newsletter bg*/
 /* footer */
@@ -2373,17 +2390,17 @@ body.post .background-container {
     color: #fff; }
 
 .bravo {
-  background: #fff;
+  background: #2dafe6;
   color: #f57365; }
   .bravo h1, .bravo h3, .bravo h4, .bravo h5 {
-    color: #444; }
+    color: #fff; }
   .bravo h2, .bravo h6 {
-    color: #666; }
+    color: #fff; }
   .bravo a {
     color: #f57365; }
 
 .charlie {
-  background: #2d405b;
+  background: #1a2637;
   color: #fff; }
   .charlie h1, .charlie h3, .charlie h4, .charlie h5 {
     color: #2dafe6; }
@@ -2393,17 +2410,20 @@ body.post .background-container {
     color: #fff; }
 
 .delta {
-  background: #7ec6eb;
-  color: #fff; }
+  background: #1a2637;
+  color: #6266a0; }
   .delta h1, .delta h3, .delta h4, .delta h5 {
-    color: #2d405b; }
+    color: #6266a0; }
+  .delta h1 {
+    font-size: 5rem; }
   .delta h2, .delta h6 {
-    color: #156283; }
-  .delta a {
-    color: #f57365; }
+    color: #6266a0; }
+  .delta a:link, .delta a:visited {
+    color: #2dafe6;
+    font-weight: 700; }
 
 .echo {
-  background: #2dafe6;
+  background: #6266a0;
   color: #fff; }
   .echo h1, .echo h3, .echo h4, .echo h5 {
     color: #fff; }
@@ -2469,10 +2489,10 @@ body.post time, body.post datetime {
 
 /* colors of article boxes, typography and share boxes */
 footer {
-  background: #12263c;
+  background: #2a2b3a;
   color: #fff; }
   footer h5 {
-    color: #7ec6eb; }
+    color: #A4DBF2; }
   footer a:link, footer a:visited {
     color: #fff; }
     footer a:link:hover, footer a:visited:hover {
@@ -3212,6 +3232,7 @@ td {
 /* used by the drop down menu. delete if not using it */
 /* colors we use */
 /* bravo bg */
+/* delta bg frontpage*/
 /* links, h1-h2 in charlie */
 /* newsletter bg*/
 /* footer */
@@ -3311,17 +3332,17 @@ body.post .background-container {
     color: #fff; }
 
 .bravo {
-  background: #fff;
+  background: #2dafe6;
   color: #f57365; }
   .bravo h1, .bravo h3, .bravo h4, .bravo h5 {
-    color: #444; }
+    color: #fff; }
   .bravo h2, .bravo h6 {
-    color: #666; }
+    color: #fff; }
   .bravo a {
     color: #f57365; }
 
 .charlie {
-  background: #2d405b;
+  background: #1a2637;
   color: #fff; }
   .charlie h1, .charlie h3, .charlie h4, .charlie h5 {
     color: #2dafe6; }
@@ -3331,17 +3352,20 @@ body.post .background-container {
     color: #fff; }
 
 .delta {
-  background: #7ec6eb;
-  color: #fff; }
+  background: #1a2637;
+  color: #6266a0; }
   .delta h1, .delta h3, .delta h4, .delta h5 {
-    color: #2d405b; }
+    color: #6266a0; }
+  .delta h1 {
+    font-size: 5rem; }
   .delta h2, .delta h6 {
-    color: #156283; }
-  .delta a {
-    color: #f57365; }
+    color: #6266a0; }
+  .delta a:link, .delta a:visited {
+    color: #2dafe6;
+    font-weight: 700; }
 
 .echo {
-  background: #2dafe6;
+  background: #6266a0;
   color: #fff; }
   .echo h1, .echo h3, .echo h4, .echo h5 {
     color: #fff; }
@@ -3407,10 +3431,10 @@ body.post time, body.post datetime {
 
 /* colors of article boxes, typography and share boxes */
 footer {
-  background: #12263c;
+  background: #2a2b3a;
   color: #fff; }
   footer h5 {
-    color: #7ec6eb; }
+    color: #A4DBF2; }
   footer a:link, footer a:visited {
     color: #fff; }
     footer a:link:hover, footer a:visited:hover {

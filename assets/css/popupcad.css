@@ -3814,24 +3814,28 @@ body.competition header a:link, body.competition header a:visited {
   color: white; }
 body.competition header, body.competition .bravo {
   background: #336699; }
-body.competition .alpha {
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  overflow: hidden;
-  height: 350px; }
+@media screen and (min-width: 320px) {
   body.competition .alpha section {
-    position: relative;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%); }
-  body.competition .alpha h1 {
-    color: #fff;
-    font-size: 5rem; }
-  body.competition .alpha h2 {
-    color: #fff;
-    font-size: 3.5rem; }
+    background: none; } }
+@media screen and (min-width: 720px) {
+  body.competition .alpha {
+    height: 450px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden; }
+    body.competition .alpha section {
+      position: relative;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%); }
+      body.competition .alpha section h1 {
+        color: #fff;
+        font-size: 5rem; }
+      body.competition .alpha section h2 {
+        color: #fff;
+        font-size: 3.5rem; } }
 
 /*# sourceMappingURL=popupcad.css.map */

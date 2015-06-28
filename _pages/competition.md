@@ -54,7 +54,19 @@ published: true
 
 <style>
 
-.alpha{
-  background:linear-gradient( rgba( 51, 102, 153, 0.5), rgba( 51, 102, 153, 0.5) ), url({{ site.image_dir }}/printapede_desktop.jpg) no-repeat;
+@media (max-width: 719px) {
+
+  .alpha{
+    background:#336699;
+  }
 }
+
+
+@media (min-width: 720px) {
+
+  .alpha{
+    background:linear-gradient( rgba( 51, 102, 153, 0.5), rgba( 51, 102, 153, 0.5) ), url({{ site.image_dir }}/printapede_desktop.jpg) no-repeat;
+  }
+}
+
 </style>

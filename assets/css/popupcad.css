@@ -2896,20 +2896,24 @@ td {
   background-color: transparent; }
 
 /* video styles */
-.shade {
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
-  z-index: 100; }
-
 .frontpage .alpha {
   position: relative;
   /* these styles can be commented out without much effect */ }
   .frontpage .alpha .video-wrapper {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     overflow: hidden; }
+  .frontpage .alpha .video-shade {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
   .frontpage .alpha video {
     display: block;
     min-height: 100%;

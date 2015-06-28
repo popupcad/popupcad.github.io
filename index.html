@@ -17,10 +17,7 @@ sitemap:
 
     <section >
       <div class="half">
-
-        <h1><strong>popupCAD</strong> is a suite of tools to help designers and engineers make laminate devices, like <strong>robots</strong> and machines.</h1>
-
-
+        <h2><span><strong>popupCad</strong> is a suite of tools to help designers and engineers make laminate devices, like <strong>robots</strong> and machines.</span></h2>
       </div>
       <div class="half omega">
         <h2>popupCAD enables a <strong>simple design process</strong>, letting you focus on the device design and less on how to make it.</h2>
@@ -38,7 +35,7 @@ sitemap:
 <div class="section-wrapper bravo" >
   <section>
     <div class="two-thirds">
-    <h1 class="right">Our tutorials are a great place to start</h1>
+    <h2 class="right"><strong>Our tutorials are a great place to start</strong></h2>
 
     </div>
     <div class="third omega">
@@ -55,23 +52,21 @@ sitemap:
 
 
       <div class="third">
-
         <h1 class="centered icon-info-circled"></h1>
-        <h2 class="centered">There's a <a href="competition/">competetion</a> coming up. So that's cool..</h2>
+        <h3 class="centered">There's a <a href="competition/">competetion</a> coming up. So that's cool..</h3>
     </div>
 
 
 		<div class="third">
-
       <h1 class="centered icon-cogs"></h1>
-      <h2 class="centered"><a href="tutorials/introduction/">Make</a> walking, crawling robotic devices. Make deployable structures and mechanisms.  Ages five and up.</h2>
+      <h3 class="centered"><a href="tutorials/introduction/">Make</a> walking, crawling robotic devices. Make deployable structures and mechanisms.  Ages five and up.</h3>
 
 		</div>
 
 
 		<div class="third omega">
       <h1 class="centered icon-github"></h1>
-      <h2 class="centered">We have a <a href="docs/download/">repository</a>, you could check that out.</h2>
+      <h3 class="centered">We have a <a href="docs/download/">repository</a>, you could check that out.</h3>
 		</div>
 
   </section>
@@ -88,21 +83,24 @@ sitemap:
   <section>
       <h6>Latest from our blog</h6>
 
-        <ul>
+        <ul class="no-bullets">
           {% for post in site.posts offset: 0 limit: 3 %}
 
           <li class="third">
               <a href="{{ post.url | prepend: site.baseurl }}">
 
                 <h2><strong>{{ post.title }}</strong></h2>
-                  <P>                <datetime> {{ post.date | date: "%b %-d, %Y" }}</datetime>
+                <span>
+                  {% comment %}
+                  <datetime> {{ post.date | date: "%b %-d, %Y" }}</datetime>
+                  {% endcomment %}
 
-              {% if post.content contains "<!--more-->" %}
-                 {{ post.content | split:"<!--more-->" | first % }}
-              {% else %}
-                 {{ post.content | strip_html | truncatewords:50 }}
-              {% endif %}
-               </p>
+                  {% if post.content contains "<!--more-->" %}
+                     {{ post.content | split:"<!--more-->" | first % }}
+                  {% else %}
+                     {{ post.content | strip_html | truncatewords:50 }}
+                  {% endif %}
+                </span>
 
 
                 <h6><strong>READ MORE</strong><i class="icon-right-dir"></i></h6>
@@ -121,7 +119,7 @@ sitemap:
   -->
   <div class="section-wrapper charlie">
     <section>
-      <h1 class="centered">subscribe to the popupCAD newsletter</h1>
+      <h2 class="centered">subscribe to the popupCAD newsletter</h2>
             <form action="{{ site.subscribe_form_url }}" method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
             <input type="email" value="" name="EMAIL" id="newsletter-form" placeholder="signup@example.com" required>
             <input type="submit" value="Subscribe" id="newsletter-button" name="subscribe" class="btn btn-1 yellow">
@@ -129,7 +127,7 @@ sitemap:
     </section>
   </div>
 
-  
+
   <style>
     .alpha h1,.alpha h2
     {

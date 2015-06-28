@@ -863,15 +863,7 @@ body {
     body {
       font-size: 1.3rem;
       /* 24PX ON MOBILE */
-<<<<<<< HEAD
-<<<<<<< HEAD
       line-height: 1.7; } }
-=======
-      line-height: 1.6; } }
->>>>>>> minor fixes in footer and index.html
-=======
-      line-height: 1.7; } }
->>>>>>> various tweaks
   body main {
     font-weight: 400; }
     @media screen and (min-width: 320px) {
@@ -902,15 +894,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.4rem;
     line-height: 1.3;
     font-weight: 700;
-<<<<<<< HEAD
-<<<<<<< HEAD
     margin: 0 0 .7rem 0; } }
-=======
-    margin: 0 0 1rem 0; } }
->>>>>>> minor fixes in footer and index.html
-=======
-    margin: 0 0 .7rem 0; } }
->>>>>>> numerous oddities
 @media screen and (min-width: 720px) {
   h1 {
     font-size: 2.2rem;
@@ -925,15 +909,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.4rem;
     line-height: 1.5;
     font-weight: 700;
-<<<<<<< HEAD
-<<<<<<< HEAD
     margin: 0 0 .7rem 0; } }
-=======
-    margin: 0 0 1rem 0; } }
->>>>>>> minor fixes in footer and index.html
-=======
-    margin: 0 0 .7rem 0; } }
->>>>>>> numerous oddities
 @media screen and (min-width: 720px) {
   h2 {
     font-size: 1.9rem;
@@ -944,15 +920,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.4rem;
     line-height: 1.5;
     font-weight: 700;
-<<<<<<< HEAD
-<<<<<<< HEAD
     margin: 0 0 .7rem 0; } }
-=======
-    margin: 0 0 1rem 0; } }
->>>>>>> minor fixes in footer and index.html
-=======
-    margin: 0 0 .7rem 0; } }
->>>>>>> numerous oddities
 @media screen and (min-width: 720px) {
   h3, h4 {
     font-size: 2rem;
@@ -963,15 +931,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.2rem;
     line-height: 1.5;
     font-weight: 700;
-<<<<<<< HEAD
-<<<<<<< HEAD
     margin: 0 0 .7rem 0; } }
-=======
-    margin: 0 0 1rem 0; } }
->>>>>>> minor fixes in footer and index.html
-=======
-    margin: 0 0 .7rem 0; } }
->>>>>>> numerous oddities
 @media screen and (min-width: 720px) {
   h5, h6 {
     font-size: 1.2rem;
@@ -994,15 +954,7 @@ footer {
       line-height: 1.6; } }
   @media screen and (min-width: 960px) {
     footer {
-<<<<<<< HEAD
-<<<<<<< HEAD
       font-size: 1rem; } }
-=======
-      font-size: 1.1rem; } }
->>>>>>> minor fixes in footer and index.html
-=======
-      font-size: 1rem; } }
->>>>>>> numerous oddities
   @media screen and (min-width: 320px) {
     footer {
       text-align: center; } }
@@ -1028,15 +980,7 @@ small {
       line-height: 1.6; } }
   @media screen and (min-width: 960px) {
     small {
-<<<<<<< HEAD
-<<<<<<< HEAD
       font-size: 1rem; } }
-=======
-      font-size: 1.1rem; } }
->>>>>>> minor fixes in footer and index.html
-=======
-      font-size: 1rem; } }
->>>>>>> numerous oddities
 
 .centered {
   text-align: center; }
@@ -1554,10 +1498,6 @@ footer {
   -moz-box-shadow: 0px 3px 6px -2px #bdbdbd;
   box-shadow: 0px 3px 6px -2px #bdbdbd; }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> minor
 .vertical-align {
   position: relative;
   top: 50%;
@@ -1565,11 +1505,6 @@ footer {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
 
-<<<<<<< HEAD
-=======
->>>>>>> minor fixes in footer and index.html
-=======
->>>>>>> minor
 main a.icon-facebook-circled,
 main a.icon-facebook-squared {
   color: #306199 !important; }
@@ -2920,15 +2855,7 @@ table {
       line-height: 1.6; } }
   @media screen and (min-width: 960px) {
     table {
-<<<<<<< HEAD
-<<<<<<< HEAD
       font-size: 1rem; } }
-=======
-      font-size: 1.1rem; } }
->>>>>>> minor fixes in footer and index.html
-=======
-      font-size: 1rem; } }
->>>>>>> numerous oddities
 
 caption {
   color: #000;
@@ -3478,10 +3405,6 @@ footer {
   -moz-box-shadow: 0px 3px 6px -2px #bdbdbd;
   box-shadow: 0px 3px 6px -2px #bdbdbd; }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> minor
 .vertical-align {
   position: relative;
   top: 50%;
@@ -3489,11 +3412,6 @@ footer {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
 
-<<<<<<< HEAD
-=======
->>>>>>> minor fixes in footer and index.html
-=======
->>>>>>> minor
 /*
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,900);
 */
@@ -3522,15 +3440,7 @@ body {
     body {
       font-size: 1.3rem;
       /* 24PX ON MOBILE */
-<<<<<<< HEAD
-<<<<<<< HEAD
       line-height: 1.7; } }
-=======
-      line-height: 1.6; } }
->>>>>>> minor fixes in footer and index.html
-=======
-      line-height: 1.7; } }
->>>>>>> various tweaks
   body main {
     font-weight: 400; }
     @media screen and (min-width: 320px) {
@@ -3561,15 +3471,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.4rem;
     line-height: 1.3;
     font-weight: 700;
-<<<<<<< HEAD
-<<<<<<< HEAD
     margin: 0 0 .7rem 0; } }
-=======
-    margin: 0 0 1rem 0; } }
->>>>>>> minor fixes in footer and index.html
-=======
-    margin: 0 0 .7rem 0; } }
->>>>>>> numerous oddities
 @media screen and (min-width: 720px) {
   h1 {
     font-size: 2.2rem;
@@ -3584,15 +3486,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.4rem;
     line-height: 1.5;
     font-weight: 700;
-<<<<<<< HEAD
-<<<<<<< HEAD
     margin: 0 0 .7rem 0; } }
-=======
-    margin: 0 0 1rem 0; } }
->>>>>>> minor fixes in footer and index.html
-=======
-    margin: 0 0 .7rem 0; } }
->>>>>>> numerous oddities
 @media screen and (min-width: 720px) {
   h2 {
     font-size: 1.9rem;
@@ -3603,15 +3497,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.4rem;
     line-height: 1.5;
     font-weight: 700;
-<<<<<<< HEAD
-<<<<<<< HEAD
     margin: 0 0 .7rem 0; } }
-=======
-    margin: 0 0 1rem 0; } }
->>>>>>> minor fixes in footer and index.html
-=======
-    margin: 0 0 .7rem 0; } }
->>>>>>> numerous oddities
 @media screen and (min-width: 720px) {
   h3, h4 {
     font-size: 2rem;
@@ -3622,15 +3508,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.2rem;
     line-height: 1.5;
     font-weight: 700;
-<<<<<<< HEAD
-<<<<<<< HEAD
     margin: 0 0 .7rem 0; } }
-=======
-    margin: 0 0 1rem 0; } }
->>>>>>> minor fixes in footer and index.html
-=======
-    margin: 0 0 .7rem 0; } }
->>>>>>> numerous oddities
 @media screen and (min-width: 720px) {
   h5, h6 {
     font-size: 1.2rem;
@@ -3653,15 +3531,7 @@ footer {
       line-height: 1.6; } }
   @media screen and (min-width: 960px) {
     footer {
-<<<<<<< HEAD
-<<<<<<< HEAD
       font-size: 1rem; } }
-=======
-      font-size: 1.1rem; } }
->>>>>>> minor fixes in footer and index.html
-=======
-      font-size: 1rem; } }
->>>>>>> numerous oddities
   @media screen and (min-width: 320px) {
     footer {
       text-align: center; } }
@@ -3670,15 +3540,7 @@ footer {
       text-align: left; } }
 
 p {
-<<<<<<< HEAD
-<<<<<<< HEAD
   margin: .5rem 0 1.5rem 0; }
-=======
-  margin-bottom: 1.5em; }
->>>>>>> minor fixes in footer and index.html
-=======
-  margin: .5rem 0 1.5rem 0; }
->>>>>>> minor
   p span {
     text-transform: uppercase; }
 
@@ -3695,36 +3557,17 @@ small {
       line-height: 1.6; } }
   @media screen and (min-width: 960px) {
     small {
-<<<<<<< HEAD
-<<<<<<< HEAD
       font-size: 1rem; } }
-=======
-      font-size: 1.1rem; } }
->>>>>>> minor fixes in footer and index.html
-=======
-      font-size: 1rem; } }
->>>>>>> numerous oddities
 
 .centered {
   text-align: center; }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> various tweaks
 @media screen and (min-width: 320px) {
   .right, #demonflower {
     text-align: center; } }
 @media screen and (min-width: 720px) {
   .right, #demonflower {
     text-align: right; } }
-<<<<<<< HEAD
-=======
-.right {
-  text-align: right; }
->>>>>>> minor fixes in footer and index.html
-=======
->>>>>>> various tweaks
 
 hr {
   border-bottom: 1px solid white; }
@@ -3772,15 +3615,7 @@ body.tutorials aside {
     body.gallery aside,
     body.docs aside,
     body.tutorials aside {
-<<<<<<< HEAD
-<<<<<<< HEAD
       font-size: 1rem; } }
-=======
-      font-size: 1.1rem; } }
->>>>>>> minor fixes in footer and index.html
-=======
-      font-size: 1rem; } }
->>>>>>> numerous oddities
   @media screen and (min-width: 320px) {
     body.contest aside,
     body.gallery aside,
@@ -3815,25 +3650,10 @@ body.frontpage {
      background:$foxtrot-background;
    }
    */ }
-<<<<<<< HEAD
-<<<<<<< HEAD
   body.frontpage h2 {
     margin: 2.4rem 0 1.2rem 0; }
   body.frontpage .alpha h2 {
     color: #fff; }
-=======
-=======
-  body.frontpage h2 {
-    margin: 2.4rem 0 1.2rem 0; }
->>>>>>> minor
-  body.frontpage .alpha h2 {
-    color: #fff; }
-<<<<<<< HEAD
-    body.frontpage .alpha h2 span {
-      background-color: rgba(255, 0, 0, 0.4); }
->>>>>>> minor fixes in footer and index.html
-=======
->>>>>>> numerous oddities
   body.frontpage .background-video {
     background: url("/assets/video/foot-small.jpg"); }
   body.frontpage .btn-1 {

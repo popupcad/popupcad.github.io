@@ -6,7 +6,7 @@ author: Dan
 foregroundcolor: fff
 backgroundcolor: ff0000
 date: 2014-11-10 13:42:40
-category: blog
+category: news
 published: true
 sitemap:
   lastmod: 2014-11-23

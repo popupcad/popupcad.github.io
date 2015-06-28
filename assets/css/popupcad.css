@@ -2907,7 +2907,7 @@ td {
     height: 100%;
     overflow: hidden; }
   .frontpage .alpha .video-shade {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(45, 64, 91, 0.6);
     position: absolute;
     top: 0;
     left: 0;
@@ -3725,8 +3725,8 @@ body.tutorials .alpha {
     margin-bottom: 0;
     opacity: 0.4; } }
 
-body.page section,
-body.post section {
+body.page .alpha section,
+body.post .alpha section {
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -3772,7 +3772,7 @@ body.post span.author:before {
   mask-repeat: repeat-x;
   -webkit-mask-size: cover; }
 
-body.post .alpha {
+body.page .alpha, .post .alpha {
   height: 350px; }
 
 /*

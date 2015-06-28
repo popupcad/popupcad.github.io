@@ -30,7 +30,7 @@ relative_permalinks: false
 
 # pagination stuff
 paginate:      8
-paginate_path: '/blog/:num/'
+paginate_path: '/news/:num/'
 
 # OK, on to collections
 collections:

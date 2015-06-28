@@ -1,0 +1,31 @@
+---
+layout: page
+body_class: "blogroll"
+title: popupCAD blog
+description: Seeing in Layers
+permalink: /news/
+published: true
+sitemap:
+  priority: 1
+---
+
+
+    {% for post in paginator.posts %}
+    {% include blogroll_item.html %}
+    {% endfor %}
+
+
+    {% if paginator.next_page %}
+    <a href="/news/{% if paginator.next_page != 1 %}{{ paginator.next_page }}{% endif %}" class="btn btn-1 btn-1a pull-left">&larr; Older</a>
+    {% else %}
+    <button class="btn btn-1 disabled left" disabled="disabled">Older &rarr;</button>
+    {% endif %}
+
+    {% if paginator.previous_page %}
+    <a href="/news/{% if paginator.previous_page != 1 %}{{ paginator.previous_page }}{% endif %}" class="btn btn-1 btn-1a right">Newer &rarr;</a>
+    {% else %}
+    {% comment %}
+    <button class="btn btn-1 disabled right" disabled="disabled">Newer &rarr;</button>
+    {% endcomment %}
+
+    {% endif %}

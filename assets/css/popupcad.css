@@ -175,12 +175,6 @@ $foxtrot-h2-color:  #444 ;
 $foxtrot-link-color:#444 ;
 $foxtrot-text-color:#444;
 */
-/*
-$golf-h1-color:  #605f5d ;
-$golf-h2-color:  #605f5d ;
-$golf-link-color:#605f5d ;
-$golf-text-color:#605f5d ;
-*/
 body.gallery figure {
   border: 1px solid red;
   margin-bottom: 2rem; }
@@ -314,13 +308,14 @@ body.post .background-container {
   */ }
 
 .golf {
-  background: #fff;
-  /*
-  h1,h3,h4,h5 {color:$golf-h1-color}
-  h2,h6 {color:$golf-h2-color}
-  a{color:$golf-link-color;}
-  color:$golf-text-color;
-  */ }
+  background: #2a2b3a;
+  color: #fff; }
+  .golf h1, .golf h3, .golf h4, .golf h5 {
+    color: #fff; }
+  .golf h2, .golf h6 {
+    color: #fff; }
+  .golf a {
+    color: #fff; }
 
 /* end sections */
 section.hr {
@@ -1034,12 +1029,6 @@ $foxtrot-h2-color:  #444 ;
 $foxtrot-link-color:#444 ;
 $foxtrot-text-color:#444;
 */
-/*
-$golf-h1-color:  #605f5d ;
-$golf-h2-color:  #605f5d ;
-$golf-link-color:#605f5d ;
-$golf-text-color:#605f5d ;
-*/
 body.gallery figure {
   border: 1px solid red;
   margin-bottom: 2rem; }
@@ -1173,13 +1162,14 @@ body.post .background-container {
   */ }
 
 .golf {
-  background: #fff;
-  /*
-  h1,h3,h4,h5 {color:$golf-h1-color}
-  h2,h6 {color:$golf-h2-color}
-  a{color:$golf-link-color;}
-  color:$golf-text-color;
-  */ }
+  background: #2a2b3a;
+  color: #fff; }
+  .golf h1, .golf h3, .golf h4, .golf h5 {
+    color: #fff; }
+  .golf h2, .golf h6 {
+    color: #fff; }
+  .golf a {
+    color: #fff; }
 
 /* end sections */
 section.hr {
@@ -1319,12 +1309,6 @@ $foxtrot-h2-color:  #444 ;
 $foxtrot-link-color:#444 ;
 $foxtrot-text-color:#444;
 */
-/*
-$golf-h1-color:  #605f5d ;
-$golf-h2-color:  #605f5d ;
-$golf-link-color:#605f5d ;
-$golf-text-color:#605f5d ;
-*/
 body.gallery figure {
   border: 1px solid red;
   margin-bottom: 2rem; }
@@ -1458,13 +1442,14 @@ body.post .background-container {
   */ }
 
 .golf {
-  background: #fff;
-  /*
-  h1,h3,h4,h5 {color:$golf-h1-color}
-  h2,h6 {color:$golf-h2-color}
-  a{color:$golf-link-color;}
-  color:$golf-text-color;
-  */ }
+  background: #2a2b3a;
+  color: #fff; }
+  .golf h1, .golf h3, .golf h4, .golf h5 {
+    color: #fff; }
+  .golf h2, .golf h6 {
+    color: #fff; }
+  .golf a {
+    color: #fff; }
 
 /* end sections */
 section.hr {
@@ -1747,12 +1732,6 @@ $foxtrot-h2-color:  #444 ;
 $foxtrot-link-color:#444 ;
 $foxtrot-text-color:#444;
 */
-/*
-$golf-h1-color:  #605f5d ;
-$golf-h2-color:  #605f5d ;
-$golf-link-color:#605f5d ;
-$golf-text-color:#605f5d ;
-*/
 body.gallery figure {
   border: 1px solid red;
   margin-bottom: 2rem; }
@@ -1886,13 +1865,14 @@ body.post .background-container {
   */ }
 
 .golf {
-  background: #fff;
-  /*
-  h1,h3,h4,h5 {color:$golf-h1-color}
-  h2,h6 {color:$golf-h2-color}
-  a{color:$golf-link-color;}
-  color:$golf-text-color;
-  */ }
+  background: #2a2b3a;
+  color: #fff; }
+  .golf h1, .golf h3, .golf h4, .golf h5 {
+    color: #fff; }
+  .golf h2, .golf h6 {
+    color: #fff; }
+  .golf a {
+    color: #fff; }
 
 /* end sections */
 section.hr {
@@ -2303,12 +2283,6 @@ $foxtrot-h2-color:  #444 ;
 $foxtrot-link-color:#444 ;
 $foxtrot-text-color:#444;
 */
-/*
-$golf-h1-color:  #605f5d ;
-$golf-h2-color:  #605f5d ;
-$golf-link-color:#605f5d ;
-$golf-text-color:#605f5d ;
-*/
 body.gallery figure {
   border: 1px solid red;
   margin-bottom: 2rem; }
@@ -2442,13 +2416,14 @@ body.post .background-container {
   */ }
 
 .golf {
-  background: #fff;
-  /*
-  h1,h3,h4,h5 {color:$golf-h1-color}
-  h2,h6 {color:$golf-h2-color}
-  a{color:$golf-link-color;}
-  color:$golf-text-color;
-  */ }
+  background: #2a2b3a;
+  color: #fff; }
+  .golf h1, .golf h3, .golf h4, .golf h5 {
+    color: #fff; }
+  .golf h2, .golf h6 {
+    color: #fff; }
+  .golf a {
+    color: #fff; }
 
 /* end sections */
 section.hr {
@@ -3245,12 +3220,6 @@ $foxtrot-h2-color:  #444 ;
 $foxtrot-link-color:#444 ;
 $foxtrot-text-color:#444;
 */
-/*
-$golf-h1-color:  #605f5d ;
-$golf-h2-color:  #605f5d ;
-$golf-link-color:#605f5d ;
-$golf-text-color:#605f5d ;
-*/
 body.gallery figure {
   border: 1px solid red;
   margin-bottom: 2rem; }
@@ -3384,13 +3353,14 @@ body.post .background-container {
   */ }
 
 .golf {
-  background: #fff;
-  /*
-  h1,h3,h4,h5 {color:$golf-h1-color}
-  h2,h6 {color:$golf-h2-color}
-  a{color:$golf-link-color;}
-  color:$golf-text-color;
-  */ }
+  background: #2a2b3a;
+  color: #fff; }
+  .golf h1, .golf h3, .golf h4, .golf h5 {
+    color: #fff; }
+  .golf h2, .golf h6 {
+    color: #fff; }
+  .golf a {
+    color: #fff; }
 
 /* end sections */
 section.hr {

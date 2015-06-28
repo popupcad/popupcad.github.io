@@ -885,6 +885,12 @@ aside .active:before {
   opacity: 0.25;
   padding-right: 0.5em; }
 
+aside .active:before {
+  content: '\00bb';
+  /* right-angle quote, converted to hex value for CSS use */
+  opacity: 0.25;
+  padding-right: 0.5em; }
+
 strong {
   font-weight: 700; }
 
@@ -2890,6 +2896,10 @@ td {
   background-color: transparent; }
 
 /* video styles */
+.shade {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+  z-index: 100; }
+
 .frontpage .alpha {
   position: relative;
   /* these styles can be commented out without much effect */ }
@@ -3462,15 +3472,18 @@ body {
 .active {
   font-weight: 700; }
 
-<<<<<<< HEAD
-=======
 aside .active:before {
   content: '\00bb';
   /* right-angle quote, converted to hex value for CSS use */
   opacity: 0.25;
   padding-right: 0.5em; }
 
->>>>>>> 5e5bd90a4560f3c4894f998911274048ed08c935
+aside .active:before {
+  content: '\00bb';
+  /* right-angle quote, converted to hex value for CSS use */
+  opacity: 0.25;
+  padding-right: 0.5em; }
+
 strong {
   font-weight: 700; }
 

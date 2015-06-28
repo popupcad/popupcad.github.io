@@ -162,7 +162,6 @@ input.input__field {
 /* used by the drop down menu. delete if not using it */
 /* colors we use */
 /* bravo bg */
-/* delta bg frontpage*/
 /* links, h1-h2 in charlie */
 /* newsletter bg*/
 /* footer */
@@ -174,6 +173,12 @@ $foxtrot-h1-color:  #444 ;
 $foxtrot-h2-color:  #444 ;
 $foxtrot-link-color:#444 ;
 $foxtrot-text-color:#444;
+*/
+/*
+$golf-h1-color:  #605f5d ;
+$golf-h2-color:  #605f5d ;
+$golf-link-color:#605f5d ;
+$golf-text-color:#605f5d ;
 */
 body.gallery figure {
   border: 1px solid red;
@@ -256,17 +261,17 @@ body.post .background-container {
     color: #fff; }
 
 .bravo {
-  background: #2dafe6;
+  background: #fff;
   color: #f57365; }
   .bravo h1, .bravo h3, .bravo h4, .bravo h5 {
-    color: #fff; }
+    color: #444; }
   .bravo h2, .bravo h6 {
-    color: #fff; }
+    color: #666; }
   .bravo a {
     color: #f57365; }
 
 .charlie {
-  background: #1a2637;
+  background: #2d405b;
   color: #fff; }
   .charlie h1, .charlie h3, .charlie h4, .charlie h5 {
     color: #2dafe6; }
@@ -276,25 +281,24 @@ body.post .background-container {
     color: #fff; }
 
 .delta {
-  background: #1a2637;
-  color: #6266a0; }
+  background: #7ec6eb;
+  color: #fff; }
   .delta h1, .delta h3, .delta h4, .delta h5 {
-    color: #6266a0; }
-  .delta h1 {
-    font-size: 5rem; }
+    color: #2d405b; }
   .delta h2, .delta h6 {
-    color: #6266a0; }
-  .delta a:link, .delta a:visited {
-    color: #2dafe6;
-    font-weight: 700; }
+    color: #156283; }
+  .delta a {
+    color: #f57365; }
 
 .echo {
-  background: #6266a0;
+  background: #2dafe6;
   color: #fff; }
   .echo h1, .echo h3, .echo h4, .echo h5 {
-    color: #fff; }
+    color: #86D4FC; }
   .echo h2, .echo h6 {
     color: #fff; }
+  .echo h6 {
+    color: #86D4FC; }
   .echo a {
     color: #fff; }
 
@@ -308,14 +312,13 @@ body.post .background-container {
   */ }
 
 .golf {
-  background: #2a2b3a;
-  color: #fff; }
-  .golf h1, .golf h3, .golf h4, .golf h5 {
-    color: #fff; }
-  .golf h2, .golf h6 {
-    color: #fff; }
-  .golf a {
-    color: #fff; }
+  background: #fff;
+  /*
+  h1,h3,h4,h5 {color:$golf-h1-color}
+  h2,h6 {color:$golf-h2-color}
+  a{color:$golf-link-color;}
+  color:$golf-text-color;
+  */ }
 
 /* end sections */
 section.hr {
@@ -356,10 +359,10 @@ body.post time, body.post datetime {
 
 /* colors of article boxes, typography and share boxes */
 footer {
-  background: #2a2b3a;
+  background: #12263c;
   color: #fff; }
   footer h5 {
-    color: #A4DBF2; }
+    color: #7ec6eb; }
   footer a:link, footer a:visited {
     color: #fff; }
     footer a:link:hover, footer a:visited:hover {
@@ -1016,7 +1019,6 @@ button {
 /* used by the drop down menu. delete if not using it */
 /* colors we use */
 /* bravo bg */
-/* delta bg frontpage*/
 /* links, h1-h2 in charlie */
 /* newsletter bg*/
 /* footer */
@@ -1028,6 +1030,12 @@ $foxtrot-h1-color:  #444 ;
 $foxtrot-h2-color:  #444 ;
 $foxtrot-link-color:#444 ;
 $foxtrot-text-color:#444;
+*/
+/*
+$golf-h1-color:  #605f5d ;
+$golf-h2-color:  #605f5d ;
+$golf-link-color:#605f5d ;
+$golf-text-color:#605f5d ;
 */
 body.gallery figure {
   border: 1px solid red;
@@ -1110,17 +1118,17 @@ body.post .background-container {
     color: #fff; }
 
 .bravo {
-  background: #2dafe6;
+  background: #fff;
   color: #f57365; }
   .bravo h1, .bravo h3, .bravo h4, .bravo h5 {
-    color: #fff; }
+    color: #444; }
   .bravo h2, .bravo h6 {
-    color: #fff; }
+    color: #666; }
   .bravo a {
     color: #f57365; }
 
 .charlie {
-  background: #1a2637;
+  background: #2d405b;
   color: #fff; }
   .charlie h1, .charlie h3, .charlie h4, .charlie h5 {
     color: #2dafe6; }
@@ -1130,25 +1138,24 @@ body.post .background-container {
     color: #fff; }
 
 .delta {
-  background: #1a2637;
-  color: #6266a0; }
+  background: #7ec6eb;
+  color: #fff; }
   .delta h1, .delta h3, .delta h4, .delta h5 {
-    color: #6266a0; }
-  .delta h1 {
-    font-size: 5rem; }
+    color: #2d405b; }
   .delta h2, .delta h6 {
-    color: #6266a0; }
-  .delta a:link, .delta a:visited {
-    color: #2dafe6;
-    font-weight: 700; }
+    color: #156283; }
+  .delta a {
+    color: #f57365; }
 
 .echo {
-  background: #6266a0;
+  background: #2dafe6;
   color: #fff; }
   .echo h1, .echo h3, .echo h4, .echo h5 {
-    color: #fff; }
+    color: #86D4FC; }
   .echo h2, .echo h6 {
     color: #fff; }
+  .echo h6 {
+    color: #86D4FC; }
   .echo a {
     color: #fff; }
 
@@ -1162,14 +1169,13 @@ body.post .background-container {
   */ }
 
 .golf {
-  background: #2a2b3a;
-  color: #fff; }
-  .golf h1, .golf h3, .golf h4, .golf h5 {
-    color: #fff; }
-  .golf h2, .golf h6 {
-    color: #fff; }
-  .golf a {
-    color: #fff; }
+  background: #fff;
+  /*
+  h1,h3,h4,h5 {color:$golf-h1-color}
+  h2,h6 {color:$golf-h2-color}
+  a{color:$golf-link-color;}
+  color:$golf-text-color;
+  */ }
 
 /* end sections */
 section.hr {
@@ -1210,10 +1216,10 @@ body.post time, body.post datetime {
 
 /* colors of article boxes, typography and share boxes */
 footer {
-  background: #2a2b3a;
+  background: #12263c;
   color: #fff; }
   footer h5 {
-    color: #A4DBF2; }
+    color: #7ec6eb; }
   footer a:link, footer a:visited {
     color: #fff; }
     footer a:link:hover, footer a:visited:hover {
@@ -1296,7 +1302,6 @@ ul.horizontal {
 /* used by the drop down menu. delete if not using it */
 /* colors we use */
 /* bravo bg */
-/* delta bg frontpage*/
 /* links, h1-h2 in charlie */
 /* newsletter bg*/
 /* footer */
@@ -1308,6 +1313,12 @@ $foxtrot-h1-color:  #444 ;
 $foxtrot-h2-color:  #444 ;
 $foxtrot-link-color:#444 ;
 $foxtrot-text-color:#444;
+*/
+/*
+$golf-h1-color:  #605f5d ;
+$golf-h2-color:  #605f5d ;
+$golf-link-color:#605f5d ;
+$golf-text-color:#605f5d ;
 */
 body.gallery figure {
   border: 1px solid red;
@@ -1390,17 +1401,17 @@ body.post .background-container {
     color: #fff; }
 
 .bravo {
-  background: #2dafe6;
+  background: #fff;
   color: #f57365; }
   .bravo h1, .bravo h3, .bravo h4, .bravo h5 {
-    color: #fff; }
+    color: #444; }
   .bravo h2, .bravo h6 {
-    color: #fff; }
+    color: #666; }
   .bravo a {
     color: #f57365; }
 
 .charlie {
-  background: #1a2637;
+  background: #2d405b;
   color: #fff; }
   .charlie h1, .charlie h3, .charlie h4, .charlie h5 {
     color: #2dafe6; }
@@ -1410,25 +1421,24 @@ body.post .background-container {
     color: #fff; }
 
 .delta {
-  background: #1a2637;
-  color: #6266a0; }
+  background: #7ec6eb;
+  color: #fff; }
   .delta h1, .delta h3, .delta h4, .delta h5 {
-    color: #6266a0; }
-  .delta h1 {
-    font-size: 5rem; }
+    color: #2d405b; }
   .delta h2, .delta h6 {
-    color: #6266a0; }
-  .delta a:link, .delta a:visited {
-    color: #2dafe6;
-    font-weight: 700; }
+    color: #156283; }
+  .delta a {
+    color: #f57365; }
 
 .echo {
-  background: #6266a0;
+  background: #2dafe6;
   color: #fff; }
   .echo h1, .echo h3, .echo h4, .echo h5 {
-    color: #fff; }
+    color: #86D4FC; }
   .echo h2, .echo h6 {
     color: #fff; }
+  .echo h6 {
+    color: #86D4FC; }
   .echo a {
     color: #fff; }
 
@@ -1442,14 +1452,13 @@ body.post .background-container {
   */ }
 
 .golf {
-  background: #2a2b3a;
-  color: #fff; }
-  .golf h1, .golf h3, .golf h4, .golf h5 {
-    color: #fff; }
-  .golf h2, .golf h6 {
-    color: #fff; }
-  .golf a {
-    color: #fff; }
+  background: #fff;
+  /*
+  h1,h3,h4,h5 {color:$golf-h1-color}
+  h2,h6 {color:$golf-h2-color}
+  a{color:$golf-link-color;}
+  color:$golf-text-color;
+  */ }
 
 /* end sections */
 section.hr {
@@ -1490,10 +1499,10 @@ body.post time, body.post datetime {
 
 /* colors of article boxes, typography and share boxes */
 footer {
-  background: #2a2b3a;
+  background: #12263c;
   color: #fff; }
   footer h5 {
-    color: #A4DBF2; }
+    color: #7ec6eb; }
   footer a:link, footer a:visited {
     color: #fff; }
     footer a:link:hover, footer a:visited:hover {
@@ -1599,7 +1608,7 @@ footer .share-links-circle a.icon-tumblr-circled,
 footer .share-links-circle a.icon-twitter-circled,
 footer .share-links-circle a.icon-pinterest-circled,
 footer .share-links-circle a.icon-gplus-circled {
-  color: #A4DBF2;
+  color: #7ec6eb;
   opacity: .7; }
   footer .share-links-circle a.icon-facebook-circled:hover,
   footer .share-links-circle a.icon-tumblr-circled:hover,
@@ -1719,7 +1728,6 @@ button.btn-1.disabled:active {
 /* used by the drop down menu. delete if not using it */
 /* colors we use */
 /* bravo bg */
-/* delta bg frontpage*/
 /* links, h1-h2 in charlie */
 /* newsletter bg*/
 /* footer */
@@ -1731,6 +1739,12 @@ $foxtrot-h1-color:  #444 ;
 $foxtrot-h2-color:  #444 ;
 $foxtrot-link-color:#444 ;
 $foxtrot-text-color:#444;
+*/
+/*
+$golf-h1-color:  #605f5d ;
+$golf-h2-color:  #605f5d ;
+$golf-link-color:#605f5d ;
+$golf-text-color:#605f5d ;
 */
 body.gallery figure {
   border: 1px solid red;
@@ -1813,17 +1827,17 @@ body.post .background-container {
     color: #fff; }
 
 .bravo {
-  background: #2dafe6;
+  background: #fff;
   color: #f57365; }
   .bravo h1, .bravo h3, .bravo h4, .bravo h5 {
-    color: #fff; }
+    color: #444; }
   .bravo h2, .bravo h6 {
-    color: #fff; }
+    color: #666; }
   .bravo a {
     color: #f57365; }
 
 .charlie {
-  background: #1a2637;
+  background: #2d405b;
   color: #fff; }
   .charlie h1, .charlie h3, .charlie h4, .charlie h5 {
     color: #2dafe6; }
@@ -1833,25 +1847,24 @@ body.post .background-container {
     color: #fff; }
 
 .delta {
-  background: #1a2637;
-  color: #6266a0; }
+  background: #7ec6eb;
+  color: #fff; }
   .delta h1, .delta h3, .delta h4, .delta h5 {
-    color: #6266a0; }
-  .delta h1 {
-    font-size: 5rem; }
+    color: #2d405b; }
   .delta h2, .delta h6 {
-    color: #6266a0; }
-  .delta a:link, .delta a:visited {
-    color: #2dafe6;
-    font-weight: 700; }
+    color: #156283; }
+  .delta a {
+    color: #f57365; }
 
 .echo {
-  background: #6266a0;
+  background: #2dafe6;
   color: #fff; }
   .echo h1, .echo h3, .echo h4, .echo h5 {
-    color: #fff; }
+    color: #86D4FC; }
   .echo h2, .echo h6 {
     color: #fff; }
+  .echo h6 {
+    color: #86D4FC; }
   .echo a {
     color: #fff; }
 
@@ -1865,14 +1878,13 @@ body.post .background-container {
   */ }
 
 .golf {
-  background: #2a2b3a;
-  color: #fff; }
-  .golf h1, .golf h3, .golf h4, .golf h5 {
-    color: #fff; }
-  .golf h2, .golf h6 {
-    color: #fff; }
-  .golf a {
-    color: #fff; }
+  background: #fff;
+  /*
+  h1,h3,h4,h5 {color:$golf-h1-color}
+  h2,h6 {color:$golf-h2-color}
+  a{color:$golf-link-color;}
+  color:$golf-text-color;
+  */ }
 
 /* end sections */
 section.hr {
@@ -1913,10 +1925,10 @@ body.post time, body.post datetime {
 
 /* colors of article boxes, typography and share boxes */
 footer {
-  background: #2a2b3a;
+  background: #12263c;
   color: #fff; }
   footer h5 {
-    color: #A4DBF2; }
+    color: #7ec6eb; }
   footer a:link, footer a:visited {
     color: #fff; }
     footer a:link:hover, footer a:visited:hover {
@@ -2270,7 +2282,6 @@ footer {
 /* used by the drop down menu. delete if not using it */
 /* colors we use */
 /* bravo bg */
-/* delta bg frontpage*/
 /* links, h1-h2 in charlie */
 /* newsletter bg*/
 /* footer */
@@ -2282,6 +2293,12 @@ $foxtrot-h1-color:  #444 ;
 $foxtrot-h2-color:  #444 ;
 $foxtrot-link-color:#444 ;
 $foxtrot-text-color:#444;
+*/
+/*
+$golf-h1-color:  #605f5d ;
+$golf-h2-color:  #605f5d ;
+$golf-link-color:#605f5d ;
+$golf-text-color:#605f5d ;
 */
 body.gallery figure {
   border: 1px solid red;
@@ -2364,17 +2381,17 @@ body.post .background-container {
     color: #fff; }
 
 .bravo {
-  background: #2dafe6;
+  background: #fff;
   color: #f57365; }
   .bravo h1, .bravo h3, .bravo h4, .bravo h5 {
-    color: #fff; }
+    color: #444; }
   .bravo h2, .bravo h6 {
-    color: #fff; }
+    color: #666; }
   .bravo a {
     color: #f57365; }
 
 .charlie {
-  background: #1a2637;
+  background: #2d405b;
   color: #fff; }
   .charlie h1, .charlie h3, .charlie h4, .charlie h5 {
     color: #2dafe6; }
@@ -2384,25 +2401,24 @@ body.post .background-container {
     color: #fff; }
 
 .delta {
-  background: #1a2637;
-  color: #6266a0; }
+  background: #7ec6eb;
+  color: #fff; }
   .delta h1, .delta h3, .delta h4, .delta h5 {
-    color: #6266a0; }
-  .delta h1 {
-    font-size: 5rem; }
+    color: #2d405b; }
   .delta h2, .delta h6 {
-    color: #6266a0; }
-  .delta a:link, .delta a:visited {
-    color: #2dafe6;
-    font-weight: 700; }
+    color: #156283; }
+  .delta a {
+    color: #f57365; }
 
 .echo {
-  background: #6266a0;
+  background: #2dafe6;
   color: #fff; }
   .echo h1, .echo h3, .echo h4, .echo h5 {
-    color: #fff; }
+    color: #86D4FC; }
   .echo h2, .echo h6 {
     color: #fff; }
+  .echo h6 {
+    color: #86D4FC; }
   .echo a {
     color: #fff; }
 
@@ -2416,14 +2432,13 @@ body.post .background-container {
   */ }
 
 .golf {
-  background: #2a2b3a;
-  color: #fff; }
-  .golf h1, .golf h3, .golf h4, .golf h5 {
-    color: #fff; }
-  .golf h2, .golf h6 {
-    color: #fff; }
-  .golf a {
-    color: #fff; }
+  background: #fff;
+  /*
+  h1,h3,h4,h5 {color:$golf-h1-color}
+  h2,h6 {color:$golf-h2-color}
+  a{color:$golf-link-color;}
+  color:$golf-text-color;
+  */ }
 
 /* end sections */
 section.hr {
@@ -2464,10 +2479,10 @@ body.post time, body.post datetime {
 
 /* colors of article boxes, typography and share boxes */
 footer {
-  background: #2a2b3a;
+  background: #12263c;
   color: #fff; }
   footer h5 {
-    color: #A4DBF2; }
+    color: #7ec6eb; }
   footer a:link, footer a:visited {
     color: #fff; }
     footer a:link:hover, footer a:visited:hover {
@@ -3207,7 +3222,6 @@ td {
 /* used by the drop down menu. delete if not using it */
 /* colors we use */
 /* bravo bg */
-/* delta bg frontpage*/
 /* links, h1-h2 in charlie */
 /* newsletter bg*/
 /* footer */
@@ -3219,6 +3233,12 @@ $foxtrot-h1-color:  #444 ;
 $foxtrot-h2-color:  #444 ;
 $foxtrot-link-color:#444 ;
 $foxtrot-text-color:#444;
+*/
+/*
+$golf-h1-color:  #605f5d ;
+$golf-h2-color:  #605f5d ;
+$golf-link-color:#605f5d ;
+$golf-text-color:#605f5d ;
 */
 body.gallery figure {
   border: 1px solid red;
@@ -3301,17 +3321,17 @@ body.post .background-container {
     color: #fff; }
 
 .bravo {
-  background: #2dafe6;
+  background: #fff;
   color: #f57365; }
   .bravo h1, .bravo h3, .bravo h4, .bravo h5 {
-    color: #fff; }
+    color: #444; }
   .bravo h2, .bravo h6 {
-    color: #fff; }
+    color: #666; }
   .bravo a {
     color: #f57365; }
 
 .charlie {
-  background: #1a2637;
+  background: #2d405b;
   color: #fff; }
   .charlie h1, .charlie h3, .charlie h4, .charlie h5 {
     color: #2dafe6; }
@@ -3321,25 +3341,24 @@ body.post .background-container {
     color: #fff; }
 
 .delta {
-  background: #1a2637;
-  color: #6266a0; }
+  background: #7ec6eb;
+  color: #fff; }
   .delta h1, .delta h3, .delta h4, .delta h5 {
-    color: #6266a0; }
-  .delta h1 {
-    font-size: 5rem; }
+    color: #2d405b; }
   .delta h2, .delta h6 {
-    color: #6266a0; }
-  .delta a:link, .delta a:visited {
-    color: #2dafe6;
-    font-weight: 700; }
+    color: #156283; }
+  .delta a {
+    color: #f57365; }
 
 .echo {
-  background: #6266a0;
+  background: #2dafe6;
   color: #fff; }
   .echo h1, .echo h3, .echo h4, .echo h5 {
-    color: #fff; }
+    color: #86D4FC; }
   .echo h2, .echo h6 {
     color: #fff; }
+  .echo h6 {
+    color: #86D4FC; }
   .echo a {
     color: #fff; }
 
@@ -3353,14 +3372,13 @@ body.post .background-container {
   */ }
 
 .golf {
-  background: #2a2b3a;
-  color: #fff; }
-  .golf h1, .golf h3, .golf h4, .golf h5 {
-    color: #fff; }
-  .golf h2, .golf h6 {
-    color: #fff; }
-  .golf a {
-    color: #fff; }
+  background: #fff;
+  /*
+  h1,h3,h4,h5 {color:$golf-h1-color}
+  h2,h6 {color:$golf-h2-color}
+  a{color:$golf-link-color;}
+  color:$golf-text-color;
+  */ }
 
 /* end sections */
 section.hr {
@@ -3401,10 +3419,10 @@ body.post time, body.post datetime {
 
 /* colors of article boxes, typography and share boxes */
 footer {
-  background: #2a2b3a;
+  background: #12263c;
   color: #fff; }
   footer h5 {
-    color: #A4DBF2; }
+    color: #7ec6eb; }
   footer a:link, footer a:visited {
     color: #fff; }
     footer a:link:hover, footer a:visited:hover {
@@ -3688,6 +3706,8 @@ body.frontpage {
   body.frontpage .btn-1a:active {
     color: #000;
     background: #fff; }
+  body.frontpage .echo h6 {
+    margin-top: 1em; }
 
 body.blogroll article:last-child hr {
   display: none; }

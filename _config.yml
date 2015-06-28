@@ -123,6 +123,10 @@ default_contest_header_h1color: fff
 default_tutorials_header_bg: f57365
 default_tutorials_header_h1color: fff
 
+default_gallery_header_bg: f39354
+default_gallery_header_h1color: fff
+
+
 # simpleform
 # simpleform_API_token
 simpleform_api_token: c138795786f380a3d200406dc6f4d5b6

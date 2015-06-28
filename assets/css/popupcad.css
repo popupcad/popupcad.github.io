@@ -175,14 +175,6 @@ $foxtrot-h2-color:  #444 ;
 $foxtrot-link-color:#444 ;
 $foxtrot-text-color:#444;
 */
-body.gallery figure {
-  border: 1px solid red;
-  margin-bottom: 2rem; }
-  body.gallery figure img {
-    background: red; }
-  body.gallery figure figcaption {
-    background: blue; }
-
 /*
 $category-background-color:#f9f9f9;
 $category-header-background:#fff;
@@ -1029,14 +1021,6 @@ $foxtrot-h2-color:  #444 ;
 $foxtrot-link-color:#444 ;
 $foxtrot-text-color:#444;
 */
-body.gallery figure {
-  border: 1px solid red;
-  margin-bottom: 2rem; }
-  body.gallery figure img {
-    background: red; }
-  body.gallery figure figcaption {
-    background: blue; }
-
 /*
 $category-background-color:#f9f9f9;
 $category-header-background:#fff;
@@ -1309,14 +1293,6 @@ $foxtrot-h2-color:  #444 ;
 $foxtrot-link-color:#444 ;
 $foxtrot-text-color:#444;
 */
-body.gallery figure {
-  border: 1px solid red;
-  margin-bottom: 2rem; }
-  body.gallery figure img {
-    background: red; }
-  body.gallery figure figcaption {
-    background: blue; }
-
 /*
 $category-background-color:#f9f9f9;
 $category-header-background:#fff;
@@ -1732,14 +1708,6 @@ $foxtrot-h2-color:  #444 ;
 $foxtrot-link-color:#444 ;
 $foxtrot-text-color:#444;
 */
-body.gallery figure {
-  border: 1px solid red;
-  margin-bottom: 2rem; }
-  body.gallery figure img {
-    background: red; }
-  body.gallery figure figcaption {
-    background: blue; }
-
 /*
 $category-background-color:#f9f9f9;
 $category-header-background:#fff;
@@ -2283,14 +2251,6 @@ $foxtrot-h2-color:  #444 ;
 $foxtrot-link-color:#444 ;
 $foxtrot-text-color:#444;
 */
-body.gallery figure {
-  border: 1px solid red;
-  margin-bottom: 2rem; }
-  body.gallery figure img {
-    background: red; }
-  body.gallery figure figcaption {
-    background: blue; }
-
 /*
 $category-background-color:#f9f9f9;
 $category-header-background:#fff;
@@ -3220,14 +3180,6 @@ $foxtrot-h2-color:  #444 ;
 $foxtrot-link-color:#444 ;
 $foxtrot-text-color:#444;
 */
-body.gallery figure {
-  border: 1px solid red;
-  margin-bottom: 2rem; }
-  body.gallery figure img {
-    background: red; }
-  body.gallery figure figcaption {
-    background: blue; }
-
 /*
 $category-background-color:#f9f9f9;
 $category-header-background:#fff;
@@ -3719,6 +3671,11 @@ body.tutorials .alpha {
     margin-bottom: 0;
     opacity: 0.4; } }
 
+body.gallery figure {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem; }
+
 body.page .alpha section,
 body.post .alpha section {
   position: relative;
@@ -3726,6 +3683,9 @@ body.post .alpha section {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
+body.page .alpha h6,
+body.post .alpha h6 {
+  margin-top: 2.4rem; }
 
 body.post .charlie {
   position: relative;

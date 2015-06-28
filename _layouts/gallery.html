@@ -2,69 +2,129 @@
 layout: default
 ---
 
+
 {% comment %}
-
-
-THIS IS THE TEMPLATE for GALLERY collection items.
-
-
+THIS IS THE TEMPLATE for gallery collection items.
 {% endcomment %}
 
+
+{% capture h1bg %}{% if page.h1bg %}#{{ page.h1bg }}{% else %}#{{ site.default_gallery_header_bg }}{% endif %}{% endcapture %}
+{% capture h1color %}{% if page.h1color %}#{{ page.h1color }}{% else %}#{{ site.default_gallery_header_h1color }}{% endif %}{% endcapture %}
+<style media="screen" type="text/css">
+      header,
+      .alpha {background:{{ h1bg }};}
+      .alpha h1{color:{{ h1color }};}
+      header a:link,header a:visited{color:{{ h1color }};}
+      a:link,a:visited {
+        color:{{ h1bg }};
+      }
+
+</style>
 
 
 <div class="section-wrapper alpha">
   <section>
-    <h1 class="centered" itemprop="name headline">{{ page.title }}</h1>
+    <div class="third">&nbsp;</div>
+    <div class="two-thirds omega">
+      <h1 itemprop="name headline">gallery</h1>
+      <h2>{{ page.title }}</h2>
+    </div>
   </section>
 </div>
 <section>
-  <div class="">
-    <p>{{ page.url }}</p>
+  <div class="third">
+    <aside>
+      {% for section in site.data.gallery_menu %}
+        <h5>{{ section.title }}</h5>
+        {% assign items = include.items %}
 
-    <p>
-     directory is {{ page.url }}
-    </p>
+        <ul class="no-bullets">
+        {% for item in section.items  %}
+          {% assign item_url = item | prepend:"/gallery/" | append:"/" %}
 
-    <p>my path: {{page.path}}</p>
+          {% if item_url == page.url %}
+            {% assign c = "active" %}
+          {% else %}
+            {% assign c = "" %}
+          {% endif %}
 
-    My collection is: {{page.collection}}</br>
+          {% for p in site.gallery %}
+            {% if p.url == item_url %}
+              <li class="{{ c }}"><a href="{{ site.url }}{{ p.url }}">{{ p.title }}</a></li>
+              {% break %}
+            {% endif %}
+          {% endfor %}
 
-    I have this many files: {{page.files}}</br>
+        {% endfor %}
+        </ul>
+      {% endfor %}
+    </aside>
 
-    My name is {{page.name}}</br>
-
-    My title is {{page.title}}</br>
   </div>
+  <div class="two-thirds omega">
 
+{% comment %}
+  yield to content, in case it's text format, right?
+{% endcomment %}
 
+{{ content }}
+
+{% if page.cad_file %}
   <figure >
   <figcaption class="half">{{page.cad_file}}</figcaption>
   <img class="half omega" src="{{ page.url }}{{page.image_file}}" />
   </figure>
 
-  <hr>
-
-
-  {% for operation in page.operations %}
-
-  <figure>
-    <figcaption class="half">{{operation.image_file}}</br> {{ operation.name }}</br> {{operation.description}}</br> {{operation.cut_file}}</br></br> {{operation.cut_file}}</figcaption>
-    <img class="half omega" src="{{ page.url }}{{operation.image_file}}" />
+  <figure >
+  <figcaption class="half">{{page.cad_file}}</figcaption>
+  <img class="half omega" src="{{ page.url }}{{page.image_file}}" />
   </figure>
-  <hr>
+  {% endif %}
 
-  {% for output in operation.outputs %}
-  <figure>
-    <figcaption class="half omega">{{output.image_file}}</br> {{output.name}} </br></br>{{output.description}} </br>{{output.cut_file}}</br> {{output.cut_file}} </figcaption>
-    <img class="half" src="{{ page.url }}{{output.image_file}}" />
-  </figure>
-  <hr>
 
-  {% endfor %}
-  {% endfor %}
-
+  
 
     {% comment %}
-                  {{ content }}
+      PAGINATION
+      Map grabs the gallery_menu sections, giving us an array of arrays. Join, flattens all
+      the items to a comma delimited string. Split turns it into an array again.
     {% endcomment %}
+
+
+    {% assign items = site.data.gallery_menu | map: 'items' | join: ',' | split: ',' %}
+
+    {% comment %}
+    Because this is built for every page, lets find where we are in the ordered
+    document list by comparing url strings. Then if there's something previous or
+    next, lets build a link to it.
+    {% endcomment %}
+
+    {% for document in items %}
+      {% assign document_url = document | prepend:"/gallery/" | append:"/" %}
+      {% if document_url == page.url %}
+        <div class="section-nav">
+          <div class="left align-right">
+              {% if forloop.first %}
+                <span class="prev disabled">Back</span>
+              {% else %}
+                {% assign previous = forloop.index0 | minus: 1 %}
+                {% assign previous_page = items[previous] | prepend:"/gallery/" | append:"/" %}
+                <a href="{{ previous_page }}" class="prev"><strong>Back</strong></a>
+              {% endif %}
+          </div>
+          <div class="right align-left">
+              {% if forloop.last %}
+                <span class="next disabled">Next</span>
+              {% else %}
+                {% assign next = forloop.index0 | plus: 1 %}
+                {% assign next_page = items[next] | prepend:"/gallery/" | append:"/" %}
+                <a href="{{ next_page }}" class="next"><strong>Next</strong></a>
+              {% endif %}
+          </div>
+        </div>
+        <div class="clear"></div>
+        {% break %}
+      {% endif %}
+    {% endfor %}
+</div>
 </section>

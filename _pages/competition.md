@@ -52,41 +52,9 @@ published: true
 </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <style>
-header,.alpha,.bravo{
-  background:rgb( 51, 102, 153);
-  }
 
-
-
-
-.alpha h1{color:#fff;font-size:5rem;}
-.alpha h2{color:#fff;font-size:3.5rem;}
 .alpha{
-
   background:linear-gradient( rgba( 51, 102, 153, 0.5), rgba( 51, 102, 153, 0.5) ), url({{ site.image_dir }}/printapede_desktop.jpg) no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  overflow:hidden;
-  height:500px;
-
 }
-header a:link,header a:visited{color:white}
 </style>

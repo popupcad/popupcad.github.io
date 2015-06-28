@@ -3805,4 +3805,33 @@ body.page .alpha, .post .alpha {
 .header nav li:first-child {
   display: block; }
 
+/*
+  competition
+ landing page
+ "/competition"
+*/
+body.competition header a:link, body.competition header a:visited {
+  color: white; }
+body.competition header, body.competition .bravo {
+  background: #336699; }
+body.competition .alpha {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  height: 350px; }
+  body.competition .alpha section {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); }
+  body.competition .alpha h1 {
+    color: #fff;
+    font-size: 5rem; }
+  body.competition .alpha h2 {
+    color: #fff;
+    font-size: 3.5rem; }
+
 /*# sourceMappingURL=popupcad.css.map */

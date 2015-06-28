@@ -5,7 +5,7 @@ title: Gallery
 h1color: fff
 h1bg: f39354
 permalink: /gallery/
-published: true
+published: false
 ---
 
 

@@ -2900,7 +2900,6 @@ td {
   position: relative;
   /* these styles can be commented out without much effect */ }
   .frontpage .alpha .video-wrapper {
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
     position: absolute;
     top: 0;
     left: 0;

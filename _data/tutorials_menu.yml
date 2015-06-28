@@ -1,4 +1,20 @@
-- title: Getting Started
+- title: Designing Laminates
   items:
-    - introduction
-    - test
+    - overview
+    - device-tutorial
+    - tutorial-notes
+    - solidworks-design-workflow
+- title: Basic operations
+  items:
+    - sketch-operation
+    - working-with-laminates
+    - working-with-layers
+    - dilate-and-erode
+    - locate-and-place
+    - cleanup-and-simplify
+    - shift-and-flip
+- title: Manufacturing Operations
+  items:
+    - scrap-generation
+    - support-generation
+    - custom-support-generation

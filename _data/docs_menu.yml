@@ -13,9 +13,6 @@
     - mac-setup
     - compiling-the-installer
     - git-setup-shell
-- title: Using popupCAD
-  items:
-    - overview
 - title: Making Devices
   items:
     - origami-inspired-design

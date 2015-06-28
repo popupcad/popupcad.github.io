@@ -1,14 +1,17 @@
 {% capture location %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}
 
+{% assign download_page = false %}
+{% if page.url contains 'download' %}{% assign download_page = true %}{% endif %}
+
 <header class="header headroom">
     <nav>
       <ul class="horizontal">
         <li><a title=" {{ site.title }}" href="/"> {{ site.name }}  </a></li>
-      	<li><a {% if location == 'competition' %}class="active" {% endif %}href="/competition">design contest</a></li>
-      	<li><a {% if location == 'download' %}class="active" {% endif %}href="/docs/download">download</a></li>
-      	<li><a {% if location == 'docs' %}class="active" {% endif %}href="/docs/what-is-popupcad/">docs</a></li>
+        <li><a {% if location == 'competition' %}class="active" {% endif %}href="/competition">design contest</a></li>
+        <li><a {% if download_page %}class="active" {% endif %}href="/docs/download">download</a></li>
+        <li><a {% if location == 'docs' and download_page != true  %}class="active" {% endif %}href="/docs/what-is-popupcad/">docs</a></li>
         <li><a {% if location == 'tutorials' %}class="active" {% endif %}href="/tutorials/introduction">tutorials</a></li>
-      	<li><a {% if location == 'blog' %}class="active" {% endif %}href="/blog/">blog</a></li>
+        <li><a {% if location == 'blog' %}class="active" {% endif %}href="/news/">news</a></li>
       </ul>
     </nav>
 </header>

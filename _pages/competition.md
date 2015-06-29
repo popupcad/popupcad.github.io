@@ -28,11 +28,13 @@ published: true
     </div>
   {% endcomment %}
 
-
-
+  <div>
+  <h6>Special thanks to the students of <em>Informal Robotics</em> and the Harvard Graduate School of Design.</h6>
+  </div>
   </section>
 </div>
 
+<!--
 <div class="section-wrapper bravo">
   <section>
     <div class="centered">
@@ -40,15 +42,15 @@ published: true
     </div>
   </section>
 </div>
-
+-->
 
 <div class="section-wrapper delta">
   <section>
     <div class="half centered">
-      <h2><a href ="{{site.url}}/contest/introduction">Learn About the Competition</a></h2>
+      <h2><a href ="{{site.url}}/contest/introduction">Learn more about the competition</a></h2>
     </div>
     <div class="half centered omega">
-      <h2><a href ="{{site.url}}/tutorials/introduction">Design a New Device</a></h2>
+      <h2><a href ="{{site.url}}/tutorials/introduction">Find a tutorial. Design a new device.</a></h2>
     </div>
   </section>
 </div>

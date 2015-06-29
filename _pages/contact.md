@@ -34,6 +34,6 @@ published: true
 
 
 
-    <input type='submit' value='Test form' class="btn btn-1 black"/>
+    <input type='submit' value='Send' class="btn btn-1 black"/>
 
 </form>

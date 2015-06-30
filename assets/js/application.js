@@ -32,8 +32,7 @@
 
 
 
-
-{% include _javascripts/skrollr.min.js %}
+{% include _javascripts/loadVideo.js %}
 
 {% include _javascripts/forms.animated.js %}
 

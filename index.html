@@ -7,12 +7,21 @@ sitemap:
 ---
 <div class="section-wrapper alpha" >
 
-    <div class="video-wrapper">
-      <video autoplay loop muted poster="video/foot-small.jpg" class="background-video">
-        <source src="assets/video/foot.mp4" type="video/mp4">
-        <!--<source src="assets/video/sample.webm" type="video/webm">-->
+    <script id="video-tag" type="text/template">
+      {% comment %}
+        Use this to set the background video for .alpha.
+        The script is ignored by browsers because its type is not 'javascript',
+        which means the video is not included in the page by default.
+        Then, if not on mobile, we use js to copy the contents into the empty .video-wrapper below
+      {% endcomment %}
+      <video autoplay loop muted poster="/assets/video/foot-small.jpg" class="background-video">
+        <source src="/assets/video/foot.mp4" type="video/mp4">
+        <!--<source src="/assets/video/sample.webm" type="video/webm">-->
       </video>
       <div class="video-shade"></div>
+    </script>
+
+    <div class="video-wrapper">
     </div>
 
 

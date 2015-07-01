@@ -15,5 +15,5 @@ As part of the popup design challenge, we are pleased to announce that we have u
 
 Do you have an application which is similar to the laminate design concept, but not quite?  Does popupCAD help you, but not fully?  Is there another button you wish existed?  [Contact]({{site.url}}/contact) us to see if we're already working on it, or check out the code to make a contribution!
 
-The code is available on GitHub, and we already have had a couple users help out, adding new functionality for display, simulation, and export.  We would love to have you participate even further!
+The code is available on [GitHub]({{site.popupcad_source_path}}), and we already have had a couple users help out, adding new functionality for display, simulation, and export.  We would love to have you participate even further!
 

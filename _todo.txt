@@ -6,3 +6,4 @@ sass file or css show-how
 categories for the gallery
 code representation
 code highlighting
+logo?

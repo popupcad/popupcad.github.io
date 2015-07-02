@@ -1,0 +1,8 @@
+Disqus on tutorials, gallery items
+three highlight modes, alert, warning,error!
+tutorial makeover
+chagne competition
+sass file or css show-how
+categories for the gallery
+code representation
+code highlighting

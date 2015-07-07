@@ -2,7 +2,8 @@
   font-size:1rem;
   padding: 1.2rem 2rem;
   background-color: #eee;
-  color: #586e75
+  color: #586e75;
+  overflow:scroll;
 }
 
 

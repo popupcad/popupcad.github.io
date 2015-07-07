@@ -284,9 +284,11 @@ body.post .background-container {
   background: #6266a0;
   color: #fff; }
   .echo h1, .echo h3, .echo h4, .echo h5 {
-    color: #fff; }
+    color: #86D4FC; }
   .echo h2, .echo h6 {
     color: #fff; }
+  .echo h6 {
+    color: #86D4FC; }
   .echo a {
     color: #fff; }
 
@@ -1130,9 +1132,11 @@ body.post .background-container {
   background: #6266a0;
   color: #fff; }
   .echo h1, .echo h3, .echo h4, .echo h5 {
-    color: #fff; }
+    color: #86D4FC; }
   .echo h2, .echo h6 {
     color: #fff; }
+  .echo h6 {
+    color: #86D4FC; }
   .echo a {
     color: #fff; }
 
@@ -1402,9 +1406,11 @@ body.post .background-container {
   background: #6266a0;
   color: #fff; }
   .echo h1, .echo h3, .echo h4, .echo h5 {
-    color: #fff; }
+    color: #86D4FC; }
   .echo h2, .echo h6 {
     color: #fff; }
+  .echo h6 {
+    color: #86D4FC; }
   .echo a {
     color: #fff; }
 
@@ -1817,9 +1823,11 @@ body.post .background-container {
   background: #6266a0;
   color: #fff; }
   .echo h1, .echo h3, .echo h4, .echo h5 {
-    color: #fff; }
+    color: #86D4FC; }
   .echo h2, .echo h6 {
     color: #fff; }
+  .echo h6 {
+    color: #86D4FC; }
   .echo a {
     color: #fff; }
 
@@ -2360,9 +2368,11 @@ body.post .background-container {
   background: #6266a0;
   color: #fff; }
   .echo h1, .echo h3, .echo h4, .echo h5 {
-    color: #fff; }
+    color: #86D4FC; }
   .echo h2, .echo h6 {
     color: #fff; }
+  .echo h6 {
+    color: #86D4FC; }
   .echo a {
     color: #fff; }
 
@@ -3289,9 +3299,11 @@ body.post .background-container {
   background: #6266a0;
   color: #fff; }
   .echo h1, .echo h3, .echo h4, .echo h5 {
-    color: #fff; }
+    color: #86D4FC; }
   .echo h2, .echo h6 {
     color: #fff; }
+  .echo h6 {
+    color: #86D4FC; }
   .echo a {
     color: #fff; }
 
@@ -3640,6 +3652,8 @@ body.frontpage {
   body.frontpage .btn-1a:active {
     color: #000;
     background: #fff; }
+  body.frontpage .echo h6 {
+    margin-top: 1em; }
 
 body.blogroll article:last-child hr {
   display: none; }

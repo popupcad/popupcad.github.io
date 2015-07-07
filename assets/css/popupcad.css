@@ -2865,12 +2865,16 @@ td {
   position: relative;
   /* these styles can be commented out without much effect */ }
   .frontpage .alpha .video-wrapper {
+    display: none;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     overflow: hidden; }
+    @media screen and (min-width: 960px) {
+      .frontpage .alpha .video-wrapper {
+        display: block; } }
   .frontpage .alpha .video-shade {
     background: rgba(45, 64, 91, 0.6);
     position: absolute;
@@ -3643,8 +3647,9 @@ body.frontpage {
     margin: 2.4rem 0 1.2rem 0; }
   body.frontpage .alpha h2 {
     color: #fff; }
-  body.frontpage .background-video {
-    background: url("/assets/video/foot-small.jpg"); }
+  body.frontpage .alpha {
+    background: url("/assets/video/foot-small.jpg");
+    background-size: contain; }
   body.frontpage .btn-1 {
     border: 2px solid #fff;
     color: #fff; }

@@ -828,6 +828,11 @@ body.gallery figure:after {
       #newsletter-button:last-child {
         margin-right: 0; } }
 
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 /*
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,900);
 */
@@ -887,24 +892,23 @@ aside .active:before {
 strong {
   font-weight: 700; }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 300;
-  letter-spacing: -1px; }
-  h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong {
-    font-weight: 700; }
+@media screen and (min-width: 320px) {
+  h1, h2, h3, h4, h5 {
+    font-weight: 700; } }
+@media screen and (min-width: 720px) {
+  h1, h2, h3, h4, h5 {
+    font-weight: 300;
+    letter-spacing: -1px; } }
 
 @media screen and (min-width: 320px) {
   h1 {
     font-size: 1.4rem;
     line-height: 1.3;
-    font-weight: 700;
     margin: 0 0 .7rem 0; } }
 @media screen and (min-width: 720px) {
   h1 {
     font-size: 2.2rem;
-    line-height: 1.5;
-    font-weight: 300; } }
+    line-height: 1.5; } }
 @media screen and (min-width: 960px) {
   h1 {
     font-size: 3rem; } }
@@ -913,36 +917,31 @@ h1, h2, h3, h4, h5, h6 {
   h2 {
     font-size: 1.4rem;
     line-height: 1.5;
-    font-weight: 700;
     margin: 0 0 .7rem 0; } }
 @media screen and (min-width: 720px) {
   h2 {
-    font-size: 1.9rem;
-    font-weight: 300; } }
+    font-size: 1.9rem; } }
 
 @media screen and (min-width: 320px) {
   h3, h4 {
     font-size: 1.4rem;
     line-height: 1.5;
-    font-weight: 700;
     margin: 0 0 .7rem 0; } }
 @media screen and (min-width: 720px) {
   h3, h4 {
-    font-size: 2rem;
-    font-weight: 300; } }
+    font-size: 2rem; } }
 
 @media screen and (min-width: 320px) {
   h5, h6 {
     font-size: 1.2rem;
     line-height: 1.5;
-    font-weight: 700;
     margin: 0 0 .7rem 0; } }
 @media screen and (min-width: 720px) {
   h5, h6 {
-    font-size: 1.2rem;
-    font-weight: 300; } }
+    font-size: 1.2rem; } }
 
 h6 {
+  font-weight: 300;
   text-transform: uppercase;
   letter-spacing: .5px; }
 
@@ -3393,6 +3392,11 @@ footer {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
 
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 /*
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,900);
 */
@@ -3452,24 +3456,23 @@ aside .active:before {
 strong {
   font-weight: 700; }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 300;
-  letter-spacing: -1px; }
-  h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong {
-    font-weight: 700; }
+@media screen and (min-width: 320px) {
+  h1, h2, h3, h4, h5 {
+    font-weight: 700; } }
+@media screen and (min-width: 720px) {
+  h1, h2, h3, h4, h5 {
+    font-weight: 300;
+    letter-spacing: -1px; } }
 
 @media screen and (min-width: 320px) {
   h1 {
     font-size: 1.4rem;
     line-height: 1.3;
-    font-weight: 700;
     margin: 0 0 .7rem 0; } }
 @media screen and (min-width: 720px) {
   h1 {
     font-size: 2.2rem;
-    line-height: 1.5;
-    font-weight: 300; } }
+    line-height: 1.5; } }
 @media screen and (min-width: 960px) {
   h1 {
     font-size: 3rem; } }
@@ -3478,36 +3481,31 @@ h1, h2, h3, h4, h5, h6 {
   h2 {
     font-size: 1.4rem;
     line-height: 1.5;
-    font-weight: 700;
     margin: 0 0 .7rem 0; } }
 @media screen and (min-width: 720px) {
   h2 {
-    font-size: 1.9rem;
-    font-weight: 300; } }
+    font-size: 1.9rem; } }
 
 @media screen and (min-width: 320px) {
   h3, h4 {
     font-size: 1.4rem;
     line-height: 1.5;
-    font-weight: 700;
     margin: 0 0 .7rem 0; } }
 @media screen and (min-width: 720px) {
   h3, h4 {
-    font-size: 2rem;
-    font-weight: 300; } }
+    font-size: 2rem; } }
 
 @media screen and (min-width: 320px) {
   h5, h6 {
     font-size: 1.2rem;
     line-height: 1.5;
-    font-weight: 700;
     margin: 0 0 .7rem 0; } }
 @media screen and (min-width: 720px) {
   h5, h6 {
-    font-size: 1.2rem;
-    font-weight: 300; } }
+    font-size: 1.2rem; } }
 
 h6 {
+  font-weight: 300;
   text-transform: uppercase;
   letter-spacing: .5px; }
 
@@ -3754,10 +3752,6 @@ body.page .alpha, .post .alpha {
 #container {
   margin: 0; }
 
-.highlight {
-  background-color: #fafafa;
-  padding: .5rem 1rem; }
-
 @media screen and (min-width: 320px) {
   .morph-button button {
     display: block; } }
@@ -3810,5 +3804,8 @@ body.competition header, body.competition .bravo {
       body.competition .alpha section h2 {
         color: #fff;
         font-size: 3.5rem; } }
+
+#disqus_thread {
+  margin-top: 10rem; }
 
 /*# sourceMappingURL=popupcad.css.map */

@@ -2590,7 +2590,8 @@ td {
 .notice {
   position: relative;
   margin: 1rem 0;
-  padding: 1em 1em 1em 2em; }
+  padding: 1.7rem 2rem 1.7rem 2.8rem;
+  min-height: 80px; }
   .notice:before {
     font-family: popupcad !important;
     font-size: 2rem !important;

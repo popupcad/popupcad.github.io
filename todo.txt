@@ -1,0 +1,29 @@
+# To do
+
+- logo - next!
+- Frontpage video and placeholder appear to stack on mobile.
+- Color and font-size of mobile menu are really iffy. lets also move it to the top.
+- 'our tutorials are a great..' etc on a front page is not good on mobile (!)
+- give the same form styles to http://localhost:4000/newsletter/ that /contact has.
+- github doesnt have an icon in the footer or main page. i must have removed it by accident from fontello. put it back!
+- the top right menu spills over on tablet. make it more responsive.
+- the circular share icons spill over on mobile, make it more responsive.
+- page and post .alpha should have less vertical padding on mobile.
+- tweak h1-h6 sizes on mobile. perhaps 2rem. theyre 20% too small.
+- center tutorial/gallery/docs h1 and h2 in .alpha on mobile
+- change the phone icon next to /contact in footer to a mail icon.
+- add a custom.css file for Dan's overrides, so his changes can be instant, and so we can integrate later.
+
+DONE: Disqus on tutorials, gallery items
+DONE: three highlight modes, alert, warning,error!
+DONE: code highlighting
+
+## ask Dan about:
+tutorial makeover
+chagne competition
+categories for the gallery
+
+
+TO BE DONE AFTER:
+sass file or css show-how (I'm documenting it a bit too)
+improve README.md

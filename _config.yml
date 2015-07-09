@@ -137,4 +137,4 @@ simpleform_redirect: http://localhost:4000/contact-thanks
 google_analytics: UA-52846213-1
 popupcad_source_path: https://github.com/danaukes/popupcad
 popupcad_api_path: http://popupcad.github.io/popupcad-docs/html/
-popupcad_windows_installer_path: http://sourceforge.net/projects/popupcad/
+popupcad_windows_installer_path: https://github.com/danaukes/popupcad/releases/latest

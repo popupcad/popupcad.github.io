@@ -1,4 +1,6 @@
+## css
 
+The cleanest way to add or override classes and divs is to enter them in: '/assets/css/custom.css'
 
 # installing
 

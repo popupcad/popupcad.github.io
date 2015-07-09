@@ -2,21 +2,16 @@
 
 The cleanest way to add or override classes and divs is to enter them in: '/assets/css/custom.css'
 
-# installing
-
-gem install sass
-gem install json
-
-# things to note:
-
-#### 1 - excerpt separator
+## 1 - excerpt separator in blog/news/post items
 
 in config.yml I specify a excerpt_separator: "<!--more-->".
 
-So on blog list pages, it'll display all of a post up to <!--more-->. It's kinda important to use that on pages that start with a <table> or something.
+So on blog list pages, it'll display all of a post up to <!--more-->. It's kinda important to use that on pages that start with a <table> or something, or things will get weird.
 
 
-# Alerts and Notifcations
+# Alerts and Notifications
+
+Create information boxes with the following syntax.
 
 
     <div class="notice info"><p>This is a an info notice, it provides feedback of a neutral nature to the user.</p></div>

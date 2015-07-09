@@ -23,6 +23,31 @@ Create information boxes with the following syntax.
     <div class="notice error"><p>This is an error notice, it provides feedback of a negative nature to the user.</p></div>
 
 
+# ICON FONTS.
+
+The icon fonts are from fontello.com. In order to add more fontello icons, save yourself some time and upload your existing list of fonts via the JSON file. Click on the SPANNER icon at fontello.com and upload the config.json file from 'resources/icon_fonts'.  
+
+When you've added or subtracted the fonts you like, name the package ('popupcad') and then download the zip file. Unarchive somewhere (why not the 'resources/icon-fonts' dir ?) Copy the fonts from the unarchive dir into /assets/fonts - remove the old ones first.  
+
+Next, check the dir where you unarchived the fonts - there should be a css dir and popupcad.css file inside. Open it in a text editor.  You're copying in the new icon classes from the bottom of the document into your existing /assets/css/webfont.css file.  
+
+Ensure you remove all the old .icon-* classes first.  
+
+Finally, ensure that the @font-source paths point to right filenames.
+ie. it'll look something like this:
+/assets/fonts/demonflower.eot?32771413
+/assets/fonts/demonflower.eot?32771413#iefix
+/assets/fonts/demonflower.woff?32771413
+
+the new paths have to be made to look like
+
+/assets/fonts/popupcad.eot?123456 <- so check the number from the new popupcad.css file.
+
+In short: the font name and suffix number from the popupcad.css font file you downloaded from fontello. Leave the font-family name: popupcad.
+
+
+
+
 
 
 So version 3.0.0beta2 is a bit too unstable: use jekyll 2.5.3 until it's ready.

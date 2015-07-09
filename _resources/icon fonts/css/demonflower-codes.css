@@ -25,11 +25,10 @@
 .icon-right-open:before { content: '\e817'; } /* '' */
 .icon-left-open:before { content: '\e818'; } /* '' */
 .icon-down-open:before { content: '\e819'; } /* '' */
+.icon-github:before { content: '\e81a'; } /* '' */
 .icon-reddit:before { content: '\e81b'; } /* '' */
 .icon-reddit-squared:before { content: '\e81d'; } /* '' */
 .icon-alert:before { content: '\e821'; } /* '' */
-.icon-doc:before { content: '\e822'; } /* '' */
-.icon-picture:before { content: '\e823'; } /* '' */
 .icon-search-1:before { content: '\e824'; } /* '' */
 .icon-mail:before { content: '\e826'; } /* '' */
 .icon-mail-circled:before { content: '\e827'; } /* '' */

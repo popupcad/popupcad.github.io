@@ -14,6 +14,8 @@ DONE: - github doesnt have an icon in the footer or main page. i must have remov
 DONE: - change the phone icon next to /contact in footer to a mail icon.
 DONE: - add a custom.css file for Dan's overrides, so his changes can be instant, and so we can integrate later.
 
+DONE: documented adding/removing icon fonts.
+
 DONE: Disqus on tutorials, gallery items
 DONE: three highlight modes, alert, warning,error!
 DONE: code highlighting

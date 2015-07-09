@@ -55,12 +55,6 @@
       "src": "fontawesome"
     },
     {
-      "uid": "381da2c2f7fd51f8de877c044d7f439d",
-      "css": "picture",
-      "code": 59427,
-      "src": "fontawesome"
-    },
-    {
       "uid": "e82cedfa1d5f15b00c5a81c9bd731ea2",
       "css": "info-circled",
       "code": 59398,
@@ -232,6 +226,12 @@
       "uid": "4743b088aa95d6f3b6b990e770d3b647",
       "css": "facebook-squared",
       "code": 59463,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "5e0a374728ffa8d0ae1f331a8f648231",
+      "css": "github",
+      "code": 59418,
       "src": "fontawesome"
     },
     {
@@ -431,12 +431,6 @@
       "css": "cogs",
       "code": 59454,
       "src": "elusive"
-    },
-    {
-      "uid": "f978da58836f23373882916f05fb70b4",
-      "css": "doc",
-      "code": 59426,
-      "src": "linecons"
     }
   ]
 }

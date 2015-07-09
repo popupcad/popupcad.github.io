@@ -7,7 +7,7 @@ DONE: - Frontpage video and placeholder appear to stack on mobile.
 - 'our tutorials are a great..' button should be centered on mobile?
 - give the same form styles to http://localhost:4000/newsletter/ that /contact has.
 DONE: - github doesnt have an icon in the footer or main page. i must have removed it by accident from fontello. put it back!
-- the top right menu spills over on tablet. make it more responsive.
+DONE: - the top right menu spills over on tablet. make it more responsive.
 - the circular share icons spill over on mobile, make it more responsive.
 - page and post .alpha should have less vertical padding on mobile.
 - tweak h1-h6 sizes on mobile. perhaps 2rem. theyre 20% too small.

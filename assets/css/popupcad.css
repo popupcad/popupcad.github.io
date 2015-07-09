@@ -3541,4 +3541,14 @@ body.competition header, body.competition .bravo {
 #disqus_thread {
   margin-top: 10rem; }
 
+/* popupcad hacks */
+/*
+  page:
+   /newsletter
+
+
+*/
+#newsletter-page-button {
+  margin-top: 0; }
+
 /*# sourceMappingURL=popupcad.css.map */

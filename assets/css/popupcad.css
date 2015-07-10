@@ -348,14 +348,14 @@ body.post time, body.post datetime {
   color: #a9d5e7; }
 
 /* colors of article boxes, typography and share boxes */
-footer {
+#footer {
   background: #2a2b3a;
   color: #fff; }
-  footer h5 {
+  #footer h5 {
     color: #A4DBF2; }
-  footer a:link, footer a:visited {
+  #footer a:link, #footer a:visited {
     color: #fff; }
-    footer a:link:hover, footer a:visited:hover {
+    #footer a:link:hover, #footer a:visited:hover {
       color: #2dafe6; }
 
 /* fonts */
@@ -399,7 +399,7 @@ footer {
 }
 */
 section {
-  max-width: 87.5em;
+  max-width: 87.5rem;
   margin-left: auto;
   margin-right: auto;
   padding: 3rem 1rem 4rem 1rem; }
@@ -408,58 +408,25 @@ section {
     display: table;
     clear: both; }
 
-main {
-  /*
-   header {
-    @include outer-container;
-    //@include pad(0 default);
-  //  @include pad(0 default); // passing 'default' to pad() gives the value of 'gutter'
-  //  height:57px;
-    margin-bottom:30px;
-    background:red;
-  }
-  */ }
-
-nav {
-  padding: 1rem; }
-  @media screen and (min-width: 320px) {
-    nav {
-      float: left;
-      display: block;
-      margin-right: 4.34783%;
-      width: 100%; }
-      nav:last-child {
-        margin-right: 0; } }
-  @media screen and (min-width: 720px) {
-    nav {
-      float: left;
-      display: block;
-      margin-right: 4.34783%;
-      width: 82.6087%;
-      margin-left: 8.69565%; }
-      nav:last-child {
-        margin-right: 0; } }
-  @media screen and (min-width: 960px) {
-    nav {
-      float: left;
-      display: block;
-      margin-right: 4.34783%;
-      width: 82.6087%;
-      margin-left: 8.69565%;
-      margin-right: 0; }
-      nav:last-child {
-        margin-right: 0; } }
-
-footer {
-  padding: 1em 0; }
-  footer:after {
+header > nav {
+  max-width: 87.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem; }
+  header > nav:after {
     content: "";
     display: table;
     clear: both; }
-  footer:nth-child(1n) {
-    margin-right: 0; }
-  footer:nth-child(1n+1) {
-    clear: left; }
+
+#footer footer {
+  max-width: 87.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem; }
+  #footer footer:after {
+    content: "";
+    display: table;
+    clear: both; }
 
 /*
 #masthead-blog,
@@ -661,34 +628,6 @@ body.blank {
    It's sort of a brochure page - the index.html is an Empty
    */ }
 
-@media screen and (min-width: 320px) {
-  section {
-    float: left;
-    display: block;
-    margin-right: 4.34783%;
-    width: 100%; }
-    section:last-child {
-      margin-right: 0; } }
-@media screen and (min-width: 720px) {
-  section {
-    float: left;
-    display: block;
-    margin-right: 4.34783%;
-    width: 82.6087%;
-    margin-left: 8.69565%; }
-    section:last-child {
-      margin-right: 0; } }
-@media screen and (min-width: 960px) {
-  section {
-    float: left;
-    display: block;
-    margin-right: 4.34783%;
-    width: 82.6087%;
-    margin-left: 8.69565%;
-    margin-right: 0; }
-    section:last-child {
-      margin-right: 0; } }
-
 body.page main,
 body.post main,
 body.blogroll main {
@@ -750,7 +689,7 @@ body.blogroll main {
   body.post main aside,
   body.blogroll main aside {
     margin: 2rem 0;
-    max-width: 87.5em;
+    max-width: 87.5rem;
     margin-left: auto;
     margin-right: auto;
     margin-right: 0; }
@@ -955,9 +894,6 @@ footer {
     footer {
       font-size: 1.2rem;
       line-height: 1.6; } }
-  @media screen and (min-width: 960px) {
-    footer {
-      font-size: 1rem; } }
   @media screen and (min-width: 320px) {
     footer {
       text-align: center; } }
@@ -981,9 +917,6 @@ small {
     small {
       font-size: 1.2rem;
       line-height: 1.6; } }
-  @media screen and (min-width: 960px) {
-    small {
-      font-size: 1rem; } }
 
 .centered {
   text-align: center; }
@@ -1195,14 +1128,14 @@ body.post time, body.post datetime {
   color: #a9d5e7; }
 
 /* colors of article boxes, typography and share boxes */
-footer {
+#footer {
   background: #2a2b3a;
   color: #fff; }
-  footer h5 {
+  #footer h5 {
     color: #A4DBF2; }
-  footer a:link, footer a:visited {
+  #footer a:link, #footer a:visited {
     color: #fff; }
-    footer a:link:hover, footer a:visited:hover {
+    #footer a:link:hover, #footer a:visited:hover {
       color: #2dafe6; }
 
 /* fonts */
@@ -1469,14 +1402,14 @@ body.post time, body.post datetime {
   color: #a9d5e7; }
 
 /* colors of article boxes, typography and share boxes */
-footer {
+#footer {
   background: #2a2b3a;
   color: #fff; }
-  footer h5 {
+  #footer h5 {
     color: #A4DBF2; }
-  footer a:link, footer a:visited {
+  #footer a:link, #footer a:visited {
     color: #fff; }
-    footer a:link:hover, footer a:visited:hover {
+    #footer a:link:hover, #footer a:visited:hover {
       color: #2dafe6; }
 
 /* fonts */
@@ -1886,14 +1819,14 @@ body.post time, body.post datetime {
   color: #a9d5e7; }
 
 /* colors of article boxes, typography and share boxes */
-footer {
+#footer {
   background: #2a2b3a;
   color: #fff; }
-  footer h5 {
+  #footer h5 {
     color: #A4DBF2; }
-  footer a:link, footer a:visited {
+  #footer a:link, #footer a:visited {
     color: #fff; }
-    footer a:link:hover, footer a:visited:hover {
+    #footer a:link:hover, #footer a:visited:hover {
       color: #2dafe6; }
 
 /* fonts */
@@ -2102,14 +2035,14 @@ body.post time, body.post datetime {
   color: #a9d5e7; }
 
 /* colors of article boxes, typography and share boxes */
-footer {
+#footer {
   background: #2a2b3a;
   color: #fff; }
-  footer h5 {
+  #footer h5 {
     color: #A4DBF2; }
-  footer a:link, footer a:visited {
+  #footer a:link, #footer a:visited {
     color: #fff; }
-    footer a:link:hover, footer a:visited:hover {
+    #footer a:link:hover, #footer a:visited:hover {
       color: #2dafe6; }
 
 /* fonts */
@@ -2499,9 +2432,6 @@ table {
     table {
       font-size: 1.2rem;
       line-height: 1.6; } }
-  @media screen and (min-width: 960px) {
-    table {
-      font-size: 1rem; } }
 
 caption {
   color: #000;
@@ -3100,14 +3030,14 @@ body.post time, body.post datetime {
   color: #a9d5e7; }
 
 /* colors of article boxes, typography and share boxes */
-footer {
+#footer {
   background: #2a2b3a;
   color: #fff; }
-  footer h5 {
+  #footer h5 {
     color: #A4DBF2; }
-  footer a:link, footer a:visited {
+  #footer a:link, #footer a:visited {
     color: #fff; }
-    footer a:link:hover, footer a:visited:hover {
+    #footer a:link:hover, #footer a:visited:hover {
       color: #2dafe6; }
 
 /* fonts */
@@ -3253,9 +3183,6 @@ footer {
     footer {
       font-size: 1.2rem;
       line-height: 1.6; } }
-  @media screen and (min-width: 960px) {
-    footer {
-      font-size: 1rem; } }
   @media screen and (min-width: 320px) {
     footer {
       text-align: center; } }
@@ -3279,9 +3206,6 @@ small {
     small {
       font-size: 1.2rem;
       line-height: 1.6; } }
-  @media screen and (min-width: 960px) {
-    small {
-      font-size: 1rem; } }
 
 .centered {
   text-align: center; }
@@ -3302,15 +3226,8 @@ a {
 button {
   font-size: 1rem; }
 
-header {
-  margin-top: 0; }
-  header section a:link, header section a:visited {
-    padding-top: 20px;
-    padding-bottom: 20px; }
-
-header {
+body > header {
   height: 70px;
-  width: 100%;
   z-index: 20; }
 
 body.contest aside,
@@ -3334,12 +3251,6 @@ body.tutorials aside {
     body.tutorials aside {
       font-size: 1.2rem;
       line-height: 1.6; } }
-  @media screen and (min-width: 960px) {
-    body.contest aside,
-    body.gallery aside,
-    body.docs aside,
-    body.tutorials aside {
-      font-size: 1rem; } }
   @media screen and (min-width: 320px) {
     body.contest aside,
     body.gallery aside,

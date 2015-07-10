@@ -2125,7 +2125,7 @@ body.post time, body.post datetime {
     position: relative;
     padding: 0 1em;
     border: none;
-    background-color: #e85657;
+    background-color: #6266a0;
     color: #f9f6e5;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -2171,7 +2171,7 @@ body.post time, body.post datetime {
 .morph-button-overlay .morph-content {
   transition: opacity 0.3s 0.5s, width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s;
   overflow: hidden;
-  background: #e85657; }
+  background: #6266a0; }
 .morph-button-overlay.open .morph-content {
   transition: width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s;
   top: 0 !important;
@@ -2187,7 +2187,7 @@ body.post time, body.post datetime {
   position: fixed; }
   .morph-button-sidebar .morph-content {
     transition: opacity 0.3s 0.5s, width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s;
-    background: #57bb89; }
+    background: #6266a0; }
   .morph-button-sidebar.open .morph-content {
     transition: width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s;
     top: 0 !important;
@@ -2232,9 +2232,9 @@ body.post time, body.post datetime {
   transition: width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s, margin 0.4s 0.1s; }
 
 .morph-button-modal-1 .morph-content {
-  background-color: #553445; }
+  background-color: green; }
 .morph-button-modal-1 > button {
-  background-color: #553445; }
+  background-color: green; }
 
 .no-js .morph-button {
   margin: 10px 0;
@@ -2250,7 +2250,7 @@ body.post time, body.post datetime {
   left: 0;
   margin: 0;
   height: 100%;
-  background: #e85657;
+  background: #6266a0;
   overflow: auto; }
 
 .morph-button-modal-1::before {
@@ -2295,13 +2295,13 @@ body.post time, body.post datetime {
   .morph-button-sidebar {
     width: 100% !important;
     height: 60px !important;
-    bottom: 0;
+    top: 0;
     left: 0; }
     .morph-button-sidebar .morph-content {
       width: 100% !important;
       height: 60px !important; }
     .morph-button-sidebar > button {
-      font-size: 1.6em; }
+      font-size: 1rem; }
     .morph-button-sidebar.open .morph-content {
       height: 100% !important; } }
 /* sidebar itself */
@@ -2314,7 +2314,7 @@ body.post time, body.post datetime {
 .content-style-sidebar .icon-cancel-circled2 {
   top: 0;
   right: 0;
-  font-size: 0.85em;
+  font-size: 1.7rem;
   z-index: 3001;
   display: block;
   overflow: hidden;
@@ -2329,10 +2329,10 @@ body.post time, body.post datetime {
   padding: 0; }
   .content-style-sidebar ul li a {
     display: block;
-    padding: 12px 20px;
+    padding: 12px 20px 12px 0;
     color: #faf1e0;
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 1.6rem;
     box-shadow: inset 0 1px rgba(0, 0, 0, 0.1); }
   .content-style-sidebar ul li:last-child a {
     box-shadow: inset 0 1px rgba(0, 0, 0, 0.1), inset 0 -1px rgba(0, 0, 0, 0.1); }
@@ -2353,7 +2353,7 @@ body.post time, body.post datetime {
   right: 20px; }
 
 .icon-cancel-circled2:hover {
-  color: #a50a05; }
+  opacity: .4; }
 
 /* OVERLAY RELATED */
 .content-style-overlay {
@@ -3452,6 +3452,9 @@ body.competition header, body.competition .bravo {
 
 
 */
+#footer {
+  padding: 3rem 0 1rem 0; }
+
 #newsletter-page-button {
   margin-top: 0; }
 

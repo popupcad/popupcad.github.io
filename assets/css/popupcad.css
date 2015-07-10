@@ -840,7 +840,7 @@ strong {
 
 @media screen and (min-width: 320px) {
   h1 {
-    font-size: 1.4rem;
+    font-size: 2.2rem;
     line-height: 1.3;
     margin: 0 0 .7rem 0; } }
 @media screen and (min-width: 720px) {
@@ -2129,7 +2129,6 @@ body.post time, body.post datetime {
     color: #f9f6e5;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-weight: 700;
     line-height: 80px;
     overflow: hidden; }
 
@@ -3122,7 +3121,7 @@ strong {
 
 @media screen and (min-width: 320px) {
   h1 {
-    font-size: 1.4rem;
+    font-size: 2.2rem;
     line-height: 1.3;
     margin: 0 0 .7rem 0; } }
 @media screen and (min-width: 720px) {
@@ -3317,13 +3316,29 @@ body.tutorials .alpha {
   -webkit-mask-size: auto 100%;
   -webkit-mask-repeat: repeat-x; }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 320px) {
   body.docs .alpha h1,
   body.gallery .alpha h1,
   body.tutorials .alpha h1 {
+    text-align: center; } }
+@media screen and (min-width: 720px) {
+  body.docs .alpha h1,
+  body.gallery .alpha h1,
+  body.tutorials .alpha h1 {
+    text-align: left;
     font-size: 6rem;
     margin-bottom: 0;
     opacity: 0.4; } }
+@media screen and (min-width: 320px) {
+  body.docs .alpha h2,
+  body.gallery .alpha h2,
+  body.tutorials .alpha h2 {
+    text-align: center; } }
+@media screen and (min-width: 720px) {
+  body.docs .alpha h2,
+  body.gallery .alpha h2,
+  body.tutorials .alpha h2 {
+    text-align: left; } }
 
 body.gallery figure {
   border-bottom: 1px solid #ccc;
@@ -3380,8 +3395,12 @@ body.post span.author:before {
   mask-repeat: repeat-x;
   -webkit-mask-size: cover; }
 
-body.page .alpha, .post .alpha {
-  height: 350px; }
+@media screen and (min-width: 320px) {
+  body.page .alpha, .post .alpha {
+    height: 150px; } }
+@media screen and (min-width: 720px) {
+  body.page .alpha, .post .alpha {
+    height: 350px; } }
 
 /*
  headroom is removed from this site, so container has to be corrected

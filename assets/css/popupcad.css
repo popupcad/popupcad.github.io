@@ -412,7 +412,7 @@ header > nav {
   max-width: 87.5rem;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 1rem; }
+  padding: 1rem; }
   header > nav:after {
     content: "";
     display: table;
@@ -1211,6 +1211,15 @@ ul.horizontal {
     float: left;
     margin-left: 0; }
 
+/*
+make menu items disappear as they drop to second row, independent of media queries
+can optionally be enhanced with a toggle to drop-down view
+as in https://css-tricks.com/the-priority-navigation-pattern/
+*/
+.header nav {
+  overflow: hidden;
+  height: 70px; }
+
 /* buttons */
 /* used by the drop down menu. delete if not using it */
 /* colors we use */
@@ -1427,6 +1436,25 @@ body.post time, body.post datetime {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
 
+ul.inline-circled-share {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  list-style-type: none; }
+  ul.inline-circled-share li {
+    margin: 0 1rem 0 0;
+    display: inline;
+    font-size: 2rem; }
+    ul.inline-circled-share li .icon-pocket {
+      font-size: 1.7rem; }
+  ul.inline-circled-share li.share {
+    display: inline;
+    font-size: 1rem;
+    position: relative;
+    color: #ccc;
+    top: -4px;
+    margin-right: 10px; }
+
 main a.icon-facebook-circled,
 main a.icon-facebook-squared {
   color: #306199 !important; }
@@ -1485,41 +1513,6 @@ main a.icon-pocket {
   color: #ed4054 !important; }
   main a.icon-pocket:hover {
     color: #f16f7e !important; }
-
-ul.inline-circled-share,
-ul.inline-squared-share {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  list-style-type: none; }
-  ul.inline-circled-share li,
-  ul.inline-squared-share li {
-    display: inline;
-    font-size: 2rem; }
-    ul.inline-circled-share li .icon-pocket,
-    ul.inline-squared-share li .icon-pocket {
-      font-size: 1.7rem; }
-  ul.inline-circled-share li.share,
-  ul.inline-squared-share li.share {
-    font-size: 1rem;
-    position: relative;
-    color: #ccc;
-    top: -4px;
-    margin-right: 10px; }
-
-footer .share-links-circle a.icon-facebook-circled,
-footer .share-links-circle a.icon-tumblr-circled,
-footer .share-links-circle a.icon-twitter-circled,
-footer .share-links-circle a.icon-pinterest-circled,
-footer .share-links-circle a.icon-gplus-circled {
-  color: #A4DBF2;
-  opacity: .7; }
-  footer .share-links-circle a.icon-facebook-circled:hover,
-  footer .share-links-circle a.icon-tumblr-circled:hover,
-  footer .share-links-circle a.icon-twitter-circled:hover,
-  footer .share-links-circle a.icon-pinterest-circled:hover,
-  footer .share-links-circle a.icon-gplus-circled:hover {
-    opacity: 1; }
 
 .btn {
   border: none;
@@ -3290,8 +3283,8 @@ body.frontpage {
   body.frontpage .alpha h2 {
     color: #fff; }
   body.frontpage .alpha {
-    background: url("/assets/video/foot-small.jpg");
-    background-size: contain; }
+    background: url("/assets/video/foot-small.jpg") 50% 50%;
+    background-size: cover; }
   body.frontpage .btn-1 {
     border: 2px solid #fff;
     color: #fff; }

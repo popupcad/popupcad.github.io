@@ -55,18 +55,6 @@
       "src": "fontawesome"
     },
     {
-      "uid": "381da2c2f7fd51f8de877c044d7f439d",
-      "css": "picture",
-      "code": 59427,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "861ab06e455e2de3232ebef67d60d708",
-      "css": "minus",
-      "code": 59475,
-      "src": "fontawesome"
-    },
-    {
       "uid": "e82cedfa1d5f15b00c5a81c9bd731ea2",
       "css": "info-circled",
       "code": 59398,
@@ -112,12 +100,6 @@
       "uid": "21b42d3c3e6be44c3cc3d73042faa216",
       "css": "sliders",
       "code": 59401,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "9affc98d652b86628d650ee58dbf0357",
-      "css": "basket",
-      "code": 59405,
       "src": "fontawesome"
     },
     {
@@ -247,6 +229,12 @@
       "src": "fontawesome"
     },
     {
+      "uid": "5e0a374728ffa8d0ae1f331a8f648231",
+      "css": "github",
+      "code": 59418,
+      "src": "fontawesome"
+    },
+    {
       "uid": "f0cf7db1b03cb65adc450aa3bdaf8c4d",
       "css": "gplus-squared",
       "code": 59461,
@@ -301,33 +289,21 @@
       "src": "entypo"
     },
     {
-      "uid": "3def559c3c39b8500882e02892b7daa8",
-      "css": "picture-1",
-      "code": 59429,
+      "uid": "de9a631a7d18106aea1c89ba51b1990a",
+      "css": "help-circled",
+      "code": 59462,
       "src": "entypo"
     },
     {
-      "uid": "513ac180ff85bd275f2b736720cbbf5e",
-      "css": "home",
-      "code": 59423,
+      "uid": "97902f87200ce74d181044df02a0458d",
+      "css": "attention",
+      "code": 59456,
       "src": "entypo"
     },
     {
-      "uid": "8663320a860b00f26e94d3d15c9ba99a",
-      "css": "clock",
-      "code": 59437,
-      "src": "entypo"
-    },
-    {
-      "uid": "3d349daaea304032a7669b4f24931b6c",
-      "css": "shuffle",
-      "code": 59472,
-      "src": "entypo"
-    },
-    {
-      "uid": "39c4d0e225a1263a398a47523cb5b9bd",
-      "css": "brush",
-      "code": 59452,
+      "uid": "39a5a0d7ce8342d149373b2ce219503a",
+      "css": "alert",
+      "code": 59425,
       "src": "entypo"
     },
     {
@@ -379,18 +355,6 @@
       "src": "entypo"
     },
     {
-      "uid": "d491462e64eb5b8c4f064108a2ff1780",
-      "css": "tumblr-1",
-      "code": 59441,
-      "src": "entypo"
-    },
-    {
-      "uid": "72a6237752f5cd00a107d097adac9ce3",
-      "css": "tumblr-circled",
-      "code": 59442,
-      "src": "entypo"
-    },
-    {
       "uid": "7132e1233bc16cd1b6efe7e29d3613a5",
       "css": "linkedin",
       "code": 59443,
@@ -401,30 +365,6 @@
       "css": "linkedin-circled",
       "code": 59444,
       "src": "entypo"
-    },
-    {
-      "uid": "ef5e2b339a93fff038cc6a28f8c91edd",
-      "css": "stumbleupon",
-      "code": 59420,
-      "src": "entypo"
-    },
-    {
-      "uid": "e3606432570e59d4d852727bad063cd1",
-      "css": "stumbleupon-circled",
-      "code": 59422,
-      "src": "entypo"
-    },
-    {
-      "uid": "d3d5f318c8e9a58245c2e48c7ce0f57d",
-      "css": "tag-1",
-      "code": 59470,
-      "src": "iconic"
-    },
-    {
-      "uid": "95fb2e5fdd1ea7e4a420b6ed330e6b08",
-      "css": "sun",
-      "code": 59455,
-      "src": "meteocons"
     },
     {
       "uid": "a7632b6db17256019e34ec72fb236be0",
@@ -469,6 +409,12 @@
       "src": "elusive"
     },
     {
+      "uid": "3c0ef77f5fbb5c933c23f2c437d8cab8",
+      "css": "error-alt",
+      "code": 59405,
+      "src": "elusive"
+    },
+    {
       "uid": "c91098f07ff0df45b3f8666b72b75801",
       "css": "phone",
       "code": 59451,
@@ -485,24 +431,6 @@
       "css": "cogs",
       "code": 59454,
       "src": "elusive"
-    },
-    {
-      "uid": "f978da58836f23373882916f05fb70b4",
-      "css": "doc",
-      "code": 59426,
-      "src": "linecons"
-    },
-    {
-      "uid": "46cacfc5030a225f338323a3538a18e8",
-      "css": "th-large",
-      "code": 59418,
-      "src": "websymbols"
-    },
-    {
-      "uid": "9e22a8a67fe3b88cdd5e4253c85debdb",
-      "css": "th",
-      "code": 59424,
-      "src": "websymbols"
     }
   ]
 }

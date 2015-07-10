@@ -16,11 +16,13 @@ twitter_username: popupcad
 facebook_username: popupcad
 gplus_username: communities/106456911842813544602
 github_username: popupcad
+disqusshortname: popupcad
 
 # Build settings
 markdown: kramdown
 permalinks: pretty
 #highlighter: rouge
+#hightlighter: pygments
 
 # default post (blog) url schema
 permalink: /:categories/:year/:title/

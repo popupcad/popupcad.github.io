@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -349,14 +348,14 @@ body.post time, body.post datetime {
   color: #a9d5e7; }
 
 /* colors of article boxes, typography and share boxes */
-footer {
+#footer {
   background: #2a2b3a;
   color: #fff; }
-  footer h5 {
+  #footer h5 {
     color: #A4DBF2; }
-  footer a:link, footer a:visited {
+  #footer a:link, #footer a:visited {
     color: #fff; }
-    footer a:link:hover, footer a:visited:hover {
+    #footer a:link:hover, #footer a:visited:hover {
       color: #2dafe6; }
 
 /* fonts */
@@ -400,7 +399,7 @@ footer {
 }
 */
 section {
-  max-width: 87.5em;
+  max-width: 87.5rem;
   margin-left: auto;
   margin-right: auto;
   padding: 3rem 1rem 4rem 1rem; }
@@ -409,58 +408,25 @@ section {
     display: table;
     clear: both; }
 
-main {
-  /*
-   header {
-    @include outer-container;
-    //@include pad(0 default);
-  //  @include pad(0 default); // passing 'default' to pad() gives the value of 'gutter'
-  //  height:57px;
-    margin-bottom:30px;
-    background:red;
-  }
-  */ }
-
-nav {
+header > nav {
+  max-width: 87.5rem;
+  margin-left: auto;
+  margin-right: auto;
   padding: 1rem; }
-  @media screen and (min-width: 320px) {
-    nav {
-      float: left;
-      display: block;
-      margin-right: 4.34783%;
-      width: 100%; }
-      nav:last-child {
-        margin-right: 0; } }
-  @media screen and (min-width: 720px) {
-    nav {
-      float: left;
-      display: block;
-      margin-right: 4.34783%;
-      width: 82.6087%;
-      margin-left: 8.69565%; }
-      nav:last-child {
-        margin-right: 0; } }
-  @media screen and (min-width: 960px) {
-    nav {
-      float: left;
-      display: block;
-      margin-right: 4.34783%;
-      width: 82.6087%;
-      margin-left: 8.69565%;
-      margin-right: 0; }
-      nav:last-child {
-        margin-right: 0; } }
-
-footer {
-  padding: 1em 0; }
-  footer:after {
+  header > nav:after {
     content: "";
     display: table;
     clear: both; }
-  footer:nth-child(1n) {
-    margin-right: 0; }
-  footer:nth-child(1n+1) {
-    clear: left; }
+
+#footer footer {
+  max-width: 87.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem; }
+  #footer footer:after {
+    content: "";
+    display: table;
+    clear: both; }
 
 /*
 #masthead-blog,
@@ -662,34 +628,6 @@ body.blank {
    It's sort of a brochure page - the index.html is an Empty
    */ }
 
-@media screen and (min-width: 320px) {
-  section {
-    float: left;
-    display: block;
-    margin-right: 4.34783%;
-    width: 100%; }
-    section:last-child {
-      margin-right: 0; } }
-@media screen and (min-width: 720px) {
-  section {
-    float: left;
-    display: block;
-    margin-right: 4.34783%;
-    width: 82.6087%;
-    margin-left: 8.69565%; }
-    section:last-child {
-      margin-right: 0; } }
-@media screen and (min-width: 960px) {
-  section {
-    float: left;
-    display: block;
-    margin-right: 4.34783%;
-    width: 82.6087%;
-    margin-left: 8.69565%;
-    margin-right: 0; }
-    section:last-child {
-      margin-right: 0; } }
-
 body.page main,
 body.post main,
 body.blogroll main {
@@ -751,7 +689,7 @@ body.blogroll main {
   body.post main aside,
   body.blogroll main aside {
     margin: 2rem 0;
-    max-width: 87.5em;
+    max-width: 87.5rem;
     margin-left: auto;
     margin-right: auto;
     margin-right: 0; }
@@ -828,6 +766,11 @@ body.gallery figure:after {
       #newsletter-button:last-child {
         margin-right: 0; } }
 
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 /*
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,900);
 */
@@ -887,24 +830,23 @@ aside .active:before {
 strong {
   font-weight: 700; }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 300;
-  letter-spacing: -1px; }
-  h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong {
-    font-weight: 700; }
+@media screen and (min-width: 320px) {
+  h1, h2, h3, h4, h5 {
+    font-weight: 700; } }
+@media screen and (min-width: 720px) {
+  h1, h2, h3, h4, h5 {
+    font-weight: 300;
+    letter-spacing: -1px; } }
 
 @media screen and (min-width: 320px) {
   h1 {
-    font-size: 1.4rem;
+    font-size: 2.2rem;
     line-height: 1.3;
-    font-weight: 700;
     margin: 0 0 .7rem 0; } }
 @media screen and (min-width: 720px) {
   h1 {
     font-size: 2.2rem;
-    line-height: 1.5;
-    font-weight: 300; } }
+    line-height: 1.5; } }
 @media screen and (min-width: 960px) {
   h1 {
     font-size: 3rem; } }
@@ -913,36 +855,31 @@ h1, h2, h3, h4, h5, h6 {
   h2 {
     font-size: 1.4rem;
     line-height: 1.5;
-    font-weight: 700;
     margin: 0 0 .7rem 0; } }
 @media screen and (min-width: 720px) {
   h2 {
-    font-size: 1.9rem;
-    font-weight: 300; } }
+    font-size: 1.9rem; } }
 
 @media screen and (min-width: 320px) {
   h3, h4 {
     font-size: 1.4rem;
     line-height: 1.5;
-    font-weight: 700;
     margin: 0 0 .7rem 0; } }
 @media screen and (min-width: 720px) {
   h3, h4 {
-    font-size: 2rem;
-    font-weight: 300; } }
+    font-size: 2rem; } }
 
 @media screen and (min-width: 320px) {
   h5, h6 {
     font-size: 1.2rem;
     line-height: 1.5;
-    font-weight: 700;
     margin: 0 0 .7rem 0; } }
 @media screen and (min-width: 720px) {
   h5, h6 {
-    font-size: 1.2rem;
-    font-weight: 300; } }
+    font-size: 1.2rem; } }
 
 h6 {
+  font-weight: 300;
   text-transform: uppercase;
   letter-spacing: .5px; }
 
@@ -957,9 +894,6 @@ footer {
     footer {
       font-size: 1.2rem;
       line-height: 1.6; } }
-  @media screen and (min-width: 960px) {
-    footer {
-      font-size: 1rem; } }
   @media screen and (min-width: 320px) {
     footer {
       text-align: center; } }
@@ -983,9 +917,6 @@ small {
     small {
       font-size: 1.2rem;
       line-height: 1.6; } }
-  @media screen and (min-width: 960px) {
-    small {
-      font-size: 1rem; } }
 
 .centered {
   text-align: center; }
@@ -1197,14 +1128,14 @@ body.post time, body.post datetime {
   color: #a9d5e7; }
 
 /* colors of article boxes, typography and share boxes */
-footer {
+#footer {
   background: #2a2b3a;
   color: #fff; }
-  footer h5 {
+  #footer h5 {
     color: #A4DBF2; }
-  footer a:link, footer a:visited {
+  #footer a:link, #footer a:visited {
     color: #fff; }
-    footer a:link:hover, footer a:visited:hover {
+    #footer a:link:hover, #footer a:visited:hover {
       color: #2dafe6; }
 
 /* fonts */
@@ -1279,6 +1210,15 @@ ul.horizontal {
     font-weight: 700;
     float: left;
     margin-left: 0; }
+
+/*
+make menu items disappear as they drop to second row, independent of media queries
+can optionally be enhanced with a toggle to drop-down view
+as in https://css-tricks.com/the-priority-navigation-pattern/
+*/
+.header nav {
+  overflow: hidden;
+  height: 70px; }
 
 /* buttons */
 /* used by the drop down menu. delete if not using it */
@@ -1471,14 +1411,14 @@ body.post time, body.post datetime {
   color: #a9d5e7; }
 
 /* colors of article boxes, typography and share boxes */
-footer {
+#footer {
   background: #2a2b3a;
   color: #fff; }
-  footer h5 {
+  #footer h5 {
     color: #A4DBF2; }
-  footer a:link, footer a:visited {
+  #footer a:link, #footer a:visited {
     color: #fff; }
-    footer a:link:hover, footer a:visited:hover {
+    #footer a:link:hover, #footer a:visited:hover {
       color: #2dafe6; }
 
 /* fonts */
@@ -1495,6 +1435,25 @@ footer {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
+
+ul.inline-circled-share {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  list-style-type: none; }
+  ul.inline-circled-share li {
+    margin: 0 1rem 0 0;
+    display: inline;
+    font-size: 2rem; }
+    ul.inline-circled-share li .icon-pocket {
+      font-size: 1.7rem; }
+  ul.inline-circled-share li.share {
+    display: inline;
+    font-size: 1rem;
+    position: relative;
+    color: #ccc;
+    top: -4px;
+    margin-right: 10px; }
 
 main a.icon-facebook-circled,
 main a.icon-facebook-squared {
@@ -1554,41 +1513,6 @@ main a.icon-pocket {
   color: #ed4054 !important; }
   main a.icon-pocket:hover {
     color: #f16f7e !important; }
-
-ul.inline-circled-share,
-ul.inline-squared-share {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  list-style-type: none; }
-  ul.inline-circled-share li,
-  ul.inline-squared-share li {
-    display: inline;
-    font-size: 2rem; }
-    ul.inline-circled-share li .icon-pocket,
-    ul.inline-squared-share li .icon-pocket {
-      font-size: 1.7rem; }
-  ul.inline-circled-share li.share,
-  ul.inline-squared-share li.share {
-    font-size: 1rem;
-    position: relative;
-    color: #ccc;
-    top: -4px;
-    margin-right: 10px; }
-
-footer .share-links-circle a.icon-facebook-circled,
-footer .share-links-circle a.icon-tumblr-circled,
-footer .share-links-circle a.icon-twitter-circled,
-footer .share-links-circle a.icon-pinterest-circled,
-footer .share-links-circle a.icon-gplus-circled {
-  color: #A4DBF2;
-  opacity: .7; }
-  footer .share-links-circle a.icon-facebook-circled:hover,
-  footer .share-links-circle a.icon-tumblr-circled:hover,
-  footer .share-links-circle a.icon-twitter-circled:hover,
-  footer .share-links-circle a.icon-pinterest-circled:hover,
-  footer .share-links-circle a.icon-gplus-circled:hover {
-    opacity: 1; }
 
 .btn {
   border: none;
@@ -1888,14 +1812,14 @@ body.post time, body.post datetime {
   color: #a9d5e7; }
 
 /* colors of article boxes, typography and share boxes */
-footer {
+#footer {
   background: #2a2b3a;
   color: #fff; }
-  footer h5 {
+  #footer h5 {
     color: #A4DBF2; }
-  footer a:link, footer a:visited {
+  #footer a:link, #footer a:visited {
     color: #fff; }
-    footer a:link:hover, footer a:visited:hover {
+    #footer a:link:hover, #footer a:visited:hover {
       color: #2dafe6; }
 
 /* fonts */
@@ -1913,335 +1837,6 @@ footer {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
 
-/*
-@fontface must be loaded from main.scss in order for jekyll
- to use the site variables ie. {{ site.font_dir }}
-*/
-/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
-/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
-/*
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  @font-face {
-    font-family: 'muckypaw';
-    src: url('../font/muckypaw.svg?40123813#muckypaw') format('svg');
-  }
-}
-*/
-[class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "popupcad";
-  font-style: normal;
-  font-weight: normal;
-  speak: none;
-  display: inline-block;
-  text-decoration: inherit;
-  width: 1em;
-  margin-right: .2em;
-  text-align: center;
-  /* opacity: .8; */
-  /* For safety - reset parent styles, that can break glyph codes*/
-  font-variant: normal;
-  text-transform: none;
-  /* fix buttons height, for twitter bootstrap */
-  line-height: 1em;
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed */
-  margin-left: .2em;
-  /* you can be more comfortable with increased icons size */
-  /* font-size: 120%; */
-  /* Font smoothing. That was taken from TWBS */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  /* Uncomment for 3D effect */
-  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
-
-.icon-github-circled-alt2:before {
-  content: '\e800'; }
-
-/* '' */
-.icon-github:before {
-  content: '\e801'; }
-
-/* '' */
-.icon-info-circled:before {
-  content: '\e806'; }
-
-/* '' */
-.icon-copyright:before {
-  content: '\e807'; }
-
-/* '' */
-.icon-comment:before {
-  content: '\e808'; }
-
-/* '' */
-.icon-sliders:before {
-  content: '\e809'; }
-
-/* '' */
-.icon-rss:before {
-  content: '\e80a'; }
-
-/* '' */
-.icon-rss-squared:before {
-  content: '\e80b'; }
-
-/* '' */
-.icon-menu:before {
-  content: '\e80c'; }
-
-/* '' */
-.icon-basket:before {
-  content: '\e80d'; }
-
-/* '' */
-.icon-up-dir:before {
-  content: '\e80e'; }
-
-/* '' */
-.icon-left-dir:before {
-  content: '\e80f'; }
-
-/* '' */
-.icon-right-dir:before {
-  content: '\e810'; }
-
-/* '' */
-.icon-down-dir:before {
-  content: '\e811'; }
-
-/* '' */
-.icon-angle-left:before {
-  content: '\e812'; }
-
-/* '' */
-.icon-angle-right:before {
-  content: '\e813'; }
-
-/* '' */
-.icon-angle-up:before {
-  content: '\e814'; }
-
-/* '' */
-.icon-angle-down:before {
-  content: '\e815'; }
-
-/* '' */
-.icon-up-open:before {
-  content: '\e816'; }
-
-/* '' */
-.icon-right-open:before {
-  content: '\e817'; }
-
-/* '' */
-.icon-left-open:before {
-  content: '\e818'; }
-
-/* '' */
-.icon-down-open:before {
-  content: '\e819'; }
-
-/* '' */
-.icon-th-large:before {
-  content: '\e81a'; }
-
-/* '' */
-.icon-reddit:before {
-  content: '\e81b'; }
-
-/* '' */
-.icon-reddit-squared:before {
-  content: '\e81d'; }
-
-/* '' */
-.icon-home:before {
-  content: '\e81f'; }
-
-/* '' */
-.icon-th:before {
-  content: '\e820'; }
-
-/* '' */
-.icon-doc:before {
-  content: '\e822'; }
-
-/* '' */
-.icon-search-1:before {
-  content: '\e824'; }
-
-/* '' */
-.icon-mail:before {
-  content: '\e826'; }
-
-/* '' */
-.icon-mail-circled:before {
-  content: '\e827'; }
-
-/* '' */
-.icon-pinterest-circled-1:before {
-  content: '\e828'; }
-
-/* '' */
-.icon-facebook-circled:before {
-  content: '\e829'; }
-
-/* '' */
-.icon-twitter-circled:before {
-  content: '\e82a'; }
-
-/* '' */
-.icon-twitter-1:before {
-  content: '\e82b'; }
-
-/* '' */
-.icon-facebook-1:before {
-  content: '\e82c'; }
-
-/* '' */
-.icon-clock:before {
-  content: '\e82d'; }
-
-/* '' */
-.icon-gplus-1:before {
-  content: '\e82e'; }
-
-/* '' */
-.icon-gplus-circled:before {
-  content: '\e82f'; }
-
-/* '' */
-.icon-pinterest:before {
-  content: '\e830'; }
-
-/* '' */
-.icon-tumblr-1:before {
-  content: '\e831'; }
-
-/* '' */
-.icon-tumblr-circled:before {
-  content: '\e832'; }
-
-/* '' */
-.icon-linkedin:before {
-  content: '\e833'; }
-
-/* '' */
-.icon-linkedin-circled:before {
-  content: '\e834'; }
-
-/* '' */
-.icon-linkedin-squared:before {
-  content: '\e835'; }
-
-/* '' */
-.icon-user:before {
-  content: '\e836'; }
-
-/* '' */
-.icon-smile:before {
-  content: '\e837'; }
-
-/* '' */
-.icon-meh:before {
-  content: '\e838'; }
-
-/* '' */
-.icon-frown:before {
-  content: '\e839'; }
-
-/* '' */
-.icon-phone-circled:before {
-  content: '\e83a'; }
-
-/* '' */
-.icon-phone:before {
-  content: '\e83b'; }
-
-/* '' */
-.icon-file-code:before {
-  content: '\e83d'; }
-
-/* '' */
-.icon-cogs:before {
-  content: '\e83e'; }
-
-/* '' */
-.icon-pocket:before {
-  content: '\e841'; }
-
-/* '' */
-.icon-twitter-squared:before {
-  content: '\e842'; }
-
-/* '' */
-.icon-tumblr-squared:before {
-  content: '\e843'; }
-
-/* '' */
-.icon-pinterest-squared:before {
-  content: '\e844'; }
-
-/* '' */
-.icon-gplus-squared:before {
-  content: '\e845'; }
-
-/* '' */
-.icon-facebook-squared:before {
-  content: '\e847'; }
-
-/* '' */
-.icon-mail-squared:before {
-  content: '\e848'; }
-
-/* '' */
-.icon-share-squared:before {
-  content: '\e849'; }
-
-/* '' */
-.icon-cancel-circled2:before {
-  content: '\e84a'; }
-
-/* '' */
-.icon-tag:before {
-  content: '\e84b'; }
-
-/* '' */
-.icon-cancel-circled-1:before {
-  content: '\e84c'; }
-
-/* '' */
-.icon-cancel:before {
-  content: '\e84d'; }
-
-/* '' */
-.icon-tag-1:before {
-  content: '\e84e'; }
-
-/* '' */
-.icon-comment-1:before {
-  content: '\e84f'; }
-
-/* '' */
-.icon-shuffle:before {
-  content: '\e850'; }
-
-/* '' */
-.icon-right:before {
-  content: '\e851'; }
-
-/* '' */
-.icon-left:before {
-  content: '\e852'; }
-
-/* '' */
-.icon-angle-circled-left:before {
-  content: '\e854'; }
-
-/* '' */
-.icon-angle-circled-right:before {
-  content: '\e855'; }
-
-/* '' */
 /* buttons */
 /* used by the drop down menu. delete if not using it */
 /* colors we use */
@@ -2433,14 +2028,14 @@ body.post time, body.post datetime {
   color: #a9d5e7; }
 
 /* colors of article boxes, typography and share boxes */
-footer {
+#footer {
   background: #2a2b3a;
   color: #fff; }
-  footer h5 {
+  #footer h5 {
     color: #A4DBF2; }
-  footer a:link, footer a:visited {
+  #footer a:link, #footer a:visited {
     color: #fff; }
-    footer a:link:hover, footer a:visited:hover {
+    #footer a:link:hover, #footer a:visited:hover {
       color: #2dafe6; }
 
 /* fonts */
@@ -2530,11 +2125,10 @@ footer {
     position: relative;
     padding: 0 1em;
     border: none;
-    background-color: #e85657;
+    background-color: #6266a0;
     color: #f9f6e5;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-weight: 700;
     line-height: 80px;
     overflow: hidden; }
 
@@ -2576,7 +2170,7 @@ footer {
 .morph-button-overlay .morph-content {
   transition: opacity 0.3s 0.5s, width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s;
   overflow: hidden;
-  background: #e85657; }
+  background: #6266a0; }
 .morph-button-overlay.open .morph-content {
   transition: width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s;
   top: 0 !important;
@@ -2592,7 +2186,7 @@ footer {
   position: fixed; }
   .morph-button-sidebar .morph-content {
     transition: opacity 0.3s 0.5s, width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s;
-    background: #57bb89; }
+    background: #6266a0; }
   .morph-button-sidebar.open .morph-content {
     transition: width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s;
     top: 0 !important;
@@ -2637,9 +2231,9 @@ footer {
   transition: width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s, margin 0.4s 0.1s; }
 
 .morph-button-modal-1 .morph-content {
-  background-color: #553445; }
+  background-color: green; }
 .morph-button-modal-1 > button {
-  background-color: #553445; }
+  background-color: green; }
 
 .no-js .morph-button {
   margin: 10px 0;
@@ -2655,7 +2249,7 @@ footer {
   left: 0;
   margin: 0;
   height: 100%;
-  background: #e85657;
+  background: #6266a0;
   overflow: auto; }
 
 .morph-button-modal-1::before {
@@ -2700,13 +2294,13 @@ footer {
   .morph-button-sidebar {
     width: 100% !important;
     height: 60px !important;
-    bottom: 0;
+    top: 0;
     left: 0; }
     .morph-button-sidebar .morph-content {
       width: 100% !important;
       height: 60px !important; }
     .morph-button-sidebar > button {
-      font-size: 1.6em; }
+      font-size: 1rem; }
     .morph-button-sidebar.open .morph-content {
       height: 100% !important; } }
 /* sidebar itself */
@@ -2719,7 +2313,7 @@ footer {
 .content-style-sidebar .icon-cancel-circled2 {
   top: 0;
   right: 0;
-  font-size: 0.85em;
+  font-size: 1.7rem;
   z-index: 3001;
   display: block;
   overflow: hidden;
@@ -2734,10 +2328,10 @@ footer {
   padding: 0; }
   .content-style-sidebar ul li a {
     display: block;
-    padding: 12px 20px;
+    padding: 12px 20px 12px 0;
     color: #faf1e0;
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 1.6rem;
     box-shadow: inset 0 1px rgba(0, 0, 0, 0.1); }
   .content-style-sidebar ul li:last-child a {
     box-shadow: inset 0 1px rgba(0, 0, 0, 0.1), inset 0 -1px rgba(0, 0, 0, 0.1); }
@@ -2758,7 +2352,7 @@ footer {
   right: 20px; }
 
 .icon-cancel-circled2:hover {
-  color: #a50a05; }
+  opacity: .4; }
 
 /* OVERLAY RELATED */
 .content-style-overlay {
@@ -2830,9 +2424,6 @@ table {
     table {
       font-size: 1.2rem;
       line-height: 1.6; } }
-  @media screen and (min-width: 960px) {
-    table {
-      font-size: 1rem; } }
 
 caption {
   color: #000;
@@ -2908,6 +2499,69 @@ td {
     -ms-transform: translateZ(0);
     -o-transform: translateZ(0);
     transform: translateZ(0); }
+
+/*
+<div class="notice info"><p>This is a an info notice, it provides feedback of a neutral nature to the user.</p></div>
+
+<div class="notice success"><p>This is a success notice, it provides feedback of a positive nature to the user.</p></div>
+
+<div class="notice alert"><p>This is a warning notice, it provides feedback of a potentially negative nature to the user.</p></div>
+
+<div class="notice error"><p>This is an error notice, it provides feedback of a negative nature to the user.</p></div>
+*/
+.notice {
+  position: relative;
+  margin: 1rem 0;
+  padding: 1.7rem 2rem 1.7rem 2.8rem;
+  min-height: 80px; }
+  .notice:before {
+    font-family: popupcad !important;
+    font-size: 2rem !important;
+    position: absolute;
+    top: 50%;
+    top: 0;
+    left: 0;
+    color: #fff;
+    width: 80px;
+    height: 100%;
+    text-align: center;
+    line-height: 80px; }
+  .notice p {
+    margin: 0 0 0 65px;
+    line-height: 1.4;
+    font-size: 1.2rem; }
+
+.info {
+  background: #03a9f4; }
+  .info p {
+    color: #011d2a; }
+  .info:before {
+    content: '\e806';
+    background-color: #0398db; }
+
+.success {
+  background: #4caf50; }
+  .success p {
+    color: #fff; }
+  .success:before {
+    content: "\e837";
+    background: #449d48; }
+
+.alert {
+  background: #ffc107; }
+  .alert p {
+    color: #3a2b00; }
+  .alert:before {
+    content: "\e821";
+    background: #ecb100; }
+
+.error {
+  background: #ff4136; }
+  .error p {
+    color: #fff; }
+  .error:before {
+    content: "\e80d";
+    background: #ff291d; }
 
 .highlight {
   background: #ffffff; }
@@ -3368,14 +3022,14 @@ body.post time, body.post datetime {
   color: #a9d5e7; }
 
 /* colors of article boxes, typography and share boxes */
-footer {
+#footer {
   background: #2a2b3a;
   color: #fff; }
-  footer h5 {
+  #footer h5 {
     color: #A4DBF2; }
-  footer a:link, footer a:visited {
+  #footer a:link, #footer a:visited {
     color: #fff; }
-    footer a:link:hover, footer a:visited:hover {
+    #footer a:link:hover, #footer a:visited:hover {
       color: #2dafe6; }
 
 /* fonts */
@@ -3392,6 +3046,11 @@ footer {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
 
 /*
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,900);
@@ -3452,24 +3111,23 @@ aside .active:before {
 strong {
   font-weight: 700; }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 300;
-  letter-spacing: -1px; }
-  h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong {
-    font-weight: 700; }
+@media screen and (min-width: 320px) {
+  h1, h2, h3, h4, h5 {
+    font-weight: 700; } }
+@media screen and (min-width: 720px) {
+  h1, h2, h3, h4, h5 {
+    font-weight: 300;
+    letter-spacing: -1px; } }
 
 @media screen and (min-width: 320px) {
   h1 {
-    font-size: 1.4rem;
+    font-size: 2.2rem;
     line-height: 1.3;
-    font-weight: 700;
     margin: 0 0 .7rem 0; } }
 @media screen and (min-width: 720px) {
   h1 {
     font-size: 2.2rem;
-    line-height: 1.5;
-    font-weight: 300; } }
+    line-height: 1.5; } }
 @media screen and (min-width: 960px) {
   h1 {
     font-size: 3rem; } }
@@ -3478,36 +3136,31 @@ h1, h2, h3, h4, h5, h6 {
   h2 {
     font-size: 1.4rem;
     line-height: 1.5;
-    font-weight: 700;
     margin: 0 0 .7rem 0; } }
 @media screen and (min-width: 720px) {
   h2 {
-    font-size: 1.9rem;
-    font-weight: 300; } }
+    font-size: 1.9rem; } }
 
 @media screen and (min-width: 320px) {
   h3, h4 {
     font-size: 1.4rem;
     line-height: 1.5;
-    font-weight: 700;
     margin: 0 0 .7rem 0; } }
 @media screen and (min-width: 720px) {
   h3, h4 {
-    font-size: 2rem;
-    font-weight: 300; } }
+    font-size: 2rem; } }
 
 @media screen and (min-width: 320px) {
   h5, h6 {
     font-size: 1.2rem;
     line-height: 1.5;
-    font-weight: 700;
     margin: 0 0 .7rem 0; } }
 @media screen and (min-width: 720px) {
   h5, h6 {
-    font-size: 1.2rem;
-    font-weight: 300; } }
+    font-size: 1.2rem; } }
 
 h6 {
+  font-weight: 300;
   text-transform: uppercase;
   letter-spacing: .5px; }
 
@@ -3522,9 +3175,6 @@ footer {
     footer {
       font-size: 1.2rem;
       line-height: 1.6; } }
-  @media screen and (min-width: 960px) {
-    footer {
-      font-size: 1rem; } }
   @media screen and (min-width: 320px) {
     footer {
       text-align: center; } }
@@ -3548,9 +3198,6 @@ small {
     small {
       font-size: 1.2rem;
       line-height: 1.6; } }
-  @media screen and (min-width: 960px) {
-    small {
-      font-size: 1rem; } }
 
 .centered {
   text-align: center; }
@@ -3571,15 +3218,8 @@ a {
 button {
   font-size: 1rem; }
 
-header {
-  margin-top: 0; }
-  header section a:link, header section a:visited {
-    padding-top: 20px;
-    padding-bottom: 20px; }
-
-header {
+body > header {
   height: 70px;
-  width: 100%;
   z-index: 20; }
 
 body.contest aside,
@@ -3603,12 +3243,6 @@ body.tutorials aside {
     body.tutorials aside {
       font-size: 1.2rem;
       line-height: 1.6; } }
-  @media screen and (min-width: 960px) {
-    body.contest aside,
-    body.gallery aside,
-    body.docs aside,
-    body.tutorials aside {
-      font-size: 1rem; } }
   @media screen and (min-width: 320px) {
     body.contest aside,
     body.gallery aside,
@@ -3648,8 +3282,8 @@ body.frontpage {
   body.frontpage .alpha h2 {
     color: #fff; }
   body.frontpage .alpha {
-    background: url("/assets/video/foot-small.jpg");
-    background-size: contain; }
+    background: url("/assets/video/foot-small.jpg") 50% 50%;
+    background-size: cover; }
   body.frontpage .btn-1 {
     border: 2px solid #fff;
     color: #fff; }
@@ -3682,13 +3316,29 @@ body.tutorials .alpha {
   -webkit-mask-size: auto 100%;
   -webkit-mask-repeat: repeat-x; }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 320px) {
   body.docs .alpha h1,
   body.gallery .alpha h1,
   body.tutorials .alpha h1 {
+    text-align: center; } }
+@media screen and (min-width: 720px) {
+  body.docs .alpha h1,
+  body.gallery .alpha h1,
+  body.tutorials .alpha h1 {
+    text-align: left;
     font-size: 6rem;
     margin-bottom: 0;
     opacity: 0.4; } }
+@media screen and (min-width: 320px) {
+  body.docs .alpha h2,
+  body.gallery .alpha h2,
+  body.tutorials .alpha h2 {
+    text-align: center; } }
+@media screen and (min-width: 720px) {
+  body.docs .alpha h2,
+  body.gallery .alpha h2,
+  body.tutorials .alpha h2 {
+    text-align: left; } }
 
 body.gallery figure {
   border-bottom: 1px solid #ccc;
@@ -3745,18 +3395,18 @@ body.post span.author:before {
   mask-repeat: repeat-x;
   -webkit-mask-size: cover; }
 
-body.page .alpha, .post .alpha {
-  height: 350px; }
+@media screen and (min-width: 320px) {
+  body.page .alpha, .post .alpha {
+    height: 150px; } }
+@media screen and (min-width: 720px) {
+  body.page .alpha, .post .alpha {
+    height: 350px; } }
 
 /*
  headroom is removed from this site, so container has to be corrected
 */
 #container {
   margin: 0; }
-
-.highlight {
-  background-color: #fafafa;
-  padding: .5rem 1rem; }
 
 @media screen and (min-width: 320px) {
   .morph-button button {
@@ -3810,5 +3460,21 @@ body.competition header, body.competition .bravo {
       body.competition .alpha section h2 {
         color: #fff;
         font-size: 3.5rem; } }
+
+#disqus_thread {
+  margin-top: 10rem; }
+
+/* popupcad hacks */
+/*
+  page:
+   /newsletter
+
+
+*/
+#footer {
+  padding: 3rem 0 1rem 0; }
+
+#newsletter-page-button {
+  margin-top: 0; }
 
 /*# sourceMappingURL=popupcad.css.map */

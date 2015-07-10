@@ -3,18 +3,18 @@
 - logo - next!
 DONE: - Frontpage video and placeholder appear to stack on mobile.
 - Color and font-size of mobile menu are really iffy. lets also move it to the top.
-- 'our tutorials are a great..' &  footer on front page is not centered on large screens
+DONE:- 'our tutorials are a great..' &  footer on front page is not centered on large screens
 - 'our tutorials are a great..' button should be centered on mobile?
-- give the same form styles to http://localhost:4000/newsletter/ that /contact has.
+DONE: - give the same form styles to http://localhost:4000/newsletter/ that /contact has.
 DONE: - github doesnt have an icon in the footer or main page. i must have removed it by accident from fontello. put it back!
 DONE: - the top right menu spills over on tablet. make it more responsive.
-- the circular share icons spill over on mobile, make it more responsive.
+DONE:- the circular share icons spill over on mobile, make it more responsive.
 - page and post .alpha should have less vertical padding on mobile.
 - tweak h1-h6 sizes on mobile. perhaps 2rem. theyre 20% too small.
 - center tutorial/gallery/docs h1 and h2 in .alpha on mobile
 DONE: - change the phone icon next to /contact in footer to a mail icon.
 DONE: - add a custom.css file for Dan's overrides, so his changes can be instant, and so we can integrate later.
-
+DONE: footer top padding is incorrect.
 DONE: documented adding/removing icon fonts.
 
 DONE: Disqus on tutorials, gallery items

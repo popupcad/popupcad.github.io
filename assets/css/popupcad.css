@@ -497,7 +497,11 @@ header > nav {
     margin-right: 4.34783%;
     width: 30.43478%; }
     .third:last-child {
-      margin-right: 0; } }
+      margin-right: 0; }
+    .third:nth-child(3n) {
+      margin-right: 0; }
+    .third:nth-child(3n+1) {
+      clear: left; } }
 
 @media screen and (min-width: 320px) {
   .two-thirds {
@@ -531,7 +535,11 @@ header > nav {
     margin-right: 4.34783%;
     width: 47.82609%; }
     .half:last-child {
-      margin-right: 0; } }
+      margin-right: 0; }
+    .half:nth-child(2n) {
+      margin-right: 0; }
+    .half:nth-child(2n+1) {
+      clear: left; } }
 
 @media screen and (min-width: 320px) {
   .quarter {
@@ -548,7 +556,11 @@ header > nav {
     margin-right: 4.34783%;
     width: 21.73913%; }
     .quarter:last-child {
-      margin-right: 0; } }
+      margin-right: 0; }
+    .quarter:nth-child(4n) {
+      margin-right: 0; }
+    .quarter:nth-child(4n+1) {
+      clear: left; } }
 
 @media screen and (min-width: 320px) {
   .three-quarters {
@@ -582,7 +594,11 @@ header > nav {
     margin-right: 4.34783%;
     width: 16.52174%; }
     .fifth:last-child {
-      margin-right: 0; } }
+      margin-right: 0; }
+    .fifth:nth-child(5n) {
+      margin-right: 0; }
+    .fifth:nth-child(5n+1) {
+      clear: left; } }
 
 .two-fifths {
   /*

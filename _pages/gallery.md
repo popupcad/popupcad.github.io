@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 body_class: gallery
 title: Gallery
 h1color: fff
@@ -8,7 +8,7 @@ permalink: /gallery/
 published: true
 ---
 
-
+<section>
 {% for design in site.gallery %}
 
 <figure class="third">
@@ -31,6 +31,9 @@ image_png: {{ design.png_image_file }}
 
 {% endfor %}
 
+
+
+</section>
 <style>
 .third{
 	margin-bottom:4rem;

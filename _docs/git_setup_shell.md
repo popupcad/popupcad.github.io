@@ -6,7 +6,7 @@ title: Git Setup(shell)
 
         git config --global user.name "LastName, Firstname"
         git config --global user.email "email@address.com"
-        git clone https://github.com/danaukes/popupcad.git
+        git clone {{site.popupcad_source_path}}.git
         cd ~/popupcad/
         git checkout master
         git pull

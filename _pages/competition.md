@@ -28,25 +28,37 @@ published: true
     </div>
   {% endcomment %}
 
-
-
+  <div>
+  <h6>Special thanks to the students of <em>Informal Robotics</em> and the Harvard Graduate School of Design.</h6>
+  </div>
   </section>
 </div>
+
+<!--
+<div class="section-wrapper bravo">
+  <section>
+    <div class="centered">
+      <h2>This is a test</h2>
+    </div>
+  </section>
+</div>
+-->
 
 <div class="section-wrapper delta">
   <section>
     <div class="half centered">
-      <h2><a href ="{{site.url}}/contest/introduction">Competition</a></h2>
+      <h2><a href ="{{site.url}}/contest/introduction">Learn more about the competition</a></h2>
     </div>
     <div class="half centered omega">
-      <h2><a href ="{{site.url}}/tutorials/introduction">Make a Device</a></h2>
+      <h2><a href ="{{site.url}}/tutorials/introduction">Find a tutorial. Design a new device.</a></h2>
     </div>
   </section>
 </div>
 
 <div class="section-wrapper charlie">
   <section>
-    <h1 class="centered">subscribe to the popupCAD newsletter</h1>
+    <h1 class="centered">Pre-Register to stay updated!</h1>
+    <h2 class="centered">join the email list to be notified as deadlines and rules are announced!</h2>
     {% include newsletter.html %}
   </section>
 </div>

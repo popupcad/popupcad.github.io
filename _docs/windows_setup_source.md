@@ -58,13 +58,13 @@ when you download popupcad, it comes with the following packages:
 3. Get popupCAD
 
 :   -   Source is available on
-        [github](https://github.com/danaukes/popupcad)
+        [github]({{site.popupcad_source_path}})
 
     \* I recommend installing [git extensions](https://code.google.com/p/gitextensions/)
 
     :   -   Right click in the folder you want to store the code in, and
             select "clone repository"
-        -   enter [](https://github.com/danaukes/popupcad.git) as the
+        -   enter {{site.popupcad_source_path}}.git as the
             source
 
 4. Install popupCAD

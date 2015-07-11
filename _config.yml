@@ -5,7 +5,8 @@ email: danaukes<at>seas.harvard.edu
 description: > # this means to ignore newlines until "baseurl:"
     popupCAD is supported by the Wyss Institute for Biologically Inspired Engineering at Harvard University
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://popupcad.github.io" # the base hostname & protocol for your site
+url: "http://www.popupcad.org" # the base hostname & protocol for your site
+#url: "http://localhost:4000" # the base hostname & protocol for your site
 
 # important. if set to true, various parts of hte site start loading  CSS and JS from cloudfront, not the default S3.
 use_cdn: false
@@ -136,3 +137,6 @@ simpleform_api_token: c138795786f380a3d200406dc6f4d5b6
 simpleform_redirect: http://localhost:4000/contact-thanks
 
 google_analytics: UA-52846213-1
+popupcad_source_path: https://github.com/popupcad/popupcad
+popupcad_api_path: http://popupcad.github.io/popupcad-docs/html/
+popupcad_windows_installer_path: https://github.com/danaukes/popupcad/releases/latest

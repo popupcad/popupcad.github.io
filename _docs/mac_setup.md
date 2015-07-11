@@ -37,7 +37,7 @@ title: Mac Setup
         git config --global user.name "$LastName, $FirstName"
         git config --global user.email "$EmailAddress"
         cd ~/
-        git clone https://github.com/danaukes/popupcad.git
+        git clone {{site.popupcad_source_path}}.git
         cd ~/popupcad/
         git checkout master
         git pull

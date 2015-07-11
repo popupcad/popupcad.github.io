@@ -1,7 +1,7 @@
 # To do
 
 - logo - next!
-- put filter over placeholder video image so text is legible on mobile.
+DONE:- put filter over placeholder video image so text is legible on mobile.
 DONE: - Frontpage video and placeholder appear to stack on mobile.
 DONE: - Color and font-size of mobile menu are really iffy. lets also move it to the top.
 DONE:- 'our tutorials are a great..' &  footer on front page is not centered on large screens

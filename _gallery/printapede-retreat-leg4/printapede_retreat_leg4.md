@@ -1,7 +1,7 @@
 ---
 cad_file: asdf.cad
 image_file: 27_00.png
-name: printapede retreat leg4.cad
+name: printapede retreat leg2.cad
 operations:
 - cut_file: cut-dummy.svg
   description: ''
@@ -177,6 +177,6 @@ operations:
   image_file: 28_00.png
   name: Locate Operation
   outputs: []
-title: printapede retreat leg2.cad
+title: printapede retreat leg4.cad
 
 ---

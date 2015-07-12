@@ -7,21 +7,6 @@ layout: default
 THIS IS THE TEMPLATE for gallery collection items.
 {% endcomment %}
 
-
-{% capture h1bg %}{% if page.h1bg %}#{{ page.h1bg }}{% else %}#{{ site.default_gallery_header_bg }}{% endif %}{% endcapture %}
-{% capture h1color %}{% if page.h1color %}#{{ page.h1color }}{% else %}#{{ site.default_gallery_header_h1color }}{% endif %}{% endcapture %}
-<style media="screen" type="text/css">
-      header,
-      .alpha {background:{{ h1bg }};}
-      .alpha h1{color:{{ h1color }};}
-      header a:link,header a:visited{color:{{ h1color }};}
-      a:link,a:visited {
-        color:{{ h1bg }};
-      }
-
-</style>
-
-
 <div class="section-wrapper alpha">
   <section>
     <div class="third">&nbsp;</div>
@@ -31,50 +16,74 @@ THIS IS THE TEMPLATE for gallery collection items.
     </div>
   </section>
 </div>
+
+
 <section>
   <div class="third">
     <aside>
-      {% for section in site.data.gallery_menu %}
-        <h5>{{ section.title }}</h5>
-        {% assign items = include.items %}
-
-        <ul class="no-bullets">
-        {% for item in section.items  %}
-          {% assign item_url = item | prepend:"/gallery/" | append:"/" %}
-
-          {% if item_url == page.url %}
-            {% assign c = "active" %}
-          {% else %}
-            {% assign c = "" %}
-          {% endif %}
-
-          {% for p in site.gallery %}
-            {% if p.url == item_url %}
-              <li class="{{ c }}"><a href="{{ site.url }}{{ p.url }}">{{ p.title }}</a></li>
-              {% break %}
-            {% endif %}
-          {% endfor %}
-
-        {% endfor %}
-        </ul>
-      {% endfor %}
+      something else
     </aside>
 
   </div>
   <div class="two-thirds omega">
 
+    <h1>start</h1>
+
+    <h2>note for dan: operations loop starts here</h2>
+
+    <ol id="operations">
+    {% for operation in page.operations %}
+      <li>
+        <img src="{{operation.png_image_file}}" height = "75px" />
+        <p><strong>operation file name:</strong> {{ operation.png_image_file }}</p>
+        <p><strong>operation name:</strong> {{ operation.name }}</p>
+        <p><strong>operation description:</strong> {{ operation.description }}</p>
+
+
+        <p><strong>cut files</strong>:
+          {% for file in operation.cut_files %}
+            <a href="{{ page.url }}{{ file }}">{{ file }}</a>,
+          {% endfor %}
+        </p>
+
+        <h2>note for dan: output loop starts here</h2>
+        <ol>
+          {% for output in operation.outputs %}
+            <li>
+              <img src="{{ page.url }}{{output.png_image_file}}" height = "50px" />
+              <p><strong>output png_name:</strong> {{ output.png_image_file }}</p>
+              <p><strong>output name:</strong> {{ output.name }}</p>
+              <p><strong>output description:</strong> {{ output.description }}</p>
+
+              {% for file in output.cut_files%}
+              <a href="{{ page.url }}{{ file }}">{{ file }}</a>,
+              {% endfor %}
+            </li>
+          {% endfor %}
+      </ol>
+      <h2>note for dan: END of output loop</h2>
+
+
+    </li>
+  {% endfor %}
+  </ol>
+  <h2>note for dan: END of operation loop</h2>
+
+
+  <h1>...finish</h1>
+
 {% comment %}
-  yield to content, in case it's text format, right?
+    {{ content }}
+
+    {% if page.cad_file %}
+      <figure >
+      <figcaption class="half">{{page.cad_file}}</figcaption>
+      <img class="half omega" src="{{ page.url }}{{page.image_file}}" />
+      </figure>
+    {% endif %}
 {% endcomment %}
 
-{{ content }}
 
-{% if page.cad_file %}
-  <figure >
-  <figcaption class="half">{{page.cad_file}}</figcaption>
-  <img class="half omega" src="{{ page.url }}{{page.image_file}}" />
-  </figure>
-{% endif %}
 
 
 

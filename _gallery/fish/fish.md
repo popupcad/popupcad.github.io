@@ -49,7 +49,7 @@ operations:
   svg_image_file: C:\Users\danaukes\popupCAD_files\designs\hinges\fish\05_00.svg
 png_image_file: 05_00.png
 svg_image_file: C:\Users\danaukes\popupCAD_files\designs\hinges\fish\05_00.svg
-tags: parts animals
+tags: parts fish animals birds snakes rabbits
 title: fish.cad
 
 ---
@@ -70,17 +70,18 @@ My title is {{page.title}}
 
 {% for operation in page.operations %}
 
-* [<img src="{{operation.png_image_file}}" height = "75px" />]({{operation.png_image_file}}) **{{ operation.name }}** {{operation.description}}
-{% for file in operation.cut_files%}
-[{{file}}]({{file}}),
-{% endfor %}
+  * [<img src="{{operation.png_image_file}}" height = "75px" />]({{operation.png_image_file}}) **{{ operation.name }}** {{operation.description}}
+  {% for file in operation.cut_files%}
+    [{{file}}]({{file}}),
 
-{% for output in operation.outputs %}
+  {% endfor %}
+
+  {% for output in operation.outputs %}
   * [<img src="{{output.png_image_file}}" height = "50px" />]({{output.png_image_file}}) **{{output.name}}** {{output.description}}
-{% for file in output.cut_files%}
+    {% for file in output.cut_files%}
 [{{file}}]({{file}}),
-{% endfor %}
+    {% endfor %}
 
 
-{% endfor %}
+  {% endfor %}
 {% endfor %}

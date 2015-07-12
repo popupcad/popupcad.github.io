@@ -247,7 +247,7 @@ operations:
   svg_image_file: C:\Users\danaukes\popupCAD_files\designs\Leg2\09_00.svg
 png_image_file: 06_00.png
 svg_image_file: C:\Users\danaukes\popupCAD_files\designs\Leg2\06_00.svg
-tags: parts,legs,2dof_robot_legs
+tags: parts legs 2dof_robot_legs
 title: Leg2.cad
 
 ---
@@ -268,7 +268,7 @@ My title is {{page.title}}
 
 {% for operation in page.operations %}
 
-* [<img src="{{operation.png_image_file}}" height = "75px" />]({{operation.png_image_file}}) **{{ operation.name }}** {{operation.description}} 
+* [<img src="{{operation.png_image_file}}" height = "75px" />]({{operation.png_image_file}}) **{{ operation.name }}** {{operation.description}}
 {% for file in operation.cut_files%}
 [{{file}}]({{file}}),
 {% endfor %}

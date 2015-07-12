@@ -18,9 +18,13 @@ The gallery will be evolving rapidly over the next several weeks. We plan to hos
 </section>
 
 <section>
+	<ul id="gallery-filters"></ul>
+	<a href="#" id="remove-filters">show all / remove filters</a>
+</section>
+<section>
 {% for design in site.gallery %}
 
-<figure class="third">
+<figure class="third {% unless design.tags == empty %}{{ design.tags }}{% endunless %}">
 
 {% if design.png_image_file and design.url %}
 <a href="{{ design.url }}">

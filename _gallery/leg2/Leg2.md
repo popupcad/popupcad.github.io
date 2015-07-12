@@ -247,7 +247,7 @@ operations:
   svg_image_file: C:\Users\danaukes\popupCAD_files\designs\Leg2\09_00.svg
 png_image_file: 06_00.png
 svg_image_file: C:\Users\danaukes\popupCAD_files\designs\Leg2\06_00.svg
-tags: parts, arms, 2dof_robot_legs
+tags: parts legs 2dof_robot_legs
 title: Leg2.cad
 
 ---

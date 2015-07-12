@@ -100,7 +100,7 @@ operations:
   svg_image_file: C:\Users\danaukes\popupCAD_files\designs\hex box\08_00.svg
 png_image_file: 05_00.png
 svg_image_file: C:\Users\danaukes\popupCAD_files\designs\hex box\05_00.svg
-tags: parts,legs,2dof_robot_legs
+tags: parts legs 2dof_robot_legs
 title: hex box.cad
 
 ---
@@ -121,7 +121,7 @@ My title is {{page.title}}
 
 {% for operation in page.operations %}
 
-* [<img src="{{operation.png_image_file}}" height = "75px" />]({{operation.png_image_file}}) **{{ operation.name }}** {{operation.description}} 
+* [<img src="{{operation.png_image_file}}" height = "75px" />]({{operation.png_image_file}}) **{{ operation.name }}** {{operation.description}}
 {% for file in operation.cut_files%}
 [{{file}}]({{file}}),
 {% endfor %}

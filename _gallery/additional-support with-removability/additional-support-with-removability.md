@@ -245,7 +245,7 @@ operations:
     removability\19_00.svg
 png_image_file: 13_00.png
 svg_image_file: C:\Users\danaukes\popupCAD_files\designs\additional support with removability\13_00.svg
-tags: parts,legs,2dof_robot_legs
+tags: parts legs 2dof_robot_legs
 title: additional support with removability.cad
 
 ---
@@ -266,7 +266,7 @@ My title is {{page.title}}
 
 {% for operation in page.operations %}
 
-* [<img src="{{operation.png_image_file}}" height = "75px" />]({{operation.png_image_file}}) **{{ operation.name }}** {{operation.description}} 
+* [<img src="{{operation.png_image_file}}" height = "75px" />]({{operation.png_image_file}}) **{{ operation.name }}** {{operation.description}}
 {% for file in operation.cut_files%}
 [{{file}}]({{file}}),
 {% endfor %}

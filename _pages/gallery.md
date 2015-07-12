@@ -11,6 +11,13 @@ published: true
 <section>
 <div class="third">
 <h2>Welcome</h2>
+
+{% for i in site.gallery %}
+
+{{ i.tag[0] }}
+
+{% endfor %}
+
 </div>
 <div class="two-thirds">
 The gallery will be evolving rapidly over the next several weeks. We plan to host design files as well as documentation for creating designs.  If you would like to submit a design for the gallery, please <a href="{{site.url}}/contact"><strong>get in touch</strong></a>, and we would be happy to host it for you.
@@ -48,7 +55,8 @@ The gallery will be evolving rapidly over the next several weeks. We plan to hos
 	margin-bottom:8rem;
 }
 .third img{
-	max-height:300px;
+	max-height:280px;
+	padding-bottom:2rem;
 }
 figure{
 	position:relative;
@@ -60,5 +68,6 @@ figcaption{
 	height:150px;
 	padding:2rem;
 	background:#eee;
+
 }
 </style>

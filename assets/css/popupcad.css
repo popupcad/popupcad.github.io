@@ -438,32 +438,32 @@ header > nav {
 .masthead-header { @include pad(); }
 */
 @media screen and (min-width: 320px) {
-  .box {
+  body.gallery figure {
     float: left;
     display: block;
     margin-right: 4.34783%;
     width: 100%; }
-    .box:last-child {
+    body.gallery figure:last-child {
       margin-right: 0; }
-    .box:nth-child(1n) {
+    body.gallery figure:nth-child(1n) {
       margin-right: 0; }
-    .box:nth-child(1n+1) {
+    body.gallery figure:nth-child(1n+1) {
       clear: left; } }
 @media screen and (min-width: 720px) {
-  .box {
+  body.gallery figure {
     float: left;
     display: block;
     margin-right: 4.34783%;
     width: 47.82609%; }
-    .box:nth-child(1n) {
+    body.gallery figure:nth-child(1n) {
       margin-right: 4.34783%; }
-    .box:nth-child(1n+1) {
+    body.gallery figure:nth-child(1n+1) {
       clear: none; }
-    .box:last-child {
+    body.gallery figure:last-child {
       margin-right: 0; }
-    .box:nth-child(2n) {
+    body.gallery figure:nth-child(2n) {
       margin-right: 0; }
-    .box:nth-child(2n+1) {
+    body.gallery figure:nth-child(2n+1) {
       clear: left; } }
 
 @media screen and (min-width: 320px) {

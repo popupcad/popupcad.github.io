@@ -28,7 +28,7 @@ published: true
 <div class="two-thirds omega">
 {% for design in site.gallery %}
 
-	<figure class="box {% unless design.tags == empty %}{{ design.tags }}{% endunless %}">
+	<figure class="{% unless design.tags == empty %}{{ design.tags }}{% endunless %}">
 
 	{% if design.png_image_file and design.url %}
 	<a href="{{ design.url }}">

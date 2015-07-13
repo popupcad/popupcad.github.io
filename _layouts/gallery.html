@@ -41,7 +41,6 @@ THIS IS THE TEMPLATE for gallery collection items.
       <p><strong>operation name:</strong> {{ operation.name }}</p>
       <p><strong>operation description:</strong> {{ operation.description }}</p>
 
-
       <p><strong>operation cut files</strong>:
         {% for file in operation.cut_files %}
           <a href="{{ page.url }}{{ file }}">{{ file }}</a>,

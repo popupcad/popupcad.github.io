@@ -20,37 +20,36 @@ published: true
 
 
 <section>
-<div class="third">
-	<h2>filter designs by<strong> tag</strong></h2>
-	<ul id="gallery-filters"></ul>
-	<a href="#" id="remove-filters">show all / remove filters</a>
-</div>
-<div class="two-thirds omega">
-{% for design in site.gallery %}
+	<div class="third">
+		<h2>filter designs by<strong> tag</strong></h2>
+		<ul id="gallery-filters"></ul>
+		<a href="#" id="remove-filters">show all / remove filters</a>
+	</div>
+	<div class="two-thirds omega">
+	{% for design in site.gallery %}
 
-	<figure class="{% unless design.tags == empty %}{{ design.tags }}{% endunless %}">
+		{% if design.png_image_file and design.url %}
+			<figure class="{% unless design.tags == empty %}{{ design.tags }}{% endunless %}">
 
-	{% if design.png_image_file and design.url %}
-	<a href="{{ design.url }}">
-	<img src="{{ design.url }}{{ design.png_image_file }}" />
-	</a>
-	{% endif %}
+				<a href="{{ design.url }}">
+				<img src="{{ design.url }}{{ design.png_image_file }}" />
+				</a>
 
-	<figcaption>
-	<h5><strong>TITLE:</strong> {{ design.title }}</h5>
-	<h5><strong>TAGS:</strong> {{ design.tags }}</h5>
+				<figcaption>
+					<p><strong>TITLE:</strong> {{ design.title }}</p>
+					<p><strong>TAGS:</strong>
+						{% if design.tags.size > 0 %}
+							{% for tag in design.tags %}
+						    {{ tag }}{% unless forloop.last %}, {% endunless %}
+						  {% endfor %}
+						{% endif %}
+					</p>
+				</figcaption>
 
-
-	</figcaption>
-	</figure>
-
-	{% endfor %}
-</div>
-</section>
-<section>
-
-
+			</figure>
+		{% endif %}
 
 
-
+		{% endfor %}
+	</div>
 </section>

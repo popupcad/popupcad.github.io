@@ -9,11 +9,18 @@ THIS IS THE TEMPLATE for gallery collection items.
 
 <div class="section-wrapper alpha">
   <section>
-    <div class="third">&nbsp;</div>
-    <div class="two-thirds omega">
-      <h1 itemprop="name headline">gallery</h1>
-      <h2>{{ page.title }}</h2>
-    </div>
+
+      <div class="third">
+        <h6><strong>design name:</strong></h6>
+        <h2 itemprop="name headline">{{ page.title }}</h2>
+      </div>
+
+      <div class="two-thirds omega">
+        <h6><strong>description:</strong></h6>
+        <p>{{ page.description }}</p>
+      </div>
+
+
   </section>
 </div>
 
@@ -65,7 +72,7 @@ THIS IS THE TEMPLATE for gallery collection items.
             <a href="{{ page.url }}{{ file }}">{{ file }}</a>,
           {% endfor %}
           </p>
-          <h2>note for kris: END of output loop</h2>
+
         </div><!--two thirds output-->
       </section>
     {% endfor %}
@@ -80,5 +87,5 @@ THIS IS THE TEMPLATE for gallery collection items.
 </section>
 
 <style>
-#imagebox img{ width:100%;max-height:330px; overflow:hidden;}
+#imagebox img{ width:100%;max-height:300px; overflow:hidden;}
 </style>

@@ -3225,14 +3225,12 @@ body > header {
   z-index: 20; }
 
 body.contest aside,
-body.gallery aside,
 body.docs aside,
 body.tutorials aside {
   padding-top: .7rem;
   /* minimum text in mobile is 20px (html) */ }
   @media screen and (min-width: 320px) {
     body.contest aside,
-    body.gallery aside,
     body.docs aside,
     body.tutorials aside {
       font-size: 1.3rem;
@@ -3240,20 +3238,17 @@ body.tutorials aside {
       font-weight: 400; } }
   @media screen and (min-width: 720px) {
     body.contest aside,
-    body.gallery aside,
     body.docs aside,
     body.tutorials aside {
       font-size: 1.2rem;
       line-height: 1.6; } }
   @media screen and (min-width: 320px) {
     body.contest aside,
-    body.gallery aside,
     body.docs aside,
     body.tutorials aside {
       text-align: center; } }
   @media screen and (min-width: 720px) {
     body.contest aside,
-    body.gallery aside,
     body.docs aside,
     body.tutorials aside {
       text-align: right; } }
@@ -3299,12 +3294,10 @@ body.tutorials .alpha {
 
 @media screen and (min-width: 320px) {
   body.docs .alpha h1,
-  body.gallery .alpha h1,
   body.tutorials .alpha h1 {
     text-align: center; } }
 @media screen and (min-width: 720px) {
   body.docs .alpha h1,
-  body.gallery .alpha h1,
   body.tutorials .alpha h1 {
     text-align: left;
     font-size: 6rem;
@@ -3312,12 +3305,10 @@ body.tutorials .alpha {
     opacity: 0.4; } }
 @media screen and (min-width: 320px) {
   body.docs .alpha h2,
-  body.gallery .alpha h2,
   body.tutorials .alpha h2 {
     text-align: center; } }
 @media screen and (min-width: 720px) {
   body.docs .alpha h2,
-  body.gallery .alpha h2,
   body.tutorials .alpha h2 {
     text-align: left; } }
 
@@ -3459,8 +3450,6 @@ body.gallery header.header {
     color: white; }
 body.gallery .alpha {
   background: #6266a0; }
-  body.gallery .alpha p {
-    margin-top: 3rem; }
 body.gallery ul#gallery-filters li {
   color: #fff;
   font-size: .9rem;

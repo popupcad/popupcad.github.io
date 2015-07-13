@@ -6,10 +6,6 @@ $('figure').each(function(){
   this.className.split(' ').forEach(addTags)
 });
 
-// clean up
-tags.splice(tags.indexOf('third'),1);
-tags.splice(tags.indexOf(''),1);
-
 tags.forEach(function(tag){
   var tagText = document.createTextNode(tag);
   var tagNode = document.createElement('li')

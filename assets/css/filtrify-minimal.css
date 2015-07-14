@@ -28,10 +28,6 @@ ul.ft-menu > li.ft-field {
 ul.ft-menu > li.ft-field > span.ft-label {
     cursor: pointer;
 }
-ul.ft-menu > li.ft-field > span.ft-label:after {
-    font-size: 80%;
-    content: " \25bc";
-}
 
 
 ul.ft-menu > li.ft-field > div.ft-panel {
@@ -126,9 +122,6 @@ ul.ft-menu > li.ft-field > div.ft-panel > div.ft-mismatch {
 	color: white;
 	background: #555555;
 }
-
-/* REQUIRED! */
-.ft-hidden { display: none !important; }
 
 
 /* Custom webkit scrollbars */

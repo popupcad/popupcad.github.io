@@ -39,6 +39,7 @@
 
 {% include _javascripts/filtrify.js %}
 {% include _javascripts/jPages.min.js %}
+{% include _javascripts/jquery.lazyload.min.js %}
 
 
 

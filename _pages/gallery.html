@@ -34,17 +34,15 @@ published: true
 
 		<figure class="third" data-tags="{{ design.tags | join: ", " }}">
 
-		{% if design.png_image_file and design.url %}
-			<a href="{{ design.url }}">
+			<a id="img" href="{{ design.url }}">
 			<img src="{{ design.url }}{{ design.svg_image_file }}" />
 			</a>
-		{% endif %}
 
-		<a href="{{ design.url }}">
-			<figcaption>
-				<p><strong>{{ design.title }}</strong></p>
-				<p><strong>tags:</strong> {% for tag in design.tags %}{{ tag }}{% unless tag == design.tags.last %}, {% endunless %}{% endfor %}</p>
-		</a>
+			<a href="{{ design.url }}">
+				<figcaption>
+					<p><strong>{{ design.title }}</strong></p>
+					<p><strong>tags:</strong> {% for tag in design.tags %}{{ tag }}{% unless tag == design.tags.last %}, {% endunless %}{% endfor %}</p>
+			</a>
 
 		</figcaption>
 		</figure>

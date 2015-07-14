@@ -54,12 +54,12 @@
 
                   var pagination = $("#gallery-pagination");
 
-                  // function setLazyLoad () {
-                  // 	container.find("img").lazyload({
-                  // 		event : "turnPage",
-                  // 		effect : "fadeIn"
-                  // 	});
-                  //   };
+                  function setLazyLoad () {
+                  	$('#gallery').find("img").lazyload({
+                  		event : "turnPage",
+                  		effect : "fadeIn"
+                  	});
+                  };
 
                   function setPagination () {
                     pagination.jPages({
@@ -78,7 +78,7 @@
                     pagination.jPages("destroy");
                   };
 
-                  // setLazyLoad();
+                  setLazyLoad();
                   setPagination();
 
                   $.filtrify("gallery", "tag-filters", {

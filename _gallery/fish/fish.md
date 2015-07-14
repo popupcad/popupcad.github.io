@@ -50,20 +50,10 @@ operations:
 png_image_file: 05_00.png
 svg_image_file: C:\Users\danaukes\popupCAD_files\designs\hinges\fish\05_00.svg
 tags:
-<<<<<<< HEAD
-- parts
-- fish
-- animals
-- birds
-- snakes
-- rabbits
-- ducks
-=======
   - parts
   - fish
   - animals
   - birds
->>>>>>> 3501f06bcd6685b55be7334e17c27c94f00e1b38
 title: fish.cad
 
 ---

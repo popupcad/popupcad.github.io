@@ -49,14 +49,10 @@
                 {% include _javascripts/modals/sidebar.js %}
 
 
-              	$.filtrify("gallery_container", "placeholder", {
-              	});
-
 
                 /* jpage start */
 
-                  var container = $("#gcontainer"),
-                    pagination = $("#gpagination");
+                  var pagination = $("#gallery-pagination");
 
                   // function setLazyLoad () {
                   // 	container.find("img").lazyload({
@@ -67,7 +63,7 @@
 
                   function setPagination () {
                     pagination.jPages({
-                      containerID : "gcontainer",
+                      containerID : "gallery",
                             perPage : 6,
                             direction : "auto",
                             animation : "fadeInUp",
@@ -85,8 +81,7 @@
                   // setLazyLoad();
                   setPagination();
 
-                  $.filtrify("gcontainer", "placeHolder", {
-                    block : "data-original",
+                  $.filtrify("gallery", "tag-filters", {
                     callback : function() {
                             destroyPagination();
                             setPagination();

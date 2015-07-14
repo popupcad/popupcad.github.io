@@ -48,11 +48,51 @@
                 {% include _javascripts/uiMorphingButton_fixed.js %}
                 {% include _javascripts/modals/sidebar.js %}
 
-                {% include _javascripts/gallery_filter.js %}
+
+
+                /* jpage start */
+
+                  var pagination = $("#gallery-pagination");
+
+                  // function setLazyLoad () {
+                  // 	container.find("img").lazyload({
+                  // 		event : "turnPage",
+                  // 		effect : "fadeIn"
+                  // 	});
+                  //   };
+
+                  function setPagination () {
+                    pagination.jPages({
+                      containerID : "gallery",
+                            perPage : 6,
+                            direction : "auto",
+                            animation : "fadeInUp",
+                            callback : function( pages, items ){
+                                items.showing.find("img").trigger("turnPage");
+                                items.oncoming.find("img").trigger("turnPage");
+                            }
+                        });
+                  };
+
+                  function destroyPagination () {
+                    pagination.jPages("destroy");
+                  };
+
+                  // setLazyLoad();
+                  setPagination();
+
+                  $.filtrify("gallery", "tag-filters", {
+                    callback : function() {
+                            destroyPagination();
+                            setPagination();
+                    }
+                  });
+
+                /* jpage end */
 
 
                 // initialise WOW.min.js
-                new WOW().init();
+                // new WOW().init();
 
             } );
         })(jQuery);

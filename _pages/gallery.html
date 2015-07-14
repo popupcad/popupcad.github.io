@@ -19,6 +19,7 @@ published: true
 </div>
 
 
+<<<<<<< HEAD
 <section>
 	<div class="third">
 		<h2>filter designs by<strong> tag</strong></h2>
@@ -52,4 +53,44 @@ published: true
 
 		{% endfor %}
 	</div>
+=======
+<section class="gallery">
+<div class="third">
+	<h2>filter designs by<strong> tag</strong></h2>
+	<div id="tag-filters"></div>
+</div>
+<div class="two-thirds omega">
+
+	<div id="gallery-pagination"></div>
+
+	<div id="gallery">
+
+	{% for design in site.gallery %}
+
+		<figure class="third" data-tags="{{ design.tags | join: ", " }}">
+
+		{% if design.png_image_file and design.url %}
+		<a href="{{ design.url }}">
+		<img src="{{ design.url }}{{ design.png_image_file }}" />
+		</a>
+		{% endif %}
+
+		<figcaption>
+		<h5><strong>TITLE:</strong> {{ design.title }}</h5>
+		<h5><strong>TAGS:</strong> {{ design.tags }}</h5>
+
+
+		</figcaption>
+		</figure>
+
+	{% endfor %}
+</div>
+</section>
+<section>
+
+
+
+
+
+>>>>>>> 3501f06bcd6685b55be7334e17c27c94f00e1b38
 </section>

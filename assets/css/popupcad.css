@@ -2565,6 +2565,145 @@ td {
     content: "\e80d";
     background: #ff291d; }
 
+/*
+%extend_1 {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	line-height: 1;
+	position: relative;
+	text-align: left;
+	font: normal normal 100% $font_0;
+}
+*/
+/*
+%extend_2 {
+	position: absolute;
+	content: " ";
+	height: 0;
+	width: 0;
+	left: 50%;
+}
+*/
+/*
+ul.ft-menu {
+	@extend %extend_1;
+	list-style: none;
+	* {
+		@extend %extend_1;
+	}
+	> li.ft-field {
+		display: inline-block;
+		*display: inline;
+		*zoom: 1;
+		margin-right: 30px;
+		background: none !important;
+		position: relative !important;
+		> {
+			span.ft-label {
+				cursor: pointer;
+			}
+			div.ft-panel {
+				position: absolute;
+				min-width: 200px;
+				top: 100%;
+				margin-top: 15px;
+				left: 50%;
+				z-index: 9999;
+				&:before {
+					@extend %extend_2;
+				}
+				&:after {
+					@extend %extend_2;
+				}
+				> {
+					ul {
+						&.ft-selected {
+							padding: 10px 10px 0 10px;
+							background: $color_pampas_approx;
+							> li {
+								display: inline-block;
+								*display: inline;
+								*zoom: 1;
+								margin: 1px;
+								cursor: pointer;
+								padding: 0 5px 1px;
+								color: $white;
+								background: $color_cerulean_approx;
+								&:after {
+									content: " \00D7";
+									color: $white;
+								}
+								&:active {
+									background: $color_picton_blue_approx;
+								}
+							}
+						}
+						&.ft-tags {
+							position: relative !important;
+							overflow-x: hidden;
+							overflow-y: auto;
+							width: 100%;
+							> li {
+								font-size: 12px;
+								border-bottom: 1px solid $color_tuna_approx;
+								display: block;
+								padding: 8px 35px 8px 15px;
+								cursor: pointer;
+								&:after {
+									content: attr(data-count);
+									font-weight: bold;
+									display: inline-block;
+									*display: inline;
+									*zoom: 1;
+									position: absolute;
+									right: 15px;
+									top: 50%;
+									margin-top: -9px;
+									padding: 3px 6px;
+									color: $white;
+									background: $color_trout_approx;
+									//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+									border-radius: 10px;
+								}
+								&.ft-highlight {
+									background: $color_picton_blue_approx;
+								}
+							}
+						}
+						&.ft-tags::-webkit-scrollbar {
+							width: 10px;
+						}
+						&.ft-tags::-webkit-scrollbar-track {
+							background: $color_alto_approx;
+						}
+						&.ft-tags::-webkit-scrollbar-thumb {
+							//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+							border-radius: 2px;
+							background: $color_gallery_approx;
+						}
+					}
+					fieldset.ft-search {
+						padding: 10px;
+						background: $color_pampas_approx;
+						> input {
+							outline: none;
+							display: block;
+							width: 140px;
+						}
+					}
+					div.ft-mismatch {
+						font-size: 11px;
+						padding: 10px 15px;
+						color: $white;
+						background: $color_fuscous_gray_approx;
+					}
+				}
+			}
+		}
+	}
+}
+*/
 .highlight {
   background: #ffffff; }
 
@@ -3450,28 +3589,105 @@ body.gallery header.header {
     color: white; }
 body.gallery .alpha {
   background: #6266a0; }
-body.gallery ul#gallery-filters li {
+body.gallery ul.ft-menu {
+  list-style: none; }
+  body.gallery ul.ft-menu li {
+    margin-left: 0; }
+  body.gallery ul.ft-menu fieldset {
+    margin-top: 1rem;
+    border: none;
+    background: #e4e4e4;
+    border-radius: 15px; }
+    body.gallery ul.ft-menu fieldset input:focus {
+      outline: 0; }
+  body.gallery ul.ft-menu input {
+    border: 0;
+    font-size: 1.4rem;
+    padding: .4rem;
+    margin: 1rem; }
+body.gallery .ft-label {
+  display: none; }
+body.gallery ul.ft-selected {
+  /*
+  padding: 10px 10px 0 10px;
+  background: $skyblue;
+  > li {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    margin: 1px;
+    cursor: pointer;
+    padding: 0 5px 1px;
+    color: $white;
+    background: $lightblue;
+    &:after {
+      content: " \00D7";
+      color: #fff;
+    }
+    &:active {
+      background: $skyblue;
+    }
+  }*/ }
+  body.gallery ul.ft-selected li {
+    position: relative;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 900;
+    background: #2d405b;
+    border-radius: 2rem;
+    padding: 5px 20px;
+    margin: 1rem 0 0 0; }
+    body.gallery ul.ft-selected li:after {
+      font-family: 'popupcad';
+      content: " \e84d";
+      color: #fff;
+      font-weight: 900;
+      display: inline-block;
+      *display: inline;
+      *zoom: 1;
+      position: absolute;
+      right: 15px;
+      top: 15%;
+      padding: 3px 6px;
+      font-size: .9rem;
+      border-radius: 50%;
+      width: 15px;
+      height: 20px;
+      text-align: center;
+      opacity: .5; }
+    body.gallery ul.ft-selected li:hover {
+      cursor: pointer;
+      background: #3e587d; }
+body.gallery ul.ft-tags li {
+  position: relative;
   color: #fff;
-  font-size: .9rem;
+  font-size: 1.3rem;
   font-weight: 900;
   background: #f57365;
   border-radius: 2rem;
   padding: 5px 20px;
-  margin: 0 1rem 0 0; }
-  body.gallery ul#gallery-filters li:hover {
+  margin: 1rem 0 0 0; }
+  body.gallery ul.ft-tags li:hover {
     cursor: pointer;
     background: #f89f95; }
-body.gallery a#remove-filters {
-  color: #fff;
-  font-size: .9rem;
-  font-weight: 900;
-  background: #2d405b;
-  border-radius: 2rem;
-  padding: 5px 20px;
-  margin: 0 1rem 0 0; }
-  body.gallery a#remove-filters:hover {
-    cursor: pointer;
-    background: #3e587d; }
+  body.gallery ul.ft-tags li:after {
+    content: attr(data-count);
+    font-weight: 900;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    position: absolute;
+    right: 15px;
+    top: 15%;
+    padding: 3px 6px;
+    font-size: .9rem;
+    background: #fff;
+    color: #000;
+    border-radius: 50%;
+    width: 15px;
+    height: 20px;
+    text-align: center;
+    opacity: .5; }
 body.gallery .box {
   margin-bottom: 8rem; }
   body.gallery .box img {

@@ -48,11 +48,56 @@
                 {% include _javascripts/uiMorphingButton_fixed.js %}
                 {% include _javascripts/modals/sidebar.js %}
 
-                {% include _javascripts/gallery_filter.js %}
+
+              	$.filtrify("gallery_container", "placeholder", {
+              	});
+
+
+                /* jpage start */
+
+                  var container = $("#gcontainer"),
+                    pagination = $("#gpagination");
+
+                  // function setLazyLoad () {
+                  // 	container.find("img").lazyload({
+                  // 		event : "turnPage",
+                  // 		effect : "fadeIn"
+                  // 	});
+                  //   };
+
+                  function setPagination () {
+                    pagination.jPages({
+                      containerID : "gcontainer",
+                            perPage : 6,
+                            direction : "auto",
+                            animation : "fadeInUp",
+                            callback : function( pages, items ){
+                                items.showing.find("img").trigger("turnPage");
+                                items.oncoming.find("img").trigger("turnPage");
+                            }
+                        });
+                  };
+
+                  function destroyPagination () {
+                    pagination.jPages("destroy");
+                  };
+
+                  // setLazyLoad();
+                  setPagination();
+
+                  $.filtrify("gcontainer", "placeHolder", {
+                    block : "data-original",
+                    callback : function() {
+                            destroyPagination();
+                            setPagination();
+                    }
+                  });
+
+                /* jpage end */
 
 
                 // initialise WOW.min.js
-                new WOW().init();
+                // new WOW().init();
 
             } );
         })(jQuery);

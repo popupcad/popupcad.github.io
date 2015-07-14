@@ -49,7 +49,11 @@ operations:
   svg_image_file: C:\Users\danaukes\popupCAD_files\designs\hinges\fish\05_00.svg
 png_image_file: 05_00.png
 svg_image_file: C:\Users\danaukes\popupCAD_files\designs\hinges\fish\05_00.svg
-tags: parts fish animals birds snakes rabbits ducks
+tags:
+  - parts
+  - fish
+  - animals
+  - birds
 title: fish.cad
 
 ---

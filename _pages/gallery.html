@@ -19,30 +19,34 @@ published: true
 </div>
 
 
-<section>
+<section class="gallery">
 <div class="third">
 	<h2>filter designs by<strong> tag</strong></h2>
-	<ul id="gallery-filters"></ul>
-	<a href="#" id="remove-filters">show all / remove filters</a>
+	<div id="placeHolder"></div>
 </div>
-<div class="two-thirds omega">
-{% for design in site.gallery %}
+<div class="two-thirds omega" id="gallery">
 
-	<figure class="{% unless design.tags == empty %}{{ design.tags }}{% endunless %}">
+	<div id="gpagination"></div>
 
-	{% if design.png_image_file and design.url %}
-	<a href="{{ design.url }}">
-	<img src="{{ design.url }}{{ design.png_image_file }}" />
-	</a>
-	{% endif %}
+	<div id="gcontainer">
 
-	<figcaption>
-	<h5><strong>TITLE:</strong> {{ design.title }}</h5>
-	<h5><strong>TAGS:</strong> {{ design.tags }}</h5>
+	{% for design in site.gallery %}
+
+		<figure class="third" data-tags="{{ design.tags | join: ", " }}">
+
+		{% if design.png_image_file and design.url %}
+		<a href="{{ design.url }}">
+		<img src="{{ design.url }}{{ design.png_image_file }}" />
+		</a>
+		{% endif %}
+
+		<figcaption>
+		<h5><strong>TITLE:</strong> {{ design.title }}</h5>
+		<h5><strong>TAGS:</strong> {{ design.tags }}</h5>
 
 
-	</figcaption>
-	</figure>
+		</figcaption>
+		</figure>
 
 	{% endfor %}
 </div>

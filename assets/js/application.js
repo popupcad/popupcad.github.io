@@ -39,11 +39,11 @@
 
 {% include _javascripts/filtrify.js %}
 {% include _javascripts/jPages.min.js %}
-{% include _javascripts/filtrify/jquery.lazyload.min.js %}
 
 
 
 {% comment %}
+{% include _javascripts/filtrify/jquery.lazyload.min.js %}
 
 
 {% endcomment %}

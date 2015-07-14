@@ -19,41 +19,6 @@ published: true
 </div>
 
 
-<<<<<<< HEAD
-<section>
-	<div class="third">
-		<h2>filter designs by<strong> tag</strong></h2>
-		<ul id="gallery-filters"></ul>
-		<a href="#" id="remove-filters">show all / remove filters</a>
-	</div>
-	<div class="two-thirds omega">
-	{% for design in site.gallery %}
-
-		{% if design.png_image_file and design.url %}
-			<figure class="{% unless design.tags == empty %}{{ design.tags }}{% endunless %}">
-
-				<a href="{{ design.url }}">
-				<img src="{{ design.url }}{{ design.png_image_file }}" />
-				</a>
-
-				<figcaption>
-					<p><strong>TITLE:</strong> {{ design.title }}</p>
-					<p><strong>TAGS:</strong>
-						{% if design.tags.size > 0 %}
-							{% for tag in design.tags %}
-						    {{ tag }}{% unless forloop.last %}, {% endunless %}
-						  {% endfor %}
-						{% endif %}
-					</p>
-				</figcaption>
-
-			</figure>
-		{% endif %}
-
-
-		{% endfor %}
-	</div>
-=======
 <section class="gallery">
 <div class="third">
 	<h2>filter designs by<strong> tag</strong></h2>
@@ -77,7 +42,7 @@ published: true
 
 		<figcaption>
 		<h5><strong>TITLE:</strong> {{ design.title }}</h5>
-		<h5><strong>TAGS:</strong> {{ design.tags }}</h5>
+		<h5><strong>TAGS:</strong> {% for tag in design.tags %}{{ tag }}{% unless tag == design.tags.last %}, {% endunless %}{% endfor %}</h5>
 
 
 		</figcaption>
@@ -92,5 +57,5 @@ published: true
 
 
 
->>>>>>> 3501f06bcd6685b55be7334e17c27c94f00e1b38
+
 </section>

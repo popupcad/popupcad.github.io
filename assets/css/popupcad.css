@@ -1510,7 +1510,7 @@ main a.icon-pocket {
   main a.icon-pocket:hover {
     color: #f16f7e !important; }
 
-.btn, body.gallery #gallery-pagination a.jp-previous, body.gallery #gallery-pagination a.jp-next {
+.btn {
   border: none;
   font-family: inherit;
   font-size: .9rem;
@@ -1529,7 +1529,7 @@ main a.icon-pocket {
   -moz-transition: all 0.3s;
   transition: all 0.3s; }
 
-.btn:after, body.gallery #gallery-pagination a.jp-previous:after, body.gallery #gallery-pagination a.jp-next:after {
+.btn:after {
   content: '';
   position: absolute;
   z-index: -1;
@@ -1614,7 +1614,7 @@ button.btn-1.disabled:active {
   background: white; }
 
 /* this is a link visible on disabled links in the _docs and _tutorials pages */
-.disabled, body.gallery #gallery-pagination a.jp-disabled {
+.disabled {
   color: #ccc; }
 
 /* buttons */
@@ -3220,118 +3220,6 @@ a {
 button {
   font-size: 1rem; }
 
-.btn, body.gallery #gallery-pagination a.jp-previous, body.gallery #gallery-pagination a.jp-next {
-  border: none;
-  font-family: inherit;
-  font-size: .9rem;
-  color: inherit;
-  background: none;
-  cursor: pointer;
-  padding: 20px 60px;
-  display: inline-block;
-  margin: 2rem 0rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: 400;
-  outline: none;
-  position: relative;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s; }
-
-.btn:after, body.gallery #gallery-pagination a.jp-previous:after, body.gallery #gallery-pagination a.jp-next:after {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s; }
-
-/* white */
-a.white {
-  border: 2px solid #fff;
-  color: #fff !important; }
-
-.white:hover,
-.white:active {
-  color: #000 !important;
-  background: #fff; }
-
-/* */
-/* black */
-.black,
-a.black {
-  border: 1px solid #000;
-  color: #000 !important; }
-
-.black:hover,
-.black:active {
-  color: #fff !important;
-  background: #000; }
-
-/* colored buttons yellow */
-/* bravo bg */
-/* used in frontpage .charlie */
-.yellow {
-  color: #000 !important;
-  background: #ffda00; }
-
-a.yellow {
-  color: #000 !important; }
-
-.yellow:hover,
-.yellow:active {
-  color: #555 !important;
-  background: #ffed80; }
-
-/* salmon button */
-.salmon {
-  background: #f57365;
-  color: #fff !important; }
-
-a.salmon {
-  color: #fff !important;
-  border: none;
-  outline: none; }
-
-.salmon:hover,
-.salmon:active {
-  background: #f68073; }
-
-/* lightblue button */
-.lightblue {
-  background: #2dafe6;
-  color: #000 !important; }
-
-a.lightblue {
-  color: #000 !important; }
-
-.lightblue:hover,
-.lightblue:active {
-  background: #3bb4e8; }
-
-/*
-sometimes we need a button
-to be faintly visible,
-deactivated. like, on
-a paginator with no next page.
-*/
-button.btn-1.disabled,
-button.btn-1.disabled:hover,
-button.btn-1.disabled:active {
-  border: 2px solid #ccc;
-  color: #ccc;
-  background: white; }
-
-/* this is a link visible on disabled links in the _docs and _tutorials pages */
-.disabled, body.gallery #gallery-pagination a.jp-disabled {
-  color: #ccc; }
-
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
-
 body > header {
   height: 70px;
   z-index: 20; }
@@ -3496,6 +3384,9 @@ body.post span.author:before {
 
 /* in conjunction with .morph-button,
 ** for <ul> nav where first <li> is site name */
+.header nav {
+  background: url("/assets/images/popupcad-logo.png") no-repeat 8px 6px; }
+
 @media screen and (min-width: 320px) {
   .header nav li {
     display: none; } }
@@ -3506,6 +3397,10 @@ body.post span.author:before {
 /* but keep site name always visible */
 .header nav li:first-child {
   display: block; }
+
+.header nav li:first-child a {
+  display: block;
+  text-indent: -900em; }
 
 /*
   competition
@@ -3562,26 +3457,6 @@ body.gallery header.header {
     color: white; }
 body.gallery .alpha {
   background: #6266a0; }
-body.gallery #gallery-pagination {
-  width: 100%; }
-  @media screen and (min-width: 320px) {
-    body.gallery #gallery-pagination {
-      margin-top: 3rem; } }
-  @media screen and (min-width: 960px) {
-    body.gallery #gallery-pagination {
-      margin-top: 0; } }
-  body.gallery #gallery-pagination a {
-    padding: .3rem 1rem .5rem 1rem;
-    margin-right: 1rem;
-    border: 1px solid #ccc; }
-    body.gallery #gallery-pagination a:hover {
-      cursor: pointer; }
-  body.gallery #gallery-pagination a.jp-current {
-    background: #ccc; }
-  body.gallery #gallery-pagination a.jp-previous, body.gallery #gallery-pagination a.jp-next {
-    padding: .5rem 1rem;
-    margin-right: 1rem;
-    border: 1px solid #ccc; }
 body.gallery ul.ft-menu {
   list-style: none; }
   body.gallery ul.ft-menu li {
@@ -3597,8 +3472,7 @@ body.gallery ul.ft-menu {
     border: 0;
     font-size: 1.4rem;
     padding: .4rem;
-    margin: 1rem;
-    width: 150px; }
+    margin: 1rem; }
 body.gallery .ft-label {
   display: none; }
 body.gallery ul.ft-selected {
@@ -3688,46 +3562,17 @@ body.gallery .box {
     max-height: 280px;
     padding-bottom: 2rem; }
 body.gallery figure {
-  background: #e4e4e4;
+  padding: 2rem;
+  background: #eee;
   position: relative;
-  height: 500px;
-  margin-bottom: 2rem; }
-  body.gallery figure:hover {
-    opacity: .9; }
-    body.gallery figure:hover figcaption a {
-      color: #eee; }
-  body.gallery figure a#img {
-    height: 400px;
-    display: block; }
-  body.gallery figure img {
-    width: 90%;
-    max-height: 380px;
-    margin: 2rem; }
-    body.gallery figure img:hover {
-      opacity: .8; }
+  height: 450px; }
   body.gallery figure figcaption {
-    /* minimum text in mobile is 20px (html) */
     position: absolute;
     bottom: 0px;
     min-height: 100px;
+    color: #111;
     width: 100%;
     border: 0;
-    outline: 0;
-    background: #111;
-    padding: 1rem 2rem; }
-    @media screen and (min-width: 320px) {
-      body.gallery figure figcaption {
-        font-size: 1.3rem;
-        line-height: 2;
-        font-weight: 400; } }
-    @media screen and (min-width: 720px) {
-      body.gallery figure figcaption {
-        font-size: 1.2rem;
-        line-height: 1.6; } }
-    body.gallery figure figcaption p {
-      margin-bottom: .7rem;
-      line-height: 1.2; }
-    body.gallery figure figcaption a {
-      color: #aaa; }
+    outline: 0; }
 
 /*# sourceMappingURL=popupcad.css.map */

@@ -46,8 +46,9 @@ the new paths have to be made to look like
 In short: the font name and suffix number from the popupcad.css font file you downloaded from fontello. Leave the font-family name: popupcad.
 
 
+# GALLERY PAGINATION
 
-
+The number of items per page can be set by modifying the `setPagination` function found in the <script> tag of _layouts/default.html (changing the value of the 'perPage' property).
 
 
 So version 3.0.0beta2 is a bit too unstable: use jekyll 2.5.3 until it's ready.

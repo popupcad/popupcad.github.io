@@ -2565,145 +2565,6 @@ td {
     content: "\e80d";
     background: #ff291d; }
 
-/*
-%extend_1 {
-	margin: 0;
-	border: 0;
-	padding: 0;
-	line-height: 1;
-	position: relative;
-	text-align: left;
-	font: normal normal 100% $font_0;
-}
-*/
-/*
-%extend_2 {
-	position: absolute;
-	content: " ";
-	height: 0;
-	width: 0;
-	left: 50%;
-}
-*/
-/*
-ul.ft-menu {
-	@extend %extend_1;
-	list-style: none;
-	* {
-		@extend %extend_1;
-	}
-	> li.ft-field {
-		display: inline-block;
-		*display: inline;
-		*zoom: 1;
-		margin-right: 30px;
-		background: none !important;
-		position: relative !important;
-		> {
-			span.ft-label {
-				cursor: pointer;
-			}
-			div.ft-panel {
-				position: absolute;
-				min-width: 200px;
-				top: 100%;
-				margin-top: 15px;
-				left: 50%;
-				z-index: 9999;
-				&:before {
-					@extend %extend_2;
-				}
-				&:after {
-					@extend %extend_2;
-				}
-				> {
-					ul {
-						&.ft-selected {
-							padding: 10px 10px 0 10px;
-							background: $color_pampas_approx;
-							> li {
-								display: inline-block;
-								*display: inline;
-								*zoom: 1;
-								margin: 1px;
-								cursor: pointer;
-								padding: 0 5px 1px;
-								color: $white;
-								background: $color_cerulean_approx;
-								&:after {
-									content: " \00D7";
-									color: $white;
-								}
-								&:active {
-									background: $color_picton_blue_approx;
-								}
-							}
-						}
-						&.ft-tags {
-							position: relative !important;
-							overflow-x: hidden;
-							overflow-y: auto;
-							width: 100%;
-							> li {
-								font-size: 12px;
-								border-bottom: 1px solid $color_tuna_approx;
-								display: block;
-								padding: 8px 35px 8px 15px;
-								cursor: pointer;
-								&:after {
-									content: attr(data-count);
-									font-weight: bold;
-									display: inline-block;
-									*display: inline;
-									*zoom: 1;
-									position: absolute;
-									right: 15px;
-									top: 50%;
-									margin-top: -9px;
-									padding: 3px 6px;
-									color: $white;
-									background: $color_trout_approx;
-									//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-									border-radius: 10px;
-								}
-								&.ft-highlight {
-									background: $color_picton_blue_approx;
-								}
-							}
-						}
-						&.ft-tags::-webkit-scrollbar {
-							width: 10px;
-						}
-						&.ft-tags::-webkit-scrollbar-track {
-							background: $color_alto_approx;
-						}
-						&.ft-tags::-webkit-scrollbar-thumb {
-							//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-							border-radius: 2px;
-							background: $color_gallery_approx;
-						}
-					}
-					fieldset.ft-search {
-						padding: 10px;
-						background: $color_pampas_approx;
-						> input {
-							outline: none;
-							display: block;
-							width: 140px;
-						}
-					}
-					div.ft-mismatch {
-						font-size: 11px;
-						padding: 10px 15px;
-						color: $white;
-						background: $color_fuscous_gray_approx;
-					}
-				}
-			}
-		}
-	}
-}
-*/
 .highlight {
   background: #ffffff; }
 
@@ -3694,17 +3555,43 @@ body.gallery .box {
     max-height: 280px;
     padding-bottom: 2rem; }
 body.gallery figure {
-  padding: 2rem;
-  background: #eee;
+  background: #e4e4e4;
   position: relative;
-  height: 450px; }
+  height: 500px;
+  margin-bottom: 2rem; }
+  body.gallery figure:hover {
+    opacity: .9; }
+    body.gallery figure:hover figcaption a {
+      color: #eee; }
+  body.gallery figure img {
+    width: 90%;
+    max-height: 350px;
+    margin: 2rem; }
+    body.gallery figure img:hover {
+      opacity: .8; }
   body.gallery figure figcaption {
+    /* minimum text in mobile is 20px (html) */
     position: absolute;
     bottom: 0px;
     min-height: 100px;
-    color: #111;
     width: 100%;
     border: 0;
-    outline: 0; }
+    outline: 0;
+    background: #111;
+    padding: 1rem 2rem; }
+    @media screen and (min-width: 320px) {
+      body.gallery figure figcaption {
+        font-size: 1.3rem;
+        line-height: 2;
+        font-weight: 400; } }
+    @media screen and (min-width: 720px) {
+      body.gallery figure figcaption {
+        font-size: 1.2rem;
+        line-height: 1.6; } }
+    body.gallery figure figcaption p {
+      margin-bottom: .7rem;
+      line-height: 1.2; }
+    body.gallery figure figcaption a {
+      color: #aaa; }
 
 /*# sourceMappingURL=popupcad.css.map */

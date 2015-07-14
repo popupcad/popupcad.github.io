@@ -5,32 +5,51 @@ layout: default
 
 {% comment %}
 THIS IS THE TEMPLATE for gallery collection items.
+
+ADJUST size of left image in the next <style>
 {% endcomment %}
+
+
+<style>
+  .imagebox img { width:100%;max-height:500px; overflow:hidden;}
+</style>
+
 
 <div class="section-wrapper alpha">
   <section>
 
       <div class="third">
-        <h6><strong>design name:</strong></h6>
-        <h2 itemprop="name headline">{{ page.title }}</h2>
+
+        <a href="/gallery/">
+          <h2 class="icon-left"><strong>back to Designs</strong></h2>
+        </a>
+
       </div>
 
       <div class="two-thirds omega">
-        <h6><strong>description:</strong></h6>
-        <p>{{ page.description }}</p>
+        <h6><strong>design:</strong><h6>
+        <h2 itemprop="name headline">{{ page.title }}</h2>
       </div>
 
 
   </section>
 </div>
 
-
+<section>
+  <div class="third imagebox">
+    <img src="{{ page.png_image_file }}" />
+  </div>
+  <div class="two-thirds omega">
+    <h6><strong>design description:</strong></h6>
+    <p>{{ page.description }}</p>
+  </div>
+</section>
 {% for operation in page.operations %}
 
 {% assign operation_number = forloop.index %}
 
   <section>
-    <div class="third" id="imagebox">
+    <div class="third imagebox">
       <img src="{{operation.png_image_file}}" />
     </div>
     <div class="two-thirds omega">
@@ -57,7 +76,7 @@ THIS IS THE TEMPLATE for gallery collection items.
     {% for output in operation.outputs %}
       <section>
 
-        <div class="third" id="imagebox">
+        <div class="third imagebox">
           <img src="{{ page.url }}{{output.png_image_file}}"  />
         </div>
         <div class="two-thirds omega">
@@ -84,7 +103,3 @@ THIS IS THE TEMPLATE for gallery collection items.
 <section>
     {% include disqus.html %}
 </section>
-
-<style>
-#imagebox img{ width:100%;max-height:300px; overflow:hidden;}
-</style>

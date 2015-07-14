@@ -6,7 +6,7 @@
 <header class="header headroom">
     <nav>
       <ul class="horizontal">
-        <li><a title=" {{ site.title }}" href="/"> {{ site.name }}  </a></li>
+        <li><a title=" {{ site.title }}" href="/" id="logo">   </a></li>
         <li><a {% if location == 'competition' %}class="active" {% endif %}href="/competition">design contest</a></li>
         <li><a {% if download_page %}class="active" {% endif %}href="/docs/download">download</a></li>
         <li><a {% if location == 'gallery' and download_page != true  %}class="active" {% endif %}href="/gallery/">gallery</a></li>

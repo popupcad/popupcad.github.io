@@ -3335,6 +3335,12 @@ button.btn-1.disabled:active {
 body > header {
   height: 70px;
   z-index: 20; }
+  body > header a#logo {
+    display: block;
+    background: url(/assets/images/popupcad-logo.png) no-repeat;
+    width: 140px;
+    height: 53px;
+    margin-top: -15px; }
 
 body.contest aside,
 body.docs aside,

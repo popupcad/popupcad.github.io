@@ -22,7 +22,7 @@ disqusshortname: popupcad
 markdown: kramdown
 permalinks: pretty
 #highlighter: rouge
-#hightlighter: pygments
+hightlighter: pygments
 
 # default post (blog) url schema
 permalink: /:categories/:year/:title/

@@ -12,7 +12,6 @@
     - linux-setup
     - mac-setup
     - compiling-the-installer
-    - git-setup-shell
 - title: Making Devices
   items:
     - origami-inspired-design

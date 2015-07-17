@@ -18,7 +18,7 @@ brew install geos
 brew install python3
 brew install pyside --with-python3
 
-pip3 install cx_freeze numpy pip pyopengl pyqtgraph pyyaml scipy setuptools shapely spyder sympy
+pip3 install cx_freeze numpy pip pyopengl pyqtgraph pyyaml scipy setuptools shapely spyder sympy lxml
 
 git config --global user.name "$LastName, $FirstName"
 git config --global user.email "$EmailAddress"

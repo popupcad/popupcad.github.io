@@ -22,6 +22,7 @@ Many of these products have not been used or tested by us; we have simply found 
 | .002" VHB Pressure-Sensitive Adhesive | [tapecase.com](https://www.tapecase.com/pd/cn/tapes-die-cuts/1024/1000694/3m-f9460pc-vhb-adhesive-transfer-tape.aspx) |
 | Scotch Weld Epoxy Thermoset Adhesives | [pccomposites.com](http://www.pccomposites.com/?task=prodSearch&searchText=3M) |
 | Various Double Sided Tapes| [mcmaster](http://www.mcmaster.com/#fastening-tape-with-adhesive-on-both-sides) |
+| Another Good Adhesive Site |[lamination depot](http://www.laminationdepot.com/Shop/Mounting-Adhesives/)|
 | Polyester Film | [mcmaster.com](http://www.mcmaster.com/#8567k102/) |
 | Nylon | [funwithwind.com](http://www.funwithwind.com/store/listCategoriesAndProducts2.asp?idCategory=191&idparent=168) |
 | Nylon | [seattle fabrics](http://www.seattlefabrics.com/nylons.html) |

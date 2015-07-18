@@ -13,10 +13,10 @@ title: Mac Setup
   - open up a terminal window and navigate to the directory where you downloaded the script.
   - type:
 
-'''  
-          chmod +x install_popupcad_mac.sh
-          ./ install_popupcad_mac.sh
-'''
+    ```
+    chmod +x install_popupcad_mac.sh
+    ./ install_popupcad_mac.sh
+    ```
 
 1. run the following:
 

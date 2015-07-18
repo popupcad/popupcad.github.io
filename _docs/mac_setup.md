@@ -11,12 +11,13 @@ title: Mac Setup
 1. download and run this [script]({{site.url}}/assets/scripts/install_popupcad_mac.sh)
   - once you download the script, you may have to permit it to be executed on your local machine.  
   - open up a terminal window and navigate to the directory where you downloaded the script.
-  - type:
 
-```
+type:
+
+{% highlight bash %}
 chmod +x install_popupcad_mac.sh
 ./install_popupcad_mac.sh
-```
+{% endhighlight %}
 
 1. run the following:
 

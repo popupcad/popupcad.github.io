@@ -12,6 +12,7 @@
     - linux-setup
     - mac-setup
     - compiling-the-installer
+    - custom-materials-in-popupcad
 - title: Making Devices
   items:
     - origami-inspired-design

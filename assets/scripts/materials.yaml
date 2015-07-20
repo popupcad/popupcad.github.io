@@ -1,0 +1,24 @@
+- !!python/object:popupcad.filetypes.material2.Material2
+    E1: 1
+    E2: 1
+    color: !!python/tuple [0.5, 0.5, 0.5, 0.5]
+    density: 1
+    id: 43436632
+    is_adhesive: true
+    is_conductive: false
+    is_rigid: false
+    name: User Material1
+    poisson: 0.5
+    thickness: 0.1
+- !!python/object:popupcad.filetypes.material2.Material2
+    E1: 1
+    E2: 1
+    color: !!python/tuple [0.5, 0.5, 0.5, 0.5]
+    density: 1
+    id: 43436632
+    is_adhesive: true
+    is_conductive: false
+    is_rigid: false
+    name: User Material2
+    poisson: 0.5
+    thickness: 0.1    

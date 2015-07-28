@@ -49,3 +49,5 @@ improve README.md
 * published flag is ignored in the collection menu generation.
 * minor logo change (see dan)
 * contest page flow update.(see dan)
+  * too hard to preregister
+  * rules and info are buried

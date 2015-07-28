@@ -7,7 +7,6 @@
 - title: Getting popupCAD
   items:
     - download
-    - windows-msi-install
     - windows-setup-source
     - linux-setup
     - mac-setup

@@ -36,6 +36,7 @@ improve README.md
 ============================
 * Code highlighting may work, but I am unsure about how to use it
   * would like to use liquid template but tabs are broken
+  * long lines of code...implement a scroll bar? https://demisx.github.io/jekyll/2014/01/13/improve-code-highlighting-in-jekyll.html
 * how do I use the info, warning, error bars?
 * documentation sphinx skin
 * gallery item: collapse/expand hierarchy

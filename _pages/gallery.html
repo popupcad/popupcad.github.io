@@ -1,0 +1,60 @@
+---
+layout: default
+body_class: gallery
+title: Gallery
+permalink: /gallery/
+published: true
+---
+<div class="section-wrapper alpha">
+<section>
+<div class="third">
+<h1>Designs</h1>
+</div>
+
+<div class="two-thirds omega">
+<p>The gallery will be evolving rapidly over the next several weeks. We plan to host design files as well as documentation for creating designs.  If you would like to submit a design for the gallery, please <a href="{{site.url}}/contact"><strong>get in touch</strong></a>, and we would be happy to host it for you.</p>
+</div>
+
+</section>
+</div>
+
+
+<section class="gallery">
+<div class="third">
+	<h2>filter designs by<strong> tag</strong></h2>
+	<div id="tag-filters"></div>
+</div>
+<div class="two-thirds omega">
+
+	<div id="gallery-pagination"></div>
+
+	<div id="gallery">
+
+	{% for design in site.gallery %}
+
+		<figure class="third" data-tags="{{ design.tags | join: ", " }}">
+
+			<a id="img" href="{{ design.url }}">
+			<img src="{{ design.url }}{{ design.svg_image_file }}" />
+			</a>
+
+			<a href="{{ design.url }}">
+				<figcaption>
+					<p><strong>{{ design.title }}</strong></p>
+					<p><strong>tags:</strong> {% for tag in design.tags %}{{ tag }}{% unless tag == design.tags.last %}, {% endunless %}{% endfor %}</p>
+			</a>
+
+		</figcaption>
+		</figure>
+
+	{% endfor %}
+</div>
+</section>
+<section>
+
+
+
+
+
+
+</section>

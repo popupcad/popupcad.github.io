@@ -2,45 +2,26 @@
 title: Mac Setup
 ---
 
-\#. (optional?)disable Mac security for apps.
+1. disable Mac security for apps.
+  - open settings
+  - go to "security and privacy", then select the "general" tab
+  - click the lock and supply your password, if needed
+  - on the "Allow apps downloaded from" radio buttons, select "anywhere"
+1. download and install X-Code from the [app store](<https://developer.apple.com/xcode/>)
+1. download and run this [script]({{site.url}}/assets/scripts/install_popupcad_mac.sh)
+  - once you download the script, you may have to permit it to be executed on your local machine.  
+  - open up a terminal window and navigate to the directory where you downloaded the script.
 
-:   1.  open settings
-    2.  go to "security and privacy", then select the "general" tab
-    3.  click the lock and supply your password, if needed
-    4.  on the "Allow apps downloaded from" radio buttons, select
-        "anywhere"
+type:
 
-1.  download and install X-Code from the app
-    store(<https://developer.apple.com/xcode/>)
-2.  run this...:
+{% highlight bash %}
+chmod +x install_popupcad_mac.sh
+./install_popupcad_mac.sh
+{% endhighlight %}
 
-        echo Enter your first name and press [ENTER]:
-        read FirstName
-        echo Enter your last name and press [ENTER]:
-        read LastName
-        echo Enter your email and press [ENTER]:
-        read EmailAddress
+1. run the following:
 
-        ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
-        echo export PATH=/usr/local/bin:\$PATH >> ~/.bash_profile
-        echo export RESOURCEPATH=\$RESOURCEPATH >> ~/.bash_profile
-        source ~/.bash_profile
-
-        brew install gcc
-        brew install geos
-        brew install python3
-        brew install pyside --with-python3
-
-        pip3 install cx_freeze numpy pip pyopengl pyqtgraph pyyaml scipy setuptools shapely spyder sympy
-
-        git config --global user.name "$LastName, $FirstName"
-        git config --global user.email "$EmailAddress"
-        cd ~/
-        git clone {{site.popupcad_source_path}}.git
-        cd ~/popupcad/
-        git checkout master
-        git pull
-
-        echo "export PYTHONPATH=\$PYTHONPATH:~/popupcad" >> ~/.bash_profile
-        source ~/.bash_profile
+{% highlight bash %}
+cd ~/popupcad
+python popupcad.py
+{% endhighlight  %}

@@ -5,128 +5,101 @@ layout: default
 
 {% comment %}
 THIS IS THE TEMPLATE for gallery collection items.
+
+ADJUST size of left image in the next <style>
 {% endcomment %}
 
 
-{% capture h1bg %}{% if page.h1bg %}#{{ page.h1bg }}{% else %}#{{ site.default_gallery_header_bg }}{% endif %}{% endcapture %}
-{% capture h1color %}{% if page.h1color %}#{{ page.h1color }}{% else %}#{{ site.default_gallery_header_h1color }}{% endif %}{% endcapture %}
-<style media="screen" type="text/css">
-      header,
-      .alpha {background:{{ h1bg }};}
-      .alpha h1{color:{{ h1color }};}
-      header a:link,header a:visited{color:{{ h1color }};}
-      a:link,a:visited {
-        color:{{ h1bg }};
-      }
-
+<style>
+  .imagebox img { width:100%;max-height:500px; overflow:hidden;}
 </style>
 
 
 <div class="section-wrapper alpha">
   <section>
-    <div class="third">&nbsp;</div>
-    <div class="two-thirds omega">
-      <h1 itemprop="name headline">gallery</h1>
-      <h2>{{ page.title }}</h2>
-    </div>
+
+      <div class="third">
+
+        <a href="/gallery/">
+          <h2 class="icon-left"><strong>back to Designs</strong></h2>
+        </a>
+
+      </div>
+
+      <div class="two-thirds omega">
+        <h6><strong>design:</strong><h6>
+        <h2 itemprop="name headline">{{ page.title }}</h2>
+      </div>
+
+
   </section>
 </div>
+
 <section>
-  <div class="third">
-    <aside>
-      {% for section in site.data.gallery_menu %}
-        <h5>{{ section.title }}</h5>
-        {% assign items = include.items %}
-
-        <ul class="no-bullets">
-        {% for item in section.items  %}
-          {% assign item_url = item | prepend:"/gallery/" | append:"/" %}
-
-          {% if item_url == page.url %}
-            {% assign c = "active" %}
-          {% else %}
-            {% assign c = "" %}
-          {% endif %}
-
-          {% for p in site.gallery %}
-            {% if p.url == item_url %}
-              <li class="{{ c }}"><a href="{{ site.url }}{{ p.url }}">{{ p.title }}</a></li>
-              {% break %}
-            {% endif %}
-          {% endfor %}
-
-        {% endfor %}
-        </ul>
-      {% endfor %}
-    </aside>
-
+  <div class="third imagebox">
+    <img src="{{ page.png_image_file }}" />
   </div>
   <div class="two-thirds omega">
+    <h6><strong>design description:</strong></h6>
+    <p>{{ page.description }}</p>
+  </div>
+</section>
+{% for operation in page.operations %}
 
-{% comment %}
-  yield to content, in case it's text format, right?
-{% endcomment %}
+{% assign operation_number = forloop.index %}
 
-{{ content }}
+  <section>
+    <div class="third imagebox">
+      <img src="{{operation.png_image_file}}" />
+    </div>
+    <div class="two-thirds omega">
 
-{% if page.cad_file %}
-  <figure >
-  <figcaption class="half">{{page.cad_file}}</figcaption>
-  <img class="half omega" src="{{ page.url }}{{page.image_file}}" />
-  </figure>
-{% endif %}
+      <h2><strong>Operation {{ operation_number }} of {{ forloop.length }}</strong></h2>
+
+      <p><strong>operation file name:</strong> {{ operation.png_image_file }}</p>
+      <p><strong>operation name:</strong> {{ operation.name }}</p>
+      <p><strong>operation description:</strong> {{ operation.description }}</p>
+
+      <p><strong>operation cut files</strong>:
+        {% for file in operation.cut_files %}
+          <a href="{{ page.url }}{{ file }}">{{ file }}</a>,
+        {% endfor %}
+      </p>
+
+      </div><!--/two-thirds-->
+  </section>
 
 
+  {% if operations.outputs != empty %}
 
 
+    {% for output in operation.outputs %}
+      <section>
 
-
-    {% comment %}
-      PAGINATION
-      Map grabs the gallery_menu sections, giving us an array of arrays. Join, flattens all
-      the items to a comma delimited string. Split turns it into an array again.
-    {% endcomment %}
-
-
-    {% assign items = site.data.gallery_menu | map: 'items' | join: ',' | split: ',' %}
-
-    {% comment %}
-    Because this is built for every page, lets find where we are in the ordered
-    document list by comparing url strings. Then if there's something previous or
-    next, lets build a link to it.
-    {% endcomment %}
-
-    {% for document in items %}
-      {% assign document_url = document | prepend:"/gallery/" | append:"/" %}
-      {% if document_url == page.url %}
-        <div class="section-nav">
-          <div class="left align-right">
-              {% if forloop.first %}
-                <span class="prev disabled">Back</span>
-              {% else %}
-                {% assign previous = forloop.index0 | minus: 1 %}
-                {% assign previous_page = items[previous] | prepend:"/gallery/" | append:"/" %}
-                <a href="{{ previous_page }}" class="prev"><strong>Back</strong></a>
-              {% endif %}
-          </div>
-          <div class="right align-left">
-              {% if forloop.last %}
-                <span class="next disabled">Next</span>
-              {% else %}
-                {% assign next = forloop.index0 | plus: 1 %}
-                {% assign next_page = items[next] | prepend:"/gallery/" | append:"/" %}
-                <a href="{{ next_page }}" class="next"><strong>Next</strong></a>
-              {% endif %}
-          </div>
+        <div class="third imagebox">
+          <img src="{{ page.url }}{{output.png_image_file}}"  />
         </div>
-        <div class="clear"></div>
-        {% break %}
-      {% endif %}
+        <div class="two-thirds omega">
+          <h2><strong>Operation: {{ operation_number}}</strong>, Output Step  {{ forloop.index }} of {{ forloop.length }}</h2>
+
+          <p><strong>output png_name:</strong> {{ output.png_image_file }}</p>
+          <p><strong>output name:</strong> {{ output.name }}</p>
+          <p><strong>output description:</strong> {{ output.description }}</p>
+          <p><strong>cut files</strong>:
+          {% for file in output.cut_files%}
+            <a href="{{ page.url }}{{ file }}">{{ file }}</a>,
+          {% endfor %}
+          </p>
+
+        </div><!--two thirds output-->
+      </section>
     {% endfor %}
 
+  {% endif %}
+
+{% endfor %} <!-- /operations -->
 
 
+<section>
     {% include disqus.html %}
-
-</div>
 </section>

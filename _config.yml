@@ -22,7 +22,7 @@ disqusshortname: popupcad
 markdown: kramdown
 permalinks: pretty
 #highlighter: rouge
-#hightlighter: pygments
+hightlighter: pygments
 
 # default post (blog) url schema
 permalink: /:categories/:year/:title/
@@ -134,9 +134,10 @@ default_gallery_header_h1color: fff
 # simpleform_API_token
 simpleform_api_token: c138795786f380a3d200406dc6f4d5b6
 #simpleform_redirect
-simpleform_redirect: http://localhost:4000/contact-thanks
+simpleform_redirect: http://www.popupcad.org/contact-thanks
 
 google_analytics: UA-52846213-1
 popupcad_source_path: https://github.com/popupcad/popupcad
 popupcad_api_path: http://popupcad.github.io/popupcad-docs/html/
 popupcad_windows_installer_path: https://github.com/danaukes/popupcad/releases/latest
+popupcad_solidworks_macro_path: https://github.com/popupcad/popupcad_solidworks_exporter

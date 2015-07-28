@@ -1,5 +1,6 @@
 ---
 title: Tutorial Notes
+published: false
 ---
 
 Solidworks Design

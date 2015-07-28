@@ -24,7 +24,7 @@
 {% endcomment %}
 
 
-{% include _javascripts/jquery-1.11.2.min.js %}
+{% include _javascripts/jquery-1.7.1.min.js %}
 
 
 
@@ -37,7 +37,14 @@
 {% include _javascripts/forms.animated.js %}
 
 
+{% include _javascripts/filtrify.js %}
+{% include _javascripts/jPages.min.js %}
+{% include _javascripts/jquery.lazyload.min.js %}
+
+
+
 {% comment %}
+{% include _javascripts/filtrify/jquery.lazyload.min.js %}
 
 
 {% endcomment %}

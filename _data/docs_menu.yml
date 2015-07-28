@@ -7,12 +7,11 @@
 - title: Getting popupCAD
   items:
     - download
-    - windows-msi-install
     - windows-setup-source
     - linux-setup
     - mac-setup
     - compiling-the-installer
-    - git-setup-shell
+    - custom-materials-in-popupcad
 - title: Making Devices
   items:
     - origami-inspired-design

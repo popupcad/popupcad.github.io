@@ -35,6 +35,7 @@ improve README.md
 2015-07-28 -- Noticed by dan
 ============================
 * Code highlighting may work, but I am unsure about how to use it
+  * would like to use liquid template but tabs are broken
 * how do I use the info, warning, error bars?
 * documentation sphinx skin
 * gallery item: collapse/expand hierarchy

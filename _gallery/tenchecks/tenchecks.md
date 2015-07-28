@@ -28,7 +28,7 @@ operations:
   svg_image_file: 02_00.svg
 png_image_file: 01_00.png
 svg_image_file: 01_00.svg
-tags: [parts, legs, 2dof_robot_legs]
+tags: [check_marks, misc]
 title: tenchecks.cad
 
 ---

@@ -112,7 +112,7 @@ operations:
   svg_image_file: 14_00.svg
 png_image_file: 13_00.png
 svg_image_file: 13_00.svg
-tags: [parts, legs, 2dof_robot_legs]
+tags: [misc,design_stuff]
 title: layer numbers.cad
 
 ---

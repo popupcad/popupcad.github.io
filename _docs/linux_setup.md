@@ -5,11 +5,11 @@ title: Linux Setup
 1. Install/Update Software:
 
 {% highlight bash linenos %}
-        sudo apt-get update
-        sudo apt-get install dkms git synaptic libgeos-dev gfortran cmake python-qt4-gl phonon-backend-gstreamer
-        cd /
-        cd / 
-        ls -la *popupcad
+sudo apt-get update
+sudo apt-get install dkms git synaptic libgeos-dev gfortran cmake python-qt4-gl phonon-backend-gstreamer
+cd /
+cd / 
+ls -la *popupcad
 {% endhighlight %}
 
     Option: python2 install:

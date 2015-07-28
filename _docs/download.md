@@ -9,7 +9,7 @@ Source
 ===========
 If you want to look at the [popupCAD code]({{site.popupcad_source_path}}), visit the [github repository]({{site.popupcad_source_path}}).
 
-The popupCAD [Solidworks Exporter]({{popupcad_solidworks_macro_path}}) is also available on [GitHub](({{popupcad_solidworks_macro_path}})). 
+The popupCAD [Solidworks Exporter]({{site.popupcad_solidworks_macro_path}}) is also available on [GitHub]({{site.popupcad_solidworks_macro_path}}). 
 
 Running the Source
 ------------

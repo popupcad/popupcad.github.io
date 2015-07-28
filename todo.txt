@@ -48,6 +48,7 @@ improve README.md
     * when you try to close one of the multiples, they all disappear(I guess this will be fixed when you disable multiple identical tag filters.)
   * when you start typing in the search field, it doesn't autocomplete(not that it should, but how do you guide the user to finding one of many tags from their incomplete input?)
 * obviously, I don't use every yaml tag I could be using in each post / page / tutorial, etc.  How do I find out what tags I *could* use on every page?  It would be great to centralize all of them with a default value in _config
+* use defaults jekyll structure rather than hard coded defaults in _config
 * published flag is ignored in the collection menu generation.
 * minor logo change (see dan)
 * contest page flow update.(see dan)

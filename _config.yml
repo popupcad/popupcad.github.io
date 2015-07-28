@@ -140,3 +140,4 @@ google_analytics: UA-52846213-1
 popupcad_source_path: https://github.com/popupcad/popupcad
 popupcad_api_path: http://popupcad.github.io/popupcad-docs/html/
 popupcad_windows_installer_path: https://github.com/danaukes/popupcad/releases/latest
+popupcad_solidworks_macro_path: https://github.com/popupcad/popupcad_solidworks_exporter

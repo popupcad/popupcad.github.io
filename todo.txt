@@ -31,3 +31,21 @@ categories for the gallery
 TO BE DONE AFTER:
 sass file or css show-how (I'm documenting it a bit too)
 improve README.md
+
+2015-07-28 -- Noticed by dan
+============================
+* Code highlighting may work, but I am unsure about how to use it
+* how do I use the info, warning, error bars?
+* documentation sphinx skin
+* gallery item: collapse/expand hierarchy
+* gallery tags don't work.
+  * clicking on a tag does not properly update the items on the right
+  * searching for a tag does not find all the possible tags, it just selects one at random
+    example: type in anything, it highlights the 2_dof_robot_legs tag.
+  * multiple of the same tag can be selected and applied as a filter
+    * when you try to close one of the multiples, they all disappear(I guess this will be fixed when you disable multiple identical tag filters.)
+  * when you start typing in the search field, it doesn't autocomplete(not that it should, but how do you guide the user to finding one of many tags from their incomplete input?)
+* obviously, I don't use every yaml tag I could be using in each post / page / tutorial, etc.  How do I find out what tags I *could* use on every page?  It would be great to centralize all of them with a default value in _config
+* published flag is ignored in the collection menu generation.
+* minor logo change (see dan)
+* contest page flow update.(see dan)

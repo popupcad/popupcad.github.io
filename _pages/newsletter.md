@@ -6,6 +6,7 @@ h1bg: f39354
 permalink: /newsletter/
 bodyclass: newsletter
 published: true
+digest: false
 ---
 
 

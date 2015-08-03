@@ -3337,10 +3337,10 @@ body > header {
   z-index: 20; }
   body > header a#logo {
     display: block;
-    background: url(/assets/images/popupcad-logo.png) no-repeat;
-    width: 140px;
-    height: 53px;
-    margin-top: -15px; }
+    background: url(/assets/images/logo_mod4/popupcad_0150.png) no-repeat;
+    width: 150px;
+    height: 36px;
+    margin-top: -8px; }
 
 body.contest aside,
 body.docs aside,

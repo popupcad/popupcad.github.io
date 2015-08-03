@@ -28,13 +28,11 @@ If you are cutting a layer with a backing on it, such as a double-sided adhesive
 Step 3: Cut Out your layers
 -------------
 
-Cut settings are a particularly tough problem, because depending on the method you are using to cut out your materials, the settings are entirely machine dependent, and take a lot of trial and error
+Cut settings are a particularly tough problem, because depending on the method you are using to cut out your materials, the settings are entirely machine dependent, and take a lot of trial and error.
 
 [Laser Cutter Settings](Laser Cutter Settings)
 
 [Vinyl Cutter Settings](Vinyl Cutter Settings)
-
-Each layer must be cut out at
 
 Step 4: Stack and Align your layers
 -------------

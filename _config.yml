@@ -54,8 +54,6 @@ collections:
     permalink: /gallery/:name/
 #    layout: page
 
-
-
 defaults:
   - scope:
       path: ""
@@ -63,24 +61,32 @@ defaults:
     values:
       layout: gallery
       published: true
+      h1bg: f39354
+      h1color: fff
   - scope:
       path: ""
       type: docs
     values:
       layout: docs
       published: true
+      h1bg: 42c2c3
+      h1color: fff
   - scope:
       path: ""
       type: contest
     values:
       layout: contest
       published: true
+      h1bg: 42c2c3
+      h1color: fff
   - scope:
       path: ""
       type: tutorials
     values:
       layout: tutorials
       published: true
+      h1bg: f57365
+      h1color: fff
 
 # font path
 css_dir: /assets/css
@@ -117,18 +123,6 @@ subscribe_form_url: //popupcad.us11.list-manage.com/subscribe/post?u=09fb80f6d45
 # the site templates insert # in front of each.
 default_page_header_bg: 2dafe6
 default_page_header_h1color: fff
-
-# default docs header is $turquoise
-default_docs_header_bg: 42c2c3
-default_docs_header_h1color: fff
-
-# default contest header is $turquoise
-default_contest_header_bg: 42c2c3
-default_contest_header_h1color: fff
-
-# default tutorials header is $salmon
-default_tutorials_header_bg: f57365
-default_tutorials_header_h1color: fff
 
 default_gallery_header_bg: f39354
 default_gallery_header_h1color: fff

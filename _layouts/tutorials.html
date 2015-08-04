@@ -7,8 +7,8 @@ THIS IS THE TEMPLATE for tutoricals collection items.
 {% endcomment %}
 
 
-{% capture h1bg %}{% if page.h1bg %}#{{ page.h1bg }}{% else %}#{{ site.default_tutorials_header_bg }}{% endif %}{% endcapture %}
-{% capture h1color %}{% if page.h1color %}#{{ page.h1color }}{% else %}#{{ site.default_tutorials_header_h1color }}{% endif %}{% endcapture %}
+{% capture h1bg %}#{{ page.h1bg }}{% endcapture %}
+{% capture h1color %}#{{ page.h1color }}{% endcapture %}
 <style media="screen" type="text/css">
       header,
       .alpha {background:{{ h1bg }};}

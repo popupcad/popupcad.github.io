@@ -26,7 +26,6 @@ THIS IS THE TEMPLATE for docs collection items.
     <div class="two-thirds omega">
       <h1 itemprop="name headline">Docs</h1>
       <h2>{{ page.title }}</h2>
-
     </div>
   </section>
 </div>
@@ -49,8 +48,9 @@ THIS IS THE TEMPLATE for docs collection items.
 
           {% for p in site.docs %}
             {% if p.url == item_url %}
-              <li class="{{ c }}"><a href="{{ site.url }}{{ p.url }}">{{ p.title }}</a></li>
-              {% break %}
+              {% if p.published %}
+                <li class="{{ c }}"><a href="{{ site.url }}{{ p.url }}">{{ p.title }}</a></li>
+              {% endif %}
             {% endif %}
           {% endfor %}
 

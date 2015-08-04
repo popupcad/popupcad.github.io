@@ -17,7 +17,6 @@ THIS IS THE TEMPLATE for tutoricals collection items.
       a:link,a:visited {
         color:{{ h1bg }};
       }
-
 </style>
 
 
@@ -49,8 +48,9 @@ THIS IS THE TEMPLATE for tutoricals collection items.
 
           {% for p in site.tutorials %}
             {% if p.url == item_url %}
-              <li class="{{ c }}"><a href="{{ site.url }}{{ p.url }}">{{ p.title }}</a></li>
-              {% break %}
+              {% if p.published %}
+                <li class="{{ c }}"><a href="{{ site.url }}{{ p.url }}">{{ p.title }}</a></li>
+              {% endif %}
             {% endif %}
           {% endfor %}
 

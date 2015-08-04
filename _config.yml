@@ -62,21 +62,25 @@ defaults:
       type: gallery
     values:
       layout: gallery
+      published: true
   - scope:
       path: ""
       type: docs
     values:
       layout: docs
+      published: true
   - scope:
       path: ""
       type: contest
     values:
       layout: contest
+      published: true
   - scope:
       path: ""
       type: tutorials
     values:
       layout: tutorials
+      published: true
 
 # font path
 css_dir: /assets/css

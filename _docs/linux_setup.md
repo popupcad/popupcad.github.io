@@ -4,7 +4,7 @@ title: Linux Setup
 
 PopupCAD can run in python 2 or 3, but we recommend using python3.  If you want to use python 2, there are only a few minor differences in the instructions
 
-1. Install/Update Linux packages:
+Install/Update Linux packages:
 
 {% highlight bash linenos %}
 sudo apt-get update
@@ -12,33 +12,33 @@ sudo apt-get install dkms git synaptic libgeos-dev gfortran cmake python-qt4-gl 
 sudo apt-get install python3-pip spyder3 python3-pyside python3-shapely python3-opengl python3-yaml python3-scipy python3-matplotlib python3-setuptools cython3 python3-dev python3-sphinx
 {% endhighlight %}
 
-1. Optional: upgrade your system:
+Optional: upgrade your system:
 
 {% highlight bash %}
 sudo apt-get upgrade
 {% endhighlight %}
 
-1. Install pip packages:
+Install pip packages:
 
 {% highlight bash %}
 sudo pip3 install pyqtgraph shapely sympy
 {% endhighlight %}
 
-1. Optional: set flag for systems without hardware video
+Optional: set flag for systems without hardware video
     acceleration(for example if using virtualbox):
 
 {% highlight bash %}
 echo "export LIBGL_ALWAYS_INDIRECT=1" >> ~/.bashrc
 {% endhighlight %}
 
-1. Setup Git(if you haven't already), using your own name and email:
+Setup Git(if you haven't already), using your own name and email:
 
 {% highlight bash linenos %}
 git config --global user.name "LastName, Firstname"
 git config --global user.email "email@address.com"
 {% endhighlight %}
 
-1. Check out the popupCAD git repository
+Check out the popupCAD git repository
 
 {% highlight bash %}
 git clone {{site.popupcad_source_path}}.git
@@ -47,28 +47,27 @@ git checkout master
 git pull
 {% endhighlight %}
 
-1. Add popupcad directory to PYTHONPATH:
+Add popupcad directory to PYTHONPATH:
 
 {% highlight bash %}
 echo "export PYTHONPATH=\$PYTHONPATH:~/popupcad" >> ~/.bashrc
 {% endhighlight %}
 
-1. Run popupCAD
-
-  From the terminal, navigate to the popupcad directory and type:
+Run popupCAD
+* From the terminal, navigate to the popupcad directory and type:
 
 {% highlight bash %}
 python3 popupcad.py
 {% endhighlight %}
 
-  Or run using spyder a wonderful GUI for editing and debugging python programs. Open spyder in the program menu or by typing from the terminal:
+* Or run using spyder a wonderful GUI for editing and debugging python programs. Open spyder in the program menu or by typing from the terminal:
 
 {% highlight bash %}
 spyder3
 {% endhighlight %}
 
-  1. From there you can navigate to the popupcad directory and open popupcad.py.
-  1. Hit f5 to run.
+* From there you can navigate to the popupcad directory and open popupcad.py.
+* Hit f5 to run.
 
 <!--
 Option: python2 install:

@@ -38,14 +38,16 @@ brew install pyside --with-python3
 
 #preferred over pip3 because cx_freeze works better.
 brew install openblas
-brew install numpy --with-openblas
-brew install scipy --with-openblas
+brew install numpy --with-openblas --with-python3
+brew link --overwrite numpy
+brew install scipy --with-openblas --with-python3
+brew link --overwrite scipy
 {% endhighlight %}
 
 Install some python packages using pip3
 
 {% highlight bash %}
-pip3 install cx_freeze pip pyopengl pyqtgraph pyyaml setuptools shapely spyder sympy lxml
+sudo pip3 install cx_freeze pip pyopengl pyqtgraph pyyaml setuptools shapely spyder sympy lxml pycollada ezdxf numpy-stl
 #pip3 install cx_freeze numpy scipy
 {% endhighlight %}
 
@@ -75,9 +77,10 @@ source ~/.bash_profile
 
 Run popupCAD
 
-* From the terminal, navigate to the popupcad directory and type:
+* From the terminal, navigate to the popupcad directory and execute popupcad using python:
 
 {% highlight bash %}
+cd ~/popupcad
 python3 popupcad.py
 {% endhighlight %}
 

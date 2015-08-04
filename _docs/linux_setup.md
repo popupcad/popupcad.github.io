@@ -49,11 +49,13 @@ git pull
 
 Add popupcad directory to PYTHONPATH:
 
-{% highlight bash %}
+{% highlight bash linenos%}
 echo "export PYTHONPATH=\$PYTHONPATH:~/popupcad" >> ~/.bashrc
+source ~/.bash_profile
 {% endhighlight %}
 
 Run popupCAD
+
 * From the terminal, navigate to the popupcad directory and type:
 
 {% highlight bash %}

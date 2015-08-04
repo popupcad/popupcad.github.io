@@ -2,15 +2,69 @@
 title: Mac Setup
 ---
 
-1. disable Mac security for apps.
-  - open settings
-  - go to "security and privacy", then select the "general" tab
-  - click the lock and supply your password, if needed
-  - on the "Allow apps downloaded from" radio buttons, select "anywhere"
-1. download and install X-Code from the [app store](<https://developer.apple.com/xcode/>)
-1. download and run this [script]({{site.url}}/assets/scripts/install_popupcad_mac.sh)
-  - once you download the script, you may have to permit it to be executed on your local machine.  
-  - open up a terminal window and navigate to the directory where you downloaded the script.
+Disable Mac security for apps.
+
+- open settings
+- go to "security and privacy", then select the "general" tab
+- click the lock and supply your password, if needed
+- on the "Allow apps downloaded from" radio buttons, select "anywhere"
+
+Download and install X-Code from the [app store](<https://developer.apple.com/xcode/>)
+
+Download and install homebrew, and add library paths to system variables:
+
+{% highlight bash linenos%}
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+echo export PATH=/usr/local/bin:\$PATH >> ~/.bash_profile
+echo export RESOURCEPATH=\$RESOURCEPATH >> ~/.bash_profile
+source ~/.bash_profile
+{% endhighlight %}
+
+Brew some packages:
+
+{% highlight bash linenos%}
+brew install gcc
+brew install geos
+brew install python3
+brew install pyside --with-python3
+{% endhighlight %}
+
+Install some python packages using pip3
+
+{% highlight bash %}
+pip3 install cx_freeze numpy pip pyopengl pyqtgraph pyyaml scipy setuptools shapely spyder sympy lxml
+{% endhighlight %}
+
+Setup Git(if you haven't already), using your own name and email:
+
+{% highlight bash linenos %}
+git config --global user.name "LastName, Firstname"
+git config --global user.email "email@address.com"
+{% endhighlight %}
+
+Check out the popupCAD git repository
+
+{% highlight bash %}
+git clone {{site.popupcad_source_path}}.git
+cd ~/popupcad/
+git checkout master
+git pull
+{% endhighlight %}
+
+Add popupcad directory to PYTHONPATH:
+
+{% highlight bash linenos %}
+echo "export PYTHONPATH=\$PYTHONPATH:~/popupcad" >> ~/.bash_profile
+source ~/.bash_profile
+{% endhighlight %}
+
+
+
+<!--
+Download and run this [script]({{site.url}}/assets/scripts/install_popupcad_mac.sh)
+
+- once you download the script, you may have to permit it to be executed on your local machine.  
+- open up a terminal window and navigate to the directory where you downloaded the script.
 
 type:
 
@@ -25,3 +79,4 @@ chmod +x install_popupcad_mac.sh
 cd ~/popupcad
 python popupcad.py
 {% endhighlight  %}
+-->

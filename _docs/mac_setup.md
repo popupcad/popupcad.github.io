@@ -14,7 +14,15 @@ Download and install X-Code from the [app store](<https://developer.apple.com/xc
 Download and install homebrew, and add library paths to system variables:
 
 {% highlight bash linenos%}
+# download ruby install script
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# set up some taps and update brew
+brew tap homebrew/science # a lot of cool formulae for scientific tools
+brew tap homebrew/python # numpy, scipy, matplotlib, ...
+brew update && brew upgrade
+
+# add libraries to path
 echo export PATH=/usr/local/bin:\$PATH >> ~/.bash_profile
 echo export RESOURCEPATH=\$RESOURCEPATH >> ~/.bash_profile
 source ~/.bash_profile
@@ -27,12 +35,18 @@ brew install gcc
 brew install geos
 brew install python3
 brew install pyside --with-python3
+
+#preferred over pip3 because cx_freeze works better.
+brew install openblas
+brew install numpy --with-openblas
+brew install scipy --with-openblas
 {% endhighlight %}
 
 Install some python packages using pip3
 
 {% highlight bash %}
-pip3 install cx_freeze numpy pip pyopengl pyqtgraph pyyaml scipy setuptools shapely spyder sympy lxml
+pip3 install cx_freeze pip pyopengl pyqtgraph pyyaml setuptools shapely spyder sympy lxml
+#pip3 install cx_freeze numpy scipy
 {% endhighlight %}
 
 Setup Git(if you haven't already), using your own name and email:

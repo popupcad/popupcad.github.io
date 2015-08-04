@@ -25,3 +25,6 @@
   items:
     - creating-a-script
     - the-full-api
+- title: Uninstalling popupCAD
+  items:
+    - mac_uninstall

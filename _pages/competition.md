@@ -15,20 +15,21 @@ published: true
   </section>
 </div>
 
+<div class="section-wrapper charlie">
+  <section>
+    <h1 class="centered">Pre-Register to stay updated!</h1>
+    <h2 class="centered">join the email list to be notified as deadlines and rules are announced!</h2>
+    {% include newsletter.html %}
+  </section>
+</div>
+
 <div class="section-wrapper bravo">
   <section>
-
-
-  <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://player.vimeo.com/video/131475762' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
-
-
-  {% comment %}
-    <div class="centered">
-      <iframe src="https://player.vimeo.com/video/131475762?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    </div>
-  {% endcomment %}
-
-  <div>
+  <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 80%; margin-left: 10%; margin-right: 10%} .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+  <div class='embed-container'>
+    <iframe src='https://player.vimeo.com/video/131475762' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+  </div>
+  <div class="centered">
   <h6>Special thanks to the students of <em>Informal Robotics</em> and the Harvard Graduate School of Design.</h6>
   </div>
   </section>
@@ -54,15 +55,6 @@ published: true
     </div>
   </section>
 </div>
-
-<div class="section-wrapper charlie">
-  <section>
-    <h1 class="centered">Pre-Register to stay updated!</h1>
-    <h2 class="centered">join the email list to be notified as deadlines and rules are announced!</h2>
-    {% include newsletter.html %}
-  </section>
-</div>
-
 
 <style>
 

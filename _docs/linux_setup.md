@@ -9,25 +9,25 @@ PopupCAD can run in python 2 or 3, but we recommend using python3.  If you want 
 {% highlight bash linenos %}
 sudo apt-get update
 sudo apt-get install dkms git synaptic libgeos-dev gfortran cmake python-qt4-gl phonon-backend-gstreamer
+sudo apt-get install python3-pip spyder3 python3-pyside python3-shapely python3-opengl python3-yaml python3-scipy python3-matplotlib python3-setuptools cython3 python3-dev python3-sphinx
 {% endhighlight %}
 
 1.  optional: upgrade your system:
 
-{% highlight bash linenos %}
+{% highlight bash %}
 sudo apt-get upgrade
 {% endhighlight %}
 
 1. Install pip packages:
 
-{% highlight bash linenos %}
-sudo apt-get install python3-pip spyder3 python3-pyside python3-shapely python3-opengl python3-yaml python3-scipy python3-matplotlib python3-setuptools cython3 python3-dev python3-sphinx
+{% highlight bash %}
 sudo pip3 install pyqtgraph shapely sympy
 {% endhighlight %}
 
 1.  optional: set flag for systems without hardware video
     acceleration(for example if using virtualbox):
 
-{% highlight bash linenos %}
+{% highlight bash %}
 echo "export LIBGL_ALWAYS_INDIRECT=1" >> ~/.bashrc
 {% endhighlight %}
 
@@ -40,7 +40,7 @@ git config --global user.email "email@address.com"
 
 1.  Check out the popupCAD git repository
 
-{% highlight bash linenos %}
+{% highlight bash %}
 git clone {{site.popupcad_source_path}}.git
 cd ~/popupcad/
 git checkout master
@@ -49,7 +49,7 @@ git pull
 
 1.  add popupcad directory to PYTHONPATH:
 
-{% highlight bash linenos %}
+{% highlight bash %}
 echo "export PYTHONPATH=\$PYTHONPATH:~/popupcad" >> ~/.bashrc
 {% endhighlight %}
 
@@ -57,19 +57,19 @@ echo "export PYTHONPATH=\$PYTHONPATH:~/popupcad" >> ~/.bashrc
 
       From the terminal, navigate to the popupcad directory and type:
 
-{% highlight bash linenos %}
+{% highlight bash %}
 python popupcad.py
 {% endhighlight %}
 
       Or run using spyder a wonderful GUI for editing and debugging python programs. Open spyder in the program menu or by typing from the terminal:
 
-{% highlight bash linenos %}
+{% highlight bash %}
 spyder
 {% endhighlight %}
 
       or straight from the command line:
 
-{% highlight bash linenos %}
+{% highlight bash %}
 spyder3
 {% endhighlight %}
 

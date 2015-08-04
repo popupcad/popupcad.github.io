@@ -61,7 +61,7 @@ defaults:
     values:
       layout: gallery
       published: true
-      h1bg: f39354
+      h1bg: 6266a0
       h1color: fff
   - scope:
       path: ""
@@ -124,7 +124,7 @@ subscribe_form_url: //popupcad.us11.list-manage.com/subscribe/post?u=09fb80f6d45
 default_page_header_bg: 2dafe6
 default_page_header_h1color: fff
 
-default_gallery_header_bg: f39354
+default_gallery_header_bg: 6266a0
 default_gallery_header_h1color: fff
 
 

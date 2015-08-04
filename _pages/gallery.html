@@ -5,6 +5,20 @@ title: Gallery
 permalink: /gallery/
 published: true
 ---
+
+{% capture h1bg %}#{{ site.default_gallery_header_bg }}{% endcapture %}
+{% capture h1color %}#{{ site.default_gallery_header_h1color }}{% endcapture %}
+<style media="screen" type="text/css">
+      header,
+      .alpha {background:{{ h1bg }};}
+      .alpha h1{color:{{ h1color }};}
+      header a:link,header a:visited{color:{{ h1color }};}
+      .alpha a:link,.alpha a:visited{color:{{ h1color }};}
+      a:link,a:visited {color:{{ h1bg }};
+      }
+</style>
+
+
 <div class="section-wrapper alpha">
 <section>
 <div class="third">

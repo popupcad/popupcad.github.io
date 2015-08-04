@@ -3562,12 +3562,14 @@ body.competition header, body.competition .bravo {
 #newsletter-page-button {
   margin-top: 0; }
 
-body.gallery header.header {
+/*
+  body.gallery header.header {
   background: #6266a0; }
   body.gallery header.header ul.horizontal a {
     color: white; }
 body.gallery .alpha {
   background: #6266a0; }
+*/
 body.gallery #gallery-pagination {
   width: 100%; }
   @media screen and (min-width: 320px) {

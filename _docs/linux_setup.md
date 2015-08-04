@@ -12,7 +12,7 @@ sudo apt-get install dkms git synaptic libgeos-dev gfortran cmake python-qt4-gl 
 sudo apt-get install python3-pip spyder3 python3-pyside python3-shapely python3-opengl python3-yaml python3-scipy python3-matplotlib python3-setuptools cython3 python3-dev python3-sphinx
 {% endhighlight %}
 
-1.  optional: upgrade your system:
+1. Optional: upgrade your system:
 
 {% highlight bash %}
 sudo apt-get upgrade
@@ -24,21 +24,21 @@ sudo apt-get upgrade
 sudo pip3 install pyqtgraph shapely sympy
 {% endhighlight %}
 
-1.  optional: set flag for systems without hardware video
+1. Optional: set flag for systems without hardware video
     acceleration(for example if using virtualbox):
 
 {% highlight bash %}
 echo "export LIBGL_ALWAYS_INDIRECT=1" >> ~/.bashrc
 {% endhighlight %}
 
-1.  Setup Git(if you haven't already), using your own name and email:
+1. Setup Git(if you haven't already), using your own name and email:
 
 {% highlight bash linenos %}
 git config --global user.name "LastName, Firstname"
 git config --global user.email "email@address.com"
 {% endhighlight %}
 
-1.  Check out the popupCAD git repository
+1. Check out the popupCAD git repository
 
 {% highlight bash %}
 git clone {{site.popupcad_source_path}}.git
@@ -47,34 +47,28 @@ git checkout master
 git pull
 {% endhighlight %}
 
-1.  add popupcad directory to PYTHONPATH:
+1. Add popupcad directory to PYTHONPATH:
 
 {% highlight bash %}
 echo "export PYTHONPATH=\$PYTHONPATH:~/popupcad" >> ~/.bashrc
 {% endhighlight %}
 
-1.  Run popupCAD
+1. Run popupCAD
 
-      From the terminal, navigate to the popupcad directory and type:
-
-{% highlight bash %}
-python popupcad.py
-{% endhighlight %}
-
-      Or run using spyder a wonderful GUI for editing and debugging python programs. Open spyder in the program menu or by typing from the terminal:
+  From the terminal, navigate to the popupcad directory and type:
 
 {% highlight bash %}
-spyder
+python3 popupcad.py
 {% endhighlight %}
 
-      or straight from the command line:
+  Or run using spyder a wonderful GUI for editing and debugging python programs. Open spyder in the program menu or by typing from the terminal:
 
 {% highlight bash %}
 spyder3
 {% endhighlight %}
 
-      - from there you can navigate to the popupcad directory and open popupcad.py.
-      - hit f5 to run.
+  1. From there you can navigate to the popupcad directory and open popupcad.py.
+  1. Hit f5 to run.
 
 <!--
 Option: python2 install:
@@ -83,4 +77,13 @@ Option: python2 install:
 sudo apt-get install python-pip spyder python-pyside python-shapely python-sympy python-opengl python-yaml python-scipy python-matplotlib python-setuptools cython python-dev python-sphinx
 sudo pip install pyqtgraph shapely
 {% endhighlight %}
+
+{% highlight bash %}
+python popupcad.py
+{% endhighlight %}
+
+{% highlight bash %}
+spyder
+{% endhighlight %}
+
 -->      

@@ -41,6 +41,7 @@ git config --global user.email "email@address.com"
 Check out the popupCAD git repository
 
 {% highlight bash %}
+cd ~
 git clone {{site.popupcad_source_path}}.git
 cd ~/popupcad/
 git checkout master

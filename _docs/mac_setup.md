@@ -58,7 +58,22 @@ echo "export PYTHONPATH=\$PYTHONPATH:~/popupcad" >> ~/.bash_profile
 source ~/.bash_profile
 {% endhighlight %}
 
+Run popupCAD
 
+* From the terminal, navigate to the popupcad directory and type:
+
+{% highlight bash %}
+python3 popupcad.py
+{% endhighlight %}
+
+* Or run using spyder a wonderful GUI for editing and debugging python programs. Open spyder in the program menu or by typing from the terminal:
+
+{% highlight bash %}
+spyder
+{% endhighlight %}
+
+* From there you can navigate to the popupcad directory and open popupcad.py.
+* Hit f5 to run.
 
 <!--
 Download and run this [script]({{site.url}}/assets/scripts/install_popupcad_mac.sh)
@@ -73,10 +88,4 @@ chmod +x install_popupcad_mac.sh
 ./install_popupcad_mac.sh
 {% endhighlight %}
 
-1. run the following:
-
-{% highlight bash %}
-cd ~/popupcad
-python popupcad.py
-{% endhighlight  %}
 -->

@@ -14,8 +14,8 @@ brew uninstall --force $OUTPUT
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
 
 #remove system variable modifications from .bash_profile:
-sed -i '' '/echo export PATH=\/usr\/local\/bin:\$PATH/d' ~/.bash_profile
-sed -i '' '/echo export RESOURCEPATH=\$RESOURCEPATH/d' ~/.bash_profile
+sed -i '' '/export PATH=\/usr\/local\/bin:\$PATH/d' ~/.bash_profile
+sed -i '' '/export RESOURCEPATH=\$RESOURCEPATH/d' ~/.bash_profile
 sed -i '' '/export PYTHONPATH=\$PYTHONPATH:~\/popupcad/d' ~/.bash_profile
 
 #remove popupcad git repository:

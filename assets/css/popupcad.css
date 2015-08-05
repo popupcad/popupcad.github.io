@@ -1208,9 +1208,18 @@ ul.horizontal {
 make menu items disappear as they drop to second row, independent of media queries
 can optionally be enhanced with a toggle to drop-down view
 as in https://css-tricks.com/the-priority-navigation-pattern/
+
+setting the <li> to $navbar-height is a bit of a hack
+(currently ul.horizontal and its child li's overflow .header nav)...
+probably better approach would be to remove padding on <nav>
+and have each <li> set to $navbar-height (same as 'body > header')
+but add padding to position text nicely
 */
 .header nav {
   overflow: hidden;
+  height: 70px; }
+
+.header nav li {
   height: 70px; }
 
 /* buttons */
@@ -2295,12 +2304,12 @@ body.post time, body.post datetime {
 
   .morph-button-sidebar {
     width: 100% !important;
-    height: 60px !important;
+    height: 70px !important;
     top: 0;
     left: 0; }
     .morph-button-sidebar .morph-content {
       width: 100% !important;
-      height: 60px !important; }
+      height: 70px !important; }
     .morph-button-sidebar > button {
       font-size: 1rem; }
     .morph-button-sidebar.open .morph-content {

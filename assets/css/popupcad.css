@@ -3337,7 +3337,6 @@ body > header {
   z-index: 20; }
   body > header a#logo {
     display: block;
-    background: url(/assets/images/popupcad-logo.png) no-repeat;
     width: 140px;
     height: 53px;
     margin-top: -15px; }
@@ -3502,6 +3501,9 @@ body.post span.author:before {
 
 /* in conjunction with .morph-button,
 ** for <ul> nav where first <li> is site name */
+.header nav {
+  background: url("/assets/images/popupcad-logo.png") no-repeat 8px 6px; }
+
 @media screen and (min-width: 320px) {
   .header nav li {
     display: none; } }
@@ -3512,6 +3514,10 @@ body.post span.author:before {
 /* but keep site name always visible */
 .header nav li:first-child {
   display: block; }
+
+.header nav li:first-child a {
+  display: block;
+  text-indent: -900em; }
 
 /*
   competition
@@ -3561,6 +3567,13 @@ body.competition header, body.competition .bravo {
 
 #newsletter-page-button {
   margin-top: 0; }
+
+#gallery {
+  /* REQUIRED! for filtering on gallery index page */ }
+  #gallery .ft-hidden {
+    display: none !important; }
+  #gallery .jp-hidden {
+    display: none !important; }
 
 body.gallery header.header {
   background: #6266a0; }

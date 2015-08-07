@@ -25,6 +25,7 @@
   items:
     - creating-a-script
     - the-full-api
-- title: Uninstalling popupCAD
+- title: Miscellaneous
   items:
     - mac-uninstall
+    - deprecated-mode

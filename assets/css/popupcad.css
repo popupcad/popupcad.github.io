@@ -3577,6 +3577,9 @@ body.competition header, body.competition .bravo {
 #newsletter-page-button {
   margin-top: 0; }
 
+.ft-panel .ft-hidden {
+  display: none !important; }
+
 #gallery {
   /* REQUIRED! for filtering on gallery index page */ }
   #gallery .ft-hidden {

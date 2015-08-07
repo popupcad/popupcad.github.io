@@ -51,7 +51,7 @@ published: true
       <h2><a href ="{{site.url}}/contest/introduction">Learn more about the competition</a></h2>
     </div>
     <div class="half centered omega">
-      <h2><a href ="{{site.url}}/tutorials/introduction">Find a tutorial. Design a new device.</a></h2>
+      <h2><a href ="{{site.url}}/tutorials/overview">Find a tutorial. Design a new device.</a></h2>
     </div>
   </section>
 </div>

@@ -1,6 +1,6 @@
 ## css
 
-The cleanest way to add or override classes and divs is to enter them in: '/assets/css/custom.css'
+The cleanest way to add or override classes and divs is to enter them in: '/assets/css/overrides.css'
 
 ## 1 - excerpt separator in blog/news/post items
 
@@ -48,24 +48,24 @@ In short: the font name and suffix number from the popupcad.css font file you do
 
 # GALLERY PAGINATION
 
-The number of items per page can be set by modifying the `setPagination` function found in the <script> tag of _layouts/default.html (changing the value of the 'perPage' property).
+The number of items per page can be set by modifying the `setPagination` function found in the script tag of layouts/default.html (changing the value of the 'perPage' property).
 
 
 So version 3.0.0beta2 is a bit too unstable: use jekyll 2.5.3 until it's ready.
-The bug I found was that only some files were being copied over to _site.
+The bug I found was that only some files were being copied over to site.
 CSS and JS, as processed by jekyll, were copied across - but static assets, like the icon-fonts in /assets, were being left behind. This problem didn't happen with v2.5.3.
 
 ### paths
 
-The path for all assets are in _config.yml. Avoid hardwiring paths in the template.
+The path for all assets are in config.yml. Avoid hardwiring paths in the template.
 
-### _resources
+### resources
 
 In this dir, I keep useful pertinent stuff - like the icon font json file that you can use at fontello when you want to quickly add and subtract icons to the icon font.
 
 ### Icon Fonts
 
-These are stored in /assets/fonts. The JSON file for fontello that lets you add/subtract fonts, is in _reources/fonts.
+These are stored in /assets/fonts. The JSON file for fontello that lets you add/subtract fonts, is in resources/fonts.
 Tweak the CSS in /assets/css/webfont.css
 
 

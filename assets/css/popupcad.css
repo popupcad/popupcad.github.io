@@ -1208,9 +1208,18 @@ ul.horizontal {
 make menu items disappear as they drop to second row, independent of media queries
 can optionally be enhanced with a toggle to drop-down view
 as in https://css-tricks.com/the-priority-navigation-pattern/
+
+setting the <li> to $navbar-height is a bit of a hack
+(currently ul.horizontal and its child li's overflow .header nav)...
+probably better approach would be to remove padding on <nav>
+and have each <li> set to $navbar-height (same as 'body > header')
+but add padding to position text nicely
 */
 .header nav {
   overflow: hidden;
+  height: 70px; }
+
+.header nav li {
   height: 70px; }
 
 /* buttons */
@@ -2295,12 +2304,12 @@ body.post time, body.post datetime {
 
   .morph-button-sidebar {
     width: 100% !important;
-    height: 60px !important;
+    height: 70px !important;
     top: 0;
     left: 0; }
     .morph-button-sidebar .morph-content {
       width: 100% !important;
-      height: 60px !important; }
+      height: 70px !important; }
     .morph-button-sidebar > button {
       font-size: 1rem; }
     .morph-button-sidebar.open .morph-content {
@@ -3337,7 +3346,6 @@ body > header {
   z-index: 20; }
   body > header a#logo {
     display: block;
-    background: url(/assets/images/popupcad-logo.png) no-repeat;
     width: 140px;
     height: 53px;
     margin-top: -15px; }
@@ -3502,6 +3510,9 @@ body.post span.author:before {
 
 /* in conjunction with .morph-button,
 ** for <ul> nav where first <li> is site name */
+.header nav {
+  background: url("/assets/images/popupcad-logo.png") no-repeat 8px 6px; }
+
 @media screen and (min-width: 320px) {
   .header nav li {
     display: none; } }
@@ -3512,6 +3523,10 @@ body.post span.author:before {
 /* but keep site name always visible */
 .header nav li:first-child {
   display: block; }
+
+.header nav li:first-child a {
+  display: block;
+  text-indent: -900em; }
 
 /*
   competition
@@ -3561,6 +3576,16 @@ body.competition header, body.competition .bravo {
 
 #newsletter-page-button {
   margin-top: 0; }
+
+.ft-panel .ft-hidden {
+  display: none !important; }
+
+#gallery {
+  /* REQUIRED! for filtering on gallery index page */ }
+  #gallery .ft-hidden {
+    display: none !important; }
+  #gallery .jp-hidden {
+    display: none !important; }
 
 body.gallery header.header {
   background: #6266a0; }

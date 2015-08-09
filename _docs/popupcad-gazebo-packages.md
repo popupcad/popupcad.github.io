@@ -7,6 +7,7 @@ suggested linux version: Ubuntu 14.04(Trusty)
 You will need to install some extra packages:
 
 {% highlight bash %}
+sudo apt-get install libgdal-dev
 sudo pip install PIL array enhanced_grid gradient image lxml multiprocessing perlin_noise pygazebo trollius
 {% endhighlight %}
 

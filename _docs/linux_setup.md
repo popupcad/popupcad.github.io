@@ -68,6 +68,8 @@ python3 popupcad.py
 spyder3
 {% endhighlight %}
 
+* In the menu, go to tools-->preferences-->console-->external modules
+* Select PySide instead of PyQt for the QtPython bindings
 * From there you can navigate to the popupcad directory and open popupcad.py.
 * Hit f5 to run.
 

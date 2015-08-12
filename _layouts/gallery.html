@@ -61,7 +61,7 @@ ADJUST size of left image in the next <style>
 {% assign operation_number = forloop.index %}
 
   <section>
-    <div class="third imagebox">
+    <div class="third imagebox operation">
       <img src="{{operation.png_image_file}}" />
     </div>
     <div class="two-thirds omega">
@@ -82,31 +82,35 @@ ADJUST size of left image in the next <style>
   </section>
 
 
-  {% if operations.outputs != empty %}
+  {% if operation.outputs != empty %}
 
+    <section>
+      <h2><a href="#">See outputs</a></h2>
+    </section>
 
-    {% for output in operation.outputs %}
-      <section>
+    <div class="outputs">
 
-        <div class="third imagebox">
-          <img src="{{ page.url }}{{output.png_image_file}}"  />
-        </div>
-        <div class="two-thirds omega">
-          <h2><strong>Operation: {{ operation_number}}</strong>, Output Step  {{ forloop.index }} of {{ forloop.length }}</h2>
+      {% for output in operation.outputs %}
+        <section class="output">
 
-          <p><strong>output png_name:</strong> {{ output.png_image_file }}</p>
-          <p><strong>output name:</strong> {{ output.name }}</p>
-          <p><strong>output description:</strong> {{ output.description }}</p>
-          <p><strong>cut files</strong>:
-          {% for file in output.cut_files%}
-            <a href="{{ page.url }}{{ file }}">{{ file }}</a>,
-          {% endfor %}
-          </p>
+          <div class="third imagebox">
+            <img src="{{ page.url }}{{output.png_image_file}}"  />
+          </div>
+          <div class="two-thirds omega">
+            <h2><strong>Operation: {{ operation_number}}</strong>, Output Step  {{ forloop.index }} of {{ forloop.length }}</h2>
+            <p><strong>output png_name:</strong> {{ output.png_image_file }}</p>
+            <p><strong>output name:</strong> {{ output.name }}</p>
+            <p><strong>output description:</strong> {{ output.description }}</p>
+            <p><strong>cut files</strong>:
+            {% for file in output.cut_files%}
+              <a href="{{ page.url }}{{ file }}">{{ file }}</a>,
+            {% endfor %}
+            </p>
+          </div><!--two thirds output-->
+        </section>
+      {% endfor %}
 
-        </div><!--two thirds output-->
-      </section>
-    {% endfor %}
-
+    </div><!--/outputs-->
   {% endif %}
 
 {% endfor %} <!-- /operations -->

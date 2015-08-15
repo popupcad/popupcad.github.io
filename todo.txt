@@ -1,6 +1,6 @@
 # To do
 
-- logo - next!
+DONE: - logo - next!
 DONE:- put filter over placeholder video image so text is legible on mobile.
 DONE: - Frontpage video and placeholder appear to stack on mobile.
 DONE: - Color and font-size of mobile menu are really iffy. lets also move it to the top.
@@ -24,7 +24,7 @@ DONE: code highlighting
 
 ## ask Dan about:
 tutorial makeover
-chagne competition
+change competition
 categories for the gallery
 
 
@@ -42,10 +42,10 @@ done: * gallery tags don't work.
   * ~~multiple of the same tag can be selected and applied as a filter~~
     * when you try to close one of the multiples, they all disappear(I guess this will be fixed when you disable multiple identical tag filters.)
   * ~~when you start typing in the search field, it doesn't autocomplete(not that it should, but how do you guide the user to finding one of many tags from their incomplete input?)~~
-* Code highlighting may work, but I am unsure about how to use it
+See README. ~~* Code highlighting may work, but I am unsure about how to use it~~
   * would like to use liquid template but tabs are broken
   * ~~long lines of code...implement a scroll bar? https://demisx.github.io/jekyll/2014/01/13/improve-code-highlighting-in-jekyll.html~~
-* how do I use the info, warning, error bars?
+See README. ~~* how do I use the info, warning, error bars?~~
 * gallery item: collapse/expand hierarchy
 * ~~(dan did this, check with him?)published flag is ignored in the collection menu generation.~~
 

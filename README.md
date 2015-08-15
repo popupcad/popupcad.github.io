@@ -1,17 +1,17 @@
 ## css
 
-The cleanest way to add or override classes and divs is to enter them in: '/assets/css/overrides.css'
+The cleanest way to add or override classes and divs is to enter them in: '/assets/css/overrides.css'. Always make custom changes in override.css; it makes your changes easy to find.
 
 ## 1 - excerpt separator in blog/news/post items
 
-in config.yml I specify a excerpt_separator: "<!--more-->".
+In config.yml I specify a excerpt_separator: "<!--more-->".
 
 So on blog list pages, it'll display all of a post up to <!--more-->. It's kinda important to use that on pages that start with a <table> or something, or things will get weird.
 
 
 # Alerts and Notifications
 
-Create information boxes with the following syntax.
+Syntax examples for information boxes: Info, Success, Alert, Error.
 
 
     <div class="notice info"><p>This is a an info notice, it provides feedback of a neutral nature to the user.</p></div>
@@ -75,9 +75,9 @@ Tweak the CSS in /assets/css/webfont.css
 
 ## Notes on the template logic.
 
-Everything is loaded from _layouts/default.html. Posts and Pages fall back to Default.html.
+Everything is loaded from layouts/default.html. Posts and Pages fall back to Default.html.
 
-The dropdown menu is included inside _includes/menu.html.
+The dropdown menu is included inside includes/modals/modal_sidebar.html.
 
 
 ### Body Classes

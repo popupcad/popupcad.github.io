@@ -3576,6 +3576,8 @@ body.gallery header.header {
     color: white; }
 body.gallery .alpha {
   background: #6266a0; }
+body.gallery .outputs {
+  background-color: #f0f0f0; }
 body.gallery #gallery-pagination {
   width: 100%; }
   @media screen and (min-width: 320px) {

@@ -439,32 +439,11 @@ header > nav {
 */
 @media screen and (min-width: 320px) {
   body.gallery figure {
-    float: left;
-    display: block;
-    margin-right: 4.34783%;
-    width: 100%; }
-    body.gallery figure:last-child {
-      margin-right: 0; }
-    body.gallery figure:nth-child(1n) {
-      margin-right: 0; }
-    body.gallery figure:nth-child(1n+1) {
-      clear: left; } }
+    width: 100%; } }
 @media screen and (min-width: 720px) {
   body.gallery figure {
-    float: left;
-    display: block;
-    margin-right: 4.34783%;
-    width: 47.82609%; }
-    body.gallery figure:nth-child(1n) {
-      margin-right: 4.34783%; }
-    body.gallery figure:nth-child(1n+1) {
-      clear: none; }
-    body.gallery figure:last-child {
-      margin-right: 0; }
-    body.gallery figure:nth-child(2n) {
-      margin-right: 0; }
-    body.gallery figure:nth-child(2n+1) {
-      clear: left; } }
+    width: 45%;
+    margin-right: 5%; } }
 
 @media screen and (min-width: 320px) {
   .third {
@@ -3395,6 +3374,12 @@ body.frontpage .btn-1a:hover,
 body.frontpage .btn-1a:active {
   color: #000;
   background: #fff; }
+@media screen and (min-width: 320px) {
+  body.frontpage .bravo .right {
+    float: none; } }
+@media screen and (min-width: 320px) {
+  body.frontpage .bravo .third {
+    text-align: center; } }
 body.frontpage .echo h6 {
   margin-top: 1em; }
 

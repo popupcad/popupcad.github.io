@@ -78,17 +78,18 @@ ADJUST size of left image in the next <style>
         {% endfor %}
       </p>
 
+      {% if operation.outputs != empty %}
+        <a class="outputs-toggle btn yellow" data-operation-number="{{ operation_number }}" href="#">See outputs</a>
+      {% endif %}
+
+
       </div><!--/two-thirds-->
   </section>
 
 
   {% if operation.outputs != empty %}
 
-    <section>
-      <h2><a href="#">See outputs</a></h2>
-    </section>
-
-    <div class="outputs">
+    <div class="outputs operation-number-{{ operation_number }}">
 
       {% for output in operation.outputs %}
         <section class="output">

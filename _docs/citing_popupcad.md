@@ -7,5 +7,3 @@ title: Citing popupCAD
 [2] D. M. Aukes, B. Goldberg, M. R. Cutkosky, and R. J. Wood, “An analytic framework for developing inherently-manufacturable pop-up laminate devices,” Smart Mater. Struct., vol. 23, no. 9, p. 094013, Sep. 2014.
 
 [3] D. M. Aukes, O. Ozcan, and R. J. Wood, “Monolithic Design and Fabrication of a 2-DOF Bio-Inspired Leg Transmission,” in Living Machines, 2014.
-
-[4] D. M. Aukes, O. Ozcan, and R. J. Wood, “The Thirty Minute Robot: Rapid Design and Fabrication of Laminate Micro-devices,” in 2015 IEEE International Conference on Robotics and Automation(in review), 2015.

@@ -9,13 +9,6 @@ THIS IS THE TEMPLATE for gallery collection items.
 ADJUST size of left image in the next <style>
 {% endcomment %}
 
-
-<style>
-  .imagebox img {max-height:300px; overflow:hidden;    display: block;
-    margin-left: auto;
-    margin-right: auto}
-</style>
-
 {% capture h1bg %}#{{ page.h1bg }}{% endcapture %}
 {% capture h1color %}#{{ page.h1color }}{% endcapture %}
 <style media="screen" type="text/css">
@@ -51,7 +44,7 @@ ADJUST size of left image in the next <style>
 
 <section>
   <div class="third imagebox">
-    <img src="{{ page.png_image_file }}" />
+    <img src="{{ page.svg_image_file }}" />
   </div>
   <div class="two-thirds omega">
     <h6><strong>design description:</strong></h6>
@@ -64,13 +57,13 @@ ADJUST size of left image in the next <style>
 
   <section>
     <div class="third imagebox operation">
-      <img src="{{operation.png_image_file}}" />
+      <img src="{{operation.svg_image_file}}" />
     </div>
     <div class="two-thirds omega">
 
       <h2><strong>Operation {{ operation_number }} of {{ forloop.length }}</strong></h2>
 
-      <p><strong>operation file name:</strong> {{ operation.png_image_file }}</p>
+      <p><strong>operation file name:</strong> {{ operation.svg_image_file }}</p>
       <p><strong>operation name:</strong> {{ operation.name }}</p>
       <p><strong>operation description:</strong> {{ operation.description }}</p>
 
@@ -97,11 +90,11 @@ ADJUST size of left image in the next <style>
         <section class="output">
 
           <div class="third imagebox">
-            <img src="{{ page.url }}{{output.png_image_file}}"  />
+            <img src="{{ page.url }}{{output.svg_image_file}}"  />
           </div>
           <div class="two-thirds omega">
             <h2><strong>Operation: {{ operation_number}}</strong>, Output Step  {{ forloop.index }} of {{ forloop.length }}</h2>
-            <p><strong>output png_name:</strong> {{ output.png_image_file }}</p>
+            <p><strong>output svg_name:</strong> {{ output.svg_image_file }}</p>
             <p><strong>output name:</strong> {{ output.name }}</p>
             <p><strong>output description:</strong> {{ output.description }}</p>
             <p><strong>cut files</strong>:

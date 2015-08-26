@@ -37,7 +37,7 @@ improve README.md
 IMPORTANT:
 -------------
 done: * gallery tags don't work.
-  *~~clicking on a tag does not properly update the items on the right~~
+  * ~~clicking on a tag does not properly update the items on the right~~
   * ~~searching for a tag does not find all the possible tags, it just selects one at random example: type in anything, it highlights the 2_dof_robot_legs tag.~~
   * ~~multiple of the same tag can be selected and applied as a filter~~
     * when you try to close one of the multiples, they all disappear(I guess this will be fixed when you disable multiple identical tag filters.)

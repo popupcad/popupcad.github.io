@@ -68,20 +68,22 @@ A Gap sketch is used to ensure that neighboring body geometries which must remai
 * Generally, you should either draw or import a sketch of lines which represents those gaps.  
 * If importing from a solidworks design, use the get joints feature to turn polygons into lines and then delete all but your gap lines.  
 * Use the dilate operation to grow the 1-dimensional line into a 2-dimensional area so that you can remove that area from your body.  
-* Use a laminate operation to subtract this gap from the body geometry.
 * Name the operation you just created, using the F2 button after selecting the operation from the operation list.  Call it something like "Sublaminate 1 Gap".
+* Use a laminate operation to subtract this gap from the body geometry.
 
-Device Design
------------------
-1. Create new sketch --> import file (ignore dialog boxes)
-1. Can reuse old geometry --> autobridge triangulates
-1. Use get joints to find joints (copy of original sketch) --> flexures (sketch OP)
-1. Use get joints again to find gaps (copy of original sketch) --> empty spaces (sketch OP)
-1. Buffer gaps to create areas to remove material (this is a dilate OP)  
-1. Use placement operation to place joints (probably want to keep y-scaling at 1.0)
-1. Use laminate operations to remove material and to place joints
-1. Merge operation to combine hinge and holes from buffered joined sketch
-1. Clean up intersection of joints (use circles --> sketch and then remove)
-1. Use intersection operation to trim placed joints
-1. Save file!! (this should be final device)
+Define Adhesive between sublaminates
+------------------------------------
+
+There are several extra considerations for multiple sublaminate designs.  In addition to designing each sublaminate (separately), one must specify the regions where neighboring sublaminates should be rigidly connected by the adhesive layers between them.  The layer operation is a good tool for that, because it allows one to operate on and between layers of a laminate.  Specifically, if the sublaminate designs have already been created, you can use a layer intersection to identify shared regions between sublaminates.
+
+* combine all your sublaminate designs with a lamainate union operation.
+* Create a layer operation
+* select intersection as the operation type
+* select the laminate union you just created as the parent operation
+* To find potential overlapping adhesive regions, select the top layer of the first sublaminate and the bottom layer of your second sublaminate.
+* apply the result to the adhesive layer between the two sublaminates.
+
+This should create one or more polygons indicating overlapping regions between your two sublaminates.  You can modify this further with a sketch and a laminate difference/intersection, or by using the "identify bodies" operation to separate these many polygons into individual polygons.  A laminate operation can then be used to recombine the specific adhesive sections you want to use with the merged sublaminate design.  You will need to repeat this for each set of neighboring sublaminates.
+
+**Voila! You've created a device!**
 

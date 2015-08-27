@@ -2,8 +2,10 @@
 title: popupCAD Manufacturing Design
 ---
 
-Manufacturing Design
---------------------
+1. Merge operation to combine hinge and holes from buffered joined sketch
+1. Clean up intersection of joints (use circles --> sketch and then remove)
+1. Use intersection operation to trim placed joints
+
 1. Sheet operation - creates the original sheet before subtraction
 1. Scrap operation (select sheet and device) - creates scrap material.  
 

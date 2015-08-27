@@ -9,6 +9,10 @@ Create Sketches
 
 At a minimum you will probably need three sketches per sub-laminate.  You will need one sketch to define where material exists.  Let's call this the "body" sketch.  You'll also need a sketch to define where joints go, called your "joints" sketch.  Finally, you may also need to define places where your body gets cut or separated.  We'll call this your "gaps" sketch.  Each of these sketches will be used in different ways.
 
+### Body Sketch
+
+Draw the outline of the polygon(s) which define the body material of your device.  It is unnecessary to split your device into the individual bodies which define your 
+
 Device Design
 -----------------
 1. Create new sketch --> import file (ignore dialog boxes)

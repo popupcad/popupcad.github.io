@@ -2,8 +2,10 @@
   items:
     - popupcad-overview
     - solidworks-export-tutorial
-    - popupcad-design-tutorial    
+    - popupcad-device-design
+    - popupcad-manufacturing-design
     - manufacturing-tutorial
+    - making-a-joint
 - title: Basic operations
   items:
     - sketch-operation

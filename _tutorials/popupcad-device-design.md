@@ -1,5 +1,5 @@
 ---
-title: popupCAD Design Tutorial
+title: popupCAD Device Design
 ---
 
 This tutorial explains how to create a device design.  This process can be used with exported .yaml files which come from a solidworks design process, outlined in the [Solidworks Design Tutorial]({{site.url}}/tutorials/solidworks-design-tutorial)
@@ -29,14 +29,15 @@ Draw the outline of the polygon(s) which define the body material of your device
 * Rename your sketch using the F2 button after selecting it.  Call it something like "Sublaminate 1 Body Sketch" or just "Body Sketch" if you're designing a single-sublaminate device.
 * Select the layer or layers you wish to apply the body sketch to.  In most cases, select all the layers of the sublaminate this material is going on.
 * Select "ok" to create this sketch operation.
+* Name the operation you just created, using the F2 button after selecting the operation from the operation list.  Call it something like "Sublaminate 1 Body".
 
-You will need to repeat this process for any other sublaminates in your design
+You will need to repeat this process for the body material on any other sublaminates in your design.
 
 ### Joint Sketches
 
 To create articulated motion in your laminate device, portions of the rigid layers of your composite must be removed to allow neighboring rigid links to rotate with respect to one another like a hinge.  Depending on what your layers consist of, the removal geometry may be quite different and may be distributed across differing layers.  You may use one hinge type or multiple, depending on the tolerances, ranges of motion, or properties you wish each joint to exhibit.
 
-To facilitate reuse of one or more hinge designs, you can create a hinge sketch which allows you to copy and reposition the same hinge geometry over and over.  In general, you will need a separate hinge sketch per hinge type, and per sublaminate.  So therefore, for example, if you want two different 5-layer(1-sublaminate) hinges to be placed in a 11-layer(2-sublaminate) design, you will probably need four sketches to place both hinges onto both sublaminate layers.
+To facilitate reuse of one or more hinge designs, you can create a hinge sketch which allows you to copy and reposition the same hinge geometry over and over.  In general, you will need a separate sketch per hinge type, and per sublaminate.  So therefore, for example, if you want two different 5-layer(1-sublaminate) hinges to be placed in a 11-layer(2-sublaminate) design, you will probably need four sketches to place both hinges onto both sublaminate layers.
 
 Joint sketches generally just consist of sets of lines which can be used in conjunction with place or transform operations to copy, scale, and rotate reusable hinge geometries to the joint locations you desire.
 
@@ -45,22 +46,30 @@ Joint sketches generally just consist of sets of lines which can be used in conj
 * Create a new transform or place operation.
 * load the hinge design file you wish to reuse.
 * select the specific operation within the loaded design that you wish to place.  This geometry may be additive -- that is, geometry which gets added to neighboring bodies -- or removal geometry -- geometry which you will "subtract" the hinge material from your body geometry.  Typically, removal geometry requires fewer steps, so let's assume you are using this type.
-* if using the transform operation, select a locate line from the subdesign.  if one does not exist you must create it.  Typically, a locate sketch is a sketch consisting of a single line which will be translated and rotated by your place sketch.
-* Create a placement sketch.  In the placement window, select new to open the sketcher.
-  * Draw your sketch.  Draw one or more lines which define how your geometry gets placed.  You can draw this sketch by hand and add constraints to accurately dimension the location of each line.
+* if using the transform operation, create or select a "locate" sketch from the subdesign.  if one does not exist you must create it.  Typically, a "locate" sketch is a sketch consisting of a single line which will be translated and rotated by your "place" sketch.
+* Create a "place" sketch.  In the placement sketch window, select "new" to open the sketcher and define a new placment sketch.
+  * Draw one or more lines which define how your geometry gets placed.  You can draw this sketch by hand and add constraints to accurately dimension the location of each line.
 
     or
 
   * if importing from a solidworks-exported .yaml file, import the same body file you imported before, and select the "get joints" feature.  Any adjacent edges of polygons will be converted into lines.  Delete any lines which you have previously already used in other joint sketches or which represent gaps.
 * select any scaling options you may want to apply.  In general, you will want to stretch your hinge geometry across the length of your placement line(this is the x-direction), but may want to retain a common hinge width in the y-direction.  In that case, select a custom y scaling factor.  A value of 1 will use the imported hinge's original y-scaling.
-* Select any layer options.  Shift the geometry up or down to apply it to a different sublaminate.
-* use a lamiante operation to remove or add this placed geometry from/to your body geometry.
+* Select any layer options.  Shift the geometry up or down to apply it to a different sublaminate, for example, or flip to reverse the layer order of your imported geometry.
+* Hit ok to create the place or transform operation.  
+* Name the operation you just created, using the F2 button after selecting the operation from the operation list.  Call it something like "Sublaminate 1 Joints".
+* use a laminate operation to remove or add this placed geometry from/to your body geometry.
 
 You will need to repeat this process for each hinge design, shift values, etc.
 
 ### Gap Sketch
 
-A Gap sketch is used to ensure that neighboring body geometries which must remain separated are actually not touching.  Generally, you should either draw or import a sketch of lines which represents those gaps.  If importing from a solidworks design, use the get joints feature to turn polygons into lines and then delete all but your gap lines.  Next, use the dilate operation to grow the 1-dimensional line into a 2-dimensional area so that you can remove that area from your body.  Finally, use a laminate operation to subtract this gap from the body geometry.
+A Gap sketch is used to ensure that neighboring body geometries which must remain separated are actually not touching.  
+#### Steps
+* Generally, you should either draw or import a sketch of lines which represents those gaps.  
+* If importing from a solidworks design, use the get joints feature to turn polygons into lines and then delete all but your gap lines.  
+* Use the dilate operation to grow the 1-dimensional line into a 2-dimensional area so that you can remove that area from your body.  
+* Use a laminate operation to subtract this gap from the body geometry.
+* Name the operation you just created, using the F2 button after selecting the operation from the operation list.  Call it something like "Sublaminate 1 Gap".
 
 Device Design
 -----------------
@@ -75,21 +84,4 @@ Device Design
 1. Clean up intersection of joints (use circles --> sketch and then remove)
 1. Use intersection operation to trim placed joints
 1. Save file!! (this should be final device)
-
-Manufacturing Design
---------------------
-1. Sheet operation - creates the original sheet before subtraction
-1. Scrap operation (select sheet and device) - creates scrap material.  
-
-  This gives you scrap you can remove from above, below, and both
-1. Support Design (laser, device) - bridges gap between support and gap
-1. Merge final device, scrap, and support to get cut files
-1. Cut line is your release cut, use cut area to check --> subtract from sheet
-1. Identify bodies helps you check connectivity  
-
-Export
-------
-1. Export svg --> 1 drawing per layer (open in inkscape)
-1. Export svg --> final cut (get 5 copies)
-
 

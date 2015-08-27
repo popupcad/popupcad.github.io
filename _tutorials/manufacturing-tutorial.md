@@ -1,5 +1,6 @@
 ---
-title: Device Tutorial
+title: Manufacturing Tutorial
+published: false
 ---
 
 Making a five-layer device

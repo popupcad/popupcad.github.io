@@ -1,9 +1,9 @@
 - title: Designing Laminates
   items:
-    - overview
-    - device-tutorial
-    - solidworks-design-tutorial
-    - solidworks-design-workflow
+    - popupcad-overview
+    - solidworks-export-tutorial
+    - popupcad-design-tutorial    
+    - manufacturing-tutorial
 - title: Basic operations
   items:
     - sketch-operation

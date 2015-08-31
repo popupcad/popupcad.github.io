@@ -338,8 +338,8 @@ operations:
   outputs: []
   png_image_file: 28_00.png
   svg_image_file: 28_00.svg
-png_image_file: 00_00.png
-svg_image_file: 00_00.svg
+png_image_file: 27_00.png
+svg_image_file: 27_00.svg
 tags: [devices,parts,legs,2dof_legs]
 title: printapede retreat leg.cad
 

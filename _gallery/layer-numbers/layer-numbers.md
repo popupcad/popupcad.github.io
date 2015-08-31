@@ -110,8 +110,8 @@ operations:
   outputs: []
   png_image_file: 14_00.png
   svg_image_file: 14_00.svg
-png_image_file: 00_00.png
-svg_image_file: 00_00.svg
+png_image_file: 13_00.png
+svg_image_file: 13_00.svg
 tags: [features]
 title: layer numbers.cad
 

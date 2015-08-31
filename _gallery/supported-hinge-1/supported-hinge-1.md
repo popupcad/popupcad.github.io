@@ -68,8 +68,8 @@ operations:
   outputs: []
   png_image_file: 08_00.png
   svg_image_file: 08_00.svg
-png_image_file: 00_00.png
-svg_image_file: 00_00.svg
+png_image_file: 08_00.png
+svg_image_file: 08_00.svg
 tags: [parts,hinges]
 title: supported_hinge_1.cad
 

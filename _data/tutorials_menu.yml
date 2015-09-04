@@ -1,6 +1,10 @@
-- title: Designing Laminates
+- title: popupCAD Overview
   items:
     - popupcad-overview
+    - popupcad-editor
+    - popupcad-sketcher
+- title: Designing Laminates
+  items:
     - solidworks-export-tutorial
     - popupcad-device-design
     - popupcad-manufacturing-design

@@ -21,4 +21,5 @@
     - support-generation
     - custom-support-generation
 - title: Misc
+  items:
     - dxf-files

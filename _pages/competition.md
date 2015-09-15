@@ -15,6 +15,22 @@ published: true
   </section>
 </div>
 
+<div class="section-wrapper delta">
+  <section>
+    <div class="half">
+      <h1 class="centered icon-info-circled"></h1>
+      <h4 class="centered">Learn <a href ="{{site.url}}/contest/information">more</a> about the competition</h4>
+    </div>
+
+		<div class="half omega">
+      <h1 class="centered icon-attention"></h1>
+      <h4 class="centered"><a href="{{site.url}}/contest/register">Register now</a> for the competition!</h4>
+		</div>
+
+  </section>
+</div>
+
+<!--
 <div class="section-wrapper charlie">
   <section>
     <h1 class="centered">Pre-Register to stay updated!</h1>
@@ -22,6 +38,7 @@ published: true
     {% include newsletter.html %}
   </section>
 </div>
+-->
 
 <div class="section-wrapper bravo">
   <section>
@@ -45,16 +62,6 @@ published: true
 </div>
 -->
 
-<div class="section-wrapper delta">
-  <section>
-    <div class="half centered">
-      <h2><a href ="{{site.url}}/contest/introduction">Learn more about the competition</a></h2>
-    </div>
-    <div class="half centered omega">
-      <h2><a href ="{{site.url}}/tutorials/popupcad-overview">Find a tutorial. Design a new device.</a></h2>
-    </div>
-  </section>
-</div>
 
 <style>
 

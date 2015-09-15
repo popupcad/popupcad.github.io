@@ -31,33 +31,7 @@ THIS IS THE TEMPLATE for contest collection items.
 </div>
 <section>
   <div class="third">
-    <aside>
-      {% for section in site.data.contest_menu %}
-        <h5>{{ section.title }}</h5>
-        {% assign items = include.items %}
-
-        <ul class="no-bullets">
-        {% for item in section.items  %}
-          {% assign item_url = item | prepend:"/contest/" | append:"/" %}
-
-          {% if item_url == page.url %}
-            {% assign c = "active" %}
-          {% else %}
-            {% assign c = "" %}
-          {% endif %}
-
-          {% for p in site.contest %}
-            {% if p.url == item_url %}
-              {% if p.published %}
-                <li class="{{ c }}"><a href="{{ site.url }}{{ p.url }}">{{ p.title }}</a></li>
-              {% endif %}
-            {% endif %}
-          {% endfor %}
-
-        {% endfor %}
-        </ul>
-      {% endfor %}
-    </aside>
+    {% include contest-items.html %}  
   </div>
   <div class="two-thirds omega">
   {{ content }}

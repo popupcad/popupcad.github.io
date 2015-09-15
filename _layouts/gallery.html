@@ -64,10 +64,14 @@ ADJUST size of left image in the next <style>
     </div>
     <div class="two-thirds omega">
 
-      <h2><strong>Operation {{ operation_number }} of {{ forloop.length }}</strong></h2>
+      <h2><strong>{{ operation.name }} {{ operation_number }} of {{ forloop.length }}</strong></h2>
 
+      <!-- 
       <p><strong>operation file name:</strong> {{ operation.svg_image_file }}</p>
+      -->
+      <!--
       <p><strong>operation name:</strong> {{ operation.name }}</p>
+      -->
       <p><strong>operation description:</strong> <!--{{ operation.description }}--></p>
 
       <p><strong>operation cut files</strong>:

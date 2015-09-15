@@ -25,5 +25,5 @@ Contest registration is accomplished on the popupCAD website at
 </div>
 </section>
 
-<div class="notice info"><p>*Note*: To see this all on one page, see <{{site.url}}/contest/contest-information>
+<div class="notice info"><p>*Note*: To see this all on one page, see <a href="{{site.url}}/contest/contest-information">{{site.url}}/contest/contest-information</a>
 </p></div>

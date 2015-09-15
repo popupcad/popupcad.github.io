@@ -43,7 +43,7 @@ ADJUST size of left image in the next <style>
 </div>
 
 <section>
-  <div class="third imagebox">
+  <div class="third mainimage">
     <img src="{{ page.svg_image_file }}" />
   </div>
   <div class="two-thirds omega">
@@ -74,12 +74,12 @@ ADJUST size of left image in the next <style>
       -->
       <p><strong>operation description:</strong> <!--{{ operation.description }}--></p>
 
+      <!--
       <p><strong>operation cut files</strong>:
-        <!--
         {% for file in operation.cut_files %}
           <a href="{{ page.url }}{{ file }}">{{ file }}</a>,
         {% endfor %}=
-        -->
+      -->
       </p>
 
       {% if operation.outputs != empty %}

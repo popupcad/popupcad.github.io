@@ -47,8 +47,9 @@ ADJUST size of left image in the next <style>
     <img src="{{ page.svg_image_file }}" />
   </div>
   <div class="two-thirds omega">
-    <h6><strong>design description:</strong></h6>
-    <p>{{ page.description }}</p>
+  <h1>Main Image</h1>
+<!--    <h6><strong>design description:</strong></h6>
+    <p>{{ page.description }}</p>-->
   </div>
 </section>
 {% for operation in page.operations %}
@@ -65,12 +66,14 @@ ADJUST size of left image in the next <style>
 
       <p><strong>operation file name:</strong> {{ operation.svg_image_file }}</p>
       <p><strong>operation name:</strong> {{ operation.name }}</p>
-      <p><strong>operation description:</strong> {{ operation.description }}</p>
+      <p><strong>operation description:</strong> <!--{{ operation.description }}--></p>
 
       <p><strong>operation cut files</strong>:
+        <!--
         {% for file in operation.cut_files %}
           <a href="{{ page.url }}{{ file }}">{{ file }}</a>,
-        {% endfor %}
+        {% endfor %}=
+        -->
       </p>
 
       {% if operation.outputs != empty %}

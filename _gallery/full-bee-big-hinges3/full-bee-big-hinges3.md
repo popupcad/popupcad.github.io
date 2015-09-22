@@ -1,5 +1,5 @@
 ---
-cad_file: full bee big hinges3.cad
+cad_file: full-bee-big-hinges3.cad
 category: Parts.Legs.2DOFLegs
 description: This is a leg design, which is meant to be attached to the body of a
   robot.  It is a 2-dof mechanism, so requires inputs from two motors.  Operation
@@ -8,14 +8,14 @@ operations:
 - cut_files: [cut-dummy1.svg, cut-dummy2.svg]
   description: This is a fake operation description.  I am not about to make a separate
     description for each op, but the description might be about this long.
-  name: PlaceOp
+  name: External Transform
   outputs: []
   png_image_file: 00_00.png
   svg_image_file: 00_00.svg
 - cut_files: [cut-dummy1.svg, cut-dummy2.svg]
   description: This is a fake operation description.  I am not about to make a separate
     description for each op, but the description might be about this long.
-  name: PlaceOp
+  name: External Transform
   outputs: []
   png_image_file: 01_00.png
   svg_image_file: 01_00.svg
@@ -217,7 +217,7 @@ operations:
 - cut_files: [cut-dummy1.svg, cut-dummy2.svg]
   description: This is a fake operation description.  I am not about to make a separate
     description for each op, but the description might be about this long.
-  name: PlaceOp
+  name: External Transform
   outputs: []
   png_image_file: 12_00.png
   svg_image_file: 12_00.svg
@@ -252,6 +252,6 @@ operations:
 png_image_file: 00_00.png
 svg_image_file: 00_00.svg
 tags: [devices]
-title: full bee big hinges3.cad
+title: full-bee-big-hinges3.cad
 
 ---

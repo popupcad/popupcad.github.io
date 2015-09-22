@@ -14,7 +14,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Carbon(0-90-0)
     poisson: 0.5
     thickness: 0.025
-  - &id013 !!python/object:popupcad.filetypes.material2.Material2
+  - &id011 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: &id001 !!python/tuple [0.68359375, 0.31640625, 0.31640625, 0.2]
@@ -38,7 +38,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Kapton
     poisson: 0.5
     thickness: 0.025
-  - &id012 !!python/object:popupcad.filetypes.material2.Material2
+  - &id014 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -50,7 +50,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Pyralux
     poisson: 0.5
     thickness: 0.025
-  - &id014 !!python/object:popupcad.filetypes.material2.Material2
+  - &id007 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id002
@@ -62,7 +62,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Carbon(0-90-0)
     poisson: 0.5
     thickness: 0.025
-  - &id008 !!python/object:popupcad.filetypes.material2.Material2
+  - &id012 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -74,7 +74,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Pyralux
     poisson: 0.5
     thickness: 0.025
-  - &id011 !!python/object:popupcad.filetypes.material2.Material2
+  - &id005 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id002
@@ -86,7 +86,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Carbon(0-90-0)
     poisson: 0.5
     thickness: 0.025
-  - &id009 !!python/object:popupcad.filetypes.material2.Material2
+  - &id013 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -98,7 +98,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Pyralux
     poisson: 0.5
     thickness: 0.025
-  - &id007 !!python/object:popupcad.filetypes.material2.Material2
+  - &id009 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id003
@@ -122,7 +122,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Pyralux
     poisson: 0.5
     thickness: 0.025
-  - &id005 !!python/object:popupcad.filetypes.material2.Material2
+  - &id008 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id002
@@ -136,16 +136,16 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     thickness: 0.025
   zvalue:
     *id004: 0.22499999999999998
-    *id005: 0.24999999999999997
+    *id005: 0.15
     *id006: 0.05
-    *id007: 0.19999999999999998
-    *id008: 0.125
-    *id009: 0.175
+    *id007: 0.1
+    *id008: 0.24999999999999997
+    *id009: 0.19999999999999998
     *id010: 0.0
-    *id011: 0.15
-    *id012: 0.07500000000000001
-    *id013: 0.025
-    *id014: 0.1
+    *id011: 0.025
+    *id012: 0.125
+    *id013: 0.175
+    *id014: 0.07500000000000001
 dirname: C:/Users/danaukes/popupCAD_files/designs/featues
 id: 567734168
 operations:
@@ -172,7 +172,7 @@ operations:
     - !!python/tuple [619816664, 0]
   sketch_links: {}
   values: [0.85]
-- !!python/object:popupcad.manufacturing.placeop8.PlaceOperation8
+- !!python/object:popupcad.manufacturing.transform_external.TransformExternal
   _description: ''
   customname: Layer Numbering
   design_links:
@@ -185,7 +185,8 @@ operations:
   scaley: 1.0
   shift: 0
   sketch_links:
-    place: [619835912]
+    sketch_to: [619835912]
+  sub_sketch_id: 550414208
   subopref: !!python/tuple [335563688, 0]
   transformtype_x: scale
   transformtype_y: scale
@@ -214,7 +215,7 @@ operations:
   operation_links: {}
   sketch_links:
     sketch: [619901392]
-- !!python/object:popupcad.manufacturing.placeop8.PlaceOperation8
+- !!python/object:popupcad.manufacturing.transform_external.TransformExternal
   _description: ''
   customname: Crosses
   design_links:
@@ -227,7 +228,8 @@ operations:
   scaley: 1.0
   shift: 0
   sketch_links:
-    place: [619901392]
+    sketch_to: [619901392]
+  sub_sketch_id: 622876208
   subopref: !!python/tuple [626484392, 0]
   transformtype_x: scale
   transformtype_y: scale
@@ -291,7 +293,7 @@ operations:
   sketch_links:
     sketch: [786359632]
 parent_program_name: popupCAD
-parent_program_version: 2015.08.31
+parent_program_version: 2015.09.22
 sketches:
   570780528: !!python/object:popupcad.filetypes.sketch.Sketch
     _basename: holes
@@ -591,7 +593,7 @@ subdesigns:
     _basename: twosublaminates.cad
     _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
       layers:
-      - &id023 !!python/object:popupcad.filetypes.material2.Material2
+      - &id022 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: *id002
@@ -603,7 +605,7 @@ subdesigns:
         name: Carbon(0-90-0)
         poisson: 0.5
         thickness: 0.025
-      - &id025 !!python/object:popupcad.filetypes.material2.Material2
+      - &id024 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: *id001
@@ -615,7 +617,7 @@ subdesigns:
         name: Pyralux
         poisson: 0.5
         thickness: 0.025
-      - &id016 !!python/object:popupcad.filetypes.material2.Material2
+      - &id015 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: *id003
@@ -627,7 +629,7 @@ subdesigns:
         name: Kapton
         poisson: 0.5
         thickness: 0.025
-      - &id018 !!python/object:popupcad.filetypes.material2.Material2
+      - &id017 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: *id001
@@ -639,7 +641,7 @@ subdesigns:
         name: Pyralux
         poisson: 0.5
         thickness: 0.025
-      - &id021 !!python/object:popupcad.filetypes.material2.Material2
+      - &id020 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: *id002
@@ -651,7 +653,7 @@ subdesigns:
         name: Carbon(0-90-0)
         poisson: 0.5
         thickness: 0.025
-      - &id024 !!python/object:popupcad.filetypes.material2.Material2
+      - &id023 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: *id001
@@ -663,7 +665,7 @@ subdesigns:
         name: Pyralux
         poisson: 0.5
         thickness: 0.025
-      - &id015 !!python/object:popupcad.filetypes.material2.Material2
+      - &id025 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: *id002
@@ -675,7 +677,7 @@ subdesigns:
         name: Carbon(0-90-0)
         poisson: 0.5
         thickness: 0.025
-      - &id017 !!python/object:popupcad.filetypes.material2.Material2
+      - &id016 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: *id001
@@ -687,7 +689,7 @@ subdesigns:
         name: Pyralux
         poisson: 0.5
         thickness: 0.025
-      - &id020 !!python/object:popupcad.filetypes.material2.Material2
+      - &id019 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: *id003
@@ -699,7 +701,7 @@ subdesigns:
         name: Kapton
         poisson: 0.5
         thickness: 0.025
-      - &id022 !!python/object:popupcad.filetypes.material2.Material2
+      - &id021 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: *id001
@@ -711,7 +713,7 @@ subdesigns:
         name: Pyralux
         poisson: 0.5
         thickness: 0.025
-      - &id019 !!python/object:popupcad.filetypes.material2.Material2
+      - &id018 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: *id002
@@ -724,21 +726,21 @@ subdesigns:
         poisson: 0.5
         thickness: 0.025
       zvalue:
-        *id015: 0.15
-        *id016: 0.05
-        *id017: 0.175
-        *id018: 0.07500000000000001
-        *id019: 0.24999999999999997
-        *id020: 0.19999999999999998
-        *id021: 0.1
-        *id022: 0.22499999999999998
-        *id023: 0.0
-        *id024: 0.125
-        *id025: 0.025
+        *id015: 0.05
+        *id016: 0.175
+        *id017: 0.07500000000000001
+        *id018: 0.24999999999999997
+        *id019: 0.19999999999999998
+        *id020: 0.1
+        *id021: 0.22499999999999998
+        *id022: 0.0
+        *id023: 0.125
+        *id024: 0.025
+        *id025: 0.15
     dirname: C:/Users/danaukes/popupCAD_files/designs/layer numbering
     id: 335464936
     operations:
-    - !!python/object:popupcad.manufacturing.placeop8.PlaceOperation8
+    - !!python/object:popupcad.manufacturing.transform_external.TransformExternal
       _description: ''
       customname: ''
       design_links:
@@ -751,7 +753,8 @@ subdesigns:
       scaley: 1.0
       shift: 0
       sketch_links:
-        place: [523570648]
+        sketch_to: [523570648]
+      sub_sketch_id: 520465656
       subopref: !!python/tuple [335463592, 0]
       transformtype_x: custom
       transformtype_y: custom
@@ -765,7 +768,7 @@ subdesigns:
       operation_links: {}
       sketch_links:
         sketch: [335696224]
-    - !!python/object:popupcad.manufacturing.placeop8.PlaceOperation8
+    - !!python/object:popupcad.manufacturing.transform_external.TransformExternal
       _description: ''
       customname: ''
       design_links:
@@ -778,7 +781,8 @@ subdesigns:
       scaley: 1.0
       shift: 6
       sketch_links:
-        place: [523570648]
+        sketch_to: [523570648]
+      sub_sketch_id: 520465656
       subopref: !!python/tuple [335463592, 0]
       transformtype_x: custom
       transformtype_y: custom
@@ -939,7 +943,7 @@ subdesigns:
         _basename: sublaminate.cad
         _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
           layers:
-          - &id027 !!python/object:popupcad.filetypes.material2.Material2
+          - &id026 !!python/object:popupcad.filetypes.material2.Material2
             E1: 1
             E2: 1
             color: *id002
@@ -951,7 +955,7 @@ subdesigns:
             name: Carbon(0-90-0)
             poisson: 0.5
             thickness: 0.025
-          - &id030 !!python/object:popupcad.filetypes.material2.Material2
+          - &id028 !!python/object:popupcad.filetypes.material2.Material2
             E1: 1
             E2: 1
             color: *id001
@@ -963,7 +967,7 @@ subdesigns:
             name: Pyralux
             poisson: 0.5
             thickness: 0.025
-          - &id026 !!python/object:popupcad.filetypes.material2.Material2
+          - &id030 !!python/object:popupcad.filetypes.material2.Material2
             E1: 1
             E2: 1
             color: *id003
@@ -975,7 +979,7 @@ subdesigns:
             name: Kapton
             poisson: 0.5
             thickness: 0.025
-          - &id029 !!python/object:popupcad.filetypes.material2.Material2
+          - &id027 !!python/object:popupcad.filetypes.material2.Material2
             E1: 1
             E2: 1
             color: *id001
@@ -987,7 +991,7 @@ subdesigns:
             name: Pyralux
             poisson: 0.5
             thickness: 0.025
-          - &id028 !!python/object:popupcad.filetypes.material2.Material2
+          - &id029 !!python/object:popupcad.filetypes.material2.Material2
             E1: 1
             E2: 1
             color: *id002
@@ -1000,11 +1004,11 @@ subdesigns:
             poisson: 0.5
             thickness: 0.025
           zvalue:
-            *id026: 0.05
-            *id027: 0.0
-            *id028: 0.1
-            *id029: 0.07500000000000001
-            *id030: 0.025
+            *id026: 0.0
+            *id027: 0.07500000000000001
+            *id028: 0.025
+            *id029: 0.1
+            *id030: 0.05
         dirname: C:/Users/danaukes/popupCAD_files/designs/layer numbering
         id: 334036328
         operations:
@@ -1196,7 +1200,7 @@ subdesigns:
     _basename: cross.cad
     _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
       layers:
-      - &id033 !!python/object:popupcad.filetypes.material2.Material2
+      - &id032 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: *id002
@@ -1208,7 +1212,7 @@ subdesigns:
         name: Carbon(0-90-0)
         poisson: 0.5
         thickness: 0.025
-      - &id035 !!python/object:popupcad.filetypes.material2.Material2
+      - &id034 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: *id001
@@ -1220,7 +1224,7 @@ subdesigns:
         name: Pyralux
         poisson: 0.5
         thickness: 0.025
-      - &id032 !!python/object:popupcad.filetypes.material2.Material2
+      - &id031 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: *id003
@@ -1232,7 +1236,7 @@ subdesigns:
         name: Kapton
         poisson: 0.5
         thickness: 0.025
-      - &id034 !!python/object:popupcad.filetypes.material2.Material2
+      - &id033 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: *id001
@@ -1244,7 +1248,7 @@ subdesigns:
         name: Pyralux
         poisson: 0.5
         thickness: 0.025
-      - &id031 !!python/object:popupcad.filetypes.material2.Material2
+      - &id035 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: *id002
@@ -1257,11 +1261,11 @@ subdesigns:
         poisson: 0.5
         thickness: 0.025
       zvalue:
-        *id031: 0.1
-        *id032: 0.05
-        *id033: 0.0
-        *id034: 0.07500000000000001
-        *id035: 0.025
+        *id031: 0.05
+        *id032: 0.0
+        *id033: 0.07500000000000001
+        *id034: 0.025
+        *id035: 0.1
     dirname: C:/Users/danaukes/popupCAD_files/designs/featues
     id: 610636128
     operations:

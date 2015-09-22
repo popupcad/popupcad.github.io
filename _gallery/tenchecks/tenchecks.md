@@ -8,7 +8,7 @@ operations:
 - cut_files: [cut-dummy1.svg, cut-dummy2.svg]
   description: This is a fake operation description.  I am not about to make a separate
     description for each op, but the description might be about this long.
-  name: PlaceOp
+  name: External Transform
   outputs: []
   png_image_file: 00_00.png
   svg_image_file: 00_00.svg

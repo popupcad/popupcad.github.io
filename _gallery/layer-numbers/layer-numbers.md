@@ -1,5 +1,5 @@
 ---
-cad_file: layer numbers.cad
+cad_file: layer-numbers.cad
 category: Parts.Legs.2DOFLegs
 description: This is a leg design, which is meant to be attached to the body of a
   robot.  It is a 2-dof mechanism, so requires inputs from two motors.  Operation
@@ -113,6 +113,6 @@ operations:
 png_image_file: 13_00.png
 svg_image_file: 13_00.svg
 tags: [features]
-title: layer numbers.cad
+title: layer-numbers.cad
 
 ---

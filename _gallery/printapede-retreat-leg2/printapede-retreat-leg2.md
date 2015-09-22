@@ -1,5 +1,5 @@
 ---
-cad_file: printapede retreat leg2.cad
+cad_file: printapede-retreat-leg2.cad
 category: Parts.Legs.2DOFLegs
 description: This is a leg design, which is meant to be attached to the body of a
   robot.  It is a 2-dof mechanism, so requires inputs from two motors.  Operation
@@ -113,21 +113,21 @@ operations:
 - cut_files: [cut-dummy1.svg, cut-dummy2.svg]
   description: This is a fake operation description.  I am not about to make a separate
     description for each op, but the description might be about this long.
-  name: bottom joints(PlaceOp)
+  name: bottom joints(External Transform)
   outputs: []
   png_image_file: 15_00.png
   svg_image_file: 15_00.svg
 - cut_files: [cut-dummy1.svg, cut-dummy2.svg]
   description: This is a fake operation description.  I am not about to make a separate
     description for each op, but the description might be about this long.
-  name: bottom joint mod(PlaceOp)
+  name: bottom joint mod(External Transform)
   outputs: []
   png_image_file: 16_00.png
   svg_image_file: 16_00.svg
 - cut_files: [cut-dummy1.svg, cut-dummy2.svg]
   description: This is a fake operation description.  I am not about to make a separate
     description for each op, but the description might be about this long.
-  name: top joints(PlaceOp)
+  name: top joints(External Transform)
   outputs: []
   png_image_file: 17_00.png
   svg_image_file: 17_00.svg
@@ -356,6 +356,6 @@ operations:
 png_image_file: 27_00.png
 svg_image_file: 27_00.svg
 tags: [devices,parts,legs,2dof_legs]
-title: printapede retreat leg2.cad
+title: printapede-retreat-leg2.cad
 
 ---

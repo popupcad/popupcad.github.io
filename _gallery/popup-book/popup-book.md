@@ -87,14 +87,14 @@ operations:
 - cut_files: [cut-dummy1.svg, cut-dummy2.svg]
   description: This is a fake operation description.  I am not about to make a separate
     description for each op, but the description might be about this long.
-  name: LaminateOp
+  name: unmodified popup book(LaminateOp)
   outputs: []
   png_image_file: 07_00.png
   svg_image_file: 07_00.svg
 - cut_files: [cut-dummy1.svg, cut-dummy2.svg]
   description: This is a fake operation description.  I am not about to make a separate
     description for each op, but the description might be about this long.
-  name: SketchOp
+  name: scorpion(SketchOp)
   outputs: []
   png_image_file: 08_00.png
   svg_image_file: 08_00.svg

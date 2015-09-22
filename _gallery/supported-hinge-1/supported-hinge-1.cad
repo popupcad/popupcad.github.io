@@ -2,7 +2,7 @@
 _basename: supported_hinge_1.cad
 _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
   layers:
-  - &id005 !!python/object:popupcad.filetypes.material2.Material2
+  - &id004 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: &id002 !!python/tuple [0.2, 0.2, 0.2, 0.2]
@@ -26,7 +26,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: adhesive
     poisson: 0.5
     thickness: 0.025
-  - &id004 !!python/object:popupcad.filetypes.material2.Material2
+  - &id007 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: !!python/tuple [1.0, 1.0, 0.0, 0.2]
@@ -38,7 +38,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: flexible
     poisson: 0.5
     thickness: 0.025
-  - &id006 !!python/object:popupcad.filetypes.material2.Material2
+  - &id005 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -50,7 +50,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: adhesive
     poisson: 0.5
     thickness: 0.025
-  - &id007 !!python/object:popupcad.filetypes.material2.Material2
+  - &id006 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id002
@@ -64,14 +64,14 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     thickness: 0.025
   zvalue:
     *id003: 0.025
-    *id004: 0.05
-    *id005: 0.0
-    *id006: 0.07500000000000001
-    *id007: 0.1
+    *id004: 0.0
+    *id005: 0.07500000000000001
+    *id006: 0.1
+    *id007: 0.05
 dirname: C:/Users/danaukes/popupCAD_files/designs/hinges
 id: 234507456
 operations:
-- !!python/object:popupcad.manufacturing.placeop8.PlaceOperation8
+- !!python/object:popupcad.manufacturing.transform_external.TransformExternal
   _description: ''
   customname: ''
   design_links:
@@ -84,11 +84,12 @@ operations:
   scaley: 1.0
   shift: 0
   sketch_links:
-    place: [234489112]
+    sketch_to: [234489112]
+  sub_sketch_id: 219700024
   subopref: !!python/tuple [222024704, 0]
   transformtype_x: custom
   transformtype_y: custom
-- !!python/object:popupcad.manufacturing.placeop8.PlaceOperation8
+- !!python/object:popupcad.manufacturing.transform_external.TransformExternal
   _description: ''
   customname: ''
   design_links:
@@ -101,7 +102,8 @@ operations:
   scaley: -1.0
   shift: 0
   sketch_links:
-    place: [234489112]
+    sketch_to: [234489112]
+  sub_sketch_id: 219700024
   subopref: !!python/tuple [222024704, 0]
   transformtype_x: custom
   transformtype_y: custom
@@ -190,7 +192,7 @@ operations:
     - !!python/tuple [237665976, 0]
   sketch_links: {}
 parent_program_name: popupCAD
-parent_program_version: 2015.08.31
+parent_program_version: 2015.09.22
 sketches:
   234489112: !!python/object:popupcad.filetypes.sketch.Sketch
     _basename: LocateLine
@@ -268,7 +270,7 @@ subdesigns:
     _basename: supported_hinge_half1.cad
     _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
       layers:
-      - &id012 !!python/object:popupcad.filetypes.material2.Material2
+      - &id011 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: &id009 !!python/tuple [0.2, 0.2, 0.2, 0.2]
@@ -280,7 +282,7 @@ subdesigns:
         name: rigid
         poisson: 0.5
         thickness: 0.025
-      - &id011 !!python/object:popupcad.filetypes.material2.Material2
+      - &id013 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: &id008 !!python/tuple [0.68359375, 0.31640625, 0.31640625, 0.2]
@@ -292,7 +294,7 @@ subdesigns:
         name: adhesive
         poisson: 0.5
         thickness: 0.025
-      - &id014 !!python/object:popupcad.filetypes.material2.Material2
+      - &id010 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: !!python/tuple [1.0, 1.0, 0.0, 0.2]
@@ -304,7 +306,7 @@ subdesigns:
         name: flexible
         poisson: 0.5
         thickness: 0.025
-      - &id010 !!python/object:popupcad.filetypes.material2.Material2
+      - &id012 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: *id008
@@ -316,7 +318,7 @@ subdesigns:
         name: adhesive
         poisson: 0.5
         thickness: 0.025
-      - &id013 !!python/object:popupcad.filetypes.material2.Material2
+      - &id014 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: *id009
@@ -329,11 +331,11 @@ subdesigns:
         poisson: 0.5
         thickness: 0.025
       zvalue:
-        *id010: 0.07500000000000001
-        *id011: 0.025
-        *id012: 0.0
-        *id013: 0.1
-        *id014: 0.05
+        *id010: 0.05
+        *id011: 0.0
+        *id012: 0.07500000000000001
+        *id013: 0.025
+        *id014: 0.1
     dirname: C:/Users/danaukes/popupCAD_files/designs/hinges
     id: 140662488
     operations:

@@ -2,7 +2,7 @@
 _basename: full bee big hinges3.cad
 _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
   layers:
-  - &id012 !!python/object:popupcad.filetypes.material2.Material2
+  - &id013 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: &id002 !!python/tuple [0.2, 0.2, 0.2, 0.2]
@@ -14,7 +14,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Carbon(0-90-0)
     poisson: 0.5
     thickness: 0.025
-  - &id006 !!python/object:popupcad.filetypes.material2.Material2
+  - &id005 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: &id001 !!python/tuple [0.68359375, 0.31640625, 0.31640625, 0.2]
@@ -26,7 +26,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Pyralux
     poisson: 0.5
     thickness: 0.025
-  - &id009 !!python/object:popupcad.filetypes.material2.Material2
+  - &id010 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: &id003 !!python/tuple [1.0, 1.0, 0.0, 0.2]
@@ -38,7 +38,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Kapton
     poisson: 0.5
     thickness: 0.025
-  - &id013 !!python/object:popupcad.filetypes.material2.Material2
+  - &id012 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -50,7 +50,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Pyralux
     poisson: 0.5
     thickness: 0.025
-  - &id014 !!python/object:popupcad.filetypes.material2.Material2
+  - &id011 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id002
@@ -62,7 +62,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Carbon(0-90-0)
     poisson: 0.5
     thickness: 0.025
-  - &id005 !!python/object:popupcad.filetypes.material2.Material2
+  - &id014 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -74,7 +74,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Pyralux
     poisson: 0.5
     thickness: 0.025
-  - &id011 !!python/object:popupcad.filetypes.material2.Material2
+  - &id004 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id002
@@ -86,7 +86,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Carbon(0-90-0)
     poisson: 0.5
     thickness: 0.025
-  - &id007 !!python/object:popupcad.filetypes.material2.Material2
+  - &id006 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -98,7 +98,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Pyralux
     poisson: 0.5
     thickness: 0.025
-  - &id010 !!python/object:popupcad.filetypes.material2.Material2
+  - &id009 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id003
@@ -110,7 +110,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Kapton
     poisson: 0.5
     thickness: 0.025
-  - &id004 !!python/object:popupcad.filetypes.material2.Material2
+  - &id008 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -122,7 +122,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Pyralux
     poisson: 0.5
     thickness: 0.025
-  - &id008 !!python/object:popupcad.filetypes.material2.Material2
+  - &id007 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id002
@@ -135,21 +135,21 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     poisson: 0.5
     thickness: 0.025
   zvalue:
-    *id004: 0.22499999999999998
-    *id005: 0.125
-    *id006: 0.025
-    *id007: 0.175
-    *id008: 0.24999999999999997
-    *id009: 0.05
-    *id010: 0.19999999999999998
-    *id011: 0.15
-    *id012: 0.0
-    *id013: 0.07500000000000001
-    *id014: 0.1
+    *id004: 0.15
+    *id005: 0.025
+    *id006: 0.175
+    *id007: 0.24999999999999997
+    *id008: 0.22499999999999998
+    *id009: 0.19999999999999998
+    *id010: 0.05
+    *id011: 0.1
+    *id012: 0.07500000000000001
+    *id013: 0.0
+    *id014: 0.125
 dirname: C:/Users/danaukes/popupCAD_files/designs/bee business card
 id: 590217288
 operations:
-- !!python/object:popupcad.manufacturing.placeop8.PlaceOperation8
+- !!python/object:popupcad.manufacturing.transform_external.TransformExternal
   _description: ''
   customname: ''
   design_links:
@@ -162,11 +162,12 @@ operations:
   scaley: 1.0
   shift: 0
   sketch_links:
-    place: [646241360]
+    sketch_to: [646241360]
+  sub_sketch_id: 592781832
   subopref: !!python/tuple [359880912, 0]
   transformtype_x: scale
   transformtype_y: scale
-- !!python/object:popupcad.manufacturing.placeop8.PlaceOperation8
+- !!python/object:popupcad.manufacturing.transform_external.TransformExternal
   _description: ''
   customname: ''
   design_links:
@@ -179,7 +180,8 @@ operations:
   scaley: 1.0
   shift: 6
   sketch_links:
-    place: [646241360]
+    sketch_to: [646241360]
+  sub_sketch_id: 592781832
   subopref: !!python/tuple [589782096, 0]
   transformtype_x: scale
   transformtype_y: scale
@@ -316,7 +318,7 @@ operations:
   operation_links: {}
   sketch_links:
     sketch: [639876736]
-- !!python/object:popupcad.manufacturing.placeop8.PlaceOperation8
+- !!python/object:popupcad.manufacturing.transform_external.TransformExternal
   _description: ''
   customname: ''
   design_links:
@@ -329,7 +331,8 @@ operations:
   scaley: 1.0
   shift: 0
   sketch_links:
-    place: [540464128]
+    sketch_to: [540464128]
+  sub_sketch_id: 2803787088
   subopref: !!python/tuple [1481724536, 0]
   transformtype_x: scale
   transformtype_y: scale
@@ -388,7 +391,7 @@ operations:
     - !!python/tuple [594476112, 1]
   sketch_links: {}
 parent_program_name: popupCAD
-parent_program_version: 2015.08.31
+parent_program_version: 2015.09.22
 sketches:
   540464128: !!python/object:popupcad.filetypes.sketch.Sketch
     _basename: 540464128.sketch
@@ -669,7 +672,7 @@ subdesigns:
     _basename: bigbee3.cad
     _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
       layers:
-      - &id019 !!python/object:popupcad.filetypes.material2.Material2
+      - &id015 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: *id002
@@ -681,7 +684,7 @@ subdesigns:
         name: Carbon(0-90-0)
         poisson: 0.5
         thickness: 0.025
-      - &id016 !!python/object:popupcad.filetypes.material2.Material2
+      - &id017 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: *id001
@@ -693,7 +696,7 @@ subdesigns:
         name: Pyralux
         poisson: 0.5
         thickness: 0.025
-      - &id018 !!python/object:popupcad.filetypes.material2.Material2
+      - &id019 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: *id003
@@ -705,7 +708,7 @@ subdesigns:
         name: Kapton
         poisson: 0.5
         thickness: 0.025
-      - &id015 !!python/object:popupcad.filetypes.material2.Material2
+      - &id016 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: *id001
@@ -717,7 +720,7 @@ subdesigns:
         name: Pyralux
         poisson: 0.5
         thickness: 0.025
-      - &id017 !!python/object:popupcad.filetypes.material2.Material2
+      - &id018 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: *id002
@@ -730,11 +733,11 @@ subdesigns:
         poisson: 0.5
         thickness: 0.025
       zvalue:
-        *id015: 0.07500000000000001
-        *id016: 0.025
-        *id017: 0.1
-        *id018: 0.05
-        *id019: 0.0
+        *id015: 0.0
+        *id016: 0.07500000000000001
+        *id017: 0.025
+        *id018: 0.1
+        *id019: 0.05
     dirname: C:/Users/danaukes/popupCAD_files/designs/bee business card
     id: 338522968
     operations:
@@ -814,7 +817,7 @@ subdesigns:
         - !!python/tuple [550740152, 0]
       sketch_links: {}
       values: [0.109, 4.0]
-    - !!python/object:popupcad.manufacturing.placeop8.PlaceOperation8
+    - !!python/object:popupcad.manufacturing.transform_external.TransformExternal
       _description: ''
       customname: Bottom Hinge Removal
       design_links:
@@ -827,7 +830,8 @@ subdesigns:
       scaley: 0.5
       shift: 0
       sketch_links:
-        place: [358697728]
+        sketch_to: [358697728]
+      sub_sketch_id: 356841736
       subopref: !!python/tuple [547197616, 0]
       transformtype_x: scale
       transformtype_y: custom
@@ -868,7 +872,7 @@ subdesigns:
         - !!python/tuple [576564024, 0]
         - !!python/tuple [358547184, 0]
       sketch_links: {}
-    - !!python/object:popupcad.manufacturing.placeop8.PlaceOperation8
+    - !!python/object:popupcad.manufacturing.transform_external.TransformExternal
       _description: ''
       customname: Bottom Hinges
       design_links:
@@ -881,7 +885,8 @@ subdesigns:
       scaley: 0.5
       shift: 0
       sketch_links:
-        place: [358697728]
+        sketch_to: [358697728]
+      sub_sketch_id: 356841736
       subopref: !!python/tuple [357613072, 0]
       transformtype_x: scale
       transformtype_y: custom
@@ -920,7 +925,7 @@ subdesigns:
         - !!python/tuple [576390200, 0]
       sketch_links: {}
       values: [0.109, 4.0]
-    - !!python/object:popupcad.manufacturing.placeop8.PlaceOperation8
+    - !!python/object:popupcad.manufacturing.transform_external.TransformExternal
       _description: ''
       customname: top hinge removal
       design_links:
@@ -933,7 +938,8 @@ subdesigns:
       scaley: 0.5
       shift: 0
       sketch_links:
-        place: [2188192320]
+        sketch_to: [2188192320]
+      sub_sketch_id: 356841736
       subopref: !!python/tuple [547197616, 0]
       transformtype_x: scale
       transformtype_y: custom
@@ -974,7 +980,7 @@ subdesigns:
         - !!python/tuple [576562512, 0]
         - !!python/tuple [358547184, 0]
       sketch_links: {}
-    - !!python/object:popupcad.manufacturing.placeop8.PlaceOperation8
+    - !!python/object:popupcad.manufacturing.transform_external.TransformExternal
       _description: ''
       customname: top hinges
       design_links:
@@ -987,7 +993,8 @@ subdesigns:
       scaley: 0.5
       shift: 0
       sketch_links:
-        place: [2188192320]
+        sketch_to: [2188192320]
+      sub_sketch_id: 356841736
       subopref: !!python/tuple [357613072, 0]
       transformtype_x: scale
       transformtype_y: custom
@@ -2779,7 +2786,7 @@ subdesigns:
         dirname: C:/Users/danaukes/popupCAD_files/designs/hinges
         id: 354442936
         operations:
-        - !!python/object:popupcad.manufacturing.placeop8.PlaceOperation8
+        - !!python/object:popupcad.manufacturing.transform_external.TransformExternal
           _description: ''
           customname: ''
           design_links:
@@ -2792,11 +2799,12 @@ subdesigns:
           scaley: 1.0
           shift: 0
           sketch_links:
-            place: [354512512]
+            sketch_to: [354512512]
+          sub_sketch_id: 354510384
           subopref: !!python/tuple [341048064, 0]
           transformtype_x: custom
           transformtype_y: custom
-        - !!python/object:popupcad.manufacturing.placeop8.PlaceOperation8
+        - !!python/object:popupcad.manufacturing.transform_external.TransformExternal
           _description: ''
           customname: ''
           design_links:
@@ -2809,7 +2817,8 @@ subdesigns:
           scaley: -1.0
           shift: 0
           sketch_links:
-            place: [354512512]
+            sketch_to: [354512512]
+          sub_sketch_id: 354510384
           subopref: !!python/tuple [341048064, 0]
           transformtype_x: custom
           transformtype_y: custom
@@ -3060,7 +3069,7 @@ subdesigns:
             _basename: supported_half.cad
             _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
               layers:
-              - &id026 !!python/object:popupcad.filetypes.material2.Material2
+              - &id029 !!python/object:popupcad.filetypes.material2.Material2
                 E1: 1
                 E2: 1
                 color: *id002
@@ -3072,7 +3081,7 @@ subdesigns:
                 name: Carbon(0-90-0)
                 poisson: 0.5
                 thickness: 0.025
-              - &id028 !!python/object:popupcad.filetypes.material2.Material2
+              - &id026 !!python/object:popupcad.filetypes.material2.Material2
                 E1: 1
                 E2: 1
                 color: *id001
@@ -3084,7 +3093,7 @@ subdesigns:
                 name: Pyralux
                 poisson: 0.5
                 thickness: 0.025
-              - &id025 !!python/object:popupcad.filetypes.material2.Material2
+              - &id028 !!python/object:popupcad.filetypes.material2.Material2
                 E1: 1
                 E2: 1
                 color: *id003
@@ -3096,7 +3105,7 @@ subdesigns:
                 name: Kapton
                 poisson: 0.5
                 thickness: 0.025
-              - &id027 !!python/object:popupcad.filetypes.material2.Material2
+              - &id025 !!python/object:popupcad.filetypes.material2.Material2
                 E1: 1
                 E2: 1
                 color: *id001
@@ -3108,7 +3117,7 @@ subdesigns:
                 name: Pyralux
                 poisson: 0.5
                 thickness: 0.025
-              - &id029 !!python/object:popupcad.filetypes.material2.Material2
+              - &id027 !!python/object:popupcad.filetypes.material2.Material2
                 E1: 1
                 E2: 1
                 color: *id002
@@ -3121,11 +3130,11 @@ subdesigns:
                 poisson: 0.5
                 thickness: 0.025
               zvalue:
-                *id025: 0.05
-                *id026: 0.0
-                *id027: 0.07500000000000001
-                *id028: 0.025
-                *id029: 0.1
+                *id025: 0.07500000000000001
+                *id026: 0.025
+                *id027: 0.1
+                *id028: 0.05
+                *id029: 0.0
             dirname: C:/Users/danaukes/popupCAD_files/designs/hinges
             id: 338535312
             operations:
@@ -3373,7 +3382,7 @@ subdesigns:
         dirname: C:/Users/danaukes/popupCAD_files/designs/hinges
         id: 519226256
         operations:
-        - !!python/object:popupcad.manufacturing.placeop8.PlaceOperation8
+        - !!python/object:popupcad.manufacturing.transform_external.TransformExternal
           _description: ''
           customname: ''
           design_links:
@@ -3386,11 +3395,12 @@ subdesigns:
           scaley: 1.0
           shift: 0
           sketch_links:
-            place: [424860976]
+            sketch_to: [424860976]
+          sub_sketch_id: 519225808
           subopref: !!python/tuple [462487168, 0]
           transformtype_x: custom
           transformtype_y: custom
-        - !!python/object:popupcad.manufacturing.placeop8.PlaceOperation8
+        - !!python/object:popupcad.manufacturing.transform_external.TransformExternal
           _description: ''
           customname: ''
           design_links:
@@ -3403,7 +3413,8 @@ subdesigns:
           scaley: -1.0
           shift: 0
           sketch_links:
-            place: [424860976]
+            sketch_to: [424860976]
+          sub_sketch_id: 519225808
           subopref: !!python/tuple [462487168, 0]
           transformtype_x: custom
           transformtype_y: custom
@@ -3569,7 +3580,7 @@ subdesigns:
             _basename: castellated_3_pcmems_half.cad
             _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
               layers:
-              - &id037 !!python/object:popupcad.filetypes.material2.Material2
+              - &id036 !!python/object:popupcad.filetypes.material2.Material2
                 E1: 1
                 E2: 1
                 color: *id002
@@ -3581,7 +3592,7 @@ subdesigns:
                 name: Carbon(0-90-0)
                 poisson: 0.5
                 thickness: 0.025
-              - &id039 !!python/object:popupcad.filetypes.material2.Material2
+              - &id038 !!python/object:popupcad.filetypes.material2.Material2
                 E1: 1
                 E2: 1
                 color: *id001
@@ -3593,7 +3604,7 @@ subdesigns:
                 name: Pyralux
                 poisson: 0.5
                 thickness: 0.025
-              - &id036 !!python/object:popupcad.filetypes.material2.Material2
+              - &id035 !!python/object:popupcad.filetypes.material2.Material2
                 E1: 1
                 E2: 1
                 color: *id003
@@ -3605,7 +3616,7 @@ subdesigns:
                 name: Kapton
                 poisson: 0.5
                 thickness: 0.025
-              - &id038 !!python/object:popupcad.filetypes.material2.Material2
+              - &id037 !!python/object:popupcad.filetypes.material2.Material2
                 E1: 1
                 E2: 1
                 color: *id001
@@ -3617,7 +3628,7 @@ subdesigns:
                 name: Pyralux
                 poisson: 0.5
                 thickness: 0.025
-              - &id035 !!python/object:popupcad.filetypes.material2.Material2
+              - &id039 !!python/object:popupcad.filetypes.material2.Material2
                 E1: 1
                 E2: 1
                 color: *id002
@@ -3630,11 +3641,11 @@ subdesigns:
                 poisson: 0.5
                 thickness: 0.025
               zvalue:
-                *id035: 0.1
-                *id036: 0.05
-                *id037: 0.0
-                *id038: 0.07500000000000001
-                *id039: 0.025
+                *id035: 0.05
+                *id036: 0.0
+                *id037: 0.07500000000000001
+                *id038: 0.025
+                *id039: 0.1
             dirname: C:/Users/danaukes/popupCAD_files/designs/hinges
             id: 353195960
             operations:
@@ -3783,7 +3794,7 @@ subdesigns:
     _basename: twolaminatenumbers.cad
     _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
       layers:
-      - &id050 !!python/object:popupcad.filetypes.material2.Material2
+      - &id047 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: *id002
@@ -3795,7 +3806,7 @@ subdesigns:
         name: Carbon(0-90-0)
         poisson: 0.5
         thickness: 0.025
-      - &id042 !!python/object:popupcad.filetypes.material2.Material2
+      - &id050 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: *id001
@@ -3807,7 +3818,7 @@ subdesigns:
         name: Pyralux
         poisson: 0.5
         thickness: 0.025
-      - &id044 !!python/object:popupcad.filetypes.material2.Material2
+      - &id041 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: *id003
@@ -3819,7 +3830,7 @@ subdesigns:
         name: Kapton
         poisson: 0.5
         thickness: 0.025
-      - &id046 !!python/object:popupcad.filetypes.material2.Material2
+      - &id044 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: *id001
@@ -3831,7 +3842,7 @@ subdesigns:
         name: Pyralux
         poisson: 0.5
         thickness: 0.025
-      - &id049 !!python/object:popupcad.filetypes.material2.Material2
+      - &id046 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: *id002
@@ -3843,7 +3854,7 @@ subdesigns:
         name: Carbon(0-90-0)
         poisson: 0.5
         thickness: 0.025
-      - &id040 !!python/object:popupcad.filetypes.material2.Material2
+      - &id048 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: *id001
@@ -3855,7 +3866,7 @@ subdesigns:
         name: Pyralux
         poisson: 0.5
         thickness: 0.025
-      - &id043 !!python/object:popupcad.filetypes.material2.Material2
+      - &id040 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: *id002
@@ -3867,7 +3878,7 @@ subdesigns:
         name: Carbon(0-90-0)
         poisson: 0.5
         thickness: 0.025
-      - &id045 !!python/object:popupcad.filetypes.material2.Material2
+      - &id043 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: *id001
@@ -3879,7 +3890,7 @@ subdesigns:
         name: Pyralux
         poisson: 0.5
         thickness: 0.025
-      - &id047 !!python/object:popupcad.filetypes.material2.Material2
+      - &id045 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: *id003
@@ -3891,7 +3902,7 @@ subdesigns:
         name: Kapton
         poisson: 0.5
         thickness: 0.025
-      - &id048 !!python/object:popupcad.filetypes.material2.Material2
+      - &id042 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: *id001
@@ -3903,7 +3914,7 @@ subdesigns:
         name: Pyralux
         poisson: 0.5
         thickness: 0.025
-      - &id041 !!python/object:popupcad.filetypes.material2.Material2
+      - &id049 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: *id002
@@ -3916,21 +3927,21 @@ subdesigns:
         poisson: 0.5
         thickness: 0.025
       zvalue:
-        *id040: 0.125
-        *id041: 0.24999999999999997
-        *id042: 0.025
-        *id043: 0.15
-        *id044: 0.05
-        *id045: 0.175
-        *id046: 0.07500000000000001
-        *id047: 0.19999999999999998
-        *id048: 0.22499999999999998
-        *id049: 0.1
-        *id050: 0.0
+        *id040: 0.15
+        *id041: 0.05
+        *id042: 0.22499999999999998
+        *id043: 0.175
+        *id044: 0.07500000000000001
+        *id045: 0.19999999999999998
+        *id046: 0.1
+        *id047: 0.0
+        *id048: 0.125
+        *id049: 0.24999999999999997
+        *id050: 0.025
     dirname: C:/Users/danaukes/popupCAD_files/designs/layer numbering
     id: 1823746536
     operations:
-    - !!python/object:popupcad.manufacturing.placeop8.PlaceOperation8
+    - !!python/object:popupcad.manufacturing.transform_external.TransformExternal
       _description: ''
       customname: ''
       design_links:
@@ -3943,11 +3954,12 @@ subdesigns:
       scaley: 1.0
       shift: 0
       sketch_links:
-        place: [1219255656]
+        sketch_to: [1219255656]
+      sub_sketch_id: 977105080
       subopref: !!python/tuple [2400065520, 0]
       transformtype_x: custom
       transformtype_y: custom
-    - !!python/object:popupcad.manufacturing.placeop8.PlaceOperation8
+    - !!python/object:popupcad.manufacturing.transform_external.TransformExternal
       _description: ''
       customname: ''
       design_links:
@@ -3960,11 +3972,12 @@ subdesigns:
       scaley: 1.0
       shift: 5
       sketch_links:
-        place: [2400150976]
+        sketch_to: [2400150976]
+      sub_sketch_id: 977105080
       subopref: !!python/tuple [2400065520, 0]
       transformtype_x: custom
       transformtype_y: custom
-    - !!python/object:popupcad.manufacturing.placeop8.PlaceOperation8
+    - !!python/object:popupcad.manufacturing.transform_external.TransformExternal
       _description: ''
       customname: ''
       design_links:
@@ -3977,7 +3990,8 @@ subdesigns:
       scaley: 1.0
       shift: 10
       sketch_links:
-        place: [2304946920]
+        sketch_to: [2304946920]
+      sub_sketch_id: 977105080
       subopref: !!python/tuple [2400065520, 0]
       transformtype_x: custom
       transformtype_y: custom

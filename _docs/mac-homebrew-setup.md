@@ -1,5 +1,5 @@
 ---
-title: Mac Setup
+title: Mac Homebrew Setup
 ---
 
 Disable Mac security for apps.
@@ -13,7 +13,7 @@ Download and install X-Code from the [app store](<https://developer.apple.com/xc
 
 Download and install homebrew, and add library paths to system variables:
 
-{% highlight bash linenos%}
+{% highlight bash %}
 # download ruby install script
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
@@ -30,7 +30,7 @@ source ~/.bash_profile
 
 Brew some packages:
 
-{% highlight bash linenos%}
+{% highlight bash %}
 brew install gcc
 brew install geos
 brew install python3
@@ -51,29 +51,7 @@ sudo pip3 install cx_freeze pip pyopengl pyqtgraph pyyaml setuptools shapely spy
 #pip3 install cx_freeze numpy scipy
 {% endhighlight %}
 
-Setup Git(if you haven't already), using your own name and email:
-
-{% highlight bash linenos %}
-git config --global user.name "LastName, Firstname"
-git config --global user.email "email@address.com"
-{% endhighlight %}
-
-Check out the popupCAD git repository
-
-{% highlight bash %}
-cd ~
-git clone {{site.popupcad_source_path}}.git
-cd ~/popupcad/
-git checkout master
-git pull
-{% endhighlight %}
-
-Add popupcad directory to PYTHONPATH:
-
-{% highlight bash linenos %}
-echo "export PYTHONPATH=\$PYTHONPATH:~/popupcad" >> ~/.bash_profile
-source ~/.bash_profile
-{% endhighlight %}
+[Download and Install popupcad]({{site.baseurl}}/docs/mac-popupcad-download)
 
 Run popupCAD
 

@@ -9,7 +9,9 @@
     - download
     - windows-setup-source
     - linux-setup
-    - mac-setup
+    - mac-popupcad-download
+    - mac-homebrew-setup
+    - mac-anaconda-setup
     - compiling-the-installer
     - custom-materials-in-popupcad
 - title: Making Devices
@@ -19,7 +21,7 @@
     - basic-origami-elements
     - materials
     - tools-and-equipment
-    - us-maker-spaces
+    - us-maker-spaces0
     - vinyl-cutter-settings
 - title: Coding with popupCAD
   items:
@@ -27,7 +29,7 @@
     - the-full-api
 - title: Miscellaneous
   items:
-    - mac-uninstall
+    - mac-homebrew-uninstall
     - deprecated-mode
     - popupcad-gazebo-install
     - popupcad-and-the-anaconda-distribution

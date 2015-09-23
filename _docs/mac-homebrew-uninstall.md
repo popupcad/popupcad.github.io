@@ -36,7 +36,6 @@ remove popupcad git repository
 rm -rf ~/popupcad/
 #if you want to remove the popupcad files directory:
 #rm -rf ~/popupcad_files/
-{% endhighlight %}
 brew uninstall pyside python3 openssl mpfr qt readline shiboken sqlite xz libmpc isl gmp geos gdbm gcc cmake cloog gcc gdbm geos gmp isl libmpc mpfr openssl python3 readline sqlite xz
 cd
 nano .bash_profile

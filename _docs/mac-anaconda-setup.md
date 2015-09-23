@@ -19,7 +19,7 @@ yes | conda create -n popupcad_env python=3.3
 source activate popupcad_env
 yes | conda install -c https://conda.anaconda.org/asmeurer pyside-pyzo
 yes | conda install shapely pyopengl sympy scipy pyyaml lxml
-yes | pip install pyqtgraph pycollada ezdxf stl
+yes | pip install pyqtgraph pycollada ezdxf numpy-stl
 yes | conda uninstall qt
 {% endhighlight %}
 

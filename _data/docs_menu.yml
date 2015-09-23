@@ -10,10 +10,7 @@
     - windows-setup-source
     - linux-setup
     - mac-popupcad-download
-    - mac-homebrew-setup
     - mac-anaconda-setup
-    - compiling-the-installer
-    - custom-materials-in-popupcad
 - title: Making Devices
   items:
     - origami-inspired-design
@@ -29,7 +26,11 @@
     - the-full-api
 - title: Miscellaneous
   items:
+    - mac-homebrew-setup
     - mac-homebrew-uninstall
     - deprecated-mode
     - popupcad-gazebo-install
     - popupcad-and-the-anaconda-distribution
+    - compiling-the-installer
+    - custom-materials-in-popupcad
+    

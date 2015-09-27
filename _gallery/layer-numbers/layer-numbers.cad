@@ -2,7 +2,7 @@
 _basename: layer numbers.cad
 _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
   layers:
-  - &id007 !!python/object:popupcad.filetypes.material2.Material2
+  - &id003 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: &id001 !!python/tuple [0.5, 0.5, 0.5, 0.2]
@@ -14,7 +14,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id012 !!python/object:popupcad.filetypes.material2.Material2
+  - &id019 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -26,7 +26,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id014 !!python/object:popupcad.filetypes.material2.Material2
+  - &id008 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -38,7 +38,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id016 !!python/object:popupcad.filetypes.material2.Material2
+  - &id010 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -50,7 +50,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id017 !!python/object:popupcad.filetypes.material2.Material2
+  - &id014 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -62,7 +62,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id020 !!python/object:popupcad.filetypes.material2.Material2
+  - &id016 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -74,7 +74,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id002 !!python/object:popupcad.filetypes.material2.Material2
+  - &id017 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -86,7 +86,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id004 !!python/object:popupcad.filetypes.material2.Material2
+  - &id018 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -98,7 +98,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id006 !!python/object:popupcad.filetypes.material2.Material2
+  - &id021 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -110,7 +110,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id010 !!python/object:popupcad.filetypes.material2.Material2
+  - &id005 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -122,7 +122,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id011 !!python/object:popupcad.filetypes.material2.Material2
+  - &id015 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -134,7 +134,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id021 !!python/object:popupcad.filetypes.material2.Material2
+  - &id004 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -146,7 +146,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id015 !!python/object:popupcad.filetypes.material2.Material2
+  - &id020 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -158,7 +158,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id019 !!python/object:popupcad.filetypes.material2.Material2
+  - &id012 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -170,7 +170,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id008 !!python/object:popupcad.filetypes.material2.Material2
+  - &id006 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -182,7 +182,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id005 !!python/object:popupcad.filetypes.material2.Material2
+  - &id011 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -194,7 +194,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id003 !!python/object:popupcad.filetypes.material2.Material2
+  - &id013 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -206,7 +206,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id013 !!python/object:popupcad.filetypes.material2.Material2
+  - &id002 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -230,7 +230,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id018 !!python/object:popupcad.filetypes.material2.Material2
+  - &id007 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -243,26 +243,26 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     poisson: 0.5
     thickness: 0.025
   zvalue:
-    *id002: 0.15
-    *id003: 0.4000000000000001
-    *id004: 0.175
-    *id005: 0.37500000000000006
-    *id006: 0.19999999999999998
-    *id007: 0.0
-    *id008: 0.35000000000000003
+    *id002: 0.4250000000000001
+    *id003: 0.0
+    *id004: 0.27499999999999997
+    *id005: 0.22499999999999998
+    *id006: 0.35000000000000003
+    *id007: 0.47500000000000014
+    *id008: 0.05
     *id009: 0.4500000000000001
-    *id010: 0.22499999999999998
-    *id011: 0.24999999999999997
-    *id012: 0.025
-    *id013: 0.4250000000000001
-    *id014: 0.05
-    *id015: 0.3
-    *id016: 0.07500000000000001
-    *id017: 0.1
-    *id018: 0.47500000000000014
-    *id019: 0.325
-    *id020: 0.125
-    *id021: 0.27499999999999997
+    *id010: 0.07500000000000001
+    *id011: 0.37500000000000006
+    *id012: 0.325
+    *id013: 0.4000000000000001
+    *id014: 0.1
+    *id015: 0.24999999999999997
+    *id016: 0.125
+    *id017: 0.15
+    *id018: 0.175
+    *id019: 0.025
+    *id020: 0.3
+    *id021: 0.19999999999999998
 dirname: C:/Users/danaukes/popupCAD_files/designs/featues
 id: 334036328
 operations:
@@ -432,7 +432,7 @@ operations:
   sketch_links:
     sketch: [520465656]
 parent_program_name: popupCAD
-parent_program_version: 2015.09.22
+parent_program_version: 2015.09.27
 sketches:
   220776623: !!python/object:popupcad.filetypes.sketch.Sketch
     _basename: Layer 5

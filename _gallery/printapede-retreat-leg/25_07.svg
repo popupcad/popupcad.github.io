@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="315.807mm" height="696.524mm"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.2" baseProfile="tiny">
+<title>SVG Generator Example Drawing</title>
+<desc>An SVG drawing created by the SVG Generator</desc>
+<defs>
+</defs>
+<g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,-1,0,2468.15)"
+font-family="MS Shell Dlg 2" font-size="10.3125" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,-1,0,2468.15)"
+font-family="MS Shell Dlg 2" font-size="10.3125" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.999838,0,0,-0.999838,6217.67,-544.465)"
+font-family="MS Shell Dlg 2" font-size="10.3125" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ae5151" fill-opacity="0.2" stroke="#333333" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" transform="matrix(0.999838,0,0,-0.999838,6217.67,-544.465)"
+font-family="MS Shell Dlg 2" font-size="10.3125" font-weight="400" font-style="normal" 
+>
+<path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M-5249.99,-2453.74 L-5250.01,-2453.74 L-6217.98,-3012.6 L-6218.18,-3012.49 L-6218.18,-545.596 L-6218.04,-545.455 L-5100.14,-545.455 L-5100,-545.596 L-5100,-2402.72 L-5100.1,-2402.85 L-5249.99,-2453.74"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.999838,0,0,-0.999838,6217.67,-544.465)"
+font-family="MS Shell Dlg 2" font-size="10.3125" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,-1,0,2468.15)"
+font-family="MS Shell Dlg 2" font-size="10.3125" font-weight="400" font-style="normal" 
+>
+</g>
+</g>
+</svg>

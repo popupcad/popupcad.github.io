@@ -1,5 +1,5 @@
 ---
-title: Material Recipes
+title: Materials
 ---
 
 Products

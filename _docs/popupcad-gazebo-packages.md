@@ -23,6 +23,6 @@ pull the python3 branch of pygazebo
 {% highlight bash %}
 git clone https://github.com/virtuald/pygazebo.git
 cd pygazebo
-git branch py3
+git checkout py3
 sudo python3 setup.py install
 {% endhighlight %}

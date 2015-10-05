@@ -1,6 +1,18 @@
-- title: Basic Information
+- title: Contest Information
   items:
-    - introduction
+    - overview
+    - mentors
+    - checkpoints
+    - fabrication-grant-info
+    - final-submissions
+    - awards
+    - deadlines-and-dates
+    - judges
+    - evaluation-metrics
     - ways-to-participate
-    - important-dates
-    - judging-criteria
+- title: Forms
+  items:
+    - register
+    - register-mentor
+    - team-checkpoint
+    - fabrication-grant

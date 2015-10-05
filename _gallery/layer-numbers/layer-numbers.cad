@@ -2,7 +2,7 @@
 _basename: layer numbers.cad
 _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
   layers:
-  - &id010 !!python/object:popupcad.filetypes.material2.Material2
+  - &id003 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: &id001 !!python/tuple [0.5, 0.5, 0.5, 0.2]
@@ -14,7 +14,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id004 !!python/object:popupcad.filetypes.material2.Material2
+  - &id019 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -26,7 +26,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id013 !!python/object:popupcad.filetypes.material2.Material2
+  - &id008 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -38,7 +38,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id007 !!python/object:popupcad.filetypes.material2.Material2
+  - &id010 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -50,7 +50,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id016 !!python/object:popupcad.filetypes.material2.Material2
+  - &id014 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -62,7 +62,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id018 !!python/object:popupcad.filetypes.material2.Material2
+  - &id016 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -86,7 +86,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id021 !!python/object:popupcad.filetypes.material2.Material2
+  - &id018 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -98,7 +98,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id015 !!python/object:popupcad.filetypes.material2.Material2
+  - &id021 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -110,7 +110,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id008 !!python/object:popupcad.filetypes.material2.Material2
+  - &id005 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -122,7 +122,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id005 !!python/object:popupcad.filetypes.material2.Material2
+  - &id015 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -134,7 +134,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id012 !!python/object:popupcad.filetypes.material2.Material2
+  - &id004 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -158,7 +158,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id009 !!python/object:popupcad.filetypes.material2.Material2
+  - &id012 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -170,7 +170,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id003 !!python/object:popupcad.filetypes.material2.Material2
+  - &id006 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -182,7 +182,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id019 !!python/object:popupcad.filetypes.material2.Material2
+  - &id011 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -194,7 +194,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id002 !!python/object:popupcad.filetypes.material2.Material2
+  - &id013 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -206,7 +206,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id014 !!python/object:popupcad.filetypes.material2.Material2
+  - &id002 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -218,7 +218,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id011 !!python/object:popupcad.filetypes.material2.Material2
+  - &id009 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -230,7 +230,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id006 !!python/object:popupcad.filetypes.material2.Material2
+  - &id007 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -243,28 +243,27 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     poisson: 0.5
     thickness: 0.025
   zvalue:
-    *id002: 400.0
-    *id003: 350.0
-    *id004: 25.0
-    *id005: 250.0
-    *id006: 475.0
-    *id007: 75.0
-    *id008: 225.0
-    *id009: 325.0
-    *id010: 0.0
-    *id011: 450.0
-    *id012: 275.0
-    *id013: 50.0
-    *id014: 425.0
-    *id015: 200.0
-    *id016: 100.0
-    *id017: 150.0
-    *id018: 125.0
-    *id019: 375.0
-    *id020: 300.0
-    *id021: 175.0
-_main_operation: !!python/tuple [335463592, 0]
-dirname: C:\Users\danaukes\popupCAD_files\designs\featues
+    *id002: 0.4250000000000001
+    *id003: 0.0
+    *id004: 0.27499999999999997
+    *id005: 0.22499999999999998
+    *id006: 0.35000000000000003
+    *id007: 0.47500000000000014
+    *id008: 0.05
+    *id009: 0.4500000000000001
+    *id010: 0.07500000000000001
+    *id011: 0.37500000000000006
+    *id012: 0.325
+    *id013: 0.4000000000000001
+    *id014: 0.1
+    *id015: 0.24999999999999997
+    *id016: 0.125
+    *id017: 0.15
+    *id018: 0.175
+    *id019: 0.025
+    *id020: 0.3
+    *id021: 0.19999999999999998
+dirname: C:/Users/danaukes/popupCAD_files/designs/featues
 id: 334036328
 operations:
 - !!python/object:popupcad.manufacturing.simplesketchoperation.SimpleSketchOp
@@ -433,7 +432,7 @@ operations:
   sketch_links:
     sketch: [520465656]
 parent_program_name: popupCAD
-parent_program_version: 2015.07.14
+parent_program_version: 2015.09.27
 sketches:
   220776623: !!python/object:popupcad.filetypes.sketch.Sketch
     _basename: Layer 5
@@ -447,7 +446,7 @@ sketches:
       fontsize: 2
       id: 334214816
       pos: !!python/object:popupcad.geometry.vertex.BaseVertex
-        _pos: !!python/tuple [-13619.9811, -306.39153]
+        _position: !!python/tuple [-13.6199811, -0.30639153]
         id: 334214872
       text: Layer  5
   334214872: !!python/object:popupcad.filetypes.sketch.Sketch
@@ -462,7 +461,7 @@ sketches:
       fontsize: 2
       id: 334214816
       pos: !!python/object:popupcad.geometry.vertex.BaseVertex
-        _pos: !!python/tuple [-13619.9811, -306.39153]
+        _position: !!python/tuple [-13.6199811, -0.30639153]
         id: 334214872
       text: Layer  1
   369170021: !!python/object:popupcad.filetypes.sketch.Sketch
@@ -477,7 +476,7 @@ sketches:
       fontsize: 2
       id: 334214816
       pos: !!python/object:popupcad.geometry.vertex.BaseVertex
-        _pos: !!python/tuple [-13619.9811, -306.39153]
+        _position: !!python/tuple [-13.6199811, -0.30639153]
         id: 334214872
       text: Layer  4
   520465656: !!python/object:popupcad.filetypes.sketch.Sketch
@@ -503,13 +502,13 @@ sketches:
       _basename: 520465656.shape
       construction: false
       exterior:
-      - !ShapeVertex [520464368, -13469.69676, -2829.87752]
-      - !ShapeVertex [521393768, -2734.27868, -2829.87752]
+      - !ShapeVertex_1 [520464368, -13.46969676, -2.82987752]
+      - !ShapeVertex_1 [521393768, -2.73427868, -2.82987752]
       id: 520465656
       interiors: []
-    - !DrawnPoint [521394608, -10164.22788, -2829.87752, true]
-    - !DrawnPoint [523567176, -2734.27868, -2288.21018, true]
-    - !DrawnPoint [523568912, -13469.69676, -2256.09208, true]
+    - !DrawnPoint_1 [521394608, -10.16422788, -2.82987752, true]
+    - !DrawnPoint_1 [523567176, -2.73427868, -2.28821018, true]
+    - !DrawnPoint_1 [523568912, -13.46969676, -2.25609208, true]
   1346908959: !!python/object:popupcad.filetypes.sketch.Sketch
     _basename: Layer 2
     constraintsystem: !!python/object:popupcad.filetypes.constraints.ConstraintSystem
@@ -522,7 +521,7 @@ sketches:
       fontsize: 2
       id: 334214816
       pos: !!python/object:popupcad.geometry.vertex.BaseVertex
-        _pos: !!python/tuple [-13619.9811, -306.39153]
+        _position: !!python/tuple [-13.6199811, -0.30639153]
         id: 334214872
       text: Layer  2
   2207570597: !!python/object:popupcad.filetypes.sketch.Sketch
@@ -537,7 +536,7 @@ sketches:
       fontsize: 2
       id: 334214816
       pos: !!python/object:popupcad.geometry.vertex.BaseVertex
-        _pos: !!python/tuple [-13619.9811, -306.39153]
+        _position: !!python/tuple [-13.6199811, -0.30639153]
         id: 334214872
       text: Layer  9
   3623388836: !!python/object:popupcad.filetypes.sketch.Sketch
@@ -552,7 +551,7 @@ sketches:
       fontsize: 2
       id: 334214816
       pos: !!python/object:popupcad.geometry.vertex.BaseVertex
-        _pos: !!python/tuple [-13619.9811, -306.39153]
+        _position: !!python/tuple [-13.6199811, -0.30639153]
         id: 334214872
       text: '      1 '
   3669889787: !!python/object:popupcad.filetypes.sketch.Sketch
@@ -567,7 +566,7 @@ sketches:
       fontsize: 2
       id: 334214816
       pos: !!python/object:popupcad.geometry.vertex.BaseVertex
-        _pos: !!python/tuple [-13619.9811, -306.39153]
+        _position: !!python/tuple [-13.6199811, -0.30639153]
         id: 334214872
       text: Layer  8
   4237258411: !!python/object:popupcad.filetypes.sketch.Sketch
@@ -582,7 +581,7 @@ sketches:
       fontsize: 2
       id: 334214816
       pos: !!python/object:popupcad.geometry.vertex.BaseVertex
-        _pos: !!python/tuple [-13619.9811, -306.39153]
+        _position: !!python/tuple [-13.6199811, -0.30639153]
         id: 334214872
       text: Layer  3
   5981129914: !!python/object:popupcad.filetypes.sketch.Sketch
@@ -597,7 +596,7 @@ sketches:
       fontsize: 2
       id: 334214816
       pos: !!python/object:popupcad.geometry.vertex.BaseVertex
-        _pos: !!python/tuple [-13619.9811, -306.39153]
+        _position: !!python/tuple [-13.6199811, -0.30639153]
         id: 334214872
       text: Layer  7
   6600452632: !!python/object:popupcad.filetypes.sketch.Sketch
@@ -612,7 +611,7 @@ sketches:
       fontsize: 2
       id: 334214816
       pos: !!python/object:popupcad.geometry.vertex.BaseVertex
-        _pos: !!python/tuple [-13619.9811, -306.39153]
+        _position: !!python/tuple [-13.6199811, -0.30639153]
         id: 334214872
       text: '      0 '
   6666217487: !!python/object:popupcad.filetypes.sketch.Sketch
@@ -627,7 +626,7 @@ sketches:
       fontsize: 2
       id: 334214816
       pos: !!python/object:popupcad.geometry.vertex.BaseVertex
-        _pos: !!python/tuple [-13619.9811, -306.39153]
+        _position: !!python/tuple [-13.6199811, -0.30639153]
         id: 334214872
       text: '      2 '
   6998753346: !!python/object:popupcad.filetypes.sketch.Sketch
@@ -642,7 +641,7 @@ sketches:
       fontsize: 2
       id: 334214816
       pos: !!python/object:popupcad.geometry.vertex.BaseVertex
-        _pos: !!python/tuple [-13619.9811, -306.39153]
+        _position: !!python/tuple [-13.6199811, -0.30639153]
         id: 334214872
       text: Layer  6
   9609860151: !!python/object:popupcad.filetypes.sketch.Sketch
@@ -657,7 +656,7 @@ sketches:
       fontsize: 2
       id: 334214816
       pos: !!python/object:popupcad.geometry.vertex.BaseVertex
-        _pos: !!python/tuple [-13619.9811, -306.39153]
+        _position: !!python/tuple [-13.6199811, -0.30639153]
         id: 334214872
       text: Layer  0
 subdesigns: {}

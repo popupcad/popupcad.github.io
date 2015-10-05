@@ -4,9 +4,9 @@ title: Creating A Script
 
 Simple Script #1
 ================
-This is useful for accessing a certain shape's points in a sketch.
+This is useful for accessing a certain shape's points in a sketch.  Other example scripts can be found in the [source code]({{site.popupcad_source_path}}) in the "api_examples" directory
 
-{% highlight python %}
+{% highlight python3 linenos %}
 import sys
 import popupcad
 import PySide.QtGui as qg

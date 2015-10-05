@@ -8,27 +8,27 @@ operations:
 - cut_files: [cut-dummy1.svg, cut-dummy2.svg]
   description: This is a fake operation description.  I am not about to make a separate
     description for each op, but the description might be about this long.
-  name: PlacementOp
+  name: External Transform
   outputs: []
   png_image_file: 00_00.png
   svg_image_file: 00_00.svg
 - cut_files: [cut-dummy1.svg, cut-dummy2.svg]
   description: This is a fake operation description.  I am not about to make a separate
     description for each op, but the description might be about this long.
-  name: Buffer
+  name: Dilate/Erode
   outputs: []
   png_image_file: 01_00.png
   svg_image_file: 01_00.svg
 - cut_files: [cut-dummy1.svg, cut-dummy2.svg]
   description: This is a fake operation description.  I am not about to make a separate
     description for each op, but the description might be about this long.
-  name: Locate Operation
+  name: LocateOp
   outputs: []
   png_image_file: 02_00.png
   svg_image_file: 02_00.svg
 png_image_file: 01_00.png
 svg_image_file: 01_00.svg
-tags: [check_marks, misc]
+tags: [features]
 title: tenchecks.cad
 
 ---

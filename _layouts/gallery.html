@@ -9,11 +9,6 @@ THIS IS THE TEMPLATE for gallery collection items.
 ADJUST size of left image in the next <style>
 {% endcomment %}
 
-
-<style>
-  .imagebox img { width:100%;max-height:500px; overflow:hidden;}
-</style>
-
 {% capture h1bg %}#{{ page.h1bg }}{% endcapture %}
 {% capture h1color %}#{{ page.h1color }}{% endcapture %}
 <style media="screen" type="text/css">
@@ -48,12 +43,15 @@ ADJUST size of left image in the next <style>
 </div>
 
 <section>
-  <div class="third imagebox">
-    <img src="{{ page.png_image_file }}" />
+  <div class="third mainimage">
+    <img src="{{ page.svg_image_file }}" />
   </div>
   <div class="two-thirds omega">
-    <h6><strong>design description:</strong></h6>
-    <p>{{ page.description }}</p>
+  <h1>{{ page.title }}</h1>
+  <p>Download this <a href="{{page.cad_file}}">file</a></p>
+  
+<!--    <h6><strong>design description:</strong></h6>
+    <p>{{ page.description }}</p>-->
   </div>
 </section>
 {% for operation in page.operations %}
@@ -62,20 +60,26 @@ ADJUST size of left image in the next <style>
 
   <section>
     <div class="third imagebox operation">
-      <img src="{{operation.png_image_file}}" />
+      <img src="{{operation.svg_image_file}}" />
     </div>
     <div class="two-thirds omega">
 
-      <h2><strong>Operation {{ operation_number }} of {{ forloop.length }}</strong></h2>
+      <h2><strong>Operation {{ operation_number }}: {{ operation.name }} <!--of {{ forloop.length }}--></strong></h2>
 
-      <p><strong>operation file name:</strong> {{ operation.png_image_file }}</p>
+      <!-- 
+      <p><strong>operation file name:</strong> {{ operation.svg_image_file }}</p>
+      -->
+      <!--
       <p><strong>operation name:</strong> {{ operation.name }}</p>
-      <p><strong>operation description:</strong> {{ operation.description }}</p>
+      -->
+      <p><strong>operation description:</strong> <!--{{ operation.description }}--></p>
 
+      <!--
       <p><strong>operation cut files</strong>:
         {% for file in operation.cut_files %}
           <a href="{{ page.url }}{{ file }}">{{ file }}</a>,
-        {% endfor %}
+        {% endfor %}=
+      -->
       </p>
 
       {% if operation.outputs != empty %}
@@ -95,11 +99,11 @@ ADJUST size of left image in the next <style>
         <section class="output">
 
           <div class="third imagebox">
-            <img src="{{ page.url }}{{output.png_image_file}}"  />
+            <img src="{{ page.url }}{{output.svg_image_file}}"  />
           </div>
           <div class="two-thirds omega">
             <h2><strong>Operation: {{ operation_number}}</strong>, Output Step  {{ forloop.index }} of {{ forloop.length }}</h2>
-            <p><strong>output png_name:</strong> {{ output.png_image_file }}</p>
+            <p><strong>output svg_name:</strong> {{ output.svg_image_file }}</p>
             <p><strong>output name:</strong> {{ output.name }}</p>
             <p><strong>output description:</strong> {{ output.description }}</p>
             <p><strong>cut files</strong>:

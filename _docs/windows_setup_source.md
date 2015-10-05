@@ -79,3 +79,5 @@ when you download popupcad, it comes with the following packages:
 4.  Alternatively, just add popupCAD to your PYTHONPATH environment
     variable(see step 2, using PYTHONPATH instead of PATH) and
     run locally.
+
+    

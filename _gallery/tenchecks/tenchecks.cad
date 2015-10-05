@@ -26,7 +26,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Pyralux
     poisson: 0.5
     thickness: 0.025
-  - &id006 !!python/object:popupcad.filetypes.material2.Material2
+  - &id005 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: &id008 !!python/tuple [1.0, 1.0, 0.0, 0.2]
@@ -50,7 +50,7 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     name: Pyralux
     poisson: 0.5
     thickness: 0.025
-  - &id005 !!python/object:popupcad.filetypes.material2.Material2
+  - &id006 !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id002
@@ -63,16 +63,15 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     poisson: 0.5
     thickness: 0.025
   zvalue:
-    *id003: 75.0
-    *id004: 25.0
-    *id005: 100.0
-    *id006: 50.0
+    *id003: 0.07500000000000001
+    *id004: 0.025
+    *id005: 0.05
+    *id006: 0.1
     *id007: 0.0
-_main_operation: !!python/tuple [600562544, 0]
 dirname: C:/Users/danaukes/popupCAD_files/designs/featues
 id: 565916952
 operations:
-- !!python/object:popupcad.manufacturing.placeop8.PlaceOperation8
+- !!python/object:popupcad.manufacturing.transform_external.TransformExternal
   _description: ''
   customname: ''
   design_links:
@@ -85,7 +84,8 @@ operations:
   scaley: 1.0
   shift: 0
   sketch_links:
-    place: [637489448]
+    sketch_to: [637489448]
+  sub_sketch_id: 655369160
   subopref: !!python/tuple [636421512, 0]
   transformtype_x: scale
   transformtype_y: scale
@@ -111,7 +111,7 @@ operations:
   sketch_links:
     sketch: [600562768]
 parent_program_name: popupCAD
-parent_program_version: 2015.07.14
+parent_program_version: 2015.09.22
 sketches:
   600562768: !!python/object:popupcad.filetypes.sketch.Sketch
     _basename: 600562768.sketch
@@ -137,12 +137,12 @@ sketches:
       _basename: 600562768.shape
       construction: false
       exterior:
-      - !ShapeVertex [551917776, -13418.18182, 5712.2909]
-      - !ShapeVertex [655546632, 86581.81818, 5712.2909]
+      - !ShapeVertex_1 [551917776, -13.41818182, 5.7122909]
+      - !ShapeVertex_1 [655546632, 86.58181818, 5.7122909]
       id: 600562768
       interiors: []
-    - !DrawnPoint [655547472, -13418.18182, 5712.2909, true]
-    - !DrawnPoint [638279752, 81581.81818, 5712.2909, true]
+    - !DrawnPoint_1 [655547472, -13.41818182, 5.7122909, true]
+    - !DrawnPoint_1 [638279752, 81.58181818, 5.7122909, true]
   637489448: !!python/object:popupcad.filetypes.sketch.Sketch
     _basename: 637489448.sketch
     constraintsystem: !!python/object:popupcad.filetypes.constraints.ConstraintSystem
@@ -228,80 +228,80 @@ sketches:
       _basename: 637489448.shape
       construction: false
       exterior:
-      - !ShapeVertex [596120576, -13418.18182, 5712.2909]
-      - !ShapeVertex [596126016, -3418.18182, 5712.2909]
+      - !ShapeVertex_1 [596120576, -13.41818182, 5.7122909]
+      - !ShapeVertex_1 [596126016, -3.41818182, 5.7122909]
       id: 637489448
       interiors: []
     - !!python/object:popupcad.filetypes.genericshapes.GenericLine
       _basename: 596125792.shape
       construction: false
       exterior:
-      - !ShapeVertex [596125736, -3418.18182, 5712.2909]
-      - !ShapeVertex [637405392, 6581.81818, 5712.2909]
+      - !ShapeVertex_1 [596125736, -3.41818182, 5.7122909]
+      - !ShapeVertex_1 [637405392, 6.58181818, 5.7122909]
       id: 596125792
       interiors: []
     - !!python/object:popupcad.filetypes.genericshapes.GenericLine
       _basename: 637406848.shape
       construction: false
       exterior:
-      - !ShapeVertex [637405952, 6581.81818, 5712.2909]
-      - !ShapeVertex [637404944, 16581.81818, 5712.2909]
+      - !ShapeVertex_1 [637405952, 6.58181818, 5.7122909]
+      - !ShapeVertex_1 [637404944, 16.58181818, 5.7122909]
       id: 637406848
       interiors: []
     - !!python/object:popupcad.filetypes.genericshapes.GenericLine
       _basename: 637404608.shape
       construction: false
       exterior:
-      - !ShapeVertex [637403712, 16581.81818, 5712.2909]
-      - !ShapeVertex [637403432, 26581.81818, 5712.2909]
+      - !ShapeVertex_1 [637403712, 16.58181818, 5.7122909]
+      - !ShapeVertex_1 [637403432, 26.58181818, 5.7122909]
       id: 637404608
       interiors: []
     - !!python/object:popupcad.filetypes.genericshapes.GenericLine
       _basename: 637405784.shape
       construction: false
       exterior:
-      - !ShapeVertex [637407128, 26581.81818, 5712.2909]
-      - !ShapeVertex [655976320, 36581.81818, 5712.2909]
+      - !ShapeVertex_1 [637407128, 26.58181818, 5.7122909]
+      - !ShapeVertex_1 [655976320, 36.58181818, 5.7122909]
       id: 637405784
       interiors: []
     - !!python/object:popupcad.filetypes.genericshapes.GenericLine
       _basename: 655974696.shape
       construction: false
       exterior:
-      - !ShapeVertex [655976880, 36581.81818, 5712.2909]
-      - !ShapeVertex [655976768, 46581.81818, 5712.2909]
+      - !ShapeVertex_1 [655976880, 36.58181818, 5.7122909]
+      - !ShapeVertex_1 [655976768, 46.58181818, 5.7122909]
       id: 655974696
       interiors: []
     - !!python/object:popupcad.filetypes.genericshapes.GenericLine
       _basename: 555629032.shape
       construction: false
       exterior:
-      - !ShapeVertex [555628472, 46581.81818, 5712.2909]
-      - !ShapeVertex [552038016, 56581.81818, 5712.2909]
+      - !ShapeVertex_1 [555628472, 46.58181818, 5.7122909]
+      - !ShapeVertex_1 [552038016, 56.58181818, 5.7122909]
       id: 555629032
       interiors: []
     - !!python/object:popupcad.filetypes.genericshapes.GenericLine
       _basename: 552065736.shape
       construction: false
       exterior:
-      - !ShapeVertex [601937848, 56581.81818, 5712.2909]
-      - !ShapeVertex [601937008, 66581.81818, 5712.2909]
+      - !ShapeVertex_1 [601937848, 56.58181818, 5.7122909]
+      - !ShapeVertex_1 [601937008, 66.58181818, 5.7122909]
       id: 552065736
       interiors: []
     - !!python/object:popupcad.filetypes.genericshapes.GenericLine
       _basename: 530359240.shape
       construction: false
       exterior:
-      - !ShapeVertex [530360696, 66581.81818, 5712.2909]
-      - !ShapeVertex [530402608, 76581.81818, 5712.2909]
+      - !ShapeVertex_1 [530360696, 66.58181818, 5.7122909]
+      - !ShapeVertex_1 [530402608, 76.58181818, 5.7122909]
       id: 530359240
       interiors: []
     - !!python/object:popupcad.filetypes.genericshapes.GenericLine
       _basename: 530401488.shape
       construction: false
       exterior:
-      - !ShapeVertex [334967584, 76581.81818, 5712.2909]
-      - !ShapeVertex [528884456, 86581.81818, 5712.2909]
+      - !ShapeVertex_1 [334967584, 76.58181818, 5.7122909]
+      - !ShapeVertex_1 [528884456, 86.58181818, 5.7122909]
       id: 530401488
       interiors: []
 subdesigns:
@@ -309,7 +309,7 @@ subdesigns:
     _basename: check.cad
     _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
       layers:
-      - &id010 !!python/object:popupcad.filetypes.material2.Material2
+      - &id009 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: *id002
@@ -321,7 +321,7 @@ subdesigns:
         name: Carbon(0-90-0)
         poisson: 0.5
         thickness: 0.025
-      - &id009 !!python/object:popupcad.filetypes.material2.Material2
+      - &id011 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: *id001
@@ -345,7 +345,7 @@ subdesigns:
         name: Kapton
         poisson: 0.5
         thickness: 0.025
-      - &id012 !!python/object:popupcad.filetypes.material2.Material2
+      - &id010 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: *id001
@@ -357,7 +357,7 @@ subdesigns:
         name: Pyralux
         poisson: 0.5
         thickness: 0.025
-      - &id011 !!python/object:popupcad.filetypes.material2.Material2
+      - &id012 !!python/object:popupcad.filetypes.material2.Material2
         E1: 1
         E2: 1
         color: *id002
@@ -370,12 +370,11 @@ subdesigns:
         poisson: 0.5
         thickness: 0.025
       zvalue:
-        *id009: 25.0
-        *id010: 0.0
-        *id011: 100.0
-        *id012: 75.0
-        *id013: 50.0
-    _main_operation: !!python/tuple [636421512, 0]
+        *id009: 0.0
+        *id010: 0.07500000000000001
+        *id011: 0.025
+        *id012: 0.1
+        *id013: 0.05
     dirname: C:/Users/danaukes/popupCAD_files/designs/featues
     id: 637489504
     operations:
@@ -427,19 +426,19 @@ subdesigns:
           _basename: 655369160.shape
           construction: false
           exterior:
-          - !ShapeVertex [565812752, 5009.8496, 2314.95268]
-          - !ShapeVertex [529602600, 25009.8496, 2314.95268]
+          - !ShapeVertex_1 [565812752, 5.0098496, 2.31495268]
+          - !ShapeVertex_1 [529602600, 25.0098496, 2.31495268]
           id: 655369160
           interiors: []
         - !!python/object:popupcad.filetypes.genericshapes.GenericLine
           _basename: 654057368.shape
           construction: true
           exterior:
-          - !ShapeVertex [654056472, 5009.8496, 2314.95268]
-          - !ShapeVertex [654055968, 15009.8496, 2314.95268]
+          - !ShapeVertex_1 [654056472, 5.0098496, 2.31495268]
+          - !ShapeVertex_1 [654055968, 15.0098496, 2.31495268]
           id: 654057368
           interiors: []
-        - !DrawnPoint [654055128, 5009.8496, 2314.95268, true]
+        - !DrawnPoint_1 [654055128, 5.0098496, 2.31495268, true]
       655975032: !!python/object:popupcad.filetypes.sketch.Sketch
         _basename: 655975032.sketch
         constraintsystem: !!python/object:popupcad.filetypes.constraints.ConstraintSystem
@@ -461,8 +460,8 @@ subdesigns:
           _basename: 655975032.shape
           construction: false
           exterior:
-          - !ShapeVertex [596127304, 5009.8496, 2314.95268]
-          - !ShapeVertex [553051472, 15009.8496, 2314.95268]
+          - !ShapeVertex_1 [596127304, 5.0098496, 2.31495268]
+          - !ShapeVertex_1 [553051472, 15.0098496, 2.31495268]
           id: 655975032
           interiors: []
     subdesigns: {}

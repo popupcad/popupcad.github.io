@@ -1,9 +1,15 @@
+- title: popupCAD Overview
+  items:
+    - popupcad-overview
+    - popupcad-editor
+    - popupcad-sketcher
 - title: Designing Laminates
   items:
-    - overview
-    - device-tutorial
-    - tutorial-notes
-    - solidworks-design-workflow
+    - solidworks-export-tutorial
+    - popupcad-device-design
+    - popupcad-manufacturing-design
+    - manufacturing-tutorial
+    - making-a-joint
 - title: Basic operations
   items:
     - sketch-operation
@@ -18,3 +24,6 @@
     - scrap-generation
     - support-generation
     - custom-support-generation
+- title: Misc
+  items:
+    - dxf-files

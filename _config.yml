@@ -32,7 +32,7 @@ include: ['_pages']
 relative_permalinks: false
 
 # pagination stuff
-paginate:      8
+paginate:      6
 paginate_path: '/news/:num/'
 
 # OK, on to collections

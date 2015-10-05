@@ -439,11 +439,32 @@ header > nav {
 */
 @media screen and (min-width: 320px) {
   body.gallery figure {
-    width: 100%; } }
+    float: left;
+    display: block;
+    margin-right: 4.34783%;
+    width: 100%; }
+    body.gallery figure:last-child {
+      margin-right: 0; }
+    body.gallery figure:nth-child(1n) {
+      margin-right: 0; }
+    body.gallery figure:nth-child(1n+1) {
+      clear: left; } }
 @media screen and (min-width: 720px) {
   body.gallery figure {
-    width: 45%;
-    margin-right: 5%; } }
+    float: left;
+    display: block;
+    margin-right: 4.34783%;
+    width: 47.82609%; }
+    body.gallery figure:nth-child(1n) {
+      margin-right: 4.34783%; }
+    body.gallery figure:nth-child(1n+1) {
+      clear: none; }
+    body.gallery figure:last-child {
+      margin-right: 0; }
+    body.gallery figure:nth-child(2n) {
+      margin-right: 0; }
+    body.gallery figure:nth-child(2n+1) {
+      clear: left; } }
 
 @media screen and (min-width: 320px) {
   .third {
@@ -1498,7 +1519,7 @@ main a.icon-pocket {
   main a.icon-pocket:hover {
     color: #f16f7e !important; }
 
-.btn, body.gallery #gallery-pagination a.jp-previous, body.gallery #gallery-pagination a.jp-next {
+.btn, body.gallery #gallery-pagination a.jp-previous, body.gallery #gallery-pagination a.jp-next, a.btn, body.gallery #gallery-pagination a.jp-previous, body.gallery #gallery-pagination a.jp-next {
   border: none;
   font-family: inherit;
   font-size: .9rem;
@@ -1517,13 +1538,21 @@ main a.icon-pocket {
   -moz-transition: all 0.3s;
   transition: all 0.3s; }
 
-.btn:after, body.gallery #gallery-pagination a.jp-previous:after, body.gallery #gallery-pagination a.jp-next:after {
+a.btn:after, body.gallery #gallery-pagination a.jp-previous:after, body.gallery #gallery-pagination a.jp-next:after, .btn:after, body.gallery #gallery-pagination a.jp-previous:after, body.gallery #gallery-pagination a.jp-next:after {
   content: '';
   position: absolute;
   z-index: -1;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s; }
+
+a.btn-1a {
+  border: 2px solid #2dafe6;
+  color: #2dafe6;
+  background: white; }
+  a.btn-1a:hover {
+    background: #2dafe6;
+    color: white; }
 
 /* white */
 a.white {
@@ -1594,9 +1623,11 @@ to be faintly visible,
 deactivated. like, on
 a paginator with no next page.
 */
-button.btn-1.disabled,
-button.btn-1.disabled:hover,
-button.btn-1.disabled:active {
+.btn-1.disabled, body.gallery #gallery-pagination a.btn-1.jp-disabled,
+.btn-1.disabled:hover,
+body.gallery #gallery-pagination a.btn-1.jp-disabled:hover,
+.btn-1.disabled:active,
+body.gallery #gallery-pagination a.btn-1.jp-disabled:active {
   border: 2px solid #ccc;
   color: #ccc;
   background: white; }
@@ -3208,7 +3239,7 @@ a {
 button {
   font-size: 1rem; }
 
-.btn, body.gallery #gallery-pagination a.jp-previous, body.gallery #gallery-pagination a.jp-next {
+.btn, body.gallery #gallery-pagination a.jp-previous, body.gallery #gallery-pagination a.jp-next, a.btn, body.gallery #gallery-pagination a.jp-previous, body.gallery #gallery-pagination a.jp-next {
   border: none;
   font-family: inherit;
   font-size: .9rem;
@@ -3227,13 +3258,21 @@ button {
   -moz-transition: all 0.3s;
   transition: all 0.3s; }
 
-.btn:after, body.gallery #gallery-pagination a.jp-previous:after, body.gallery #gallery-pagination a.jp-next:after {
+a.btn:after, body.gallery #gallery-pagination a.jp-previous:after, body.gallery #gallery-pagination a.jp-next:after, .btn:after, body.gallery #gallery-pagination a.jp-previous:after, body.gallery #gallery-pagination a.jp-next:after {
   content: '';
   position: absolute;
   z-index: -1;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s; }
+
+a.btn-1a {
+  border: 2px solid #2dafe6;
+  color: #2dafe6;
+  background: white; }
+  a.btn-1a:hover {
+    background: #2dafe6;
+    color: white; }
 
 /* white */
 a.white {
@@ -3304,9 +3343,11 @@ to be faintly visible,
 deactivated. like, on
 a paginator with no next page.
 */
-button.btn-1.disabled,
-button.btn-1.disabled:hover,
-button.btn-1.disabled:active {
+.btn-1.disabled, body.gallery #gallery-pagination a.btn-1.jp-disabled,
+.btn-1.disabled:hover,
+body.gallery #gallery-pagination a.btn-1.jp-disabled:hover,
+.btn-1.disabled:active,
+body.gallery #gallery-pagination a.btn-1.jp-disabled:active {
   border: 2px solid #ccc;
   color: #ccc;
   background: white; }
@@ -3374,12 +3415,6 @@ body.frontpage .btn-1a:hover,
 body.frontpage .btn-1a:active {
   color: #000;
   background: #fff; }
-@media screen and (min-width: 320px) {
-  body.frontpage .bravo .right {
-    float: none; } }
-@media screen and (min-width: 320px) {
-  body.frontpage .bravo .third {
-    text-align: center; } }
 body.frontpage .echo h6 {
   margin-top: 1em; }
 

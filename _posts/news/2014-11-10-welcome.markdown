@@ -1,0 +1,30 @@
+---
+permalink: welcome
+layout: post
+title:  Welcome
+author: Dan
+foregroundcolor: fff
+backgroundcolor: ff0000
+date: 2014-11-10 13:42:40
+category: news
+published: true
+sitemap:
+  lastmod: 2014-11-23
+  priority: 0.7
+  changefreq: 'monthly'
+---
+
+We are pleased to announce the release of popupCAD, a design tool which facilitates the development of laminate devices, popup mechanisms, and flat-foldable structures.
+
+This project is early in development, and can hopefully be used as a platform for collaboration across labs. If you are someone with a desire to make laminate devices in a slightly new way, or if you're interested in applying your own internal manufacturing rules into a new plugin, I'd be happy to set you on the right path and get them developing new modules specific to your own needs.
+
+The source code is available, which should currently run on windows, mac, or linux under python 2. Python 3 support might work, although I don't test on it often enough to verify it works. There is also an installer for 64-bit windows.  There is some documentation on getting the source code to run on a variety of platforms. And, if you are willing to help, I could use all the documentation help I can get.
+
+The software is currently licensed for research and personal use at academic institutions until we work out a longer-term plan for release. As your feedback is important to our decision-making process, we would love to hear whether and/or how you feel you can use this in your own case.
+
+
+Thanks,
+
+Dan Aukes
+
+danaukes (at) seas.harvard.edu

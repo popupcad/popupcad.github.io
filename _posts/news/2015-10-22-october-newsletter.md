@@ -1,5 +1,5 @@
 ---
-title: popupCAD October Newsletter - Challenge Deadlines, Outreach, and Software Updates
+title: October Newsletter
 layout: post
 author: Dan
 date: 2015-10-22
@@ -33,7 +33,7 @@ One of the prizes of the competition is the "Pop-up Cup".  Stay tuned to hear mo
 
 # Outreach
 
-The past month has been quite eventful.  It seems like I've been everywhere, from IROS2015 in Hamburg, Germany, speaking with fellow roboticists, to Masconomet High School in Boxford, MA to speak with high school students about origami inspired devices.  Here are some highlights of upcoming events:
+The past month has been quite eventful.  It seems like I've been everywhere, from IROS2015 in Hamburg, Germany, speaking with fellow roboticists, to Masconomet High School in Boxford, MA to speak with high school students about origami inspired devices.  Here are some highlights of past and upcoming events:
 
 ## Online Q&A, October 28, 2015
 

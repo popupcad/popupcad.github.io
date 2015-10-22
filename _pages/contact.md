@@ -12,6 +12,7 @@ published: true
   <input type='hidden' name='redirect_to' value='{{ site.simpleform_redirect }}' />
   <!-- all your input fields here.... -->
 
+      <input type='hidden' name='form_name' value='contact form' />
 
 
 

@@ -6,6 +6,7 @@ title: Register
   <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
   <input type='hidden' name='redirect_to' value='{{ site.simpleform_redirect }}' />
   <!-- all your input fields here.... -->
+  <input type='hidden' name='form_name' value='registration form' />
 
 Introduce yourself!  Please tell us your project name.  You can always change it later.
 

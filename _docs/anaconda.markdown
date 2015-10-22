@@ -11,3 +11,5 @@ You can install the anaconda distribution to shortcut the source install, but yo
 * pyside: Get it on [Gohlke](http://www.lfd.uci.edu/~gohlke/pythonlibs/)
 * pyqtgraph: `pip install pyqtgraph`
 * pyopengl: `pip install pyopengl`
+* ezdxf: `pip install ezdxf`
+* lxml: `pip install lxml`

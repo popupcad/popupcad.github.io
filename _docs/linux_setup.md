@@ -21,7 +21,7 @@ sudo apt-get upgrade
 Install pip packages:
 
 {% highlight bash %}
-sudo pip3 install pyqtgraph sympy pycollada ezdxf numpy-stl
+sudo pip3 install pyqtgraph sympy pycollada ezdxf numpy-stl lxml
 {% endhighlight %}
 
 Optional: set flag for systems without hardware video acceleration(for example if using virtualbox):

@@ -47,7 +47,7 @@ What resources do you have through your class/school/office?  Do you have a budg
 
 What other tools are missing that would make this project go easier?  This will help us plan better for next year.
 
-<textarea name="needed_tools" placeholder="Describe what you need..."></textarea>
+<textarea name="needed_tools" placeholder="..."></textarea>
 
 <input type='submit' value='Send' class="btn btn-1 black"/>
 

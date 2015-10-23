@@ -2,7 +2,9 @@
 title: Fabrication Grant
 ---
 
-To apply for fabrication tools, please fill out this form.  You should have already registered for the challenge and submitted at least one checkpoint. Otherwise, you're not going to get anything.
+Teams which have completed their checkpoints through November 1 will have the opportunity to request a “Fabrication Grant”. A fabrication grant is intended to help teams with limited budgets or limited access to fabrication tools. The Wyss Institute will donate an electronic cutter [like this](http://www.silhouetteamerica.com/shop/machines/cameo) to selected teams.  These cutters can directly print popupCAD design files for prototyping with a variety of materials.
+
+To apply for a fabrication grant, please fill out this form.  You should have already registered for the challenge and submitted at least one checkpoint.  Otherwise you will not be considered.
 
 <form action="https://getsimpleform.com/messages?form_api_token={{ site.simpleform_api_token }}" method="post">
 <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
@@ -43,7 +45,7 @@ What resources do you have through your class/school/office?  Do you have a budg
 
 <textarea name="existing_resources" placeholder="Describe what resources you have..."></textarea>
 
-What tools are missing that would make this project go easier?  List in order of priority.
+What other tools are missing that would make this project go easier?  This will help us plan better for next year.
 
 <textarea name="needed_tools" placeholder="Describe what you need..."></textarea>
 

@@ -9,7 +9,6 @@ sitemap:
   lastmod: 2015-10-26
   priority: 0.7
   changefreq: 'monthly'
-permalink: news/october-newsletter
 ---
 
 Come join us tomorrow evening at the Harvard Graduate School of Design for a symposium on "Informal Robotics", hosted by Chuck Hoberman

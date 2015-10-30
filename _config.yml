@@ -139,3 +139,5 @@ popupcad_source_path: https://github.com/popupcad/popupcad
 popupcad_api_path: http://popupcad.github.io/popupcad_api/html/
 popupcad_windows_installer_path: https://github.com/danaukes/popupcad/releases/latest
 popupcad_solidworks_macro_path: https://github.com/popupcad/popupcad_solidworks_exporter
+
+gems: [jekyll-paginate]

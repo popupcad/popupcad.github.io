@@ -71,6 +71,7 @@ defaults:
       published: true
       h1bg: 42c2c3
       h1color: fff
+      menu: site.data.docs_menu
   - scope:
       path: ""
       type: contest
@@ -79,6 +80,7 @@ defaults:
       published: true
       h1bg: 42c2c3
       h1color: fff
+      menu: site.data.contest_menu
   - scope:
       path: ""
       type: tutorials
@@ -87,6 +89,7 @@ defaults:
       published: true
       h1bg: f57365
       h1color: fff
+      menu: site.data.tutorials_menu
 
 # font path
 css_dir: /assets/css

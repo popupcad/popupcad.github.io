@@ -21,7 +21,7 @@ Many of these products have not been used or tested by us; we have simply found 
 | VHB Transfer Tapes(various)|[tapecase.com](https://www.tapecase.com/sd/tapes-die-cuts/1024/1/1/0.0/vhb-adhesive-transfer-tapes.aspx)|
 | .002" VHB Pressure-Sensitive Adhesive | [tapecase.com](https://www.tapecase.com/pd/cn/tapes-die-cuts/1024/1000694/3m-f9460pc-vhb-adhesive-transfer-tape.aspx) |
 | Scotch Weld Epoxy Thermoset Adhesives | [pccomposites.com](http://www.pccomposites.com/?task=prodSearch&searchText=3M) |
-| Various Double Sided Tapes| [mcmaster](http://www.mcmaster.com/#fastening-tape-with-adhesive-on-both-sides) |
+| Various Double Sided Tapes | [mcmaster](http://www.mcmaster.com/#fastening-tape-with-adhesive-on-both-sides) |
 | Another Good Adhesive Site |[lamination depot](http://www.laminationdepot.com/Shop/Mounting-Adhesives/)|
 | Polyester Film | [mcmaster.com](http://www.mcmaster.com/#8567k102/) |
 | Nylon | [funwithwind.com](http://www.funwithwind.com/store/listCategoriesAndProducts2.asp?idCategory=191&idparent=168) |
@@ -29,7 +29,7 @@ Many of these products have not been used or tested by us; we have simply found 
 | Kapton .001"|[durafilmshop.com](http://www.durafilmshop.com/kapton-films-100HN-p/100hn.htm) |
 | Kapton .002"|[durafilmshop.com](http://www.durafilmshop.com/kapton-films-200HN-p/200hn.htm) |
 | 18" x 500', Clear Laminate Roll for Large-Document Laminator|[mcmaster](http://www.mcmaster.com/#1403T41)|
-
+| Fibreglast 1678 | [fibreglast.com](http://www.fibreglast.com/product/stretchlon-200-bagging-film-1678/Vacuum_Bagging_Films_Peel_Ply_Tapes) |
 
 <!--|Double-sided Polyester tape| [mcmaster.com](http://www.mcmaster.com/#7602A54)-->
 

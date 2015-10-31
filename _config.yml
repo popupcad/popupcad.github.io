@@ -90,6 +90,16 @@ defaults:
       h1bg: f57365
       h1color: fff
       menu: site.data.tutorials_menu
+  - scope:
+      path: news
+    values:
+#      foregroundcolor: fff
+#      backgroundcolor: ff0000
+      layout: post
+      author: Dan
+      category: news
+      published: true
+
 
 # font path
 css_dir: /assets/css

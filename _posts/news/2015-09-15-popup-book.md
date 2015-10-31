@@ -1,10 +1,6 @@
 ---
 title: Popup Book
-layout: post
-author: Dan
 date: 2015-09-15
-category: news
-published: true
 sitemap:
   lastmod: 2015-09-15
   priority: 0.7

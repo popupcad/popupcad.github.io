@@ -1,10 +1,6 @@
 ---
 title: Informal Robotics Symposium
-layout: post
-author: Dan
 date: 2015-10-26
-category: news
-published: true
 sitemap:
   lastmod: 2015-10-26
   priority: 0.7

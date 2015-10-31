@@ -1,10 +1,6 @@
 ---
-layout: post
 title: Contest Announcement
-author: Dan
 date: 2015-06-29
-category: news
-published: true
 sitemap:
   lastmod: 2015-06-29
   priority: 0.7

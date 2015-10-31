@@ -1,10 +1,6 @@
 ---
 title: PopupCAD at IROS
-layout: post
-author: Dan
 date: 2015-09-30 00:00:00
-category: news
-published: true
 sitemap:
   lastmod: 2015-09-30
   priority: 0.7

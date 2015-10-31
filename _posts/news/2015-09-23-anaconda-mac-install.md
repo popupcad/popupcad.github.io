@@ -1,10 +1,6 @@
 ---
 title: Anaconda Mac Installation
-layout: post
-author: Dan
 date: 2015-09-23 00:00:01
-category: news
-published: true
 sitemap:
   lastmod: 2015-09-23
   priority: 0.7

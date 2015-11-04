@@ -44,8 +44,8 @@ What resources do you have through your class/school/office?  Do you have a budg
 What other tools are missing that would make this project go easier?  This will help us plan better for next year.
 
 <textarea name="needed_tools" placeholder="..."></textarea>
-<input type='hidden' name='_next' value='{{ site.simpleform_redirect }}' />
-<input type='hidden' name='_subject' value='fabrication grant' />
+<input type='hidden' name='_next' value='{{ site.form_redirect }}' />
+<input type='hidden' name='_subject' value='[popupcad submission]fabrication grant' />
 <input type='text' name='_gotcha' value='' style="display:none"/>
 <input type='submit' value='Send' class="btn btn-1 black"/>
 </form>

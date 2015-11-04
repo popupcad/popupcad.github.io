@@ -30,8 +30,8 @@ If you would like to register to be a mentor for a team, you can sign yourself u
     </label>
   </span>
 
-  <input type='hidden' name='_next' value='{{ site.simpleform_redirect }}' />
-  <input type='hidden' name='_subject' value='mentor registration' />
+  <input type='hidden' name='_next' value='{{ site.form_redirect }}' />
+  <input type='hidden' name='_subject' value='[popupcad submission]mentor registration' />
   <input type='text' name='_gotcha' value='' style="display:none"/>
   <input type='submit' value='Send' class="btn btn-1 black"/>
 

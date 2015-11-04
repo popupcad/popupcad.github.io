@@ -50,8 +50,8 @@ A checkpoint is a way for us to see how you are doing.  Until the final submissi
   Are there any special instructions for accessing your website?
   <textarea name="special_instructions" placeholder="Special Instructions..."></textarea>
 
-  <input type='hidden' name='_next' value='{{ site.simpleform_redirect }}' />
-  <input type='hidden' name='_subject' value='team checkpoint' />
+  <input type='hidden' name='_next' value='{{ site.form_redirect }}' />
+  <input type='hidden' name='_subject' value='[popupcad submission]team checkpoint' />
   <input type='text' name='_gotcha' value='' style="display:none"/>
   <input type='submit' value='Send' class="btn btn-1 black"/>
 </form>

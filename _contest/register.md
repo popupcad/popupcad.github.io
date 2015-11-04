@@ -60,8 +60,8 @@ title: Register
     </label>
   </span>
 
-  <input type='hidden' name='_next' value='{{ site.simpleform_redirect }}' />
-  <input type='hidden' name='_subject' value='registration form' />
+  <input type='hidden' name='_next' value='{{ site.form_redirect }}' />
+  <input type='hidden' name='_subject' value='[popupcad submission]registration form' />
   <input type='text' name='_gotcha' value='' style="display:none"/>
   <input type='submit' value='Send' class="btn btn-1 black"/>
 

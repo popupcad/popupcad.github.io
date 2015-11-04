@@ -26,8 +26,8 @@ published: true
 
   <textarea name="message" placeholder="Your message..."></textarea>
 
-  <input type='hidden' name='_next' value='{{ site.simpleform_redirect }}' />
-  <input type='hidden' name='_subject' value='contact form' />
+  <input type='hidden' name='_next' value='{{ site.form_redirect }}' />
+  <input type='hidden' name='_subject' value='[popupcad submission]contact form' />
   <input type='text' name='_gotcha' value='' style="display:none"/>
   <input type='submit' value='Send' class="btn btn-1 black"/>
 </form>

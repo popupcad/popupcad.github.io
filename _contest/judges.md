@@ -39,3 +39,4 @@ Andy Levine is responsible for implementing the Wyss Institute’s technology-tr
 
 Wombi Rose
 ----------
+Wombi studied Naval Architecture & Marine Engineering at Webb Institute, received a masters degree from MIT, and joined McKinsey & Company before heading to Harvard Business School. While on a school trip to Vietnam, Wombi and his best friend John Wise discovered incredible hand-crafted paper cards, and immediately changed course from building boats to reinventing the greeting card. They applied their engineering skills to create card designs, and paired up to launch lovepop out out of the Harvard Innovation Lab in early 2014.  This year, they were named to the Techstars class, nominated for 50 on Fire by BostInno, and gained the confidence of professional investors.

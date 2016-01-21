@@ -7,4 +7,4 @@ sitemap:
   changefreq: 'monthly'
 ---
 
-We are excited to announce the first ever pop-up design challenge, sponsored by the Wyss Institute for Biologically Inspired Engineering.  Visit the [contest page]({{site.url}}/contest/overview) to learn more, and stay tuned for more announcements throughout the summer, as we announce the official rules & deadlines.
+We are excited to announce the first ever pop-up design challenge, sponsored by the Wyss Institute for Biologically Inspired Engineering.  Visit the [contest page]({{site.url}}/challenge-wrapup) to learn more, and stay tuned for more announcements throughout the summer, as we announce the official rules & deadlines.

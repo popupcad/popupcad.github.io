@@ -1,9 +1,6 @@
 ---
 title: Overview
 ---
-<div class="notice alert"><p>Registration is now open!  See below.</p></div>
-
-
 The Wyss Institute for Biologically Inspired Engineering invites you to join the popup design challenge. Researchers, students, teams, and individuals are encouraged to submit original popup-inspired or laminate active devices developed with popupCAD.  Examples could include a novel toy design, a life-saving medical device, a new mobile robot, or new types of embedded sensors and actuators that could go in the next big consumer device.
 
 Structure
@@ -12,8 +9,7 @@ The contest is entirely web-based; announcements will be posted on the website, 
 
 Registration
 ------------
-Contest registration is accomplished on the popupCAD website at
-[{{site.url}}/contest/register]({{site.url}}/contest/register).
+Registration is now closed.  Sign up to the [popupCAD newsletter](/newsletter/) to find out about the next contest.
 
 <section>
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 80%; margin-left: 10%; margin-right: 10%} .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
@@ -24,5 +20,3 @@ Contest registration is accomplished on the popupCAD website at
 <h6>Special thanks to the students of <em>Informal Robotics</em> and the Harvard Graduate School of Design.</h6>
 </div>
 </section>
-
-<div class="notice info"><p>To see this all on one page, see <a href="{{site.url}}/contest/contest-information">{{site.url}}/contest/contest-information</a></p></div>

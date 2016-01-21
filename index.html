@@ -5,6 +5,17 @@ published: true
 sitemap:
   priority: 1
 ---
+<style>
+.img_test {
+  	max-height: 300px;
+  	max-width: 80%;
+  	overflow: hidden;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: auto;
+  }
+</style>
 <div class="section-wrapper alpha" >
 
     <script id="video-tag" type="text/template">
@@ -38,7 +49,20 @@ sitemap:
 
 </div>
 
-  <div class="section-wrapper charlie">
+<div class="section-wrapper charlie" >
+  <section>
+    <div class="half centered">
+      <h1 class="centered" style="font-size: 3em;"><i class="icon-star"></i></h1>
+      <h2 class="centered"><strong>See the <a href="/challenge-wrapup/">winners</a> of the <br>2015 popup design challenge!</strong></h2>
+    </div>
+    <div class="half omega">
+      <a href="/challenge-wrapup/"><img class="img_test" src="/assets/images/jellymiu.jpg"></a>
+    </div>
+  </section>
+
+
+</div>
+  <div class="section-wrapper bravo">
     <section>
       <h2 class="centered">subscribe to the popupCAD newsletter</h2>
             <form action="{{ site.subscribe_form_url }}" method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -48,41 +72,20 @@ sitemap:
     </section>
   </div>
 
-<div class="section-wrapper bravo" >
-  <section>
-    <div class="two-thirds">
 
-    <h2 class="right"><strong>Registration is now open for the Popup Design Challenge!</strong></h2>
-
-
-    </div>
-    <div class="third omega">
-      <a href="/contest/overview" class="btn btn-1 yellow">Dive in</a>
-    </div>
-  </section>
-
-
-</div>
 
 <div class="section-wrapper delta">
 
   <section>
-
-    <div class="third">
-      <h1 class="centered icon-info-circled"></h1>
-      <h4 class="centered">There's a <a href="contest/overview">popup challenge</a> coming up. So that's cool..</h4>
-    </div>
-
-
-		<div class="third">
+		<div class="half">
       <h1 class="centered icon-cogs"></h1>
       <h4 class="centered"><a href="tutorials/popupcad-overview/">Make</a> walking, crawling robotic devices. Make deployable structures and mechanisms.  Ages five and up.</h4>
 		</div>
 
 
-		<div class="third omega">
-      <h1 class="centered icon-github"></h1>
-      <h4 class="centered">We have a <a href="docs/download/">repository</a>, you could check that out.</h4>
+		<div class="half omega">
+      <h1 class="centered icon-info-circled"></h1>
+      <h4 class="centered">We have a <a href="docs/download/">ton of information</a>, about popupcad, materials, and tools; you could check that out.</h4>
 		</div>
 
   </section>

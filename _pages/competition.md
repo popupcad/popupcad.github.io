@@ -19,7 +19,7 @@ published: true
   <section>
     <div class="half">
       <h1 class="centered icon-info-circled"></h1>
-      <h4 class="centered">Learn <a href ="{{site.baseurl}}/contest/overview">more</a> about the competition</h4>
+      <h4 class="centered">Learn <a href ="{{site.baseurl}}/challenge-wrapup">more</a> about the competition</h4>
     </div>
 
 		<div class="half omega">

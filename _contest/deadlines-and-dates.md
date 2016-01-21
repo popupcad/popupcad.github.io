@@ -20,4 +20,4 @@ awards.
 
 ***December 15:*** Final Submissions Due, see evaluation metrics for required website documentation and media content.
 
-***January 15:*** Awards Announced.
+***January 22:*** Winners Announced.

@@ -12,7 +12,7 @@ Design Challenge Updates
 =======================
 Fall is arriving and we are getting ready to open registration for the popup challenge! We’ve posted a new information document outlining the structure of the challenge. You can find it here:
 
-<{{site.url}}/contest/overview>
+<{{site.url}}/challenge-wrapup>
 
 Get Free Tools!
 ---------------

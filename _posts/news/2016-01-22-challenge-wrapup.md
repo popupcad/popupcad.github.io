@@ -11,7 +11,9 @@ category: news
 published: true
 ---
 
-Welcome to 2016!  We are happy to announce that the popup challenge has wrapped up, and we are pleased to announce the winners!
+Welcome to 2016!
+-----
+ We are happy to announce that the popup challenge has wrapped up, and we are pleased to announce the winners!
 
 The Projects:
 ----------------
@@ -25,3 +27,8 @@ popupCAD updates
 ----------------
 
 You may not notice(that's the idea in software development, generally), but some work has been going on to make popupCAD more compatible across operating systems.  This has focused on adapting popupCAD to all the flavors of QT available through python, including pyQT4, pyQT5, and PySide, which was the only one supported in the past.  This should make popupCAD future-proof and more compatible with distributions like anaconda.  More info on that soon.
+
+Finally
+------
+
+I have started a new job.  I am now an Assistant Professor in the Polytechnic School of Engineering at Arizona State University.  Please consider stopping by my lab if you're in the area, or getting in touch with me if you want to learn more about laminate robots and how to design/make them.

@@ -53,11 +53,13 @@ permalink: /challenge-wrapup/
       <h1>First Place:</h1>
       <a href="http://teamjellymiu.wix.com/bioinspiredengucsd" target="_blank"><img class="img_test" src="/assets/images/jellymiu.jpg"></a>
       <h4 class="centered">Team <a href="http://teamjellymiu.wix.com/bioinspiredengucsd" target="_blank">JellyMiu</a></h4>
+			<p>A jellyfish-inspired robot that mimics natural movement of jellyfish</p>
     </div>
 		<div class="half omega">
     <h1>Second Place:</h1>
     <a href="http://eco-botics.weebly.com/" target="_blank"><img class="img_test" src="/assets/images/eco-botics.jpg"></a>
     <h4 class="centered">Team <a href="http://eco-botics.weebly.com/" target="_blank">Eco-Botics</a></h4>
+		<p>a beautiful and functional environmental indicator for sensing and displaying water content in a field</p>
 		</div>
   </section>
   <section>
@@ -65,11 +67,13 @@ permalink: /challenge-wrapup/
       <h1>Third Place:</h1>
       <a href="http://kinetic-blossoms.tumblr.com/" target="_blank"><img class="img_test" src="/assets/images/kinetic-blossoms.jpg"></a>
       <h4 class="centered">Uttam Grandhi: <a href="http://kinetic-blossoms.tumblr.com/" target="_blank">Kinetic Blossoms</a></h4>
+			<p>a fractal-inspired blossoming tree in cardboard, paper, and string</p>
     </div>
 		<div class="half omega">
     <h1>Honorable Mention:</h1>
     <a href="http://openwalk.github.io/" target="_blank"><img class="img_test" src="/assets/images/openwalk.jpg"></a>
     <h4 class="centered">Team <a href="http://openwalk.github.io/" target="_blank">Open Walk</a></h4>
+		<p>A plug-and-play open-source robot that can walk</p>
 		</div>
 
   </section>

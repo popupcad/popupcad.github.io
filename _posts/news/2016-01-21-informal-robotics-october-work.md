@@ -13,4 +13,4 @@ published: true
 
 There were some amazing advances in Informal Robotics throughout the semester.  I thought I would attach their mid-semester video I compiled.  Lots of advancements from each team in comparison with last month's video.  In the future I will highlight each team's final design.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qzjiu_py_gQ" frameborder="0" allowfullscreen></iframe>
+[YouTube Video Link](https://www.youtube.com/embed/qzjiu_py_gQ)

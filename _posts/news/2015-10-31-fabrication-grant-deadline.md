@@ -1,6 +1,10 @@
 ---
 title: Fabrication Grant Deadline
+layout: post
+author: Dan
 date: 2015-10-31
+category: news
+published: true
 sitemap:
   lastmod: 2015-10-31
   priority: 0.7

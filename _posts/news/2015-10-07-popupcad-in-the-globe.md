@@ -1,6 +1,10 @@
 ---
 title: PopupCAD in the Globe
+layout: post
+author: Dan
 date: 2015-10-07
+category: news
+published: true
 sitemap:
   lastmod: 2015-10-07
   priority: 0.7

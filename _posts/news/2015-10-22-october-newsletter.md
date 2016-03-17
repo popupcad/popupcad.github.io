@@ -1,10 +1,15 @@
 ---
 title: October Newsletter
+layout: post
+author: Dan
 date: 2015-10-22
+category: news
+published: true
 sitemap:
   lastmod: 2015-10-22
   priority: 0.7
   changefreq: 'monthly'
+permalink: news/october-newsletter
 ---
 
 Contest

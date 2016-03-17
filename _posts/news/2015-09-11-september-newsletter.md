@@ -1,6 +1,10 @@
 ---
 title: September Newsletter
+layout: post
+author: Dan
 date: 2015-09-11
+category: news
+published: true
 sitemap:
   lastmod: 2015-09-11
   priority: 0.7

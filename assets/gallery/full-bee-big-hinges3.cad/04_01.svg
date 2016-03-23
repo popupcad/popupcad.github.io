@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="9244.19mm" height="2571.89mm"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.2" baseProfile="tiny">
+<title>SVG Generator Example Drawing</title>
+<desc>An SVG drawing created by the SVG Generator</desc>
+<defs>
+</defs>
+<g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,-1,0,9113.71)"
+font-family="MS Shell Dlg 2" font-size="10.3125" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,-1,0,9113.71)"
+font-family="MS Shell Dlg 2" font-size="10.3125" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.999922,0,0,-0.999922,30560.4,37384.4)"
+font-family="MS Shell Dlg 2" font-size="10.3125" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ae5151" fill-opacity="0.2" stroke="#333333" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" transform="matrix(0.999922,0,0,-0.999922,30560.4,37384.4)"
+font-family="MS Shell Dlg 2" font-size="10.3125" font-weight="400" font-style="normal" 
+>
+<path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M-30562.3,36253.2 L-30532,36278 L-30532,36278 L-29610.1,36670 L-29610.1,36670 L-28634.7,36926.3 L-28634.7,36926.3 L-27627.1,37100.3 L-27627.1,37100.3 L-26617.6,37216.7 L-26617.6,37216.7 L-25592,37294.6 L-25592,37294.6 L-24591.2,37342.6 L-24591.2,37342.6 L-23582.5,37370.5 L-23582.5,37370.5 L-22578.2,37383.4 L-22578.2,37383.4 L-21548.3,37386.1 L-21548.3,37386.1 L-20490.3,37382.4 L-20490.3,37382.4 L-19461.1,37376.4 L-19461.1,37376.4 L-18434.7,37368.9 L-18434.7,37368.9 L-17398,37359.9 L-17398,37359.9 L-16361.3,37349.5 L-16361.3,37349.5 L-15317.7,37337.4 L-15317.7,37337.4 L-14300.6,37324.2 L-14300.6,37324.2 L-13268,37309.3 L-13268,37309.3 L-12241.3,37293 L-12241.3,37293 L-11203.4,37275 L-11203.4,37275 L-10169.5,37255.8 L-10169.5,37255.8 L-9121.68,37234.9 L-9121.68,37234.9 L-8099.78,37213.3 L-8099.78,37213.3 L-7088.73,37190.9 L-6087.63,37167.8 L-5068.1,37143.5 L-4021.79,37118.1 L-2997.63,37093.1 L-1988.73,37068.7 L-952.924,37044.2 L78.8872,37021 L1106.01,36999.7 L2125.79,36980.9 L2192.62,36979.8 L2192.62,36911.3 L1701.64,36781.6 L739.731,36458.6 L-186.573,36075.3 L-1087.94,35622.8 L-1951.58,35098.2 L-2776.44,34498.7 L-3542.5,33855.3 L-4291.02,33165.4 L-5022.5,32472 L-5022.5,32472 L-5799.69,31767.4 L-5799.69,31767.4 L-6581.59,31132.6 L-6581.6,31132.6 L-7419.95,30551.8 L-7419.95,30551.8 L-8297.27,30045.5 L-8297.27,30045.5 L-9201.34,29609.9 L-9201.34,29609.9 L-10136,29236 L-10136,29236 L-11093.2,28923.5 L-11093.2,28923.5 L-12084.5,28668 L-12084.5,28668 L-13071.1,28478.1 L-13071.1,28478.1 L-14076.6,28347.8 L-14076.6,28347.8 L-15097.2,28279.1 L-15097.2,28279.1 L-16097.4,28273.4 L-16097.4,28273.4 L-17125.4,28331.2 L-17125.4,28331.2 L-18132.5,28451.2 L-18132.5,28451.2 L-19129.8,28633.4 L-19129.8,28633.4 L-20112.1,28876.4 L-20112.1,28876.4 L-21071,29176.8 L-21071,29176.8 L-22032,29543.5 L-22032,29543.5 L-22962.2,29964.2 L-22962.2,29964.2 L-23875.4,30441.1 L-23875.4,30441.1 L-24748.9,30955.2 L-24748.9,30955.2 L-25597.6,31509 L-25597.6,31509 L-26417.8,32097.2 L-26417.8,32097.2 L-27208.3,32717.4 L-27208.3,32717.4 L-27974.6,33375 L-27974.6,33375 L-28713.9,34071.7 L-28713.9,34071.7 L-29408.9,34797.8 L-29408.9,34797.8 L-30071.9,35579.4 L-30071.9,35579.4 L-30562.3,36253.2"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.999922,0,0,-0.999922,30560.4,37384.4)"
+font-family="MS Shell Dlg 2" font-size="10.3125" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,-1,0,9113.71)"
+font-family="MS Shell Dlg 2" font-size="10.3125" font-weight="400" font-style="normal" 
+>
+</g>
+</g>
+</svg>

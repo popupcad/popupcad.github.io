@@ -49,7 +49,7 @@ published: true
 		<figure class="third" data-tags="{{ design.tags | join: ", " }}">
 
 			<a id="img" href="{{ design.url }}">
-			<img src="{{ design.url }}{{ design.svg_image_file }}" />
+			<img src="{{site.baseurl}}/assets/gallery/{{design.title}}/{{ design.svg_image_file }}" />
 			</a>
 
 			<a href="{{ design.url }}">

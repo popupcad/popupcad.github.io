@@ -1,0 +1,467 @@
+!!python/object:popupcad.filetypes.design.Design
+_basename: tenchecks.cad
+_layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
+  layers:
+  - &id007 !!python/object:popupcad.filetypes.material2.Material2
+    E1: 1
+    E2: 1
+    color: &id002 !!python/tuple [0.2, 0.2, 0.2, 0.2]
+    density: 1
+    id: 637519968
+    is_adhesive: false
+    is_conductive: false
+    is_rigid: true
+    name: Carbon(0-90-0)
+    poisson: 0.5
+    thickness: 0.025
+  - &id004 !!python/object:popupcad.filetypes.material2.Material2
+    E1: 1
+    E2: 1
+    color: &id001 !!python/tuple [0.68359375, 0.31640625, 0.31640625, 0.2]
+    density: 1
+    id: 637519856
+    is_adhesive: true
+    is_conductive: false
+    is_rigid: false
+    name: Pyralux
+    poisson: 0.5
+    thickness: 0.025
+  - &id005 !!python/object:popupcad.filetypes.material2.Material2
+    E1: 1
+    E2: 1
+    color: &id008 !!python/tuple [1.0, 1.0, 0.0, 0.2]
+    density: 1
+    id: 637521256
+    is_adhesive: false
+    is_conductive: false
+    is_rigid: false
+    name: Kapton
+    poisson: 0.5
+    thickness: 0.025
+  - &id003 !!python/object:popupcad.filetypes.material2.Material2
+    E1: 1
+    E2: 1
+    color: *id001
+    density: 1
+    id: 637518064
+    is_adhesive: true
+    is_conductive: false
+    is_rigid: false
+    name: Pyralux
+    poisson: 0.5
+    thickness: 0.025
+  - &id006 !!python/object:popupcad.filetypes.material2.Material2
+    E1: 1
+    E2: 1
+    color: *id002
+    density: 1
+    id: 637518512
+    is_adhesive: false
+    is_conductive: false
+    is_rigid: true
+    name: Carbon(0-90-0)
+    poisson: 0.5
+    thickness: 0.025
+  zvalue:
+    *id003: 0.07500000000000001
+    *id004: 0.025
+    *id005: 0.05
+    *id006: 0.1
+    *id007: 0.0
+dirname: C:/Users/danaukes/popupCAD_files/designs/featues
+id: 565916952
+operations:
+- !!python/object:popupcad.manufacturing.transform_external.TransformExternal
+  _description: ''
+  customname: ''
+  design_links:
+    subdesign: [637489504]
+  flip: false
+  id: 600545768
+  network: null
+  operation_links: {}
+  scalex: 1.0
+  scaley: 1.0
+  shift: 0
+  sketch_links:
+    sketch_to: [637489448]
+  sub_sketch_id: 655369160
+  subopref: !!python/tuple [636421512, 0]
+  transformtype_x: scale
+  transformtype_y: scale
+- !!python/object:popupcad.manufacturing.bufferop3.BufferOperation3
+  _description: ''
+  customname: ''
+  design_links: {}
+  id: 600562544
+  keepout_type: null
+  network: null
+  operation_links:
+    parent:
+    - !!python/tuple [600545768, 0]
+  sketch_links: {}
+  values: [0.1, 4.0]
+- !!python/object:popupcad.manufacturing.locateoperation3.LocateOperation3
+  _description: ''
+  customname: ''
+  design_links: {}
+  id: 638282496
+  network: null
+  operation_links: {}
+  sketch_links:
+    sketch: [600562768]
+parent_program_name: popupCAD
+parent_program_version: 2015.09.22
+sketches:
+  600562768: !!python/object:popupcad.filetypes.sketch.Sketch
+    _basename: 600562768.sketch
+    constraintsystem: !!python/object:popupcad.filetypes.constraints.ConstraintSystem
+      constraints:
+      - !!python/object:popupcad.filetypes.constraints.coincident
+        id: 655547528
+        segment_ids: []
+        vertex_ids: [551917776, 655547472, 655691904]
+      - !!python/object:popupcad.filetypes.constraints.horizontal
+        id: 638257752
+        segment_ids:
+        - !!python/tuple [551917776, 655546632]
+        vertex_ids: []
+      - !!python/object:popupcad.filetypes.constraints.distance
+        id: 638281040
+        segment_ids: []
+        value: 5.0
+        vertex_ids: [655546632, 638279752]
+    id: 600562768
+    operationgeometry:
+    - !!python/object:popupcad.filetypes.genericshapes.GenericLine
+      _basename: 600562768.shape
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [551917776, -13.41818182, 5.7122909]
+      - !ShapeVertex_1 [655546632, 86.58181818, 5.7122909]
+      id: 600562768
+      interiors: []
+    - !DrawnPoint_1 [655547472, -13.41818182, 5.7122909, true]
+    - !DrawnPoint_1 [638279752, 81.58181818, 5.7122909, true]
+  637489448: !!python/object:popupcad.filetypes.sketch.Sketch
+    _basename: 637489448.sketch
+    constraintsystem: !!python/object:popupcad.filetypes.constraints.ConstraintSystem
+      constraints:
+      - !!python/object:popupcad.filetypes.constraints.coincident
+        id: 529603720
+        segment_ids: []
+        vertex_ids: [596126016, 596125736]
+      - !!python/object:popupcad.filetypes.constraints.coincident
+        id: 634632120
+        segment_ids: []
+        vertex_ids: [637405392, 637405952]
+      - !!python/object:popupcad.filetypes.constraints.coincident
+        id: 635218800
+        segment_ids: []
+        vertex_ids: [637403712, 637404944]
+      - !!python/object:popupcad.filetypes.constraints.coincident
+        id: 600557720
+        segment_ids: []
+        vertex_ids: [637407128, 637403432]
+      - !!python/object:popupcad.filetypes.constraints.coincident
+        id: 565968568
+        segment_ids: []
+        vertex_ids: [655976320, 655976880]
+      - !!python/object:popupcad.filetypes.constraints.coincident
+        id: 556718344
+        segment_ids: []
+        vertex_ids: [555628472, 655976768]
+      - !!python/object:popupcad.filetypes.constraints.coincident
+        id: 335120032
+        segment_ids: []
+        vertex_ids: [601937848, 552038016]
+      - !!python/object:popupcad.filetypes.constraints.coincident
+        id: 530407040
+        segment_ids: []
+        vertex_ids: [530360696, 601937008]
+      - !!python/object:popupcad.filetypes.constraints.coincident
+        id: 525060528
+        segment_ids: []
+        vertex_ids: [530402608, 334967584]
+      - !!python/object:popupcad.filetypes.constraints.horizontal
+        id: 520801976
+        segment_ids:
+        - !!python/tuple [596120576, 596126016]
+        vertex_ids: []
+      - !!python/object:popupcad.filetypes.constraints.horizontal
+        id: 553225240
+        segment_ids:
+        - !!python/tuple [334967584, 528884456]
+        - !!python/tuple [596120576, 596126016]
+        - !!python/tuple [596125736, 637405392]
+        - !!python/tuple [601937848, 601937008]
+        - !!python/tuple [530360696, 530402608]
+        - !!python/tuple [655976880, 655976768]
+        - !!python/tuple [637405952, 637404944]
+        - !!python/tuple [637407128, 655976320]
+        - !!python/tuple [555628472, 552038016]
+        - !!python/tuple [637403712, 637403432]
+        vertex_ids: []
+      - !!python/object:popupcad.filetypes.constraints.equal
+        id: 526374560
+        segment_ids:
+        - !!python/tuple [334967584, 528884456]
+        - !!python/tuple [596120576, 596126016]
+        - !!python/tuple [596125736, 637405392]
+        - !!python/tuple [601937848, 601937008]
+        - !!python/tuple [530360696, 530402608]
+        - !!python/tuple [655976880, 655976768]
+        - !!python/tuple [637405952, 637404944]
+        - !!python/tuple [637407128, 655976320]
+        - !!python/tuple [555628472, 552038016]
+        - !!python/tuple [637403712, 637403432]
+        vertex_ids: []
+      - !!python/object:popupcad.filetypes.constraints.distance
+        id: 654188272
+        segment_ids:
+        - !!python/tuple [596120576, 596126016]
+        value: 10.0
+        vertex_ids: []
+    id: 637489448
+    operationgeometry:
+    - !!python/object:popupcad.filetypes.genericshapes.GenericLine
+      _basename: 637489448.shape
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [596120576, -13.41818182, 5.7122909]
+      - !ShapeVertex_1 [596126016, -3.41818182, 5.7122909]
+      id: 637489448
+      interiors: []
+    - !!python/object:popupcad.filetypes.genericshapes.GenericLine
+      _basename: 596125792.shape
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [596125736, -3.41818182, 5.7122909]
+      - !ShapeVertex_1 [637405392, 6.58181818, 5.7122909]
+      id: 596125792
+      interiors: []
+    - !!python/object:popupcad.filetypes.genericshapes.GenericLine
+      _basename: 637406848.shape
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [637405952, 6.58181818, 5.7122909]
+      - !ShapeVertex_1 [637404944, 16.58181818, 5.7122909]
+      id: 637406848
+      interiors: []
+    - !!python/object:popupcad.filetypes.genericshapes.GenericLine
+      _basename: 637404608.shape
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [637403712, 16.58181818, 5.7122909]
+      - !ShapeVertex_1 [637403432, 26.58181818, 5.7122909]
+      id: 637404608
+      interiors: []
+    - !!python/object:popupcad.filetypes.genericshapes.GenericLine
+      _basename: 637405784.shape
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [637407128, 26.58181818, 5.7122909]
+      - !ShapeVertex_1 [655976320, 36.58181818, 5.7122909]
+      id: 637405784
+      interiors: []
+    - !!python/object:popupcad.filetypes.genericshapes.GenericLine
+      _basename: 655974696.shape
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [655976880, 36.58181818, 5.7122909]
+      - !ShapeVertex_1 [655976768, 46.58181818, 5.7122909]
+      id: 655974696
+      interiors: []
+    - !!python/object:popupcad.filetypes.genericshapes.GenericLine
+      _basename: 555629032.shape
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [555628472, 46.58181818, 5.7122909]
+      - !ShapeVertex_1 [552038016, 56.58181818, 5.7122909]
+      id: 555629032
+      interiors: []
+    - !!python/object:popupcad.filetypes.genericshapes.GenericLine
+      _basename: 552065736.shape
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [601937848, 56.58181818, 5.7122909]
+      - !ShapeVertex_1 [601937008, 66.58181818, 5.7122909]
+      id: 552065736
+      interiors: []
+    - !!python/object:popupcad.filetypes.genericshapes.GenericLine
+      _basename: 530359240.shape
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [530360696, 66.58181818, 5.7122909]
+      - !ShapeVertex_1 [530402608, 76.58181818, 5.7122909]
+      id: 530359240
+      interiors: []
+    - !!python/object:popupcad.filetypes.genericshapes.GenericLine
+      _basename: 530401488.shape
+      construction: false
+      exterior:
+      - !ShapeVertex_1 [334967584, 76.58181818, 5.7122909]
+      - !ShapeVertex_1 [528884456, 86.58181818, 5.7122909]
+      id: 530401488
+      interiors: []
+subdesigns:
+  637489504: !!python/object:popupcad.filetypes.design.Design
+    _basename: check.cad
+    _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
+      layers:
+      - &id009 !!python/object:popupcad.filetypes.material2.Material2
+        E1: 1
+        E2: 1
+        color: *id002
+        density: 1
+        id: 648048592
+        is_adhesive: false
+        is_conductive: false
+        is_rigid: true
+        name: Carbon(0-90-0)
+        poisson: 0.5
+        thickness: 0.025
+      - &id011 !!python/object:popupcad.filetypes.material2.Material2
+        E1: 1
+        E2: 1
+        color: *id001
+        density: 1
+        id: 655404280
+        is_adhesive: true
+        is_conductive: false
+        is_rigid: false
+        name: Pyralux
+        poisson: 0.5
+        thickness: 0.025
+      - &id013 !!python/object:popupcad.filetypes.material2.Material2
+        E1: 1
+        E2: 1
+        color: *id008
+        density: 1
+        id: 655404168
+        is_adhesive: false
+        is_conductive: false
+        is_rigid: false
+        name: Kapton
+        poisson: 0.5
+        thickness: 0.025
+      - &id010 !!python/object:popupcad.filetypes.material2.Material2
+        E1: 1
+        E2: 1
+        color: *id001
+        density: 1
+        id: 655402432
+        is_adhesive: true
+        is_conductive: false
+        is_rigid: false
+        name: Pyralux
+        poisson: 0.5
+        thickness: 0.025
+      - &id012 !!python/object:popupcad.filetypes.material2.Material2
+        E1: 1
+        E2: 1
+        color: *id002
+        density: 1
+        id: 655403888
+        is_adhesive: false
+        is_conductive: false
+        is_rigid: true
+        name: Carbon(0-90-0)
+        poisson: 0.5
+        thickness: 0.025
+      zvalue:
+        *id009: 0.0
+        *id010: 0.07500000000000001
+        *id011: 0.025
+        *id012: 0.1
+        *id013: 0.05
+    dirname: C:/Users/danaukes/popupCAD_files/designs/featues
+    id: 637489504
+    operations:
+    - !!python/object:popupcad.manufacturing.simplesketchoperation.SimpleSketchOp
+      _description: ''
+      customname: ''
+      design_links: {}
+      id: 636421512
+      layer_links: [648048592, 655404280, 655404168, 655402432, 655403888]
+      network: null
+      operation_links: {}
+      sketch_links:
+        sketch: [655975032]
+    - !!python/object:popupcad.manufacturing.locateoperation3.LocateOperation3
+      _description: ''
+      customname: ''
+      design_links: {}
+      id: 596122760
+      network: null
+      operation_links: {}
+      sketch_links:
+        sketch: [655369160]
+    parent_program_name: popupCAD
+    parent_program_version: 2014.10.25
+    sketches:
+      655369160: !!python/object:popupcad.filetypes.sketch.Sketch
+        _basename: 655369160.sketch
+        constraintsystem: !!python/object:popupcad.filetypes.constraints.ConstraintSystem
+          constraints:
+          - !!python/object:popupcad.filetypes.constraints.horizontal
+            id: 529603104
+            segment_ids:
+            - !!python/tuple [654056472, 654055968]
+            - !!python/tuple [565812752, 529602600]
+            vertex_ids: []
+          - !!python/object:popupcad.filetypes.constraints.coincident
+            id: 654055296
+            segment_ids: []
+            vertex_ids: [654055128, 565809448, 565812752]
+          - !!python/object:popupcad.filetypes.constraints.distance
+            id: 565965096
+            segment_ids:
+            - !!python/tuple [565812752, 529602600]
+            value: 20.0
+            vertex_ids: []
+        id: 655369160
+        operationgeometry:
+        - !!python/object:popupcad.filetypes.genericshapes.GenericLine
+          _basename: 655369160.shape
+          construction: false
+          exterior:
+          - !ShapeVertex_1 [565812752, 5.0098496, 2.31495268]
+          - !ShapeVertex_1 [529602600, 25.0098496, 2.31495268]
+          id: 655369160
+          interiors: []
+        - !!python/object:popupcad.filetypes.genericshapes.GenericLine
+          _basename: 654057368.shape
+          construction: true
+          exterior:
+          - !ShapeVertex_1 [654056472, 5.0098496, 2.31495268]
+          - !ShapeVertex_1 [654055968, 15.0098496, 2.31495268]
+          id: 654057368
+          interiors: []
+        - !DrawnPoint_1 [654055128, 5.0098496, 2.31495268, true]
+      655975032: !!python/object:popupcad.filetypes.sketch.Sketch
+        _basename: 655975032.sketch
+        constraintsystem: !!python/object:popupcad.filetypes.constraints.ConstraintSystem
+          constraints:
+          - !!python/object:popupcad.filetypes.constraints.horizontal
+            id: 555630376
+            segment_ids:
+            - !!python/tuple [596127304, 553051472]
+            vertex_ids: []
+          - !!python/object:popupcad.filetypes.constraints.distance
+            id: 655371344
+            segment_ids:
+            - !!python/tuple [596127304, 553051472]
+            value: 10.0
+            vertex_ids: []
+        id: 655975032
+        operationgeometry:
+        - !!python/object:popupcad.filetypes.genericshapes.GenericLine
+          _basename: 655975032.shape
+          construction: false
+          exterior:
+          - !ShapeVertex_1 [596127304, 5.0098496, 2.31495268]
+          - !ShapeVertex_1 [553051472, 15.0098496, 2.31495268]
+          id: 655975032
+          interiors: []
+    subdesigns: {}

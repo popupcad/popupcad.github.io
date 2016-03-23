@@ -44,11 +44,11 @@ ADJUST size of left image in the next <style>
 
 <section>
   <div class="third mainimage">
-    <img src="{{ page.svg_image_file }}" />
+    <img src="{{site.baseurl}}/assets/gallery/{{page.title}}/{{ page.svg_image_file }}" />
   </div>
   <div class="two-thirds omega">
   <h1>{{ page.title }}</h1>
-  <p><a href="{{page.cad_file}}">Download this file</a></p>
+  <p><a href="{{site.baseurl}}/assets/gallery/{{page.title}}/{{page.cad_file}}">Download this file</a></p>
 
 <!--    <h6><strong>design description:</strong></h6>
     <p>{{ page.description }}</p>-->
@@ -60,7 +60,7 @@ ADJUST size of left image in the next <style>
 
   <section>
     <div class="third imagebox operation">
-      <img src="{{operation.svg_image_file}}" />
+      <img src="{{site.baseurl}}/assets/gallery/{{page.title}}/{{operation.svg_image_file}}" />
     </div>
     <div class="two-thirds omega">
 
@@ -99,7 +99,7 @@ ADJUST size of left image in the next <style>
         <section class="output">
 
           <div class="third imagebox">
-            <img src="{{ page.url }}{{output.svg_image_file}}"  />
+            <img src="{{site.baseurl}}/assets/gallery/{{page.title}}/{{output.svg_image_file}}"  />
           </div>
           <div class="two-thirds omega">
             <h2><strong>Operation: {{ operation_number}}</strong>, Output Step  {{ forloop.index }} of {{ forloop.length }}</h2>

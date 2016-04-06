@@ -1,36 +1,36 @@
 - title: Introduction
   items:
     - what-is-popupCAD
-    - about-popupcad
-    - citing-popupcad
-    - popupcad-license
+    - about_popupcad
+    - citing_popupcad
+    - popupcad_license
 - title: Getting popupCAD
   items:
     - download
-    - windows-setup-source
-    - linux-setup
+    - windows_setup_source
+    - linux_setup
     - mac-popupcad-download
     - mac-anaconda-setup
 - title: Making Devices
   items:
-    - origami-inspired-design
-    - laser-cutter-settings
+    - origami-inspired_design
+    - laser_cutter_settings
     - basic-origami-elements
-    - materials
+    - materials_recipes
     - tools-and-equipment
-    - us-maker-spaces0
+    - us_maker_spaces
     - vinyl-cutter-settings
 - title: Coding with popupCAD
   items:
-    - creating-a-script
-    - the-full-api
+    - creating_a_script
+    - the_full_api
 - title: Miscellaneous
   items:
     - mac-homebrew-setup
     - mac-homebrew-uninstall
     - deprecated-mode
-    - popupcad-gazebo-install
-    - popupcad-and-the-anaconda-distribution
-    - compiling-the-installer
-    - custom-materials-in-popupcad
+    - popupcad-gazebo-packages
+    - anaconda
+    - compiling_the_installer
+    - custom_materials
     

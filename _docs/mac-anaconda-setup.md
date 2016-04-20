@@ -60,5 +60,5 @@ To remove your popupcad environment:
 ------------------------------------
 
 {% highlight bash%}
-conda-env remove -n popupcad_env
+conda env remove -n popupcad_env
 {% endhighlight %}

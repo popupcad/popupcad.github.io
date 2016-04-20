@@ -56,7 +56,8 @@ yes | conda install matplotlib
 yes | conda remove pyqt qt
 {% endhighlight %}
 
-To remove your popupcad enviornment:
+To remove your popupcad environment:
+------------------------------------
 
 {% highlight bash%}
 conda-env remove -n popupcad_env

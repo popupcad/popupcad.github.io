@@ -55,3 +55,9 @@ yes | conda install -c https://conda.binstar.org/pyzo cx_freeze
 yes | conda install matplotlib
 yes | conda remove pyqt qt
 {% endhighlight %}
+
+To remove your popupcad enviornment:
+
+{% highlight bash%}
+conda-env remove -n popupcad_env
+{% endhighlight %}

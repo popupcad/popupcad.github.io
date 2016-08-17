@@ -28,7 +28,6 @@
   items:
     - mac-homebrew-setup
     - mac-homebrew-uninstall
-    - deprecated-mode
     - popupcad-gazebo-packages
     - anaconda
     - compiling_the_installer

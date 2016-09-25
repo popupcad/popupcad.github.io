@@ -1,5 +1,6 @@
 ---
 title: Mac Homebrew Uninstall
+published: false
 ---
 
 This script will uninstall pip packages required by popupCAD, all homebrew packages, and homebrew itself, as well as the popupcad git repository

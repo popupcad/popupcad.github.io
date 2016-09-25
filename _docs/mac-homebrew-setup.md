@@ -1,5 +1,6 @@
 ---
 title: Mac Homebrew Setup
+published: false
 ---
 
 Disable Mac security for apps.

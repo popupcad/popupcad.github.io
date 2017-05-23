@@ -48,7 +48,7 @@ brew link --overwrite scipy
 Install some python packages using pip3
 
 {% highlight bash %}
-sudo pip3 install cx_freeze pip pyopengl pyqtgraph pyyaml setuptools shapely spyder sympy lxml pycollada ezdxf numpy-stl
+sudo pip3 install cx_freeze pip pyopengl pyqtgraph pyyaml setuptools shapely spyder sympy lxml pycollada ezdxf numpy-stl idealab_tools
 #pip3 install cx_freeze numpy scipy
 {% endhighlight %}
 

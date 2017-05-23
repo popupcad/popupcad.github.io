@@ -21,7 +21,7 @@ sudo apt-get upgrade
 Install pip packages:
 
 {% highlight bash %}
-sudo pip3 install sympy pycollada ezdxf numpy-stl lxml pyopengl pyopengl_accelerate pyqtgraph pypoly2tri
+sudo pip3 install sympy pycollada ezdxf numpy-stl lxml pyopengl pyopengl_accelerate pyqtgraph pypoly2tri idealab_tools
 {% endhighlight %}
 
 Optional: set flag for systems without hardware video acceleration(for example if using virtualbox):
@@ -73,20 +73,3 @@ spyder3
 * From there you can navigate to the popupcad directory and open popupcad.py.
 * Hit f5 to run.
 
-<!--
-Option: python2 install:
-
-{% highlight bash linenos %}
-sudo apt-get install python-pip spyder python-pyside python-shapely python-sympy python-opengl python-yaml python-scipy python-matplotlib python-setuptools cython python-dev python-sphinx
-sudo pip install pyqtgraph shapely
-{% endhighlight %}
-
-{% highlight bash %}
-python popupcad.py
-{% endhighlight %}
-
-{% highlight bash %}
-spyder
-{% endhighlight %}
-
--->      

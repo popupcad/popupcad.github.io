@@ -27,7 +27,7 @@ conda info -a
 conda create -n test-environment python=3.5 setuptools cython pyyaml numpy scipy sympy pyopengl pyqt pyqtgraph matplotlib
 activate test-environment
 conda install -c anaconda shapely=1.5.13
-pip install pypoly2tri ezdxf
+pip install pypoly2tri ezdxf idealab_tools
 {% endhighlight %}
 
 Optional:
@@ -42,7 +42,7 @@ Spyder
 conda install spyder
 {% endhighlight %}
 
-1. Open up the command window(start->type cmd).  Paste:
+1. Open up the command window(start->type cmd).  Paste: 
 {% highlight bash %}
 cd %HOMEPATH%
 git clone https://github.com/popupcad/popupcad.git

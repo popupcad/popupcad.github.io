@@ -19,7 +19,7 @@ yes | conda create -n popupcad_env python=3.5
 source activate popupcad_env
 yes | conda install numpy scipy matplotlib
 yes | conda install shapely pyopengl sympy scipy pyyaml lxml
-yes | pip install pyqtgraph pycollada ezdxf numpy-stl pypoly2tri
+yes | pip install pyqtgraph pycollada ezdxf numpy-stl pypoly2tri idealab_tools
 {% endhighlight %}
 
 Download and Install popupCAD

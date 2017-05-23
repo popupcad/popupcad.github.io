@@ -16,3 +16,4 @@ You can install the anaconda distribution to shortcut the source install, but yo
 * lxml: `pip install lxml`
 * pypoly2tri: `pip install pypoly2tri`
 * numpy-stl: `pip install numpy-stl`
+* idealab_tools: `pip install idealab_tools`

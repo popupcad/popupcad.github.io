@@ -6,7 +6,7 @@ published: false
 This script will uninstall pip packages required by popupCAD, all homebrew packages, and homebrew itself, as well as the popupcad git repository
 
 {% highlight bash %}
-pip3 uninstall -y cx-Freeze lxml nose pip PyOpenGL pyqtgraph PyYAML scipy setuptools Shapely spyder sympy wheel
+pip3 uninstall -y cx-Freeze lxml nose pip PyOpenGL pyqtgraph PyYAML scipy setuptools Shapely spyder sympy wheel idealab_tools
 {% endhighlight %}
 
 if you installed numpy and scipy using pip

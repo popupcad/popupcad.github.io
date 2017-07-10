@@ -2,7 +2,7 @@
 _basename: layer numbers.cad
 _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
   layers:
-  - &id003 !!python/object:popupcad.filetypes.material2.Material2
+  - !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: &id001 !!python/tuple [0.5, 0.5, 0.5, 0.2]
@@ -10,11 +10,12 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     id: 781885168
     is_adhesive: false
     is_conductive: false
+    is_flexible: true
     is_rigid: false
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id019 !!python/object:popupcad.filetypes.material2.Material2
+  - !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -22,11 +23,12 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     id: 800138688
     is_adhesive: false
     is_conductive: false
+    is_flexible: true
     is_rigid: false
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id008 !!python/object:popupcad.filetypes.material2.Material2
+  - !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -34,11 +36,12 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     id: 800141040
     is_adhesive: false
     is_conductive: false
+    is_flexible: true
     is_rigid: false
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id010 !!python/object:popupcad.filetypes.material2.Material2
+  - !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -46,11 +49,12 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     id: 800140760
     is_adhesive: false
     is_conductive: false
+    is_flexible: true
     is_rigid: false
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id014 !!python/object:popupcad.filetypes.material2.Material2
+  - !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -58,11 +62,12 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     id: 800140928
     is_adhesive: false
     is_conductive: false
+    is_flexible: true
     is_rigid: false
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id016 !!python/object:popupcad.filetypes.material2.Material2
+  - !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -70,11 +75,12 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     id: 800137568
     is_adhesive: false
     is_conductive: false
+    is_flexible: true
     is_rigid: false
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id017 !!python/object:popupcad.filetypes.material2.Material2
+  - !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -82,11 +88,12 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     id: 800139528
     is_adhesive: false
     is_conductive: false
+    is_flexible: true
     is_rigid: false
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id018 !!python/object:popupcad.filetypes.material2.Material2
+  - !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -94,11 +101,12 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     id: 800137400
     is_adhesive: false
     is_conductive: false
+    is_flexible: true
     is_rigid: false
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id021 !!python/object:popupcad.filetypes.material2.Material2
+  - !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -106,11 +114,12 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     id: 800137456
     is_adhesive: false
     is_conductive: false
+    is_flexible: true
     is_rigid: false
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id005 !!python/object:popupcad.filetypes.material2.Material2
+  - !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -118,11 +127,12 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     id: 800137680
     is_adhesive: false
     is_conductive: false
+    is_flexible: true
     is_rigid: false
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id015 !!python/object:popupcad.filetypes.material2.Material2
+  - !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -130,11 +140,12 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     id: 800138464
     is_adhesive: false
     is_conductive: false
+    is_flexible: true
     is_rigid: false
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id004 !!python/object:popupcad.filetypes.material2.Material2
+  - !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -142,11 +153,12 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     id: 800166016
     is_adhesive: false
     is_conductive: false
+    is_flexible: true
     is_rigid: false
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id020 !!python/object:popupcad.filetypes.material2.Material2
+  - !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -154,11 +166,12 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     id: 800166240
     is_adhesive: false
     is_conductive: false
+    is_flexible: true
     is_rigid: false
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id012 !!python/object:popupcad.filetypes.material2.Material2
+  - !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -166,11 +179,12 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     id: 762548176
     is_adhesive: false
     is_conductive: false
+    is_flexible: true
     is_rigid: false
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id006 !!python/object:popupcad.filetypes.material2.Material2
+  - !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -178,11 +192,12 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     id: 762547672
     is_adhesive: false
     is_conductive: false
+    is_flexible: true
     is_rigid: false
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id011 !!python/object:popupcad.filetypes.material2.Material2
+  - !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -190,11 +205,12 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     id: 762546720
     is_adhesive: false
     is_conductive: false
+    is_flexible: true
     is_rigid: false
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id013 !!python/object:popupcad.filetypes.material2.Material2
+  - !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -202,11 +218,12 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     id: 762545600
     is_adhesive: false
     is_conductive: false
+    is_flexible: true
     is_rigid: false
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id002 !!python/object:popupcad.filetypes.material2.Material2
+  - !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -214,11 +231,12 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     id: 762545992
     is_adhesive: false
     is_conductive: false
+    is_flexible: true
     is_rigid: false
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id009 !!python/object:popupcad.filetypes.material2.Material2
+  - !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -226,11 +244,12 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     id: 762545824
     is_adhesive: false
     is_conductive: false
+    is_flexible: true
     is_rigid: false
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  - &id007 !!python/object:popupcad.filetypes.material2.Material2
+  - !!python/object:popupcad.filetypes.material2.Material2
     E1: 1
     E2: 1
     color: *id001
@@ -238,32 +257,12 @@ _layerdef: !!python/object:popupcad.filetypes.layerdef.LayerDef
     id: 762544760
     is_adhesive: false
     is_conductive: false
+    is_flexible: true
     is_rigid: false
     name: Dummy
     poisson: 0.5
     thickness: 0.025
-  zvalue:
-    *id002: 0.4250000000000001
-    *id003: 0.0
-    *id004: 0.27499999999999997
-    *id005: 0.22499999999999998
-    *id006: 0.35000000000000003
-    *id007: 0.47500000000000014
-    *id008: 0.05
-    *id009: 0.4500000000000001
-    *id010: 0.07500000000000001
-    *id011: 0.37500000000000006
-    *id012: 0.325
-    *id013: 0.4000000000000001
-    *id014: 0.1
-    *id015: 0.24999999999999997
-    *id016: 0.125
-    *id017: 0.15
-    *id018: 0.175
-    *id019: 0.025
-    *id020: 0.3
-    *id021: 0.19999999999999998
-dirname: C:/Users/danaukes/popupCAD_files/designs/featues
+dirname: C:/Users/daukes/popupcad_files/designs/featues
 id: 334036328
 operations:
 - !!python/object:popupcad.manufacturing.simplesketchoperation.SimpleSketchOp
@@ -422,27 +421,18 @@ operations:
     - !!python/tuple [759281536, 0]
     - !!python/tuple [335601616, 0]
   sketch_links: {}
-- !!python/object:popupcad.manufacturing.locateoperation3.LocateOperation3
-  _description: ''
-  customname: ''
-  design_links: {}
-  id: 523570424
-  network: null
-  operation_links: {}
-  sketch_links:
-    sketch: [520465656]
 parent_program_name: popupCAD
-parent_program_version: 2015.09.27
+parent_program_version: 2017.07.10
 sketches:
   220776623: !!python/object:popupcad.filetypes.sketch.Sketch
     _basename: Layer 5
-    constraintsystem: !!python/object:popupcad.filetypes.constraints.ConstraintSystem
+    constraintsystem: !!python/object:popupcad.constraints.constraint_system.ConstraintSystem
       constraints: []
     id: 220776623
     operationgeometry:
     - !!python/object:popupcad.graphics2d.text.GenericText
       exteriors: []
-      font: Courier
+      font: Courier New
       fontsize: 2
       id: 334214816
       pos: !!python/object:popupcad.geometry.vertex.BaseVertex
@@ -451,13 +441,13 @@ sketches:
       text: Layer  5
   334214872: !!python/object:popupcad.filetypes.sketch.Sketch
     _basename: Layer 1
-    constraintsystem: !!python/object:popupcad.filetypes.constraints.ConstraintSystem
+    constraintsystem: !!python/object:popupcad.constraints.constraint_system.ConstraintSystem
       constraints: []
     id: 334214872
     operationgeometry:
     - !!python/object:popupcad.graphics2d.text.GenericText
       exteriors: []
-      font: Courier
+      font: Courier New
       fontsize: 2
       id: 334214816
       pos: !!python/object:popupcad.geometry.vertex.BaseVertex
@@ -466,13 +456,13 @@ sketches:
       text: Layer  1
   369170021: !!python/object:popupcad.filetypes.sketch.Sketch
     _basename: Layer 4
-    constraintsystem: !!python/object:popupcad.filetypes.constraints.ConstraintSystem
+    constraintsystem: !!python/object:popupcad.constraints.constraint_system.ConstraintSystem
       constraints: []
     id: 369170021
     operationgeometry:
     - !!python/object:popupcad.graphics2d.text.GenericText
       exteriors: []
-      font: Courier
+      font: Courier New
       fontsize: 2
       id: 334214816
       pos: !!python/object:popupcad.geometry.vertex.BaseVertex
@@ -481,25 +471,24 @@ sketches:
       text: Layer  4
   520465656: !!python/object:popupcad.filetypes.sketch.Sketch
     _basename: Locate Line
-    constraintsystem: !!python/object:popupcad.filetypes.constraints.ConstraintSystem
+    constraintsystem: !!python/object:popupcad.constraints.constraint_system.ConstraintSystem
       constraints:
-      - !!python/object:popupcad.filetypes.constraints.horizontal
+      - !!python/object:popupcad.constraints.constraints.HorizontalConstraint
         id: 521394944
         segment_ids:
         - !!python/tuple [520464368, 521393768]
         vertex_ids: [521394608, 335462808]
-      - !!python/object:popupcad.filetypes.constraints.vertical
+      - !!python/object:popupcad.constraints.constraints.VerticalConstraint
         id: 521494424
         segment_ids: []
         vertex_ids: [523567176, 335464264, 521393768]
-      - !!python/object:popupcad.filetypes.constraints.vertical
+      - !!python/object:popupcad.constraints.constraints.VerticalConstraint
         id: 523569136
         segment_ids: []
         vertex_ids: [523568912, 521124384, 520464368]
     id: 520465656
     operationgeometry:
     - !!python/object:popupcad.filetypes.genericshapes.GenericLine
-      _basename: 520465656.shape
       construction: false
       exterior:
       - !ShapeVertex_1 [520464368, -13.46969676, -2.82987752]
@@ -511,13 +500,13 @@ sketches:
     - !DrawnPoint_1 [523568912, -13.46969676, -2.25609208, true]
   1346908959: !!python/object:popupcad.filetypes.sketch.Sketch
     _basename: Layer 2
-    constraintsystem: !!python/object:popupcad.filetypes.constraints.ConstraintSystem
+    constraintsystem: !!python/object:popupcad.constraints.constraint_system.ConstraintSystem
       constraints: []
     id: 1346908959
     operationgeometry:
     - !!python/object:popupcad.graphics2d.text.GenericText
       exteriors: []
-      font: Courier
+      font: Courier New
       fontsize: 2
       id: 334214816
       pos: !!python/object:popupcad.geometry.vertex.BaseVertex
@@ -526,13 +515,13 @@ sketches:
       text: Layer  2
   2207570597: !!python/object:popupcad.filetypes.sketch.Sketch
     _basename: Layer 9
-    constraintsystem: !!python/object:popupcad.filetypes.constraints.ConstraintSystem
+    constraintsystem: !!python/object:popupcad.constraints.constraint_system.ConstraintSystem
       constraints: []
     id: 2207570597
     operationgeometry:
     - !!python/object:popupcad.graphics2d.text.GenericText
       exteriors: []
-      font: Courier
+      font: Courier New
       fontsize: 2
       id: 334214816
       pos: !!python/object:popupcad.geometry.vertex.BaseVertex
@@ -541,13 +530,13 @@ sketches:
       text: Layer  9
   3623388836: !!python/object:popupcad.filetypes.sketch.Sketch
     _basename: Layer 1x
-    constraintsystem: !!python/object:popupcad.filetypes.constraints.ConstraintSystem
+    constraintsystem: !!python/object:popupcad.constraints.constraint_system.ConstraintSystem
       constraints: []
     id: 3623388836
     operationgeometry:
     - !!python/object:popupcad.graphics2d.text.GenericText
       exteriors: []
-      font: Courier
+      font: Courier New
       fontsize: 2
       id: 334214816
       pos: !!python/object:popupcad.geometry.vertex.BaseVertex
@@ -556,13 +545,13 @@ sketches:
       text: '      1 '
   3669889787: !!python/object:popupcad.filetypes.sketch.Sketch
     _basename: Layer 8
-    constraintsystem: !!python/object:popupcad.filetypes.constraints.ConstraintSystem
+    constraintsystem: !!python/object:popupcad.constraints.constraint_system.ConstraintSystem
       constraints: []
     id: 3669889787
     operationgeometry:
     - !!python/object:popupcad.graphics2d.text.GenericText
       exteriors: []
-      font: Courier
+      font: Courier New
       fontsize: 2
       id: 334214816
       pos: !!python/object:popupcad.geometry.vertex.BaseVertex
@@ -571,13 +560,13 @@ sketches:
       text: Layer  8
   4237258411: !!python/object:popupcad.filetypes.sketch.Sketch
     _basename: Layer 3
-    constraintsystem: !!python/object:popupcad.filetypes.constraints.ConstraintSystem
+    constraintsystem: !!python/object:popupcad.constraints.constraint_system.ConstraintSystem
       constraints: []
     id: 4237258411
     operationgeometry:
     - !!python/object:popupcad.graphics2d.text.GenericText
       exteriors: []
-      font: Courier
+      font: Courier New
       fontsize: 2
       id: 334214816
       pos: !!python/object:popupcad.geometry.vertex.BaseVertex
@@ -586,13 +575,13 @@ sketches:
       text: Layer  3
   5981129914: !!python/object:popupcad.filetypes.sketch.Sketch
     _basename: Layer 7
-    constraintsystem: !!python/object:popupcad.filetypes.constraints.ConstraintSystem
+    constraintsystem: !!python/object:popupcad.constraints.constraint_system.ConstraintSystem
       constraints: []
     id: 5981129914
     operationgeometry:
     - !!python/object:popupcad.graphics2d.text.GenericText
       exteriors: []
-      font: Courier
+      font: Courier New
       fontsize: 2
       id: 334214816
       pos: !!python/object:popupcad.geometry.vertex.BaseVertex
@@ -601,13 +590,13 @@ sketches:
       text: Layer  7
   6600452632: !!python/object:popupcad.filetypes.sketch.Sketch
     _basename: Layer 0x
-    constraintsystem: !!python/object:popupcad.filetypes.constraints.ConstraintSystem
+    constraintsystem: !!python/object:popupcad.constraints.constraint_system.ConstraintSystem
       constraints: []
     id: 6600452632
     operationgeometry:
     - !!python/object:popupcad.graphics2d.text.GenericText
       exteriors: []
-      font: Courier
+      font: Courier New
       fontsize: 2
       id: 334214816
       pos: !!python/object:popupcad.geometry.vertex.BaseVertex
@@ -616,13 +605,13 @@ sketches:
       text: '      0 '
   6666217487: !!python/object:popupcad.filetypes.sketch.Sketch
     _basename: Layer 2x
-    constraintsystem: !!python/object:popupcad.filetypes.constraints.ConstraintSystem
+    constraintsystem: !!python/object:popupcad.constraints.constraint_system.ConstraintSystem
       constraints: []
     id: 6666217487
     operationgeometry:
     - !!python/object:popupcad.graphics2d.text.GenericText
       exteriors: []
-      font: Courier
+      font: Courier New
       fontsize: 2
       id: 334214816
       pos: !!python/object:popupcad.geometry.vertex.BaseVertex
@@ -631,13 +620,13 @@ sketches:
       text: '      2 '
   6998753346: !!python/object:popupcad.filetypes.sketch.Sketch
     _basename: Layer 6
-    constraintsystem: !!python/object:popupcad.filetypes.constraints.ConstraintSystem
+    constraintsystem: !!python/object:popupcad.constraints.constraint_system.ConstraintSystem
       constraints: []
     id: 6998753346
     operationgeometry:
     - !!python/object:popupcad.graphics2d.text.GenericText
       exteriors: []
-      font: Courier
+      font: Courier New
       fontsize: 2
       id: 334214816
       pos: !!python/object:popupcad.geometry.vertex.BaseVertex
@@ -646,13 +635,13 @@ sketches:
       text: Layer  6
   9609860151: !!python/object:popupcad.filetypes.sketch.Sketch
     _basename: Layer 10
-    constraintsystem: !!python/object:popupcad.filetypes.constraints.ConstraintSystem
+    constraintsystem: !!python/object:popupcad.constraints.constraint_system.ConstraintSystem
       constraints: []
     id: 9609860151
     operationgeometry:
     - !!python/object:popupcad.graphics2d.text.GenericText
       exteriors: []
-      font: Courier
+      font: Courier New
       fontsize: 2
       id: 334214816
       pos: !!python/object:popupcad.geometry.vertex.BaseVertex

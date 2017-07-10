@@ -103,16 +103,9 @@ operations:
   outputs: []
   png_image_file: 13_00.png
   svg_image_file: 13_00.svg
-- cut_files: [cut-dummy1.svg, cut-dummy2.svg]
-  description: This is a fake operation description.  I am not about to make a separate
-    description for each op, but the description might be about this long.
-  name: LocateOp
-  outputs: []
-  png_image_file: 14_00.png
-  svg_image_file: 14_00.svg
-png_image_file: 13_00.png
-svg_image_file: 13_00.svg
-tags: [features]
+png_image_file: 00_00.png
+svg_image_file: 00_00.svg
+tags: [parts, legs, 2dof_robot_legs]
 title: layer-numbers.cad
 
 ---

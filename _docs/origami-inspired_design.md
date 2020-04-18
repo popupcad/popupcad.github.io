@@ -14,9 +14,11 @@ Let's Try!
 
 Take a sheet of paper and fold it like this:
 
-[<img src="{{site.url}}/file.jpg" height = "30px" />](file.jpg)
+<img src="{{site.baseurl}}/assets/images/tutorial/img1.jpg" height="100px" />
 
-This sequence produces a set of six bodies each separated from its neighbor by a "fold", or in robotics terms, a "joint".  [<img src="{{site.url}}/images/tutorial/drawing1.svg" height = "50px" />]({{site.url}}/images/tutorial/drawing1.svg)  If you take one end of the sheet of paper and move it with respect to the other, you'll find you have created a fundamental component in mechanism theory: the ball joint!
+<img src="{{site.baseurl}}/assets/images/tutorial/img2.jpg" height="100px" />
+
+This sequence produces a set of six bodies each separated from its neighbor by a "fold", or in robotics terms, a "joint".  <img src="{{site.baseurl}}/assets/images/tutorial/drawing1.svg" height = "50px" />  If you take one end of the sheet of paper and move it with respect to the other, you'll find you have created a fundamental component in mechanism theory: the ball joint!
 
 Fun Fact:
 -----

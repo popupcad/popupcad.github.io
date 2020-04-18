@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="298.591mm" height="472.44mm"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.2" baseProfile="tiny">
+<title>SVG Generator Example Drawing</title>
+<desc>An SVG drawing created by the SVG Generator</desc>
+<defs>
+</defs>
+<g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,-1,0,1674.33)"
+font-family="MS Shell Dlg 2" font-size="10.3125" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,-1,0,1674.33)"
+font-family="MS Shell Dlg 2" font-size="10.3125" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.999528,0,0,-0.999528,3794.63,-1297.82)"
+font-family="MS Shell Dlg 2" font-size="10.3125" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#808080" fill-opacity="0.2" stroke="#333333" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" transform="matrix(0.999528,0,0,-0.999528,3794.63,-1297.82)"
+font-family="MS Shell Dlg 2" font-size="10.3125" font-weight="400" font-style="normal" 
+>
+<path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M-3688.84,-2863.47 L-2849.25,-2863.47 L-2849.25,-2820.56 L-2845.4,-2787.22 L-2833.84,-2764.72 L-2815.71,-2751.91 L-2793,-2747.64 L-2771.65,-2751.91 L-2754.25,-2764.72 L-2742.38,-2787.22 L-2738.42,-2820.56 L-2738.42,-2973.06 L-3795.92,-2973.06 L-3795.92,-2811.39 L-3467.06,-2509.52 L-3147.17,-2202.22 L-3023.21,-2076.91 L-2945.5,-1990.14 L-2899.56,-1926.39 L-2870.92,-1870.97 L-2855.61,-1819.2 L-2850.5,-1767.22 L-2878.84,-1634.93 L-2963.84,-1518.89 L-3088.84,-1437.64 L-3237.17,-1410.56 L-3372.38,-1431.08 L-3491.34,-1492.64 L-3582.27,-1584.41 L-3634.25,-1695.56 L-3643.11,-1721.29 L-3653.84,-1735.97 L-3670.61,-1745.66 L-3690.09,-1748.89 L-3710.71,-1745.25 L-3727.59,-1734.31 L-3738.52,-1717.85 L-3742.17,-1698.47 L-3725.09,-1624.93 L-3673.84,-1529.31 L-3592.48,-1433.68 L-3485.09,-1360.97 L-3363.21,-1315.04 L-3238.42,-1299.72 L-3048.21,-1335.25 L-2886.75,-1441.81 L-2776.44,-1593.27 L-2739.67,-1763.47 L-2745.92,-1835.87 L-2764.67,-1902.22 L-2797.9,-1968.16 L-2848.42,-2040.14 L-2931.23,-2134.1 L-3061.34,-2265.97 L-3410.92,-2603.68 L-3688.84,-2855.97 L-3688.84,-2863.47"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.999528,0,0,-0.999528,3794.63,-1297.82)"
+font-family="MS Shell Dlg 2" font-size="10.3125" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,-1,0,1674.33)"
+font-family="MS Shell Dlg 2" font-size="10.3125" font-weight="400" font-style="normal" 
+>
+</g>
+</g>
+</svg>

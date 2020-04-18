@@ -1,0 +1,63 @@
+# To do
+
+DONE: - logo - next!
+DONE:- put filter over placeholder video image so text is legible on mobile.
+DONE: - Frontpage video and placeholder appear to stack on mobile.
+DONE: - Color and font-size of mobile menu are really iffy. lets also move it to the top.
+DONE:- 'our tutorials are a great..' &  footer on front page is not centered on large screens
+DONE:- 'our tutorials are a great..' button should be centered on mobile?
+DONE: - give the same form styles to http://localhost:4000/newsletter/ that /contact has.
+DONE: - github doesnt have an icon in the footer or main page. i must have removed it by accident from fontello. put it back!
+DONE: - the top right menu spills over on tablet. make it more responsive.
+DONE:- the circular share icons spill over on mobile, make it more responsive.
+DONE:- page and post .alpha should have less vertical padding on mobile.
+DONE:- tweak h1-h6 sizes on mobile. perhaps 2rem. theyre 20% too small.
+DONE:- center tutorial/gallery/docs h1 and h2 in .alpha on mobile
+DONE: - change the phone icon next to /contact in footer to a mail icon.
+DONE: - add a custom.css file for Dan's overrides, so his changes can be instant, and so we can integrate later.
+DONE: footer top padding is incorrect.
+DONE: documented adding/removing icon fonts.
+
+DONE: Disqus on tutorials, gallery items
+DONE: three highlight modes, alert, warning,error!
+DONE: code highlighting
+
+## ask Dan about:
+tutorial makeover
+change competition
+categories for the gallery
+
+
+TO BE DONE AFTER:
+sass file or css show-how (I'm documenting it a bit too)
+improve README.md
+
+2015-07-28 -- Noticed by dan
+============================
+IMPORTANT:
+-------------
+done: * gallery tags don't work.
+  * ~~clicking on a tag does not properly update the items on the right~~
+  * ~~searching for a tag does not find all the possible tags, it just selects one at random example: type in anything, it highlights the 2_dof_robot_legs tag.~~
+  * ~~multiple of the same tag can be selected and applied as a filter~~
+    * when you try to close one of the multiples, they all disappear(I guess this will be fixed when you disable multiple identical tag filters.)
+  * ~~when you start typing in the search field, it doesn't autocomplete(not that it should, but how do you guide the user to finding one of many tags from their incomplete input?)~~
+See README. ~~* Code highlighting may work, but I am unsure about how to use it~~
+  * would like to use liquid template but tabs are broken
+  * ~~long lines of code...implement a scroll bar? https://demisx.github.io/jekyll/2014/01/13/improve-code-highlighting-in-jekyll.html~~
+See README. ~~* how do I use the info, warning, error bars?~~
+* gallery item: collapse/expand hierarchy
+* ~~(dan did this, check with him?)published flag is ignored in the collection menu generation.~~
+
+SOON
+-------------
+* documentation sphinx skin
+* minor logo change (see dan)
+* contest page flow update.(see dan, something I can do.)
+  * too hard to preregister
+  * rules and info are buried
+
+WHENEVER
+-------------
+* obviously, I don't use every yaml tag I could be using in each post / page / tutorial, etc.  How do I find out what tags I *could* use on every page?  It would be great to centralize all of them with a default value in _config
+* suggestion: use defaults jekyll structure rather than hard coded defaults in _config

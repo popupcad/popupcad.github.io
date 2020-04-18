@@ -1,0 +1,35 @@
+/*
+** define any style changes that should
+** take precedence over popupcad.css
+** in this document
+*/
+body.gallery figure {
+  height: 400px;
+}
+body.gallery figure img {
+  max-height:280px; 
+  max-width:100%; 
+  overflow:hidden;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+.imagebox img {
+  max-height:150px; 
+  max-width:100%; 
+  overflow:hidden;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mainimage img {
+  max-height:300px; 
+  max-width:100%; 
+  overflow:hidden;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

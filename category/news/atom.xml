@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+   
+    <title>popupCAD - Category: news</title>
+   
+   <link>http://www.popupcad.org</link>
+   <description>popupCAD is supported by the Wyss Institute for Biologically Inspired Engineering at Harvard University
+</description>
+   <language>en-us</language>
+   <managingEditor></managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+
+    
+	  <item>
+        <title>informal robotics symposium</title>
+        <link>http://www.popupcad.org//news/2016/informal-robotics-symposium/</link>
+		<author>Dan</author>
+		<pubDate>2016-01-27T00:00:00-06:00</pubDate>
+		<guid>http://www.popupcad.org//news/2016/informal-robotics-symposium/</guid>
+		<description><![CDATA[
+		   <p>We held a symposium on “Informal Robotics” in October. Here is the YouTube <a href="https://www.youtube.com/embed/omr-2bQSKBE">video</a>.</p>
+
+		]]></description>
+	  </item>
+    
+	  <item>
+        <title>popup challenge wrapup</title>
+        <link>http://www.popupcad.org//news/2016/challenge-wrapup/</link>
+		<author>Dan</author>
+		<pubDate>2016-01-22T00:00:00-06:00</pubDate>
+		<guid>http://www.popupcad.org//news/2016/challenge-wrapup/</guid>
+		<description><![CDATA[
+		   <h2 id="welcome-to-2016">Welcome to 2016!</h2>
+<p>We are happy to announce that the popup challenge has wrapped up, and we are pleased to announce the winners!</p>
+
+<h2 id="the-projects">The Projects:</h2>
+<ol>
+  <li><a href="http://www.popupcad.org/challenge-wrapup/">Team JellyMiu</a>: A jellyfish-inspired robot that mimics natural movement of jellyfish</li>
+  <li><a href="http://www.popupcad.org/challenge-wrapup/">Team Ecobotics</a>: a beautiful and functional environmental indicator for sensing and displaying water content in a field</li>
+  <li><a href="http://www.popupcad.org/challenge-wrapup/">Kinetic Blossoms</a>: a fractal-inspired blossoming tree in cardboard, paper, and string</li>
+</ol>
+
+<p><strong>Honorable Mention</strong>: <a href="http://www.popupcad.org/challenge-wrapup/">Team OpenWalk</a>: A plug-and-play open-source robot that can walk</p>
+
+<h2 id="popupcad-updates">popupCAD updates</h2>
+
+<p>You may not notice(that’s the idea in software development, generally), but some work has been going on to make popupCAD more compatible across operating systems.  This has focused on adapting popupCAD to all the flavors of QT available through python, including pyQT4, pyQT5, and PySide, which was the only one supported in the past.  This should make popupCAD future-proof and more compatible with distributions like anaconda.  More info on that soon.</p>
+
+<h2 id="finally">Finally</h2>
+
+<p>I have started a new job.  I am now an Assistant Professor in the Polytechnic School of Engineering at Arizona State University.  Please consider stopping by my lab if you’re in the area, or getting in touch with me if you want to learn more about laminate robots and how to design/make them.</p>
+
+		]]></description>
+	  </item>
+    
+	  <item>
+        <title>Informal Robotics - October Work</title>
+        <link>http://www.popupcad.org//news/2016/informal-robotics-october-work/</link>
+		<author>Dan</author>
+		<pubDate>2016-01-21T00:00:00-06:00</pubDate>
+		<guid>http://www.popupcad.org//news/2016/informal-robotics-october-work/</guid>
+		<description><![CDATA[
+		   <p>There were some amazing advances in Informal Robotics throughout the semester.  I thought I would attach their mid-semester video I compiled.  Lots of advancements from each team in comparison with last month’s video.  In the future I will highlight each team’s final design.</p>
+
+<p><a href="https://www.youtube.com/embed/qzjiu_py_gQ">YouTube Video Link</a></p>
+
+		]]></description>
+	  </item>
+    
+	  <item>
+        <title>popup challenge: Final Countdown, Judges, and More!</title>
+        <link>http://www.popupcad.org//news/2015/judges/</link>
+		<author>Dan</author>
+		<pubDate>2015-12-04T18:00:00-06:00</pubDate>
+		<guid>http://www.popupcad.org//news/2015/judges/</guid>
+		<description><![CDATA[
+		   <p>Final Countdown!</p>
+
+<p>We are days away from the final deadlines for the popup challenge.  If you haven’t yet <a href="http://www.popupcad.org/contest/register/">registered</a>, please do so now! Please visit the <a href="http://www.popupcad.org/challenge-wrapup/">contest website</a> for more information on how to create your contest submission, and good luck!</p>
+
+<p>Judges Selected We have solicited the help of 7 judges to go through the submissions and rate them.</p>
+<ul>
+  <li>Andy Levine, Wyss Institute</li>
+  <li>Wombi Rose, LovePop Cards</li>
+  <li>Andrew Gillies, Dash Robotics</li>
+  <li>Manu Prakash, Stanford University</li>
+  <li>Cagdas Onal, Worcester Polytechnic Institute</li>
+  <li>Carlos Olguin, BioINK</li>
+  <li>James Joo, AFRL</li>
+</ul>
+
+<p>To read more about our judges, please visit <a href="http://www.popupcad.org/contest/judges/">http://www.popupcad.org/contest/judges/</a></p>
+
+		]]></description>
+	  </item>
+    
+	  <item>
+        <title>Fabrication Grant Deadline</title>
+        <link>http://www.popupcad.org//news/2015/fabrication-grant-deadline/</link>
+		<author>Dan</author>
+		<pubDate>2015-10-31T00:00:00-05:00</pubDate>
+		<guid>http://www.popupcad.org//news/2015/fabrication-grant-deadline/</guid>
+		<description><![CDATA[
+		   <p>This is a friendly reminder that you have one day left to qualify for free fabrication tools!  Follow the steps below:</p>
+
+<ul>
+  <li><a href="http://www.popupcad.org/contest/register/">Register</a> your project</li>
+  <li>Apply for a <a href="http://www.popupcad.org/contest/fabrication-grant/">fabrication grant</a>.</li>
+  <li>Complete a <a href="http://www.popupcad.org/contest/team-checkpoint/">checkpoint</a> by showing us your website.  Get some <a href="http://www.popupcad.org/contest/websites/">help</a> setting up a website here.  Start filling out the things you can according to the <a href="http://www.popupcad.org/contest/evaluation-metrics/">submission requirements</a>.</li>
+</ul>
+
+<p>Hope to see you register soon!  And remember, the final deadline is <strong>December 15</strong>, so use this as an opportunity to get ahead!</p>
+
+		]]></description>
+	  </item>
+    
+	  <item>
+        <title>Informal Robotics Symposium</title>
+        <link>http://www.popupcad.org//news/2015/informal-robotics-symposium/</link>
+		<author>Dan</author>
+		<pubDate>2015-10-26T00:00:00-05:00</pubDate>
+		<guid>http://www.popupcad.org//news/2015/informal-robotics-symposium/</guid>
+		<description><![CDATA[
+		   <p>Come join us tomorrow evening at the Harvard Graduate School of Design for a symposium on “Informal Robotics”, hosted by Chuck Hoberman</p>
+
+<p><a href="http://www.gsd.harvard.edu/#/events/informal-robotics.html">http://www.gsd.harvard.edu/#/events/informal-robotics.html</a></p>
+
+		]]></description>
+	  </item>
+    
+	  <item>
+        <title>October Newsletter</title>
+        <link>http://www.popupcad.org//news/october-newsletter</link>
+		<author>Dan</author>
+		<pubDate>2015-10-22T00:00:00-05:00</pubDate>
+		<guid>http://www.popupcad.org//news/october-newsletter</guid>
+		<description><![CDATA[
+		   <h1 id="contest">Contest</h1>
+
+<h2 id="deadlines">Deadlines</h2>
+
+<p>The <strong>Nov 1</strong> deadline for applying for <strong><em>free fabrication tools</em></strong> is coming soon!  To qualify, you must do these things:</p>
+
+<ul>
+  <li><a href="http://www.popupcad.org/contest/register/">Register</a> your team</li>
+  <li>Submit a <a href="http://www.popupcad.org/contest/team-checkpoint/">Checkpoint</a></li>
+  <li>Request a <a href="http://www.popupcad.org/contest/fabrication-grant/">Fabrication Grant</a></li>
+</ul>
+
+<p>This will put you up for consideration for fabrication tools that you might need to complete your project.</p>
+
+<h2 id="the-pop-up-cup">The “Pop-up Cup”</h2>
+
+<p><img src="http://www.popupcad.org/assets/images/2015-10-22-october-newsletter/popup-cup.jpg" height="300" /></p>
+
+<p>One of the prizes of the competition is the “Pop-up Cup”.  Stay tuned to hear more about its progress!</p>
+
+<h1 id="outreach">Outreach</h1>
+
+<p>The past month has been quite eventful.  It seems like I’ve been everywhere, from IROS2015 in Hamburg, Germany, speaking with fellow roboticists, to Masconomet High School in Boxford, MA to speak with high school students about origami inspired devices.  Here are some highlights of past and upcoming events:</p>
+
+<h2 id="online-qa-october-28-2015">Online Q&amp;A, October 28, 2015</h2>
+
+<p>Dan Aukes will be hosting an hour-long <a href="https://plus.google.com/u/0/events/cfr9rsrh3fu9lv8hmc4l0tknk6k?authkey=CJKWkeegxcf8UQ">Q&amp;A session</a> regarding popupCAD, the pop-up challenge, and any questions you might have about designing laminate robotic devices on <em>October 28, 2015</em>.  Please email in advance any questions you might have (danaukes at seas.harvard.edu) and I will do my best to answer them for you online.  Hope to see you there!﻿</p>
+
+<h2 id="popupcad-in-the-globe">popupCAD in the Globe</h2>
+
+<p>We were recently <a href="http://www.popupcad.org/news/2015/popupcad-in-the-globe/">featured</a> in the Boston Globe!</p>
+
+<h1 id="software">Software</h1>
+
+<p>Yes, I’ve found time to make some nice additions to the software as well.  Here’s a short overview:</p>
+
+<ul>
+  <li><strong><em>Faster reprocessing</em></strong><br />
+If you have a large file, and add an operation to the bottom of the list, it used to reprocess each operation, taking needless time to repeat steps unnecessarily..  Now it does not.  That was a nice little bug fix!</li>
+  <li><strong><em>Curvy text</em></strong><br />
+<img src="http://www.popupcad.org/assets/images/2015-10-22-october-newsletter/text.png" height="200" /><br />
+Finally! Though the text feature in the sketcher has been there for a long time, it looked like fonts had been carved out of stone.  Now popupCAD interpolates the font files better, interpolating between points so that it looks much smoother</li>
+  <li><strong>* Spliny DXF’s</strong>*<br />
+In  addition to curvy fonts, you can now import DXF spline elements.  There are still several features of .dxf files which do not work, but we’re closing the gap so that you have to jump through fewer hoops.
+<img src="http://www.popupcad.org/assets/images/2015-10-22-october-newsletter/wings.png" height="200" /></li>
+  <li><strong><em>High-functioning scripts</em></strong><br />
+Merge two designs; split operations of a design into a sub-operation; test your file; programmatically add or remove operations.  The possibilities are growing thanks to the API scripts now included with the popupCAD source code, found in popupcad/api_examples</li>
+</ul>
+
+<h1 id="design-of-the-month">Design of the Month</h1>
+
+<p>The students in Informal Robotics are making some interesting popup-inspired devices!  I put together a video of highlights.  <a href="https://youtu.be/R5hGiN0Q5Qs">Check it out</a>!</p>
+<section>
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 80%; margin-left: 10%; margin-right: 10%} .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%;}</style>
+<div class="embed-container">
+  <iframe src="https://www.youtube.com/embed/R5hGiN0Q5Qs?rel=0" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+</div>
+</section>
+
+		]]></description>
+	  </item>
+    
+	  <item>
+        <title>PopupCAD in the Globe</title>
+        <link>http://www.popupcad.org//news/2015/popupcad-in-the-globe/</link>
+		<author>Dan</author>
+		<pubDate>2015-10-07T00:00:00-05:00</pubDate>
+		<guid>http://www.popupcad.org//news/2015/popupcad-in-the-globe/</guid>
+		<description><![CDATA[
+		   <p>PopupCAD was recently <a href="http://www.betaboston.com/news/2015/09/29/flat-packed-foldable-3-d-printed-robots-could-teach-kids-to-code/">featured</a> in the Boston Globe!  It discussed popupCAD’s use in the classroom, focusing on the Harvard Graduate School of Design <a href="http://www.gsd.harvard.edu/#/media/sci-06478-informal-robotics-new-paradigms-for-design.html">“Informal Robotics”</a> class being taught this fall.  This is a collaboration with Chuck Hoberman  at the GSD and the Wyss Institute, intended to teach design students how to make things using material which is coming out of the Harvard Microrobotics Lab and others.  Check it out!</p>
+
+
+		]]></description>
+	  </item>
+    
+	  <item>
+        <title>PopupCAD at IROS</title>
+        <link>http://www.popupcad.org//news/2015/popupcad-at-iros/</link>
+		<author>Dan</author>
+		<pubDate>2015-09-29T19:00:00-05:00</pubDate>
+		<guid>http://www.popupcad.org//news/2015/popupcad-at-iros/</guid>
+		<description><![CDATA[
+		   <p>popupCAD is at IROS 2015!  Dan Aukes will be giving tutorials to anyone interested in learning more about designing laminate devices through Friday morning.  Please <a href="http://www.popupcad.org/contact/">get in touch</a> if you would like to meet up!</p>
+
+		]]></description>
+	  </item>
+    
+	  <item>
+        <title>Anaconda Mac Installation</title>
+        <link>http://www.popupcad.org//news/2015/anaconda-mac-install/</link>
+		<author>Dan</author>
+		<pubDate>2015-09-22T19:00:01-05:00</pubDate>
+		<guid>http://www.popupcad.org//news/2015/anaconda-mac-install/</guid>
+		<description><![CDATA[
+		   <p>It’s now possible to install popupCAD on a Mac with the Anaconda distribution.  Please see <a href="http://www.popupcad.org/docs/mac-anaconda-setup/">this page</a> for more information.  This might be a lot easier than the homebrew method.</p>
+
+		]]></description>
+	  </item>
+    
+  </channel>
+</rss>
